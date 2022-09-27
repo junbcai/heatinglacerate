@@ -2,8 +2,8 @@
 
 ## Subheading
 
-Here is a [lin](../data/) to my data folder in the repo.
+Here is a [link](../data/) to my data folder in the repo.
 
 Here is some math!
 
-$$f(x) = X^$$
+$$f(x) = X^2$$
