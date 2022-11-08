@@ -279,7 +279,6 @@ sapply( lapply(dat_list, calc_growth_rates), mean)
 ```
 
 
-
 \section{Parallelize it!}
 
 \subsection{Running \texttt{lapply} in parallel}
