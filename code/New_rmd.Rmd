@@ -1,4 +1,4 @@
-------
+---
 title: "Faster Computing - Part 1"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 output: 
@@ -24,6 +24,9 @@ These have likely been optimized for efficiency (e.g., by performing computation
 That said, there are many other ways to achieve faster code.
 Today we'll step through a few options, moving from the simplest forms of code efficiency to the use of computer clusters.
 Note that there are a number of additional ways for computing faster that we will not discuss (e.g., using \texttt{Rcpp} to compile your own \texttt{C++} code).
+
+
+
 
 
 \section{Benchmarking}
@@ -155,7 +158,6 @@ geom_growth_preallocated <- function(N0 = 2,
 comp <- microbenchmark(Old = {geom_growth_base(T = 9999)},
                        New = {geom_growth_preallocated(T = 9999)})
 comp
-
 ```
 Pre-allocating the size of containers -- whether they're vectors, arrays, or lists -- can make a big difference when you're using a \texttt{for}-loop -- or any function -- repeatedly.
 
@@ -174,7 +176,6 @@ for(i in 1:total){
    setTxtProgressBar(pb, i) # update progress bar
 }
 close(pb)
-
 ```
 (Note that it's only because of \texttt{knitR} that each iteration of the progress bar is printed.
 It'll remain on a single line in the console.)
@@ -277,6 +278,7 @@ dat_list
 sapply( lapply(dat_list, calc_growth_rates), mean)
 
 ```
+
 
 
 \section{Parallelize it!}

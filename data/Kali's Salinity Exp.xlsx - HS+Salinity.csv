@@ -1,0 +1,112 @@
+ID,plate,treatment,salinity,line,symbiosis,well,temp,day,tent_count,day_cat
+H2-SYM-25C_20S_W1,Plate 1,H2-SYM-25C_20S,20,H2,Sym,W1,25C (ambient),0,0,0_day
+H2-SYM-25C_20S_W1,Plate 1,H2-SYM-25C_20S,20,H2,Sym,W1,25C (ambient),7,0,7_day
+H2-SYM-25C_20S_W1,Plate 1,H2-SYM-25C_20S,20,H2,Sym,W1,25C (ambient),14,8,14_day
+H2-SYM-25C_20S_W2,Plate 1,H2-SYM-25C_20S,20,H2,Sym,W2,25C (ambient),0,0,0_day
+H2-SYM-25C_20S_W2,Plate 1,H2-SYM-25C_20S,20,H2,Sym,W2,25C (ambient),7,0,7_day
+H2-SYM-25C_20S_W2,Plate 1,H2-SYM-25C_20S,20,H2,Sym,W2,25C (ambient),14,4,14_day
+H2-SYM-25C_20S_W3,Plate 1,H2-SYM-25C_20S,20,H2,Sym,W3,25C (ambient),0,0,0_day
+H2-SYM-25C_20S_W3,Plate 1,H2-SYM-25C_20S,20,H2,Sym,W3,25C (ambient),7,0,7_day
+H2-SYM-25C_20S_W3,Plate 1,H2-SYM-25C_20S,20,H2,Sym,W3,25C (ambient),14,2,14_day
+H2-SYM-25C_20S_W4,Plate 1,H2-SYM-25C_20S,20,H2,Sym,W4,25C (ambient),0,0,0_day
+H2-SYM-25C_20S_W4,Plate 1,H2-SYM-25C_20S,20,H2,Sym,W4,25C (ambient),7,0,7_day
+H2-SYM-25C_20S_W4,Plate 1,H2-SYM-25C_20S,20,H2,Sym,W4,25C (ambient),14,0,14_day
+H2-SYM-25C_20S_W5,Plate 1,H2-SYM-25C_20S,20,H2,Sym,W5,25C (ambient),0,0,0_day
+H2-SYM-25C_20S_W5,Plate 1,H2-SYM-25C_20S,20,H2,Sym,W5,25C (ambient),7,0,7_day
+H2-SYM-25C_20S_W5,Plate 1,H2-SYM-25C_20S,20,H2,Sym,W5,25C (ambient),14,8,14_day
+H2-SYM-25C_20S_W6,Plate 1,H2-SYM-25C_20S,20,H2,Sym,W6,25C (ambient),0,0,0_day
+H2-SYM-25C_20S_W6,Plate 1,H2-SYM-25C_20S,20,H2,Sym,W6,25C (ambient),7,0,7_day
+H2-SYM-25C_20S_W6,Plate 1,H2-SYM-25C_20S,20,H2,Sym,W6,25C (ambient),14,6,14_day
+H2-SYM-25C_30S_W1,Plate 2,H2-SYM-25C_30S,30,H2,Sym,W1,25C (ambient),0,0,0_day
+H2-SYM-25C_30S_W1,Plate 2,H2-SYM-25C_30S,30,H2,Sym,W1,25C (ambient),7,0,7_day
+H2-SYM-25C_30S_W1,Plate 2,H2-SYM-25C_30S,30,H2,Sym,W1,25C (ambient),14,6,14_day
+H2-SYM-25C_30S_W2,Plate 2,H2-SYM-25C_30S,30,H2,Sym,W2,25C (ambient),0,0,0_day
+H2-SYM-25C_30S_W2,Plate 2,H2-SYM-25C_30S,30,H2,Sym,W2,25C (ambient),7,0,7_day
+H2-SYM-25C_30S_W2,Plate 2,H2-SYM-25C_30S,30,H2,Sym,W2,25C (ambient),14,12,14_day
+H2-SYM-25C_30S_W3,Plate 2,H2-SYM-25C_30S,30,H2,Sym,W3,25C (ambient),0,0,0_day
+H2-SYM-25C_30S_W3,Plate 2,H2-SYM-25C_30S,30,H2,Sym,W3,25C (ambient),7,2,7_day
+H2-SYM-25C_30S_W3,Plate 2,H2-SYM-25C_30S,30,H2,Sym,W3,25C (ambient),14,x,14_day
+H2-SYM-25C_30S_W4,Plate 2,H2-SYM-25C_30S,30,H2,Sym,W4,25C (ambient),0,0,0_day
+H2-SYM-25C_30S_W4,Plate 2,H2-SYM-25C_30S,30,H2,Sym,W4,25C (ambient),7,0,7_day
+H2-SYM-25C_30S_W4,Plate 2,H2-SYM-25C_30S,30,H2,Sym,W4,25C (ambient),14,8,14_day
+H2-SYM-25C_30S_W5,Plate 2,H2-SYM-25C_30S,30,H2,Sym,W5,25C (ambient),0,0,0_day
+H2-SYM-25C_30S_W5,Plate 2,H2-SYM-25C_30S,30,H2,Sym,W5,25C (ambient),7,2,7_day
+H2-SYM-25C_30S_W5,Plate 2,H2-SYM-25C_30S,30,H2,Sym,W5,25C (ambient),14,14,14_day
+H2-SYM-25C_30S_W6,Plate 2,H2-SYM-25C_30S,30,H2,Sym,W6,25C (ambient),0,0,0_day
+H2-SYM-25C_30S_W6,Plate 2,H2-SYM-25C_30S,30,H2,Sym,W6,25C (ambient),7,0,7_day
+H2-SYM-25C_30S_W6,Plate 2,H2-SYM-25C_30S,30,H2,Sym,W6,25C (ambient),14,8,14_day
+H2-SYM-25C_40S_W1,Plate 3,H2-SYM-25C_40S,40,H2,Sym,W1,25C (ambient),0,0,0_day
+H2-SYM-25C_40S_W1,Plate 3,H2-SYM-25C_40S,40,H2,Sym,W1,25C (ambient),7,0,7_day
+H2-SYM-25C_40S_W1,Plate 3,H2-SYM-25C_40S,40,H2,Sym,W1,25C (ambient),14,10,14_day
+H2-SYM-25C_40S_W2,Plate 3,H2-SYM-25C_40S,40,H2,Sym,W2,25C (ambient),0,0,0_day
+H2-SYM-25C_40S_W2,Plate 3,H2-SYM-25C_40S,40,H2,Sym,W2,25C (ambient),7,0,7_day
+H2-SYM-25C_40S_W2,Plate 3,H2-SYM-25C_40S,40,H2,Sym,W2,25C (ambient),14,x,14_day
+H2-SYM-25C_40S_W3,Plate 3,H2-SYM-25C_40S,40,H2,Sym,W3,25C (ambient),0,0,0_day
+H2-SYM-25C_40S_W3,Plate 3,H2-SYM-25C_40S,40,H2,Sym,W3,25C (ambient),7,0,7_day
+H2-SYM-25C_40S_W3,Plate 3,H2-SYM-25C_40S,40,H2,Sym,W3,25C (ambient),14,6,14_day
+H2-SYM-25C_40S_W4,Plate 3,H2-SYM-25C_40S,40,H2,Sym,W4,25C (ambient),0,0,0_day
+H2-SYM-25C_40S_W4,Plate 3,H2-SYM-25C_40S,40,H2,Sym,W4,25C (ambient),7,1,7_day
+H2-SYM-25C_40S_W4,Plate 3,H2-SYM-25C_40S,40,H2,Sym,W4,25C (ambient),14,6,14_day
+H2-SYM-25C_40S_W5,Plate 3,H2-SYM-25C_40S,40,H2,Sym,W5,25C (ambient),0,0,0_day
+H2-SYM-25C_40S_W5,Plate 3,H2-SYM-25C_40S,40,H2,Sym,W5,25C (ambient),7,2,7_day
+H2-SYM-25C_40S_W5,Plate 3,H2-SYM-25C_40S,40,H2,Sym,W5,25C (ambient),14,8,14_day
+H2-SYM-25C_40S_W6.1,Plate 3,H2-SYM-25C_40S,40,H2,Sym,W6.1,25C (ambient),0,0,0_day
+H2-SYM-25C_40S_W6.1,Plate 3,H2-SYM-25C_40S,40,H2,Sym,W6.1,25C (ambient),7,6,7_day
+H2-SYM-25C_40S_W6.1,Plate 3,H2-SYM-25C_40S,40,H2,Sym,W6.1,25C (ambient),14,10,14_day
+H2-SYM-25C_40S_W6.2,Plate 3,H2-SYM-25C_40S,40,H2,Sym,W6.2,25C (ambient),0,0,0_day
+H2-SYM-25C_40S_W6.2,Plate 3,H2-SYM-25C_40S,40,H2,Sym,W6.2,25C (ambient),7,0,7_day
+H2-SYM-25C_40S_W6.2,Plate 3,H2-SYM-25C_40S,40,H2,Sym,W6.2,25C (ambient),14,8,14_day
+H2-SYM-33.5C_20S_W1,Plate 4,H2-SYM-32C_20S,20,H2,Sym,W1,33.5 (heat stress),0,0,0_day
+H2-SYM-33.5C_20S_W1,Plate 4,H2-SYM-32C_20S,20,H2,Sym,W1,33.5 (heat stress),7,3,7_day
+H2-SYM-33.5C_20S_W1,Plate 4,H2-SYM-32C_20S,20,H2,Sym,W1,33.5 (heat stress),14,10,14_day
+H2-SYM-33.5C_20S_W2,Plate 4,H2-SYM-32C_20S,20,H2,Sym,W2,33.5 (heat stress),0,0,0_day
+H2-SYM-33.5C_20S_W2,Plate 4,H2-SYM-32C_20S,20,H2,Sym,W2,33.5 (heat stress),7,x,7_day
+H2-SYM-33.5C_20S_W2,Plate 4,H2-SYM-32C_20S,20,H2,Sym,W2,33.5 (heat stress),14,x,14_day
+H2-SYM-33.5C_20S_W3,Plate 4,H2-SYM-32C_20S,20,H2,Sym,W3,33.5 (heat stress),0,0,0_day
+H2-SYM-33.5C_20S_W3,Plate 4,H2-SYM-32C_20S,20,H2,Sym,W3,33.5 (heat stress),7,0,7_day
+H2-SYM-33.5C_20S_W3,Plate 4,H2-SYM-32C_20S,20,H2,Sym,W3,33.5 (heat stress),14,x,14_day
+H2-SYM-33.5C_20S_W4,Plate 4,H2-SYM-32C_20S,20,H2,Sym,W4,33.5 (heat stress),0,0,0_day
+H2-SYM-33.5C_20S_W4,Plate 4,H2-SYM-32C_20S,20,H2,Sym,W4,33.5 (heat stress),7,0,7_day
+H2-SYM-33.5C_20S_W4,Plate 4,H2-SYM-32C_20S,20,H2,Sym,W4,33.5 (heat stress),14,0,14_day
+H2-SYM-33.5C_20S_W5,Plate 4,H2-SYM-32C_20S,20,H2,Sym,W5,33.5 (heat stress),0,0,0_day
+H2-SYM-33.5C_20S_W5,Plate 4,H2-SYM-32C_20S,20,H2,Sym,W5,33.5 (heat stress),7,x,7_day
+H2-SYM-33.5C_20S_W5,Plate 4,H2-SYM-32C_20S,20,H2,Sym,W5,33.5 (heat stress),14,x,14_day
+H2-SYM-33.5C_20S_W6,Plate 4,H2-SYM-32C_20S,20,H2,Sym,W6,33.5 (heat stress),0,0,0_day
+H2-SYM-33.5C_20S_W6,Plate 4,H2-SYM-32C_20S,20,H2,Sym,W6,33.5 (heat stress),7,x,7_day
+H2-SYM-33.5C_20S_W6,Plate 4,H2-SYM-32C_20S,20,H2,Sym,W6,33.5 (heat stress),14,x,14_day
+H2-SYM-33.5C_30S_W1,Plate 5,H2-SYM-32C_30S,30,H2,Sym,W1,33.5 (heat stress),0,0,0_day
+H2-SYM-33.5C_30S_W1,Plate 5,H2-SYM-32C_30S,30,H2,Sym,W1,33.5 (heat stress),7,5,7_day
+H2-SYM-33.5C_30S_W1,Plate 5,H2-SYM-32C_30S,30,H2,Sym,W1,33.5 (heat stress),14,5,14_day
+H2-SYM-33.5C_30S_W2,Plate 5,H2-SYM-32C_30S,30,H2,Sym,W2,33.5 (heat stress),0,0,0_day
+H2-SYM-33.5C_30S_W2,Plate 5,H2-SYM-32C_30S,30,H2,Sym,W2,33.5 (heat stress),7,12,7_day
+H2-SYM-33.5C_30S_W2,Plate 5,H2-SYM-32C_30S,30,H2,Sym,W2,33.5 (heat stress),14,12,14_day
+H2-SYM-33.5C_30S_W3,Plate 5,H2-SYM-32C_30S,30,H2,Sym,W3,33.5 (heat stress),0,0,0_day
+H2-SYM-33.5C_30S_W3,Plate 5,H2-SYM-32C_30S,30,H2,Sym,W3,33.5 (heat stress),7,7,7_day
+H2-SYM-33.5C_30S_W3,Plate 5,H2-SYM-32C_30S,30,H2,Sym,W3,33.5 (heat stress),14,8,14_day
+H2-SYM-33.5C_30S_W4,Plate 5,H2-SYM-32C_30S,30,H2,Sym,W4,33.5 (heat stress),0,0,0_day
+H2-SYM-33.5C_30S_W4,Plate 5,H2-SYM-32C_30S,30,H2,Sym,W4,33.5 (heat stress),7,8,7_day
+H2-SYM-33.5C_30S_W4,Plate 5,H2-SYM-32C_30S,30,H2,Sym,W4,33.5 (heat stress),14,8,14_day
+H2-SYM-33.5C_30S_W5,Plate 5,H2-SYM-32C_30S,30,H2,Sym,W5,33.5 (heat stress),0,0,0_day
+H2-SYM-33.5C_30S_W5,Plate 5,H2-SYM-32C_30S,30,H2,Sym,W5,33.5 (heat stress),7,12,7_day
+H2-SYM-33.5C_30S_W5,Plate 5,H2-SYM-32C_30S,30,H2,Sym,W5,33.5 (heat stress),14,12,14_day
+H2-SYM-33.5C_30S_W6,Plate 5,H2-SYM-32C_30S,30,H2,Sym,W6,33.5 (heat stress),0,0,0_day
+H2-SYM-33.5C_30S_W6,Plate 5,H2-SYM-32C_30S,30,H2,Sym,W6,33.5 (heat stress),7,12,7_day
+H2-SYM-33.5C_30S_W6,Plate 5,H2-SYM-32C_30S,30,H2,Sym,W6,33.5 (heat stress),14,12,14_day
+H2-SYM-33.5C_40S_W1,Plate 6,H2-SYM-32C_40S,40,H2,Sym,W1,33.5 (heat stress),0,0,0_day
+H2-SYM-33.5C_40S_W1,Plate 6,H2-SYM-32C_40S,40,H2,Sym,W1,33.5 (heat stress),7,0,7_day
+H2-SYM-33.5C_40S_W1,Plate 6,H2-SYM-32C_40S,40,H2,Sym,W1,33.5 (heat stress),14,0,14_day
+H2-SYM-33.5C_40S_W2,Plate 6,H2-SYM-32C_40S,40,H2,Sym,W2,33.5 (heat stress),0,0,0_day
+H2-SYM-33.5C_40S_W2,Plate 6,H2-SYM-32C_40S,40,H2,Sym,W2,33.5 (heat stress),7,x,7_day
+H2-SYM-33.5C_40S_W2,Plate 6,H2-SYM-32C_40S,40,H2,Sym,W2,33.5 (heat stress),14,x,14_day
+H2-SYM-33.5C_40S_W3,Plate 6,H2-SYM-32C_40S,40,H2,Sym,W3,33.5 (heat stress),0,0,0_day
+H2-SYM-33.5C_40S_W3,Plate 6,H2-SYM-32C_40S,40,H2,Sym,W3,33.5 (heat stress),7,11,7_day
+H2-SYM-33.5C_40S_W3,Plate 6,H2-SYM-32C_40S,40,H2,Sym,W3,33.5 (heat stress),14,11,14_day
+H2-SYM-33.5C_40S_W4,Plate 6,H2-SYM-32C_40S,40,H2,Sym,W4,33.5 (heat stress),0,0,0_day
+H2-SYM-33.5C_40S_W4,Plate 6,H2-SYM-32C_40S,40,H2,Sym,W4,33.5 (heat stress),7,7,7_day
+H2-SYM-33.5C_40S_W4,Plate 6,H2-SYM-32C_40S,40,H2,Sym,W4,33.5 (heat stress),14,8,14_day
+H2-SYM-33.5C_40S_W5,Plate 6,H2-SYM-32C_40S,40,H2,Sym,W5,33.5 (heat stress),0,0,0_day
+H2-SYM-33.5C_40S_W5,Plate 6,H2-SYM-32C_40S,40,H2,Sym,W5,33.5 (heat stress),7,0,7_day
+H2-SYM-33.5C_40S_W5,Plate 6,H2-SYM-32C_40S,40,H2,Sym,W5,33.5 (heat stress),14,x,14_day
+H2-SYM-33.5C_40S_W6,Plate 6,H2-SYM-32C_40S,40,H2,Sym,W6,33.5 (heat stress),0,0,0_day
+H2-SYM-33.5C_40S_W6,Plate 6,H2-SYM-32C_40S,40,H2,Sym,W6,33.5 (heat stress),7,6,7_day
+H2-SYM-33.5C_40S_W6,Plate 6,H2-SYM-32C_40S,40,H2,Sym,W6,33.5 (heat stress),14,8,14_day
