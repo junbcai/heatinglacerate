@@ -3,7 +3,10 @@ library(ggpubr)
 library(plotrix)
 library(tidyverse)
 library(dplyr)
-
+library(car)
+library(lme4)
+library(emmeans)
+library(qqplotr)
 
 #Set working director
 setwd("~/GitHub/heatinglacerate")
@@ -64,6 +67,8 @@ long <- read.csv("data/Exp 3 Lacerate Development in Heat Data - Exp3+Exp2_Data2
 View(long)
 
 str(long)
+
+long$tent_count_1 <- long$tent_count+1
 
 long$tent_count <- as.numeric(long$tent_count)
 long$ID <- as.factor(long$ID)
@@ -147,5 +152,42 @@ ggplot(data = data_means, aes(x = day, y = mean)) +
 
 #ANOVA Analysis
 
+view(long)
+
 anova(aov(tent_count ~ treatment, data=long))
 anova(aov(tent_count ~ temp, data=long))
+
+data <- long
+
+
+#General linear mix model 
+
+
+library(car)
+library(lme4)
+library(emmeans)
+
+# Distribution of the data
+hist(data$tent_count)
+# Convert column day as a numeric factor
+as.factor(data$day)
+# Choosing the correct model
+model <- lmer(tent_count ~ treatment * day_cat + (1|ID),
+              data = data)
+plot(model)
+qqnorm(residuals(model))
+qqline(residuals(model))
+Anova(model)
+
+emmeans(model, list(pairwise ~ temp | day_cat), adjust = "tukey")
+
+
+
+
+model <- glmer(tent_count_1 ~ treatment * day_cat + (1|ID), family = Gamma,
+              data = data)
+plot(model)
+qqnorm(residuals(model))
+qqline(residuals(model))
+Anova(model)
+emmeans(model, list(pairwise ~ treatment | day_cat), adjust = "tukey")

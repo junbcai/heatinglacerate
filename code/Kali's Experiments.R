@@ -69,8 +69,7 @@ ggplot(data = data_means, aes(x = day, y = mean)) +
   
   theme(legend.text.align = 0) +
   scale_size_manual(values=c(1.2,1.2,1.2,1.2)) +
-  labs(colour = "Treatment") +
-  geom_vline(xintercept=c(3), linetype="dashed")
+  labs(colour = "Treatment")
 
 
 
@@ -79,6 +78,8 @@ data_means <- newlong %>%
   group_by(temp, day) %>%
   summarise(mean = mean(tent_count, na.rm=TRUE),
             se = std.error(tent_count, na.rm=TRUE))
+
+View(newlong)
 
 ggplot(data = data_means, aes(x = day, y = mean)) +
   theme_classic(base_size = 15) +
