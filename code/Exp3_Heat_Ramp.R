@@ -60,6 +60,9 @@ ggplot(data = data_means, aes(x = day, y = mean)) +
   geom_vline(xintercept=c(3), linetype="dashed")
 
 
+anova(aov(tent_count ~ temp, data=long))
+
+
 ##Comparing all the experiments on H2
 
 

@@ -5,6 +5,9 @@ library(tidyverse)
 library(dplyr)
 
 
+rm(list = ls())
+graphics.off()
+
 #Set working director
 setwd("~/GitHub/heatinglacerate")
 
@@ -33,7 +36,8 @@ data_means <- newlong %>%
   summarise(mean = mean(tent_count, na.rm=TRUE),
             se = std.error(tent_count, na.rm=TRUE))
 
-ggplot(data = data_means, aes(x = day, y = mean)) +
+graph1
+graph1 <- ggplot(data = data_means, aes(x = day, y = mean)) +
   theme_classic(base_size = 15) +
   geom_line(aes(color = treatment, group = treatment), position = position_dodge(0.5)) +
   ylab(bquote("Mean tentacle number"))+
@@ -46,9 +50,9 @@ ggplot(data = data_means, aes(x = day, y = mean)) +
 
   theme(legend.text.align = 0) +
   scale_size_manual(values=c(1.2,1.2,1.2,1.2)) +
-  labs(colour = "Treatment") +
-  geom_vline(xintercept=c(3), linetype="dashed")
+  labs(colour = "Treatment")
 
+return(graph1)
 
 #Comparing Just Sal
 data_means <- newlong %>%
@@ -70,7 +74,6 @@ ggplot(data = data_means, aes(x = day, y = mean)) +
   theme(legend.text.align = 0) +
   scale_size_manual(values=c(1.2,1.2,1.2,1.2)) +
   labs(colour = "Treatment")
-
 
 
 #Comparing Just Temp 
@@ -147,7 +150,9 @@ ggplot(data = data_means, aes(x = day, y = mean)) +
 
 #ANOVA Analysis
 
-anova(aov(tent_count ~ treatment, data=long))
-anova(aov(tent_count ~ salinity, data=long))
+anova(aov(tent_count ~ temp, data=long))
+anova(aov(tent_count ~ salinity*temp, data=long))
+
+
 
 
