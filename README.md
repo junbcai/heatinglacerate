@@ -1,4 +1,4 @@
-# Pedal lacerate Development 
+# Pedal Lacerate Development 
 This repository contains the contents for part of Jun Cai's thesis project relating to _The growth and development of pedal lacerates under different environmental stressors_. 
 
 ## Description
