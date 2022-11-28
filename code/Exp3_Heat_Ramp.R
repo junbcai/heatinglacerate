@@ -6,16 +6,22 @@ library(dplyr)
 library(car)
 library(lme4)
 library(emmeans)
-library(qqplotr)
+library(qqplotr)library(here)
 
-#Set working director
-setwd("~/GitHub/heatinglacerate")
 
+#Set working directory
+
+getwd()
+setwd("C:/GitHub/heatinglacerate")
+
+#Results of Experiment 3
+
+##Reading data table
 long <- read.csv("data/Exp 3 Lacerate Development in Heat Data - 25, 33.5, 35.csv")
 View(long)
-
 str(long)
 
+##Converting elements in table
 long$tent_count <- as.numeric(long$tent_count)
 long$ID <- as.factor(long$ID)
 long$plate <- as.factor(long$plate)
@@ -27,9 +33,12 @@ long$symbiosis <- as.factor(long$symbiosis)
 long$day <- as.numeric(long$day)
 long$day_cat <- as.factor(long$day_cat)
 
-
+##Saving table as output
 newlong <- long
+saveRDS(newlong, file = "data/Data_Table_25_33.5_35.RDS")
 
+
+##Graphing results of Experiment 3
 data_means <- newlong %>%
   group_by(treatment, day) %>%
   summarise(mean = mean(tent_count, na.rm=TRUE),
@@ -40,7 +49,7 @@ ggplot(data = data_means, aes(x = day, y = mean)) +
   geom_line(aes(color = treatment, group = treatment), position = position_dodge(0.5)) +
   ylab(bquote("Mean tentacle number"))+
   xlab("Days post laceration (dpl)") +
-  ggtitle("Effect of Temperature, Symbiotic State and Clonal Line on Pedal Lacerate Tentacle Development in Aiptasia") +
+  ggtitle("Effect of Temperature on Pedal Lacerate Tentacle Development in Aiptasia") +
   ylim(0,15) +
   geom_point(aes(color = treatment), size = 2.5, shape = 20, position = position_dodge(0.5)) +
   scale_x_continuous(breaks = round(seq(min(data_means$day), max(data_means$day), by = 1),1)) +
@@ -60,19 +69,23 @@ ggplot(data = data_means, aes(x = day, y = mean)) +
   geom_vline(xintercept=c(3), linetype="dashed")
 
 
-anova(aov(tent_count ~ temp, data=long))
+
+ggsave("Figure_Exp3.tif", plot = last_plot(), device = "tiff", path = here("figs"),
+       
+       width = 11, height = 8, units = "in", dpi = 600)
 
 
-##Comparing all the experiments on H2
 
 
+#Comparing all the experiments on H2
+
+##Reading data table
 long <- read.csv("data/Exp 3 Lacerate Development in Heat Data - Exp3+Exp2_Data21.csv")
 View(long)
-
 str(long)
 
+#Converting elements in table
 long$tent_count_1 <- long$tent_count+1
-
 long$tent_count <- as.numeric(long$tent_count)
 long$ID <- as.factor(long$ID)
 long$plate <- as.factor(long$plate)
@@ -84,9 +97,12 @@ long$symbiosis <- as.factor(long$symbiosis)
 long$day <- as.numeric(long$day)
 long$day_cat <- as.factor(long$day_cat)
 
-
+##Saving table as output
 newlong <- long
+saveRDS(newlong, file = "data/Data_Table_AllTemp.RDS")
 
+
+##Graphing results of All HS Experiments
 data_means <- newlong %>%
   group_by(treatment, day) %>%
   summarise(mean = mean(tent_count, na.rm=TRUE),
@@ -121,6 +137,11 @@ ggplot(data = data_means, aes(x = day, y = mean)) +
   geom_vline(xintercept=c(3), linetype="dashed")
 
 
+
+ggsave("Figure_Heat_Comparison_SubdivideExp.tif", plot = last_plot(), device = "tiff", path = here("figs"),
+       
+       width = 11, height = 8, units = "in", dpi = 600)
+
 #Effect of Temperature
 
 data_means <- newlong %>%
@@ -151,6 +172,11 @@ ggplot(data = data_means, aes(x = day, y = mean)) +
              scale_size_manual(values=c(1.2,1.2,1.2,1.2)) +
              labs(colour = "Treatment") +
              geom_vline(xintercept=c(3), linetype="dashed")
+
+
+ggsave("Figure_Heat_Comparison.tif", plot = last_plot(), device = "tiff", path = here("figs"),
+       
+       width = 11, height = 8, units = "in", dpi = 600)
 
 
 #ANOVA Analysis
@@ -194,3 +220,6 @@ qqnorm(residuals(model))
 qqline(residuals(model))
 Anova(model)
 emmeans(model, list(pairwise ~ treatment | day_cat), adjust = "tukey")
+
+
+
