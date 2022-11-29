@@ -6,7 +6,7 @@ This folder contains all the data: csv files and R-generated tables for the Peda
 
 ### Experiment 1
 
-Completed in Spring 2022 with students of Z362 Invertebrate Biology. Analyzed the effect of temperature and parental nutrition (feeding regime prior to laceration) on the tentacle growth in pedal lacerates.
+Completed in March to April 2022 with students of Z362 Invertebrate Biology. Analyzed the effect of temperature and parental nutrition (feeding regime prior to laceration) on the tentacle growth in pedal lacerates.
 
 ### Experiment 2
 
