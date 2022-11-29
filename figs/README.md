@@ -2,4 +2,4 @@
 
 ## Description
 
-This files contains all the figures and graphs for the Pedal Lacerate repository
+This folder contains all the figures and graphs for the Pedal Lacerate repository
