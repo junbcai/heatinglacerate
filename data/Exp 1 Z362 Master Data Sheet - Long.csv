@@ -1,0 +1,325 @@
+ID,section,feeding,temp,lacerate_nun,tent_count,day,day_cat
+1,Section 1.Tuesday Morning,F,25C (ambient),2,0,0,day_0
+1,Section 1.Tuesday Morning,F,25C (ambient),2,3,7,day_7
+1,Section 1.Tuesday Morning,F,25C (ambient),2,11,14,day_14
+2,Section 1.Tuesday Morning,F,25C (ambient),3,0,0,day_0
+2,Section 1.Tuesday Morning,F,25C (ambient),3,12,7,day_7
+2,Section 1.Tuesday Morning,F,25C (ambient),3,16,14,day_14
+3,Section 1.Tuesday Morning,S,32C (heat stress),1,0,0,day_0
+3,Section 1.Tuesday Morning,S,32C (heat stress),1,4.5,7,day_7
+3,Section 1.Tuesday Morning,S,32C (heat stress),1,6,14,day_14
+4,Section 1.Tuesday Morning,S,32C (heat stress),2,0,0,day_0
+4,Section 1.Tuesday Morning,S,32C (heat stress),2,0,7,day_7
+4,Section 1.Tuesday Morning,S,32C (heat stress),2,0,14,day_14
+5,Section 1.Tuesday Morning,S,32C (heat stress),3,0,0,day_0
+5,Section 1.Tuesday Morning,S,32C (heat stress),3,5.5,7,day_7
+5,Section 1.Tuesday Morning,S,32C (heat stress),3,7,14,day_14
+6,Section 1.Tuesday Morning,S,32C (heat stress),4,0,0,day_0
+6,Section 1.Tuesday Morning,S,32C (heat stress),4,6.5,7,day_7
+6,Section 1.Tuesday Morning,S,32C (heat stress),4,8.25,14,day_14
+7,Section 1.Tuesday Morning,S,32C (heat stress),5,0,0,day_0
+7,Section 1.Tuesday Morning,S,32C (heat stress),5,7,7,day_7
+7,Section 1.Tuesday Morning,S,32C (heat stress),5,0.5,14,day_14
+8,Section 1.Tuesday Morning,FW,25C (ambient),1,0,0,day_0
+8,Section 1.Tuesday Morning,FW,25C (ambient),1,1.5,7,day_7
+8,Section 1.Tuesday Morning,FW,25C (ambient),1,8.25,14,day_14
+9,Section 1.Tuesday Morning,FW,25C (ambient),2,0,0,day_0
+9,Section 1.Tuesday Morning,FW,25C (ambient),2,0,7,day_7
+9,Section 1.Tuesday Morning,FW,25C (ambient),2,8,14,day_14
+10,Section 1.Tuesday Morning,FW,25C (ambient),3,0,0,day_0
+10,Section 1.Tuesday Morning,FW,25C (ambient),3,5.25,7,day_7
+10,Section 1.Tuesday Morning,FW,25C (ambient),3,12,14,day_14
+11,Section 1.Tuesday Morning,FW,25C (ambient),4,0,0,day_0
+11,Section 1.Tuesday Morning,FW,25C (ambient),4,8,7,day_7
+11,Section 1.Tuesday Morning,FW,25C (ambient),4,9.5,14,day_14
+12,Section 1.Tuesday Morning,F,25C (ambient),1,0,0,day_0
+12,Section 1.Tuesday Morning,F,25C (ambient),1,0.5,7,day_7
+12,Section 1.Tuesday Morning,F,25C (ambient),1,6,14,day_14
+13,Section 1.Tuesday Morning,F,25C (ambient),2,0,0,day_0
+13,Section 1.Tuesday Morning,F,25C (ambient),2,1.25,7,day_7
+13,Section 1.Tuesday Morning,F,25C (ambient),2,7.5,14,day_14
+14,Section 1.Tuesday Morning,F,25C (ambient),3,0,0,day_0
+14,Section 1.Tuesday Morning,F,25C (ambient),3,3.25,7,day_7
+14,Section 1.Tuesday Morning,F,25C (ambient),3,12,14,day_14
+15,Section 1.Tuesday Morning,F,25C (ambient),4,0,0,day_0
+15,Section 1.Tuesday Morning,F,25C (ambient),4,2.5,7,day_7
+15,Section 1.Tuesday Morning,F,25C (ambient),4,10,14,day_14
+16,Section 1.Tuesday Morning,S,25C (ambient),1,0,0,day_0
+16,Section 1.Tuesday Morning,S,25C (ambient),1,5,7,day_7
+16,Section 1.Tuesday Morning,S,25C (ambient),1,12.5,14,day_14
+17,Section 1.Tuesday Morning,S,25C (ambient),2,0,0,day_0
+17,Section 1.Tuesday Morning,S,25C (ambient),2,2.25,7,day_7
+17,Section 1.Tuesday Morning,S,25C (ambient),2,19.25,14,day_14
+18,Section 1.Tuesday Morning,S,25C (ambient),3,0,0,day_0
+18,Section 1.Tuesday Morning,S,25C (ambient),3,0,7,day_7
+18,Section 1.Tuesday Morning,S,25C (ambient),3,10,14,day_14
+19,Section 1.Tuesday Morning,S,25C (ambient),4,0,0,day_0
+19,Section 1.Tuesday Morning,S,25C (ambient),4,3,7,day_7
+19,Section 1.Tuesday Morning,S,25C (ambient),4,7.25,14,day_14
+20,Section 1.Tuesday Morning,FW,25C (ambient),1,0,0,day_0
+20,Section 1.Tuesday Morning,FW,25C (ambient),1,1.5,7,day_7
+20,Section 1.Tuesday Morning,FW,25C (ambient),1,11.5,14,day_14
+21,Section 1.Tuesday Morning,FW,25C (ambient),2,0,0,day_0
+21,Section 1.Tuesday Morning,FW,25C (ambient),2,0,7,day_7
+21,Section 1.Tuesday Morning,FW,25C (ambient),2,10,14,day_14
+22,Section 1.Tuesday Morning,FW,25C (ambient),3,0,0,day_0
+22,Section 1.Tuesday Morning,FW,25C (ambient),3,1.5,7,day_7
+22,Section 1.Tuesday Morning,FW,25C (ambient),3,8.25,14,day_14
+23,Section 1.Tuesday Morning,FW,25C (ambient),4,0,0,day_0
+23,Section 1.Tuesday Morning,FW,25C (ambient),4,3,7,day_7
+23,Section 1.Tuesday Morning,FW,25C (ambient),4,9.25,14,day_14
+24,Section 1.Tuesday Morning,FW,25C (ambient),5,0,0,day_0
+24,Section 1.Tuesday Morning,FW,25C (ambient),5,2,7,day_7
+24,Section 1.Tuesday Morning,FW,25C (ambient),5,10.75,14,day_14
+25,Section 1.Tuesday Morning,FW,32C (heat stress),1,0,0,day_0
+25,Section 1.Tuesday Morning,FW,32C (heat stress),1,6,7,day_7
+25,Section 1.Tuesday Morning,FW,32C (heat stress),1,7.25,14,day_14
+26,Section 1.Tuesday Morning,FW,32C (heat stress),2,0,0,day_0
+26,Section 1.Tuesday Morning,FW,32C (heat stress),2,9.5,7,day_7
+26,Section 1.Tuesday Morning,FW,32C (heat stress),2,7,14,day_14
+27,Section 1.Tuesday Morning,FW,32C (heat stress),3,0,0,day_0
+27,Section 1.Tuesday Morning,FW,32C (heat stress),3,7,7,day_7
+27,Section 1.Tuesday Morning,FW,32C (heat stress),3,11.75,14,day_14
+28,Section 1.Tuesday Morning,FW,32C (heat stress),4,0,0,day_0
+28,Section 1.Tuesday Morning,FW,32C (heat stress),4,8,7,day_7
+28,Section 1.Tuesday Morning,FW,32C (heat stress),4,11.5,14,day_14
+29,Section 1.Tuesday Morning,F,32C (heat stress),1,0,0,day_0
+29,Section 1.Tuesday Morning,F,32C (heat stress),1,17,7,day_7
+29,Section 1.Tuesday Morning,F,32C (heat stress),1,14,14,day_14
+30,Section 1.Tuesday Morning,F,32C (heat stress),2,0,0,day_0
+30,Section 1.Tuesday Morning,F,32C (heat stress),2,6.5,7,day_7
+30,Section 1.Tuesday Morning,F,32C (heat stress),2,9.5,14,day_14
+31,Section 1.Tuesday Morning,F,32C (heat stress),3,0,0,day_0
+31,Section 1.Tuesday Morning,F,32C (heat stress),3,7.75,7,day_7
+31,Section 1.Tuesday Morning,F,32C (heat stress),3,9,14,day_14
+32,Section 1.Tuesday Morning,F,32C (heat stress),4,0,0,day_0
+32,Section 1.Tuesday Morning,F,32C (heat stress),4,9.5,7,day_7
+32,Section 1.Tuesday Morning,F,32C (heat stress),4,11.75,14,day_14
+33,Section 3.Tuesday Afternoon,F,32C (heat stress),1,0,0,day_0
+33,Section 3.Tuesday Afternoon,F,32C (heat stress),1,12,7,day_7
+33,Section 3.Tuesday Afternoon,F,32C (heat stress),1,13,14,day_14
+34,Section 3.Tuesday Afternoon,F,32C (heat stress),2,0,0,day_0
+34,Section 3.Tuesday Afternoon,F,32C (heat stress),2,6,7,day_7
+34,Section 3.Tuesday Afternoon,F,32C (heat stress),2,10,14,day_14
+35,Section 3.Tuesday Afternoon,F,32C (heat stress),3,0,0,day_0
+35,Section 3.Tuesday Afternoon,F,32C (heat stress),3,11,7,day_7
+35,Section 3.Tuesday Afternoon,F,32C (heat stress),3,11,14,day_14
+36,Section 3.Tuesday Afternoon,F,32C (heat stress),4,0,0,day_0
+36,Section 3.Tuesday Afternoon,F,32C (heat stress),4,4,7,day_7
+36,Section 3.Tuesday Afternoon,F,32C (heat stress),4,9,14,day_14
+37,Section 3.Tuesday Afternoon,S,32C (heat stress),1,0,0,day_0
+37,Section 3.Tuesday Afternoon,S,32C (heat stress),1,10,7,day_7
+37,Section 3.Tuesday Afternoon,S,32C (heat stress),1,9.75,14,day_14
+38,Section 3.Tuesday Afternoon,S,32C (heat stress),2,0,0,day_0
+38,Section 3.Tuesday Afternoon,S,32C (heat stress),2,8,7,day_7
+38,Section 3.Tuesday Afternoon,S,32C (heat stress),2,9,14,day_14
+39-EMPTY,Section 3.Tuesday Afternoon,S,32C (heat stress),3,0,0,day_0
+39-EMPTY,Section 3.Tuesday Afternoon,S,32C (heat stress),3,2,7,day_7
+39-EMPTY,Section 3.Tuesday Afternoon,S,32C (heat stress),3,Gone,14,day_14
+40-LOST,Section 3.Tuesday Afternoon,S,32C (heat stress),4,0,0,day_0
+40-LOST,Section 3.Tuesday Afternoon,S,32C (heat stress),4,7,7,day_7
+40-LOST,Section 3.Tuesday Afternoon,S,32C (heat stress),4,9,14,day_14
+41,Section 3.Tuesday Afternoon,F,25C (ambient),1,0,0,day_0
+41,Section 3.Tuesday Afternoon,F,25C (ambient),1,6,7,day_7
+41,Section 3.Tuesday Afternoon,F,25C (ambient),1,12,14,day_14
+42,Section 3.Tuesday Afternoon,F,25C (ambient),2,0,0,day_0
+42,Section 3.Tuesday Afternoon,F,25C (ambient),2,5.75,7,day_7
+42,Section 3.Tuesday Afternoon,F,25C (ambient),2,10,14,day_14
+43,Section 3.Tuesday Afternoon,FW,32C (heat stress),1,0,0,day_0
+43,Section 3.Tuesday Afternoon,FW,32C (heat stress),1,6,7,day_7
+43,Section 3.Tuesday Afternoon,FW,32C (heat stress),1,7.75,14,day_14
+44,Section 3.Tuesday Afternoon,FW,32C (heat stress),2,0,0,day_0
+44,Section 3.Tuesday Afternoon,FW,32C (heat stress),2,8,7,day_7
+44,Section 3.Tuesday Afternoon,FW,32C (heat stress),2,10.75,14,day_14
+45,Section 3.Tuesday Afternoon,FW,32C (heat stress),3,0,0,day_0
+45,Section 3.Tuesday Afternoon,FW,32C (heat stress),3,1,7,day_7
+45,Section 3.Tuesday Afternoon,FW,32C (heat stress),3,4.5,14,day_14
+46,Section 3.Tuesday Afternoon,FW,32C (heat stress),1,0,0,day_0
+46,Section 3.Tuesday Afternoon,FW,32C (heat stress),1,10,7,day_7
+46,Section 3.Tuesday Afternoon,FW,32C (heat stress),1,12,14,day_14
+47,Section 3.Tuesday Afternoon,FW,32C (heat stress),2,0,0,day_0
+47,Section 3.Tuesday Afternoon,FW,32C (heat stress),2,5,7,day_7
+47,Section 3.Tuesday Afternoon,FW,32C (heat stress),2,15,14,day_14
+48,Section 3.Tuesday Afternoon,FW,32C (heat stress),3,0,0,day_0
+48,Section 3.Tuesday Afternoon,FW,32C (heat stress),3,7.75,7,day_7
+48,Section 3.Tuesday Afternoon,FW,32C (heat stress),3,15,14,day_14
+49,Section 3.Tuesday Afternoon,FW,32C (heat stress),4,0,0,day_0
+49,Section 3.Tuesday Afternoon,FW,32C (heat stress),4,10.25,7,day_7
+49,Section 3.Tuesday Afternoon,FW,32C (heat stress),4,12,14,day_14
+50,Section 3.Tuesday Afternoon,FW,32C (heat stress),5,0,0,day_0
+50,Section 3.Tuesday Afternoon,FW,32C (heat stress),5,2.25,7,day_7
+50,Section 3.Tuesday Afternoon,FW,32C (heat stress),5,8,14,day_14
+51,Section 3.Tuesday Afternoon,FW,25C (ambient),1,0,0,day_0
+51,Section 3.Tuesday Afternoon,FW,25C (ambient),1,2.75,7,day_7
+51,Section 3.Tuesday Afternoon,FW,25C (ambient),1,8.75,14,day_14
+52,Section 3.Tuesday Afternoon,FW,25C (ambient),2,0,0,day_0
+52,Section 3.Tuesday Afternoon,FW,25C (ambient),2,7,7,day_7
+52,Section 3.Tuesday Afternoon,FW,25C (ambient),2,21.25,14,day_14
+53,Section 3.Tuesday Afternoon,FW,25C (ambient),3,0,0,day_0
+53,Section 3.Tuesday Afternoon,FW,25C (ambient),3,2,7,day_7
+53,Section 3.Tuesday Afternoon,FW,25C (ambient),3,11.75,14,day_14
+54,Section 3.Tuesday Afternoon,S,25C (ambient),1,0,0,day_0
+54,Section 3.Tuesday Afternoon,S,25C (ambient),1,1,7,day_7
+54,Section 3.Tuesday Afternoon,S,25C (ambient),1,1.25,14,day_14
+55,Section 3.Tuesday Afternoon,S,25C (ambient),2,0,0,day_0
+55,Section 3.Tuesday Afternoon,S,25C (ambient),2,1,7,day_7
+55,Section 3.Tuesday Afternoon,S,25C (ambient),2,10.75,14,day_14
+56,Section 3.Tuesday Afternoon,S,25C (ambient),1,0,0,day_0
+56,Section 3.Tuesday Afternoon,S,25C (ambient),1,1.5,7,day_7
+56,Section 3.Tuesday Afternoon,S,25C (ambient),1,12.75,14,day_14
+57,Section 3.Tuesday Afternoon,S,25C (ambient),2,0,0,day_0
+57,Section 3.Tuesday Afternoon,S,25C (ambient),2,4,7,day_7
+57,Section 3.Tuesday Afternoon,S,25C (ambient),2,7.5,14,day_14
+58,Section 3.Tuesday Afternoon,S,25C (ambient),3,0,0,day_0
+58,Section 3.Tuesday Afternoon,S,25C (ambient),3,0,7,day_7
+58,Section 3.Tuesday Afternoon,S,25C (ambient),3,7.5,14,day_14
+59,Section 4.Wednesay Afternoon,F,32C (heat stress),1,0,0,day_0
+59,Section 4.Wednesay Afternoon,F,32C (heat stress),1,12,7,day_7
+59,Section 4.Wednesay Afternoon,F,32C (heat stress),1,12,14,day_14
+60,Section 4.Wednesay Afternoon,F,32C (heat stress),2,0,0,day_0
+60,Section 4.Wednesay Afternoon,F,32C (heat stress),2,6.75,7,day_7
+60,Section 4.Wednesay Afternoon,F,32C (heat stress),2,9,14,day_14
+61,Section 4.Wednesay Afternoon,F,32C (heat stress),3,0,0,day_0
+61,Section 4.Wednesay Afternoon,F,32C (heat stress),3,7.25,7,day_7
+61,Section 4.Wednesay Afternoon,F,32C (heat stress),3,13.25,14,day_14
+62,Section 4.Wednesay Afternoon,FW,32C (heat stress),1,0,0,day_0
+62,Section 4.Wednesay Afternoon,FW,32C (heat stress),1,6,7,day_7
+62,Section 4.Wednesay Afternoon,FW,32C (heat stress),1,6.5,14,day_14
+63,Section 4.Wednesay Afternoon,FW,25C (ambient),1,0,0,day_0
+63,Section 4.Wednesay Afternoon,FW,25C (ambient),1,7.5,7,day_7
+63,Section 4.Wednesay Afternoon,FW,25C (ambient),1,12,14,day_14
+64,Section 4.Wednesay Afternoon,FW,25C (ambient),2,0,0,day_0
+64,Section 4.Wednesay Afternoon,FW,25C (ambient),2,0,7,day_7
+64,Section 4.Wednesay Afternoon,FW,25C (ambient),2,8,14,day_14
+65,Section 4.Wednesay Afternoon,F,32C (heat stress),1,0,0,day_0
+65,Section 4.Wednesay Afternoon,F,32C (heat stress),1,7.5,7,day_7
+65,Section 4.Wednesay Afternoon,F,32C (heat stress),1,11.75,14,day_14
+66,Section 4.Wednesay Afternoon,F,32C (heat stress),2,0,0,day_0
+66,Section 4.Wednesay Afternoon,F,32C (heat stress),2,10.5,7,day_7
+66,Section 4.Wednesay Afternoon,F,32C (heat stress),2,13,14,day_14
+67,Section 4.Wednesay Afternoon,F,32C (heat stress),3,0,0,day_0
+67,Section 4.Wednesay Afternoon,F,32C (heat stress),3,1,7,day_7
+67,Section 4.Wednesay Afternoon,F,32C (heat stress),3,11.5,14,day_14
+68,Section 4.Wednesay Afternoon,S,32C (heat stress),1,0,0,day_0
+68,Section 4.Wednesay Afternoon,S,32C (heat stress),1,7.75,7,day_7
+68,Section 4.Wednesay Afternoon,S,32C (heat stress),1,11,14,day_14
+69,Section 4.Wednesay Afternoon,S,32C (heat stress),2,0,0,day_0
+69,Section 4.Wednesay Afternoon,S,32C (heat stress),2,2.25,7,day_7
+69,Section 4.Wednesay Afternoon,S,32C (heat stress),2,13.25,14,day_14
+70,Section 4.Wednesay Afternoon,F,25C (ambient),1,0,0,day_0
+70,Section 4.Wednesay Afternoon,F,25C (ambient),1,2,7,day_7
+70,Section 4.Wednesay Afternoon,F,25C (ambient),1,10,14,day_14
+71,Section 4.Wednesay Afternoon,F,25C (ambient),2,0,0,day_0
+71,Section 4.Wednesay Afternoon,F,25C (ambient),2,0,7,day_7
+71,Section 4.Wednesay Afternoon,F,25C (ambient),2,Gone,14,day_14
+72,Section 4.Wednesay Afternoon,F,25C (ambient),3,0,0,day_0
+72,Section 4.Wednesay Afternoon,F,25C (ambient),3,0,7,day_7
+72,Section 4.Wednesay Afternoon,F,25C (ambient),3,7.25,14,day_14
+73,Section 4.Wednesay Afternoon,F,25C (ambient),4,0,0,day_0
+73,Section 4.Wednesay Afternoon,F,25C (ambient),4,2.25,7,day_7
+73,Section 4.Wednesay Afternoon,F,25C (ambient),4,12,14,day_14
+74,Section 4.Wednesay Afternoon,S,32C (heat stress),1,0,0,day_0
+74,Section 4.Wednesay Afternoon,S,32C (heat stress),1,0.5,7,day_7
+74,Section 4.Wednesay Afternoon,S,32C (heat stress),1,Gone,14,day_14
+75,Section 4.Wednesay Afternoon,S,32C (heat stress),2,0,0,day_0
+75,Section 4.Wednesay Afternoon,S,32C (heat stress),2,2.5,7,day_7
+75,Section 4.Wednesay Afternoon,S,32C (heat stress),2,11,14,day_14
+76,Section 4.Wednesay Afternoon,S,32C (heat stress),3,0,0,day_0
+76,Section 4.Wednesay Afternoon,S,32C (heat stress),3,3.25,7,day_7
+76,Section 4.Wednesay Afternoon,S,32C (heat stress),3,10.5,14,day_14
+77,Section 4.Wednesay Afternoon,S,32C (heat stress),3,0,0,day_0
+77,Section 4.Wednesay Afternoon,S,32C (heat stress),3,1.25,7,day_7
+77,Section 4.Wednesay Afternoon,S,32C (heat stress),3,Died,14,day_14
+78,Section 2.Thursday Afternoon,FW,25C (ambient),1,0,0,day_0
+78,Section 2.Thursday Afternoon,FW,25C (ambient),1,0,7,day_7
+78,Section 2.Thursday Afternoon,FW,25C (ambient),1,11,14,day_14
+79,Section 2.Thursday Afternoon,FW,25C (ambient),2,0,0,day_0
+79,Section 2.Thursday Afternoon,FW,25C (ambient),2,12,7,day_7
+79,Section 2.Thursday Afternoon,FW,25C (ambient),2,13.5,14,day_14
+80,Section 2.Thursday Afternoon,FW,25C (ambient),3,0,0,day_0
+80,Section 2.Thursday Afternoon,FW,25C (ambient),3,3,7,day_7
+80,Section 2.Thursday Afternoon,FW,25C (ambient),3,8.75,14,day_14
+81,Section 2.Thursday Afternoon,FW,25C (ambient),4,0,0,day_0
+81,Section 2.Thursday Afternoon,FW,25C (ambient),4,1.5,7,day_7
+81,Section 2.Thursday Afternoon,FW,25C (ambient),4,9.5,14,day_14
+82,Section 2.Thursday Afternoon,FW,25C (ambient),5,0,0,day_0
+82,Section 2.Thursday Afternoon,FW,25C (ambient),5,3,7,day_7
+82,Section 2.Thursday Afternoon,FW,25C (ambient),5,1,14,day_14
+83,Section 2.Thursday Afternoon,S,25C (ambient),1,0,0,day_0
+83,Section 2.Thursday Afternoon,S,25C (ambient),1,3.25,7,day_7
+83,Section 2.Thursday Afternoon,S,25C (ambient),1,11.75,14,day_14
+84,Section 2.Thursday Afternoon,S,25C (ambient),2,0,0,day_0
+84,Section 2.Thursday Afternoon,S,25C (ambient),2,0,7,day_7
+84,Section 2.Thursday Afternoon,S,25C (ambient),2,0,14,day_14
+85,Section 2.Thursday Afternoon,S,25C (ambient),4,0,0,day_0
+85,Section 2.Thursday Afternoon,S,25C (ambient),4,1.25,7,day_7
+85,Section 2.Thursday Afternoon,S,25C (ambient),4,7.25,14,day_14
+86,Section 2.Thursday Afternoon,FW,32C (heat stress),1,0,0,day_0
+86,Section 2.Thursday Afternoon,FW,32C (heat stress),1,10.5,7,day_7
+86,Section 2.Thursday Afternoon,FW,32C (heat stress),1,0,14,day_14
+87,Section 2.Thursday Afternoon,FW,32C (heat stress),2,0,0,day_0
+87,Section 2.Thursday Afternoon,FW,32C (heat stress),2,5,7,day_7
+87,Section 2.Thursday Afternoon,FW,32C (heat stress),2,9,14,day_14
+88,Section 2.Thursday Afternoon,FW,32C (heat stress),3,0,0,day_0
+88,Section 2.Thursday Afternoon,FW,32C (heat stress),3,5.75,7,day_7
+88,Section 2.Thursday Afternoon,FW,32C (heat stress),3,15.5,14,day_14
+89,Section 2.Thursday Afternoon,FW,32C (heat stress),4,0,0,day_0
+89,Section 2.Thursday Afternoon,FW,32C (heat stress),4,11,7,day_7
+89,Section 2.Thursday Afternoon,FW,32C (heat stress),4,16.5,14,day_14
+90,Section 2.Thursday Afternoon,FW,32C (heat stress),5,0,0,day_0
+90,Section 2.Thursday Afternoon,FW,32C (heat stress),5,2.5,7,day_7
+90,Section 2.Thursday Afternoon,FW,32C (heat stress),5,13,14,day_14
+91,Section 2.Thursday Afternoon,F,32C (heat stress),1,0,0,day_0
+91,Section 2.Thursday Afternoon,F,32C (heat stress),1,10.5,7,day_7
+91,Section 2.Thursday Afternoon,F,32C (heat stress),1,12,14,day_14
+92,Section 2.Thursday Afternoon,F,32C (heat stress),2,0,0,day_0
+92,Section 2.Thursday Afternoon,F,32C (heat stress),2,8.5,7,day_7
+92,Section 2.Thursday Afternoon,F,32C (heat stress),2,11.25,14,day_14
+93,Section 2.Thursday Afternoon,F,32C (heat stress),3,0,0,day_0
+93,Section 2.Thursday Afternoon,F,32C (heat stress),3,4.5,7,day_7
+93,Section 2.Thursday Afternoon,F,32C (heat stress),3,12,14,day_14
+94,Section 2.Thursday Afternoon,F,32C (heat stress),4,0,0,day_0
+94,Section 2.Thursday Afternoon,F,32C (heat stress),4,3,7,day_7
+94,Section 2.Thursday Afternoon,F,32C (heat stress),4,11,14,day_14
+95,Section 2.Thursday Afternoon,S,32C (heat stress),1,0,0,day_0
+95,Section 2.Thursday Afternoon,S,32C (heat stress),1,5.5,7,day_7
+95,Section 2.Thursday Afternoon,S,32C (heat stress),1,9,14,day_14
+96,Section 2.Thursday Afternoon,S,32C (heat stress),2,0,0,day_0
+96,Section 2.Thursday Afternoon,S,32C (heat stress),2,4,7,day_7
+96,Section 2.Thursday Afternoon,S,32C (heat stress),2,7.5,14,day_14
+97,Section 2.Thursday Afternoon,S,32C (heat stress),3,0,0,day_0
+97,Section 2.Thursday Afternoon,S,32C (heat stress),3,4.75,7,day_7
+97,Section 2.Thursday Afternoon,S,32C (heat stress),3,2.25,14,day_14
+98,Section 2.Thursday Afternoon,S,32C (heat stress),5,0,0,day_0
+98,Section 2.Thursday Afternoon,S,32C (heat stress),5,4.5,7,day_7
+98,Section 2.Thursday Afternoon,S,32C (heat stress),5,Died,14,day_14
+99,Section 2.Thursday Afternoon,S,32C (heat stress),1,0,0,day_0
+99,Section 2.Thursday Afternoon,S,32C (heat stress),1,7.75,7,day_7
+99,Section 2.Thursday Afternoon,S,32C (heat stress),1,9.5,14,day_14
+100,Section 2.Thursday Afternoon,S,32C (heat stress),3,0,0,day_0
+100,Section 2.Thursday Afternoon,S,32C (heat stress),3,6.5,7,day_7
+100,Section 2.Thursday Afternoon,S,32C (heat stress),3,9,14,day_14
+101,Section 2.Thursday Afternoon,S,32C (heat stress),5,0,0,day_0
+101,Section 2.Thursday Afternoon,S,32C (heat stress),5,7.25,7,day_7
+101,Section 2.Thursday Afternoon,S,32C (heat stress),5,9.25,14,day_14
+102,Section 2.Thursday Afternoon,F,32C (heat stress),3,0,0,day_0
+102,Section 2.Thursday Afternoon,F,32C (heat stress),3,9,7,day_7
+102,Section 2.Thursday Afternoon,F,32C (heat stress),3,21.5,14,day_14
+103,Section 2.Thursday Afternoon,F,32C (heat stress),5,0,0,day_0
+103,Section 2.Thursday Afternoon,F,32C (heat stress),5,3.5,7,day_7
+103,Section 2.Thursday Afternoon,F,32C (heat stress),5,17,14,day_14
+104,Section 2.Thursday Afternoon,F,25C (ambient),1,0,0,day_0
+104,Section 2.Thursday Afternoon,F,25C (ambient),1,0,7,day_7
+104,Section 2.Thursday Afternoon,F,25C (ambient),1,5.25,14,day_14
+105,Section 2.Thursday Afternoon,F,25C (ambient),2,0,0,day_0
+105,Section 2.Thursday Afternoon,F,25C (ambient),2,0,7,day_7
+105,Section 2.Thursday Afternoon,F,25C (ambient),2,9.75,14,day_14
+106,Section 2.Thursday Afternoon,F,25C (ambient),3,0,0,day_0
+106,Section 2.Thursday Afternoon,F,25C (ambient),3,0.5,7,day_7
+106,Section 2.Thursday Afternoon,F,25C (ambient),3,7,14,day_14
+107,Section 2.Thursday Afternoon,F,25C (ambient),4,0,0,day_0
+107,Section 2.Thursday Afternoon,F,25C (ambient),4,0.75,7,day_7
+107,Section 2.Thursday Afternoon,F,25C (ambient),4,12,14,day_14
+108,Section 2.Thursday Afternoon,F,25C (ambient),5,0,0,day_0
+108,Section 2.Thursday Afternoon,F,25C (ambient),5,0.5,7,day_7
+108,Section 2.Thursday Afternoon,F,25C (ambient),5,9.5,14,day_14

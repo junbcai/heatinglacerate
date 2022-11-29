@@ -9,6 +9,8 @@ library(emmeans)
 library(qqplotr)
 library(here)
 
+rm(list = ls())
+graphics.off()
 
 #Set working directory
 
@@ -197,8 +199,10 @@ library(emmeans)
 
 # Distribution of the data
 hist(data$tent_count)
+
 # Convert column day as a numeric factor
 as.factor(data$day)
+
 # Choosing the correct model
 model <- lmer(tent_count ~ treatment * day_cat + (1|ID),
               data = data)

@@ -3,7 +3,11 @@ library(ggpubr)
 library(plotrix)
 library(tidyverse)
 library(dplyr)
-
+library(car)
+library(lme4)
+library(emmeans)
+library(qqplotr)
+library(here)
 
 rm(list = ls())
 graphics.off()
@@ -146,13 +150,33 @@ ggplot(data = data_means, aes(x = day, y = mean)) +
   geom_vline(xintercept=c(3), linetype="dashed")
 
 
-
-
 #ANOVA Analysis
 
-anova(aov(tent_count ~ temp, data=long))
-anova(aov(tent_count ~ salinity*temp, data=long))
+view(long)
+
+anova(aov(tent_count ~ treatment, data=long))
+anova(aov(tent_count ~ salinity, data=long))
+
+data <- long
 
 
+#General linear mix model 
+library(car)
+library(lme4)
+library(emmeans)
 
+# Distribution of the data
+hist(data$tent_count)
 
+# Convert column day as a numeric factor
+as.factor(data$day)
+
+# Choosing the correct model
+model <- lmer(tent_count ~ salinity * day_cat + (1|ID),
+              data = data)
+plot(model)
+qqnorm(residuals(model))
+qqline(residuals(model))
+Anova(model)
+
+emmeans(model, list(pairwise ~ salinity | day_cat), adjust = "tukey")
