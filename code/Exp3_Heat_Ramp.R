@@ -215,6 +215,8 @@ Anova(model)
 emmeans(model, list(pairwise ~ temp | day_cat), adjust = "tukey")
 
 
+
+
 model <- glmer(tent_count_1 ~ treatment * day_cat + (1|ID), family = Gamma,
               data = data)
 plot(model)
