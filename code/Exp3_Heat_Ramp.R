@@ -6,7 +6,8 @@ library(dplyr)
 library(car)
 library(lme4)
 library(emmeans)
-library(qqplotr)library(here)
+library(qqplotr)
+library(here)
 
 
 #Set working directory
@@ -35,7 +36,7 @@ long$day_cat <- as.factor(long$day_cat)
 
 ##Saving table as output
 newlong <- long
-saveRDS(newlong, file = "data/Data_Table_25_33.5_35.RDS")
+saveRDS(newlong, file = "tables/Data_Table_25_33.5_35.RDS")
 
 
 ##Graphing results of Experiment 3
@@ -99,7 +100,7 @@ long$day_cat <- as.factor(long$day_cat)
 
 ##Saving table as output
 newlong <- long
-saveRDS(newlong, file = "data/Data_Table_AllTemp.RDS")
+saveRDS(newlong, file = "tables/Data_Table_AllTemp.RDS")
 
 
 ##Graphing results of All HS Experiments
@@ -138,11 +139,11 @@ ggplot(data = data_means, aes(x = day, y = mean)) +
 
 
 
-ggsave("Figure_Heat_Comparison_SubdivideExp.tif", plot = last_plot(), device = "tiff", path = here("figs"),
+ggsave("Figure_Exp1_3.tif", plot = last_plot(), device = "tiff", path = here("figs"),
        
        width = 11, height = 8, units = "in", dpi = 600)
 
-#Effect of Temperature
+##Graphing results of Temperature Alone
 
 data_means <- newlong %>%
   group_by(temp, day) %>%
@@ -190,8 +191,6 @@ data <- long
 
 
 #General linear mix model 
-
-
 library(car)
 library(lme4)
 library(emmeans)
