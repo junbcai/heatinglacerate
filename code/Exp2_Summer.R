@@ -42,7 +42,7 @@ newlong <- long
 saveRDS(newlong, file = "tables/Data_Table_Summer2022Data.RDS")
 
 
-##Graphing results of Experiment 3
+##Graphing results of Experiment 2
 data_means <- newlong %>%
   group_by(treatment, day) %>%
   summarise(mean = mean(tent_count, na.rm=TRUE),
