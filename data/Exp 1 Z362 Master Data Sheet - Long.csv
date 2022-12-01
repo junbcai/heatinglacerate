@@ -1,4 +1,4 @@
-ID,section,feeding,temp,lacerate_nun,tent_count,day,day_cat
+ID,section,feeding,temp,lacerate_num,tent_count,day,day_cat
 1,Section 1.Tuesday Morning,F,25C (ambient),2,0,0,day_0
 1,Section 1.Tuesday Morning,F,25C (ambient),2,3,7,day_7
 1,Section 1.Tuesday Morning,F,25C (ambient),2,11,14,day_14
