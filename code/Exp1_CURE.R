@@ -62,7 +62,7 @@ ggplot(data = data_means, aes(x = day, y = mean)) +
   labs(colour = "Treatment") +
   geom_vline(xintercept=c(3), linetype="dashed")
 
-ggsave("Figure_Exp1_Feeding.tif", plot = last_plot(), device = "tiff", path = here("C:/GitHub/heatinglacerate/figs"),
+ggsave("Figure_Exp1_Feeding.tif", plot = last_plot(), device = "tiff", path = here("figs"),
        
        width = 11, height = 8, units = "in", dpi = 600)
 
@@ -98,8 +98,9 @@ ggsave("Figure_Exp1_Temp.tif", plot = last_plot(), device = "tiff", path = here(
 
 view(long)
 
-anova(aov(tent_count ~ temp*symbiosis*line, data=long))
-anova(aov(tent_count ~ treatment, data=long))
+anova(aov(tent_count ~ temp*feeding, data=long))
+anova(aov(tent_count ~ feeding, data=long))
+anova(aov(tent_count ~ temp, data=long))
 
 #General linear mix model 
 library(car)
@@ -117,7 +118,7 @@ hist(data$tent_count)
 as.factor(data$day)
 
 # Choosing the correct model
-model <- lmer(tent_count ~ temp*symbiosis*day_cat + line + (1|ID),
+model <- lmer(tent_count ~ temp*feeding*day_cat + (1|ID),
               data = data)
 
 plot(model)
@@ -126,11 +127,8 @@ qqline(residuals(model))
 Anova(model)
 
 
-emmeans(model, list(pairwise ~ temp*symbiosis | day_cat), adjust = "tukey")
 emmeans(model, list(pairwise ~ temp | day_cat), adjust = "tukey")
-emmeans(model, list(pairwise ~ symbiosis | day_cat), adjust = "tukey")
-emmeans(model, list(pairwise ~ line | day_cat), adjust = "tukey")
-
+emmeans(model, list(pairwise ~ feeding | day_cat), adjust = "tukey")
 
 
 
@@ -141,6 +139,4 @@ qqnorm(residuals(model))
 qqline(residuals(model))
 Anova(model)
 emmeans(model, list(pairwise ~ treatment | day_cat), adjust = "tukey")
-
-
 
