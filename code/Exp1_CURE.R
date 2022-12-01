@@ -18,31 +18,57 @@ graphics.off()
 getwd()
 setwd("C:/GitHub/heatinglacerate")
 
-#Results of Experiment 3
+#Results of Experiment 1
 
 ##Reading data table
-long <- read.csv("data/Exp 2 Lacerate Development in Heat Data Sheet - Long Data.csv")
+long <- read.csv("data/Exp 1 Z362 Master Data Sheet - Long.csv")
 View(long)
 str(long)
 
 ##Converting elements in table
 long$tent_count <- as.numeric(long$tent_count)
 long$ID <- as.factor(long$ID)
-long$plate <- as.factor(long$plate)
-long$well <- as.factor(long$well)
-long$line <- as.factor(long$line)
+long$section <- as.factor(long$section)
+long$feeding <- as.factor(long$feeding)
+long$lacerate_num <- as.factor(long$lacerate_num)
 long$temp <- as.factor(long$temp)
-long$treatment <- as.factor(long$treatment)
-long$symbiosis <- as.factor(long$symbiosis)
 long$day <- as.numeric(long$day)
 long$day_cat <- as.factor(long$day_cat)
 
 ##Saving table as output
 newlong <- long
-saveRDS(newlong, file = "tables/Data_Table_Summer2022Data.RDS")
+saveRDS(newlong, file = "tables/data_table_cURE2022data.rds")
 
 
-##Graphing results of Experiment 3
+##Graphing results of Experiment 1 on Feeding
+newlong$treatment <- newlong$feeding
+data_means <- newlong %>%
+  group_by(treatment, day) %>%
+  summarise(mean = mean(tent_count, na.rm=TRUE),
+            se = std.error(tent_count, na.rm=TRUE))
+
+ggplot(data = data_means, aes(x = day, y = mean)) +
+  theme_classic(base_size = 15) +
+  geom_line(aes(color = treatment, group = treatment), position = position_dodge(0.5)) +
+  ylab(bquote("Mean tentacle number"))+
+  xlab("Days post laceration (dpl)") +
+  ggtitle("Effect of Feeding on Pedal Lacerate Tentacle Development in Aiptasia") +
+  ylim(0,15) +
+  geom_point(aes(color = treatment), size = 2.5, shape = 20, position = position_dodge(0.5)) +
+  scale_x_continuous(breaks = round(seq(min(data_means$day), max(data_means$day), by = 1),1)) +
+  geom_errorbar(aes(color = treatment, x = day, ymin = mean - se, ymax = mean + se), width = 0.2, position = position_dodge(0.5)) +
+  theme(legend.text.align = 0) +
+  scale_size_manual(values=c(1.2,1.2,1.2,1.2)) +
+  labs(colour = "Treatment") +
+  geom_vline(xintercept=c(3), linetype="dashed")
+
+ggsave("Figure_Exp1_Feeding.tif", plot = last_plot(), device = "tiff", path = here("C:/GitHub/heatinglacerate/figs"),
+       
+       width = 11, height = 8, units = "in", dpi = 600)
+
+
+##Graphing results of Experiment 1 on Feeding
+newlong$treatment <- newlong$temp
 data_means <- newlong %>%
   group_by(treatment, day) %>%
   summarise(mean = mean(tent_count, na.rm=TRUE),
@@ -58,31 +84,15 @@ ggplot(data = data_means, aes(x = day, y = mean)) +
   geom_point(aes(color = treatment), size = 2.5, shape = 20, position = position_dodge(0.5)) +
   scale_x_continuous(breaks = round(seq(min(data_means$day), max(data_means$day), by = 1),1)) +
   geom_errorbar(aes(color = treatment, x = day, ymin = mean - se, ymax = mean + se), width = 0.2, position = position_dodge(0.5)) +
-  scale_color_discrete(breaks=c("CC7-APO-25C","CC7-APO-32C","CC7-SYM-25C","CC7-SYM-32C","H2-APO-25C","H2-APO-32C","H2-SYM-25C","H2-SYM-32C")) +
-  scale_color_manual(values = c("CC7-APO-25C" = "aquamarine",
-                                "CC7-APO-32C" = "chocolate",
-                                "CC7-SYM-25C" = "darkorchid",
-                                "CC7-SYM-32C" = "coral1",
-                                "H2-APO-25C" = "cornflowerblue",
-                                "H2-APO-32C" = "orange",
-                                "H2-SYM-25C" = "blue",
-                                "H2-SYM-32C" = "red"),
-                     labels=c("CC7-APO-25C",
-                              expression(paste("CC7-APO-32C")),
-                              expression(paste("CC7-SYM-25C")),
-                              expression(paste("CC7-SYM-32C")),
-                              expression(paste("H2-APO-25C")),
-                              expression(paste("H2-APO-32C")),
-                              expression(paste("H2-SYM-25C")),
-                              expression(paste("H2-SYM-32C")))) +
   theme(legend.text.align = 0) +
   scale_size_manual(values=c(1.2,1.2,1.2,1.2)) +
   labs(colour = "Treatment") +
   geom_vline(xintercept=c(3), linetype="dashed")
 
-ggsave("Figure_Exp2.tif", plot = last_plot(), device = "tiff", path = here("figs"),
+ggsave("Figure_Exp1_Temp.tif", plot = last_plot(), device = "tiff", path = here("figs"),
        
        width = 11, height = 8, units = "in", dpi = 600)
+
 
 #ANOVA Analysis
 
