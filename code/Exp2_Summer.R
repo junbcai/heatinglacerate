@@ -18,7 +18,7 @@ graphics.off()
 getwd()
 setwd("C:/GitHub/heatinglacerate")
 
-#Results of Experiment 3
+#Results of Experiment 2
 
 ##Reading data table
 long <- read.csv("data/Exp 2 Lacerate Development in Heat Data Sheet - Long Data.csv")
