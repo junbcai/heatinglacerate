@@ -37,6 +37,21 @@ long$symbiosis <- as.factor(long$symbiosis)
 long$day <- as.numeric(long$day)
 long$day_cat <- as.factor(long$day_cat)
 
+
+
+df <- long %>%
+  mutate(day = as.factor(.$day)) %>%
+  mutate(day = recode(day, 0 = "00"))
+
+View(df)
+
+  select(-X) %>%
+  
+  gather(key = "stream", value = "density.anomaly", -Year, na.rm = TRUE) %>%
+  
+  mutate(stream = recode(stream, "MAR_MeanSD" = "MAR", "SEC_MeanSD" = "LAK", "BVA_MeanSD" = "BVA", "VCR_MeanSD" = "VAL", "SFS_MeanSD" = "SFS"))
+
+
 ##Saving table as output
 newlong <- long
 saveRDS(newlong, file = "tables/Data_Table_Summer2022Data.RDS")
