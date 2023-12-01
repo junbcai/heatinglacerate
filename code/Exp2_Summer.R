@@ -147,5 +147,37 @@ qqline(residuals(model))
 Anova(model)
 emmeans(model, list(pairwise ~ treatment | day_cat), adjust = "tukey")
 
+#NEW GRAPH
+newlong
 
+new_df <- newlong[newlong$line  != "CC7", ]
+
+data_means <- new_df %>%
+  group_by(treatment, day) %>%
+  summarise(mean = mean(tent_count, na.rm=TRUE),
+            se = std.error(tent_count, na.rm=TRUE))
+
+
+ggplot(data = data_means, aes(x = day, y = mean)) +
+  theme_classic(base_size = 15) +
+  geom_line(aes(color = treatment, group = treatment), position = position_dodge(0.5)) +
+  ylab(bquote("Mean tentacle number"))+
+  xlab("Days post laceration (dpl)") +
+  ggtitle("Effect of Temperature and Symbiosis on Pedal Lacerate Tentacle Development in Aiptasia") +
+  ylim(0,15) +
+  geom_point(aes(color = treatment), size = 2.5, shape = 20, position = position_dodge(0.5)) +
+  scale_x_continuous(breaks = round(seq(min(data_means$day), max(data_means$day), by = 1),1)) +
+  geom_errorbar(aes(color = treatment, x = day, ymin = mean - se, ymax = mean + se), width = 0.2, position = position_dodge(0.5)) +
+  scale_color_discrete(breaks=c("H2-APO-25C","H2-APO-32C","H2-SYM-25C","H2-SYM-32C")) +
+  scale_color_manual(values = c("H2-APO-25C" = "cornflowerblue",
+                                "H2-APO-32C" = "orange",
+                                "H2-SYM-25C" = "blue",
+                                "H2-SYM-32C" = "red"),
+                     labels=c("H2-APO-25C",
+                              expression(paste("H2-APO-32C")),
+                              expression(paste("H2-SYM-25C")),
+                              expression(paste("H2-SYM-32C")))) +
+  theme(legend.text.align = 0) +
+  scale_size_manual(values=c(1.2,1.2,1.2,1.2)) +
+  labs(colour = "Treatment")
 

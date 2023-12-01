@@ -39,6 +39,9 @@ long$day_cat <- as.factor(long$day_cat)
 newlong <- long
 saveRDS(newlong, file = "tables/data_table_cURE2022data.rds")
 
+#Count number of treatment 
+treatment_count <- length(unique(data$Treatment))
+
 
 ##Graphing results of Experiment 1 on Feeding
 newlong$treatment <- newlong$feeding
