@@ -33,8 +33,8 @@ ggplot(data_long, aes(x = Time, y = Value, color = Max)) +
 #Acclimation
 data <- data.frame(
   Time = c(0:8),
-  Max_25 = c(25, 25, 25, 25, 25, 25, 35, 35, 35),
-  Max_32 = c(25, 32, 32, 32, 25, 25, 35, 35, 35)
+  Max_25 = c(25, 25, 25, 25, 25, 25, 34, 34, 34),
+  Max_32 = c(25, 30, 30, 30, 25, 25, 34, 34, 34)
 )
 
 data_long <- pivot_longer(data, starts_with("Max"), names_to = "Max", values_to = "Value")
@@ -45,7 +45,7 @@ ggplot(data_long, aes(x = Time, y = Value, color = Max, linetype = Max)) +
        x = "Time", y = "Temperature (°C)") +
   scale_color_manual(values = c("Max_25" = "blue", "Max_32" = "red"),
                      breaks = c("Max_25", "Max_32"),
-                     labels = c("Control (25°C)", "Heat Stress (32°C)")) +
+                     labels = c("Control (25°C)", "Heat Stress (30°C)")) +
   scale_linetype_manual(values = c("Max_25" = "solid", "Max_32" = "dashed"),
                         breaks = c("Max_25", "Max_32")) +
   scale_y_continuous(breaks = seq(25, 36, by = 1)) +
@@ -62,4 +62,4 @@ ggplot(data_long, aes(x = Time, y = Value, color = Max, linetype = Max)) +
         legend.title = element_text(size = 24),
         plot.title = element_text(size = 40),
         plot.margin = margin(20, 20, 20, 20)) +
-  coord_cartesian(ylim = c(25, 36))
+  coord_cartesian(ylim = c(25, 35))

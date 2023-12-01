@@ -164,8 +164,8 @@ ggplot(data = data_means, aes(x = day, y = mean)) +
   ylab(bquote("Mean tentacle number"))+
   xlab("Days post laceration (dpl)") +
   ggtitle("Effect of Temperature and Symbiosis on Pedal Lacerate Tentacle Development in Aiptasia") +
-  ylim(0,15) +
-  geom_point(aes(color = treatment), size = 2.5, shape = 20, position = position_dodge(0.5)) +
+  scale_y_continuous(breaks = seq(0, 10, by = 2), limits = c(0, 11)) +  # Adjusted y-axis range and breaks
+  geom_point(aes(color = treatment), size = 8, shape = 20, position = position_dodge(0.5)) +
   scale_x_continuous(breaks = round(seq(min(data_means$day), max(data_means$day), by = 1),1)) +
   geom_errorbar(aes(color = treatment, x = day, ymin = mean - se, ymax = mean + se), width = 0.2, position = position_dodge(0.5)) +
   scale_color_discrete(breaks=c("H2-APO-25C","H2-APO-32C","H2-SYM-25C","H2-SYM-32C")) +
@@ -177,7 +177,46 @@ ggplot(data = data_means, aes(x = day, y = mean)) +
                               expression(paste("H2-APO-32C")),
                               expression(paste("H2-SYM-25C")),
                               expression(paste("H2-SYM-32C")))) +
-  theme(legend.text.align = 0) +
+  theme(legend.text.align = 0, legend.position = c(0.75, 0.5), legend.justification = c("center", "center")) +
   scale_size_manual(values=c(1.2,1.2,1.2,1.2)) +
   labs(colour = "Treatment")
+
+
+ggsave("Figure_Exp2_Proposal_1.tif", plot = last_plot(), device = "tiff", path = here("C:/GitHub/heatinglacerate/figs"),
+       
+       width = 11, height = 8, units = "in", dpi = 600)
+
+
+
+
+
+##Graphing results of Experiment 2 for just Ambient vs Heat Stress
+data_means <- newlong %>%
+  group_by(temp, day) %>%
+  summarise(mean = mean(tent_count, na.rm=TRUE),
+            se = std.error(tent_count, na.rm=TRUE))
+
+ggplot(data = data_means, aes(x = day, y = mean)) +
+  theme_classic(base_size = 15) +
+  geom_line(aes(color = temp, group = temp), position = position_dodge(0.5)) +
+  ylab(bquote("Mean tentacle number"))+
+  xlab("Days post laceration (dpl)") +
+  ggtitle("Effect of Temperature on Pedal Lacerate Tentacle Development in Aiptasia") +
+  scale_y_continuous(breaks = seq(0, 10, by = 2), limits = c(0, 10)) +  # Adjusted y-axis range and breaks
+  geom_point(aes(color = temp), size = 8, shape = 20, position = position_dodge(0.5)) +
+  scale_x_continuous(breaks = round(seq(min(data_means$day), max(data_means$day), by = 1),1)) +
+  geom_errorbar(aes(color = temp, x = day, ymin = mean - se, ymax = mean + se), width = 0.2, position = position_dodge(0.5)) +
+  scale_color_discrete(breaks=c("25C (ambient)","32C (heat stress)")) +
+  scale_color_manual(values = c("25C (ambient)" = "blue",
+                                "32C (heat stress)" = "red"),
+                     labels=c("25C (ambient)",
+                              expression(paste("32C (heat stress)")))) +
+  theme(legend.text.align = 0, legend.position = c(0.75, 0.5), legend.justification = c("center", "center")) +
+  scale_size_manual(values=c(1.2,1.2,1.2,1.2)) +
+  labs(colour = "Treatment")
+
+
+ggsave("Figure_Exp2_Proposal_2.tif", plot = last_plot(), device = "tiff", path = here("C:/GitHub/heatinglacerate/figs"),
+       
+       width = 11, height = 8, units = "in", dpi = 600)
 

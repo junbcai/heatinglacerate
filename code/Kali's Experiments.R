@@ -13,7 +13,7 @@ rm(list = ls())
 graphics.off()
 
 #Set working director
-setwd("~/GitHub/heatinglacerate")
+setwd("C:/GitHub/heatinglacerate")
 
 long <- read.csv("data/Kali's Salinity Exp.xlsx - HS+Salinity.csv")
 
@@ -40,7 +40,6 @@ data_means <- newlong %>%
   summarise(mean = mean(tent_count, na.rm=TRUE),
             se = std.error(tent_count, na.rm=TRUE))
 
-graph1
 graph1 <- ggplot(data = data_means, aes(x = day, y = mean)) +
   theme_classic(base_size = 15) +
   geom_line(aes(color = treatment, group = treatment), position = position_dodge(0.5)) +
