@@ -160,7 +160,7 @@ ggplot(data = data_means, aes(x = day, y = mean)) +
   xlab("Days post laceration (dpl)") +
   ggtitle("Effect of Different Temperatures on Pedal Lacerate Tentacle Development in Aiptasia") +
   scale_y_continuous(breaks = seq(0, 10, by = 2), limits = c(0, 10.5)) +  # Adjusted y-axis range and breaks
-  geom_point(aes(color = temp), size = 2.5, shape = 20, position = position_dodge(0.5)) +
+  geom_point(aes(color = temp), size = 8, shape = 20, position = position_dodge(0.5)) +
   scale_x_continuous(breaks = round(seq(min(data_means$day), max(data_means$day), by = 1),1)) +
   geom_errorbar(aes(color = temp, x = day, ymin = mean - se, ymax = mean + se), width = 0.2, position = position_dodge(0.5)) +
   scale_color_discrete(breaks=c("25C (ambient)","32C (heat stress)","33.5C (heat stress)","35C (heat stress)")) +
