@@ -201,9 +201,9 @@ ggplot(data = data_means, aes(x = day, y = mean)) +
   geom_line(aes(color = temp, group = temp), position = position_dodge(0.5)) +
   ylab(bquote("Mean tentacle number"))+
   xlab("Days post laceration (dpl)") +
-  ggtitle("Effect of Temperature on Pedal Lacerate Tentacle Development in Aiptasia") +
+#  ggtitle("Effect of Temperature on Pedal Lacerate Tentacle Development in Aiptasia") +
   scale_y_continuous(breaks = seq(0, 10, by = 2), limits = c(0, 10)) +  # Adjusted y-axis range and breaks
-  geom_point(aes(color = temp), size = 8, shape = 20, position = position_dodge(0.5)) +
+  geom_point(aes(color = temp), size = 10, shape = 20, position = position_dodge(0.5)) +
   scale_x_continuous(breaks = round(seq(min(data_means$day), max(data_means$day), by = 1),1)) +
   geom_errorbar(aes(color = temp, x = day, ymin = mean - se, ymax = mean + se), width = 0.2, position = position_dodge(0.5)) +
   scale_color_discrete(breaks=c("25C (ambient)","32C (heat stress)")) +
@@ -211,8 +211,12 @@ ggplot(data = data_means, aes(x = day, y = mean)) +
                                 "32C (heat stress)" = "red"),
                      labels=c("25C (ambient)",
                               expression(paste("32C (heat stress)")))) +
-  theme(legend.text.align = 0, legend.position = c(0.75, 0.5), legend.justification = c("center", "center")) +
-  scale_size_manual(values=c(1.2,1.2,1.2,1.2)) +
+  theme(legend.text.align = 0, legend.position = c(0.75, 0.5), legend.justification = c("center", "center"),
+        axis.text = element_text(size = 30),  # Set size of axis labels
+        axis.title = element_text(size = 30),  # Set size of axis titles
+        legend.text = element_text(size = 30),  # Set size of legend text
+        legend.title = element_text(size = 30)) +  # Set size of legend title
+  scale_size_manual(values = c(1.2, 1.2, 1.2, 1.2)) +
   labs(colour = "Treatment")
 
 
@@ -220,3 +224,31 @@ ggsave("Figure_Exp2_Proposal_2.tif", plot = last_plot(), device = "tiff", path =
        
        width = 11, height = 8, units = "in", dpi = 600)
 
+##Graphing results of Experiment 2 for just SYM vs APO
+data_means <- newlong %>%
+  group_by(symbiosis, day) %>%
+  summarise(mean = mean(tent_count, na.rm=TRUE),
+            se = std.error(tent_count, na.rm=TRUE))
+
+ggplot(data = data_means, aes(x = day, y = mean)) +
+  theme_classic(base_size = 15) +
+  geom_line(aes(color = symbiosis, group = symbiosis), position = position_dodge(0.5)) +
+  ylab(bquote("Mean tentacle number"))+
+  xlab("Days post laceration (dpl)") +
+#  ggtitle("Effect of Symbiotic State on Pedal Lacerate Tentacle Development in Aiptasia") +
+  scale_y_continuous(breaks = seq(0, 10, by = 2), limits = c(0, 10)) +  # Adjusted y-axis range and breaks
+  geom_point(aes(color = symbiosis), size = 10, shape = 20, position = position_dodge(0.5)) +
+  scale_x_continuous(breaks = round(seq(min(data_means$day), max(data_means$day), by = 1),1)) +
+  geom_errorbar(aes(color = symbiosis, x = day, ymin = mean - se, ymax = mean + se), width = 0.2, position = position_dodge(0.5)) +
+  scale_color_discrete(breaks=c("Apo","Sym")) +
+  scale_color_manual(values = c("Apo" = "orange",
+                                "Sym" = "brown"),
+                     labels=c("Aposymbiotic",
+                              expression(paste("Symbiotic")))) +
+  theme(legend.text.align = 0, legend.position = c(0.75, 0.5), legend.justification = c("center", "center"),
+        axis.text = element_text(size = 30),  # Set size of axis labels
+        axis.title = element_text(size = 30),  # Set size of axis titles
+        legend.text = element_text(size = 30),  # Set size of legend text
+        legend.title = element_text(size = 30)) +  # Set size of legend title
+  scale_size_manual(values = c(1.2, 1.2, 1.2, 1.2)) +
+  labs(colour = "Treatment")
