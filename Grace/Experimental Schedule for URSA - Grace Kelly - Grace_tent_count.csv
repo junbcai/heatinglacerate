@@ -1,0 +1,739 @@
+ID,Plate,Treatment,Line,Symbiosis,Well,Temp,Lacerate,Day,Day_cat,Tent_count
+H2-Apo-25-A1-1,1,H2-Apo-25,H2,Apo,A1,25C (ambient),1,0,0_day,0
+H2-Apo-25-A1-1,1,H2-Apo-25,H2,Apo,A1,25C (ambient),1,3,3_day,x
+H2-Apo-25-A1-1,1,H2-Apo-25,H2,Apo,A1,25C (ambient),1,4,4_day,x
+H2-Apo-25-A1-1,1,H2-Apo-25,H2,Apo,A1,25C (ambient),1,5,5_day,x
+H2-Apo-25-A1-1,1,H2-Apo-25,H2,Apo,A1,25C (ambient),1,7,7_day,x
+H2-Apo-25-A1-1,1,H2-Apo-25,H2,Apo,A1,25C (ambient),1,10,10_day,x
+H2-Apo-25-A1-1,1,H2-Apo-25,H2,Apo,A1,25C (ambient),1,11,11_day,x
+H2-Apo-25-A1-1,1,H2-Apo-25,H2,Apo,A1,25C (ambient),1,14,14_day,x
+H2-Apo-25-A1-1,1,H2-Apo-25,H2,Apo,A1,25C (ambient),1,21,21_day,x
+H2-Apo-25-A2-1,1,H2-Apo-25,H2,Apo,A2,25C (ambient),1,0,0_day,0
+H2-Apo-25-A2-1,1,H2-Apo-25,H2,Apo,A2,25C (ambient),1,3,3_day,0
+H2-Apo-25-A2-1,1,H2-Apo-25,H2,Apo,A2,25C (ambient),1,4,4_day,0
+H2-Apo-25-A2-1,1,H2-Apo-25,H2,Apo,A2,25C (ambient),1,5,5_day,1
+H2-Apo-25-A2-1,1,H2-Apo-25,H2,Apo,A2,25C (ambient),1,7,7_day,8
+H2-Apo-25-A2-1,1,H2-Apo-25,H2,Apo,A2,25C (ambient),1,10,10_day,14
+H2-Apo-25-A2-1,1,H2-Apo-25,H2,Apo,A2,25C (ambient),1,11,11_day,14
+H2-Apo-25-A2-1,1,H2-Apo-25,H2,Apo,A2,25C (ambient),1,14,14_day,14
+H2-Apo-25-A2-1,1,H2-Apo-25,H2,Apo,A2,25C (ambient),1,21,21_day,14
+H2-Apo-25-A3-1,1,H2-Apo-25,H2,Apo,A3,25C (ambient),1,0,0_day,0
+H2-Apo-25-A3-1,1,H2-Apo-25,H2,Apo,A3,25C (ambient),1,3,3_day,0
+H2-Apo-25-A3-1,1,H2-Apo-25,H2,Apo,A3,25C (ambient),1,4,4_day,0
+H2-Apo-25-A3-1,1,H2-Apo-25,H2,Apo,A3,25C (ambient),1,5,5_day,4
+H2-Apo-25-A3-1,1,H2-Apo-25,H2,Apo,A3,25C (ambient),1,7,7_day,6
+H2-Apo-25-A3-1,1,H2-Apo-25,H2,Apo,A3,25C (ambient),1,10,10_day,9
+H2-Apo-25-A3-1,1,H2-Apo-25,H2,Apo,A3,25C (ambient),1,11,11_day,11
+H2-Apo-25-A3-1,1,H2-Apo-25,H2,Apo,A3,25C (ambient),1,14,14_day,11
+H2-Apo-25-A3-1,1,H2-Apo-25,H2,Apo,A3,25C (ambient),1,21,21_day,12
+H2-Apo-25-A4-1,1,H2-Apo-25,H2,Apo,A4,25C (ambient),1,0,0_day,0
+H2-Apo-25-A4-1,1,H2-Apo-25,H2,Apo,A4,25C (ambient),1,3,3_day,0
+H2-Apo-25-A4-1,1,H2-Apo-25,H2,Apo,A4,25C (ambient),1,4,4_day,0
+H2-Apo-25-A4-1,1,H2-Apo-25,H2,Apo,A4,25C (ambient),1,5,5_day,2
+H2-Apo-25-A4-1,1,H2-Apo-25,H2,Apo,A4,25C (ambient),1,7,7_day,3
+H2-Apo-25-A4-1,1,H2-Apo-25,H2,Apo,A4,25C (ambient),1,10,10_day,13
+H2-Apo-25-A4-1,1,H2-Apo-25,H2,Apo,A4,25C (ambient),1,11,11_day,13
+H2-Apo-25-A4-1,1,H2-Apo-25,H2,Apo,A4,25C (ambient),1,14,14_day,14
+H2-Apo-25-A4-1,1,H2-Apo-25,H2,Apo,A4,25C (ambient),1,21,21_day,14
+H2-Apo-25-A4-2,1,H2-Apo-25,H2,Apo,A4,25C (ambient),2,0,0_day,0
+H2-Apo-25-A4-2,1,H2-Apo-25,H2,Apo,A4,25C (ambient),2,3,3_day,0
+H2-Apo-25-A4-2,1,H2-Apo-25,H2,Apo,A4,25C (ambient),2,4,4_day,1
+H2-Apo-25-A4-2,1,H2-Apo-25,H2,Apo,A4,25C (ambient),2,5,5_day,1
+H2-Apo-25-A4-2,1,H2-Apo-25,H2,Apo,A4,25C (ambient),2,7,7_day,6
+H2-Apo-25-A4-2,1,H2-Apo-25,H2,Apo,A4,25C (ambient),2,10,10_day,8
+H2-Apo-25-A4-2,1,H2-Apo-25,H2,Apo,A4,25C (ambient),2,11,11_day,8
+H2-Apo-25-A4-2,1,H2-Apo-25,H2,Apo,A4,25C (ambient),2,14,14_day,8
+H2-Apo-25-A4-2,1,H2-Apo-25,H2,Apo,A4,25C (ambient),2,21,21_day,9
+H2-Apo-25-B1-1,1,H2-Apo-25,H2,Apo,B1,25C (ambient),1,0,0_day,0
+H2-Apo-25-B1-1,1,H2-Apo-25,H2,Apo,B1,25C (ambient),1,3,3_day,0
+H2-Apo-25-B1-1,1,H2-Apo-25,H2,Apo,B1,25C (ambient),1,4,4_day,1
+H2-Apo-25-B1-1,1,H2-Apo-25,H2,Apo,B1,25C (ambient),1,5,5_day,4
+H2-Apo-25-B1-1,1,H2-Apo-25,H2,Apo,B1,25C (ambient),1,7,7_day,7
+H2-Apo-25-B1-1,1,H2-Apo-25,H2,Apo,B1,25C (ambient),1,10,10_day,7
+H2-Apo-25-B1-1,1,H2-Apo-25,H2,Apo,B1,25C (ambient),1,11,11_day,8
+H2-Apo-25-B1-1,1,H2-Apo-25,H2,Apo,B1,25C (ambient),1,14,14_day,8
+H2-Apo-25-B1-1,1,H2-Apo-25,H2,Apo,B1,25C (ambient),1,21,21_day,8
+H2-Apo-25-B2-1,1,H2-Apo-25,H2,Apo,B2,25C (ambient),1,0,0_day,0
+H2-Apo-25-B2-1,1,H2-Apo-25,H2,Apo,B2,25C (ambient),1,3,3_day,x
+H2-Apo-25-B2-1,1,H2-Apo-25,H2,Apo,B2,25C (ambient),1,4,4_day,x
+H2-Apo-25-B2-1,1,H2-Apo-25,H2,Apo,B2,25C (ambient),1,5,5_day,x
+H2-Apo-25-B2-1,1,H2-Apo-25,H2,Apo,B2,25C (ambient),1,7,7_day,x
+H2-Apo-25-B2-1,1,H2-Apo-25,H2,Apo,B2,25C (ambient),1,10,10_day,x
+H2-Apo-25-B2-1,1,H2-Apo-25,H2,Apo,B2,25C (ambient),1,11,11_day,x
+H2-Apo-25-B2-1,1,H2-Apo-25,H2,Apo,B2,25C (ambient),1,14,14_day,x
+H2-Apo-25-B2-1,1,H2-Apo-25,H2,Apo,B2,25C (ambient),1,21,21_day,x
+H2-Apo-25-B3-1,1,H2-Apo-25,H2,Apo,B3,25C (ambient),1,0,0_day,0
+H2-Apo-25-B3-1,1,H2-Apo-25,H2,Apo,B3,25C (ambient),1,3,3_day,0
+H2-Apo-25-B3-1,1,H2-Apo-25,H2,Apo,B3,25C (ambient),1,4,4_day,1
+H2-Apo-25-B3-1,1,H2-Apo-25,H2,Apo,B3,25C (ambient),1,5,5_day,2
+H2-Apo-25-B3-1,1,H2-Apo-25,H2,Apo,B3,25C (ambient),1,7,7_day,9
+H2-Apo-25-B3-1,1,H2-Apo-25,H2,Apo,B3,25C (ambient),1,10,10_day,13
+H2-Apo-25-B3-1,1,H2-Apo-25,H2,Apo,B3,25C (ambient),1,11,11_day,14
+H2-Apo-25-B3-1,1,H2-Apo-25,H2,Apo,B3,25C (ambient),1,14,14_day,14
+H2-Apo-25-B3-1,1,H2-Apo-25,H2,Apo,B3,25C (ambient),1,21,21_day,15
+H2-Apo-25-B4-1,1,H2-Apo-25,H2,Apo,B4,25C (ambient),1,0,0_day,0
+H2-Apo-25-B4-1,1,H2-Apo-25,H2,Apo,B4,25C (ambient),1,3,3_day,0
+H2-Apo-25-B4-1,1,H2-Apo-25,H2,Apo,B4,25C (ambient),1,4,4_day,0
+H2-Apo-25-B4-1,1,H2-Apo-25,H2,Apo,B4,25C (ambient),1,5,5_day,3
+H2-Apo-25-B4-1,1,H2-Apo-25,H2,Apo,B4,25C (ambient),1,7,7_day,10
+H2-Apo-25-B4-1,1,H2-Apo-25,H2,Apo,B4,25C (ambient),1,10,10_day,12
+H2-Apo-25-B4-1,1,H2-Apo-25,H2,Apo,B4,25C (ambient),1,11,11_day,12
+H2-Apo-25-B4-1,1,H2-Apo-25,H2,Apo,B4,25C (ambient),1,14,14_day,x
+H2-Apo-25-B4-1,1,H2-Apo-25,H2,Apo,B4,25C (ambient),1,21,21_day,x
+H2-Apo-25-C1-1,1,H2-Apo-25,H2,Apo,C1,25C (ambient),1,0,0_day,0
+H2-Apo-25-C1-1,1,H2-Apo-25,H2,Apo,C1,25C (ambient),1,3,3_day,0
+H2-Apo-25-C1-1,1,H2-Apo-25,H2,Apo,C1,25C (ambient),1,4,4_day,0
+H2-Apo-25-C1-1,1,H2-Apo-25,H2,Apo,C1,25C (ambient),1,5,5_day,2
+H2-Apo-25-C1-1,1,H2-Apo-25,H2,Apo,C1,25C (ambient),1,7,7_day,8
+H2-Apo-25-C1-1,1,H2-Apo-25,H2,Apo,C1,25C (ambient),1,10,10_day,8
+H2-Apo-25-C1-1,1,H2-Apo-25,H2,Apo,C1,25C (ambient),1,11,11_day,8
+H2-Apo-25-C1-1,1,H2-Apo-25,H2,Apo,C1,25C (ambient),1,14,14_day,11
+H2-Apo-25-C1-1,1,H2-Apo-25,H2,Apo,C1,25C (ambient),1,21,21_day,11
+H2-Apo-25-C2-1,1,H2-Apo-25,H2,Apo,C2,25C (ambient),1,0,0_day,0
+H2-Apo-25-C2-1,1,H2-Apo-25,H2,Apo,C2,25C (ambient),1,3,3_day,x
+H2-Apo-25-C2-1,1,H2-Apo-25,H2,Apo,C2,25C (ambient),1,4,4_day,x
+H2-Apo-25-C2-1,1,H2-Apo-25,H2,Apo,C2,25C (ambient),1,5,5_day,x
+H2-Apo-25-C2-1,1,H2-Apo-25,H2,Apo,C2,25C (ambient),1,7,7_day,x
+H2-Apo-25-C2-1,1,H2-Apo-25,H2,Apo,C2,25C (ambient),1,10,10_day,x
+H2-Apo-25-C2-1,1,H2-Apo-25,H2,Apo,C2,25C (ambient),1,11,11_day,x
+H2-Apo-25-C2-1,1,H2-Apo-25,H2,Apo,C2,25C (ambient),1,14,14_day,x
+H2-Apo-25-C2-1,1,H2-Apo-25,H2,Apo,C2,25C (ambient),1,21,21_day,x
+H2-Apo-25-C3-1,1,H2-Apo-25,H2,Apo,C3,25C (ambient),1,0,0_day,0
+H2-Apo-25-C3-1,1,H2-Apo-25,H2,Apo,C3,25C (ambient),1,3,3_day,0
+H2-Apo-25-C3-1,1,H2-Apo-25,H2,Apo,C3,25C (ambient),1,4,4_day,0
+H2-Apo-25-C3-1,1,H2-Apo-25,H2,Apo,C3,25C (ambient),1,5,5_day,1
+H2-Apo-25-C3-1,1,H2-Apo-25,H2,Apo,C3,25C (ambient),1,7,7_day,10
+H2-Apo-25-C3-1,1,H2-Apo-25,H2,Apo,C3,25C (ambient),1,10,10_day,10
+H2-Apo-25-C3-1,1,H2-Apo-25,H2,Apo,C3,25C (ambient),1,11,11_day,10
+H2-Apo-25-C3-1,1,H2-Apo-25,H2,Apo,C3,25C (ambient),1,14,14_day,10
+H2-Apo-25-C3-1,1,H2-Apo-25,H2,Apo,C3,25C (ambient),1,21,21_day,10
+H2-Apo-25-C4-1,1,H2-Apo-25,H2,Apo,C4,25C (ambient),1,0,0_day,0
+H2-Apo-25-C4-1,1,H2-Apo-25,H2,Apo,C4,25C (ambient),1,3,3_day,0
+H2-Apo-25-C4-1,1,H2-Apo-25,H2,Apo,C4,25C (ambient),1,4,4_day,0
+H2-Apo-25-C4-1,1,H2-Apo-25,H2,Apo,C4,25C (ambient),1,5,5_day,3
+H2-Apo-25-C4-1,1,H2-Apo-25,H2,Apo,C4,25C (ambient),1,7,7_day,11
+H2-Apo-25-C4-1,1,H2-Apo-25,H2,Apo,C4,25C (ambient),1,10,10_day,12
+H2-Apo-25-C4-1,1,H2-Apo-25,H2,Apo,C4,25C (ambient),1,11,11_day,12
+H2-Apo-25-C4-1,1,H2-Apo-25,H2,Apo,C4,25C (ambient),1,14,14_day,12
+H2-Apo-25-C4-1,1,H2-Apo-25,H2,Apo,C4,25C (ambient),1,21,21_day,12
+H2-Apo-32-A1-1,2,H2-Apo-32,H2,Apo,A1,32C (heat stress),1,0,0_day,0
+H2-Apo-32-A1-1,2,H2-Apo-32,H2,Apo,A1,32C (heat stress),1,3,3_day,1
+H2-Apo-32-A1-1,2,H2-Apo-32,H2,Apo,A1,32C (heat stress),1,4,4_day,5
+H2-Apo-32-A1-1,2,H2-Apo-32,H2,Apo,A1,32C (heat stress),1,5,5_day,5
+H2-Apo-32-A1-1,2,H2-Apo-32,H2,Apo,A1,32C (heat stress),1,7,7_day,10
+H2-Apo-32-A1-1,2,H2-Apo-32,H2,Apo,A1,32C (heat stress),1,10,10_day,11
+H2-Apo-32-A1-1,2,H2-Apo-32,H2,Apo,A1,32C (heat stress),1,11,11_day,11
+H2-Apo-32-A1-1,2,H2-Apo-32,H2,Apo,A1,32C (heat stress),1,14,14_day,11
+H2-Apo-32-A1-1,2,H2-Apo-32,H2,Apo,A1,32C (heat stress),1,21,21_day,11
+H2-Apo-32-A2-1,2,H2-Apo-32,H2,Apo,A2,32C (heat stress),1,0,0_day,0
+H2-Apo-32-A2-1,2,H2-Apo-32,H2,Apo,A2,32C (heat stress),1,3,3_day,0
+H2-Apo-32-A2-1,2,H2-Apo-32,H2,Apo,A2,32C (heat stress),1,4,4_day,0
+H2-Apo-32-A2-1,2,H2-Apo-32,H2,Apo,A2,32C (heat stress),1,5,5_day,2
+H2-Apo-32-A2-1,2,H2-Apo-32,H2,Apo,A2,32C (heat stress),1,7,7_day,6
+H2-Apo-32-A2-1,2,H2-Apo-32,H2,Apo,A2,32C (heat stress),1,10,10_day,6
+H2-Apo-32-A2-1,2,H2-Apo-32,H2,Apo,A2,32C (heat stress),1,11,11_day,6
+H2-Apo-32-A2-1,2,H2-Apo-32,H2,Apo,A2,32C (heat stress),1,14,14_day,6
+H2-Apo-32-A2-1,2,H2-Apo-32,H2,Apo,A2,32C (heat stress),1,21,21_day,6
+H2-Apo-32-A3-1,2,H2-Apo-32,H2,Apo,A3,32C (heat stress),1,0,0_day,0
+H2-Apo-32-A3-1,2,H2-Apo-32,H2,Apo,A3,32C (heat stress),1,3,3_day,0
+H2-Apo-32-A3-1,2,H2-Apo-32,H2,Apo,A3,32C (heat stress),1,4,4_day,0
+H2-Apo-32-A3-1,2,H2-Apo-32,H2,Apo,A3,32C (heat stress),1,5,5_day,3
+H2-Apo-32-A3-1,2,H2-Apo-32,H2,Apo,A3,32C (heat stress),1,7,7_day,6
+H2-Apo-32-A3-1,2,H2-Apo-32,H2,Apo,A3,32C (heat stress),1,10,10_day,7
+H2-Apo-32-A3-1,2,H2-Apo-32,H2,Apo,A3,32C (heat stress),1,11,11_day,7
+H2-Apo-32-A3-1,2,H2-Apo-32,H2,Apo,A3,32C (heat stress),1,14,14_day,7
+H2-Apo-32-A3-1,2,H2-Apo-32,H2,Apo,A3,32C (heat stress),1,21,21_day,x
+H2-Apo-32-A4-1,2,H2-Apo-32,H2,Apo,A4,32C (heat stress),1,0,0_day,0
+H2-Apo-32-A4-1,2,H2-Apo-32,H2,Apo,A4,32C (heat stress),1,3,3_day,1
+H2-Apo-32-A4-1,2,H2-Apo-32,H2,Apo,A4,32C (heat stress),1,4,4_day,0
+H2-Apo-32-A4-1,2,H2-Apo-32,H2,Apo,A4,32C (heat stress),1,5,5_day,7
+H2-Apo-32-A4-1,2,H2-Apo-32,H2,Apo,A4,32C (heat stress),1,7,7_day,10
+H2-Apo-32-A4-1,2,H2-Apo-32,H2,Apo,A4,32C (heat stress),1,10,10_day,10
+H2-Apo-32-A4-1,2,H2-Apo-32,H2,Apo,A4,32C (heat stress),1,11,11_day,10
+H2-Apo-32-A4-1,2,H2-Apo-32,H2,Apo,A4,32C (heat stress),1,14,14_day,12
+H2-Apo-32-A4-1,2,H2-Apo-32,H2,Apo,A4,32C (heat stress),1,21,21_day,12
+H2-Apo-32-B1-1,2,H2-Apo-32,H2,Apo,B1,32C (heat stress),1,0,0_day,0
+H2-Apo-32-B1-1,2,H2-Apo-32,H2,Apo,B1,32C (heat stress),1,3,3_day,x
+H2-Apo-32-B1-1,2,H2-Apo-32,H2,Apo,B1,32C (heat stress),1,4,4_day,x
+H2-Apo-32-B1-1,2,H2-Apo-32,H2,Apo,B1,32C (heat stress),1,5,5_day,x
+H2-Apo-32-B1-1,2,H2-Apo-32,H2,Apo,B1,32C (heat stress),1,7,7_day,x
+H2-Apo-32-B1-1,2,H2-Apo-32,H2,Apo,B1,32C (heat stress),1,10,10_day,x
+H2-Apo-32-B1-1,2,H2-Apo-32,H2,Apo,B1,32C (heat stress),1,11,11_day,x
+H2-Apo-32-B1-1,2,H2-Apo-32,H2,Apo,B1,32C (heat stress),1,14,14_day,x
+H2-Apo-32-B1-1,2,H2-Apo-32,H2,Apo,B1,32C (heat stress),1,21,21_day,x
+H2-Apo-32-B2-1,2,H2-Apo-32,H2,Apo,B2,32C (heat stress),1,0,0_day,0
+H2-Apo-32-B2-1,2,H2-Apo-32,H2,Apo,B2,32C (heat stress),1,3,3_day,0
+H2-Apo-32-B2-1,2,H2-Apo-32,H2,Apo,B2,32C (heat stress),1,4,4_day,0
+H2-Apo-32-B2-1,2,H2-Apo-32,H2,Apo,B2,32C (heat stress),1,5,5_day,0
+H2-Apo-32-B2-1,2,H2-Apo-32,H2,Apo,B2,32C (heat stress),1,7,7_day,0
+H2-Apo-32-B2-1,2,H2-Apo-32,H2,Apo,B2,32C (heat stress),1,10,10_day,5
+H2-Apo-32-B2-1,2,H2-Apo-32,H2,Apo,B2,32C (heat stress),1,11,11_day,8
+H2-Apo-32-B2-1,2,H2-Apo-32,H2,Apo,B2,32C (heat stress),1,14,14_day,8
+H2-Apo-32-B2-1,2,H2-Apo-32,H2,Apo,B2,32C (heat stress),1,21,21_day,8
+H2-Apo-32-B3-1,2,H2-Apo-32,H2,Apo,B3,32C (heat stress),1,0,0_day,0
+H2-Apo-32-B3-1,2,H2-Apo-32,H2,Apo,B3,32C (heat stress),1,3,3_day,0
+H2-Apo-32-B3-1,2,H2-Apo-32,H2,Apo,B3,32C (heat stress),1,4,4_day,0
+H2-Apo-32-B3-1,2,H2-Apo-32,H2,Apo,B3,32C (heat stress),1,5,5_day,0
+H2-Apo-32-B3-1,2,H2-Apo-32,H2,Apo,B3,32C (heat stress),1,7,7_day,0
+H2-Apo-32-B3-1,2,H2-Apo-32,H2,Apo,B3,32C (heat stress),1,10,10_day,4
+H2-Apo-32-B3-1,2,H2-Apo-32,H2,Apo,B3,32C (heat stress),1,11,11_day,6
+H2-Apo-32-B3-1,2,H2-Apo-32,H2,Apo,B3,32C (heat stress),1,14,14_day,6
+H2-Apo-32-B3-1,2,H2-Apo-32,H2,Apo,B3,32C (heat stress),1,21,21_day,6
+H2-Apo-32-B4-1,2,H2-Apo-32,H2,Apo,B4,32C (heat stress),1,0,0_day,0
+H2-Apo-32-B4-1,2,H2-Apo-32,H2,Apo,B4,32C (heat stress),1,3,3_day,0
+H2-Apo-32-B4-1,2,H2-Apo-32,H2,Apo,B4,32C (heat stress),1,4,4_day,1
+H2-Apo-32-B4-1,2,H2-Apo-32,H2,Apo,B4,32C (heat stress),1,5,5_day,1
+H2-Apo-32-B4-1,2,H2-Apo-32,H2,Apo,B4,32C (heat stress),1,7,7_day,x
+H2-Apo-32-B4-1,2,H2-Apo-32,H2,Apo,B4,32C (heat stress),1,10,10_day,x
+H2-Apo-32-B4-1,2,H2-Apo-32,H2,Apo,B4,32C (heat stress),1,11,11_day,x
+H2-Apo-32-B4-1,2,H2-Apo-32,H2,Apo,B4,32C (heat stress),1,14,14_day,x
+H2-Apo-32-B4-1,2,H2-Apo-32,H2,Apo,B4,32C (heat stress),1,21,21_day,x
+H2-Apo-32-C1-1,2,H2-Apo-32,H2,Apo,C1,32C (heat stress),1,0,0_day,0
+H2-Apo-32-C1-1,2,H2-Apo-32,H2,Apo,C1,32C (heat stress),1,3,3_day,x
+H2-Apo-32-C1-1,2,H2-Apo-32,H2,Apo,C1,32C (heat stress),1,4,4_day,x
+H2-Apo-32-C1-1,2,H2-Apo-32,H2,Apo,C1,32C (heat stress),1,5,5_day,x
+H2-Apo-32-C1-1,2,H2-Apo-32,H2,Apo,C1,32C (heat stress),1,7,7_day,x
+H2-Apo-32-C1-1,2,H2-Apo-32,H2,Apo,C1,32C (heat stress),1,10,10_day,x
+H2-Apo-32-C1-1,2,H2-Apo-32,H2,Apo,C1,32C (heat stress),1,11,11_day,x
+H2-Apo-32-C1-1,2,H2-Apo-32,H2,Apo,C1,32C (heat stress),1,14,14_day,x
+H2-Apo-32-C1-1,2,H2-Apo-32,H2,Apo,C1,32C (heat stress),1,21,21_day,x
+H2-Apo-32-C2-1,2,H2-Apo-32,H2,Apo,C2,32C (heat stress),1,0,0_day,0
+H2-Apo-32-C2-1,2,H2-Apo-32,H2,Apo,C2,32C (heat stress),1,3,3_day,x
+H2-Apo-32-C2-1,2,H2-Apo-32,H2,Apo,C2,32C (heat stress),1,4,4_day,x
+H2-Apo-32-C2-1,2,H2-Apo-32,H2,Apo,C2,32C (heat stress),1,5,5_day,x
+H2-Apo-32-C2-1,2,H2-Apo-32,H2,Apo,C2,32C (heat stress),1,7,7_day,x
+H2-Apo-32-C2-1,2,H2-Apo-32,H2,Apo,C2,32C (heat stress),1,10,10_day,x
+H2-Apo-32-C2-1,2,H2-Apo-32,H2,Apo,C2,32C (heat stress),1,11,11_day,x
+H2-Apo-32-C2-1,2,H2-Apo-32,H2,Apo,C2,32C (heat stress),1,14,14_day,x
+H2-Apo-32-C2-1,2,H2-Apo-32,H2,Apo,C2,32C (heat stress),1,21,21_day,x
+H2-Apo-32-C3-1,2,H2-Apo-32,H2,Apo,C3,32C (heat stress),1,0,0_day,0
+H2-Apo-32-C3-1,2,H2-Apo-32,H2,Apo,C3,32C (heat stress),1,3,3_day,x
+H2-Apo-32-C3-1,2,H2-Apo-32,H2,Apo,C3,32C (heat stress),1,4,4_day,x
+H2-Apo-32-C3-1,2,H2-Apo-32,H2,Apo,C3,32C (heat stress),1,5,5_day,x
+H2-Apo-32-C3-1,2,H2-Apo-32,H2,Apo,C3,32C (heat stress),1,7,7_day,x
+H2-Apo-32-C3-1,2,H2-Apo-32,H2,Apo,C3,32C (heat stress),1,10,10_day,x
+H2-Apo-32-C3-1,2,H2-Apo-32,H2,Apo,C3,32C (heat stress),1,11,11_day,x
+H2-Apo-32-C3-1,2,H2-Apo-32,H2,Apo,C3,32C (heat stress),1,14,14_day,x
+H2-Apo-32-C3-1,2,H2-Apo-32,H2,Apo,C3,32C (heat stress),1,21,21_day,x
+H2-Apo-32-C4-1,2,H2-Apo-32,H2,Apo,C4,32C (heat stress),1,0,0_day,0
+H2-Apo-32-C4-1,2,H2-Apo-32,H2,Apo,C4,32C (heat stress),1,3,3_day,x
+H2-Apo-32-C4-1,2,H2-Apo-32,H2,Apo,C4,32C (heat stress),1,4,4_day,x
+H2-Apo-32-C4-1,2,H2-Apo-32,H2,Apo,C4,32C (heat stress),1,5,5_day,x
+H2-Apo-32-C4-1,2,H2-Apo-32,H2,Apo,C4,32C (heat stress),1,7,7_day,x
+H2-Apo-32-C4-1,2,H2-Apo-32,H2,Apo,C4,32C (heat stress),1,10,10_day,x
+H2-Apo-32-C4-1,2,H2-Apo-32,H2,Apo,C4,32C (heat stress),1,11,11_day,x
+H2-Apo-32-C4-1,2,H2-Apo-32,H2,Apo,C4,32C (heat stress),1,14,14_day,x
+H2-Apo-32-C4-1,2,H2-Apo-32,H2,Apo,C4,32C (heat stress),1,21,21_day,x
+H2-Ino-25-A1-1,3,H2-Ino-25,H2,Ino,A1,25C (ambient),1,0,0_day,0
+H2-Ino-25-A1-1,3,H2-Ino-25,H2,Ino,A1,25C (ambient),1,3,3_day,0
+H2-Ino-25-A1-1,3,H2-Ino-25,H2,Ino,A1,25C (ambient),1,4,4_day,0
+H2-Ino-25-A1-1,3,H2-Ino-25,H2,Ino,A1,25C (ambient),1,5,5_day,1
+H2-Ino-25-A1-1,3,H2-Ino-25,H2,Ino,A1,25C (ambient),1,7,7_day,5
+H2-Ino-25-A1-1,3,H2-Ino-25,H2,Ino,A1,25C (ambient),1,10,10_day,7
+H2-Ino-25-A1-1,3,H2-Ino-25,H2,Ino,A1,25C (ambient),1,11,11_day,7
+H2-Ino-25-A1-1,3,H2-Ino-25,H2,Ino,A1,25C (ambient),1,14,14_day,7
+H2-Ino-25-A1-1,3,H2-Ino-25,H2,Ino,A1,25C (ambient),1,21,21_day,7
+H2-Ino-25-A2-1,3,H2-Ino-25,H2,Ino,A2,25C (ambient),1,0,0_day,0
+H2-Ino-25-A2-1,3,H2-Ino-25,H2,Ino,A2,25C (ambient),1,3,3_day,0
+H2-Ino-25-A2-1,3,H2-Ino-25,H2,Ino,A2,25C (ambient),1,4,4_day,0
+H2-Ino-25-A2-1,3,H2-Ino-25,H2,Ino,A2,25C (ambient),1,5,5_day,0
+H2-Ino-25-A2-1,3,H2-Ino-25,H2,Ino,A2,25C (ambient),1,7,7_day,0
+H2-Ino-25-A2-1,3,H2-Ino-25,H2,Ino,A2,25C (ambient),1,10,10_day,x
+H2-Ino-25-A2-1,3,H2-Ino-25,H2,Ino,A2,25C (ambient),1,11,11_day,x
+H2-Ino-25-A2-1,3,H2-Ino-25,H2,Ino,A2,25C (ambient),1,14,14_day,x
+H2-Ino-25-A2-1,3,H2-Ino-25,H2,Ino,A2,25C (ambient),1,21,21_day,x
+H2-Ino-25-A3-1,3,H2-Ino-25,H2,Ino,A3,25C (ambient),1,0,0_day,0
+H2-Ino-25-A3-1,3,H2-Ino-25,H2,Ino,A3,25C (ambient),1,3,3_day,x
+H2-Ino-25-A3-1,3,H2-Ino-25,H2,Ino,A3,25C (ambient),1,4,4_day,x
+H2-Ino-25-A3-1,3,H2-Ino-25,H2,Ino,A3,25C (ambient),1,5,5_day,x
+H2-Ino-25-A3-1,3,H2-Ino-25,H2,Ino,A3,25C (ambient),1,7,7_day,x
+H2-Ino-25-A3-1,3,H2-Ino-25,H2,Ino,A3,25C (ambient),1,10,10_day,x
+H2-Ino-25-A3-1,3,H2-Ino-25,H2,Ino,A3,25C (ambient),1,11,11_day,x
+H2-Ino-25-A3-1,3,H2-Ino-25,H2,Ino,A3,25C (ambient),1,14,14_day,x
+H2-Ino-25-A3-1,3,H2-Ino-25,H2,Ino,A3,25C (ambient),1,21,21_day,x
+H2-Ino-25-A4-1,3,H2-Ino-25,H2,Ino,A4,25C (ambient),1,0,0_day,0
+H2-Ino-25-A4-1,3,H2-Ino-25,H2,Ino,A4,25C (ambient),1,3,3_day,0
+H2-Ino-25-A4-1,3,H2-Ino-25,H2,Ino,A4,25C (ambient),1,4,4_day,0
+H2-Ino-25-A4-1,3,H2-Ino-25,H2,Ino,A4,25C (ambient),1,5,5_day,4
+H2-Ino-25-A4-1,3,H2-Ino-25,H2,Ino,A4,25C (ambient),1,7,7_day,9
+H2-Ino-25-A4-1,3,H2-Ino-25,H2,Ino,A4,25C (ambient),1,10,10_day,10
+H2-Ino-25-A4-1,3,H2-Ino-25,H2,Ino,A4,25C (ambient),1,11,11_day,10
+H2-Ino-25-A4-1,3,H2-Ino-25,H2,Ino,A4,25C (ambient),1,14,14_day,11
+H2-Ino-25-A4-1,3,H2-Ino-25,H2,Ino,A4,25C (ambient),1,21,21_day,12
+H2-Ino-25-B1-1,3,H2-Ino-25,H2,Ino,B1,25C (ambient),1,0,0_day,0
+H2-Ino-25-B1-1,3,H2-Ino-25,H2,Ino,B1,25C (ambient),1,3,3_day,0
+H2-Ino-25-B1-1,3,H2-Ino-25,H2,Ino,B1,25C (ambient),1,4,4_day,0
+H2-Ino-25-B1-1,3,H2-Ino-25,H2,Ino,B1,25C (ambient),1,5,5_day,4
+H2-Ino-25-B1-1,3,H2-Ino-25,H2,Ino,B1,25C (ambient),1,7,7_day,8
+H2-Ino-25-B1-1,3,H2-Ino-25,H2,Ino,B1,25C (ambient),1,10,10_day,9
+H2-Ino-25-B1-1,3,H2-Ino-25,H2,Ino,B1,25C (ambient),1,11,11_day,9
+H2-Ino-25-B1-1,3,H2-Ino-25,H2,Ino,B1,25C (ambient),1,14,14_day,9
+H2-Ino-25-B1-1,3,H2-Ino-25,H2,Ino,B1,25C (ambient),1,21,21_day,12
+H2-Ino-25-B2-1,3,H2-Ino-25,H2,Ino,B2,25C (ambient),1,0,0_day,0
+H2-Ino-25-B2-1,3,H2-Ino-25,H2,Ino,B2,25C (ambient),1,3,3_day,0
+H2-Ino-25-B2-1,3,H2-Ino-25,H2,Ino,B2,25C (ambient),1,4,4_day,0
+H2-Ino-25-B2-1,3,H2-Ino-25,H2,Ino,B2,25C (ambient),1,5,5_day,6
+H2-Ino-25-B2-1,3,H2-Ino-25,H2,Ino,B2,25C (ambient),1,7,7_day,3
+H2-Ino-25-B2-1,3,H2-Ino-25,H2,Ino,B2,25C (ambient),1,10,10_day,12
+H2-Ino-25-B2-1,3,H2-Ino-25,H2,Ino,B2,25C (ambient),1,11,11_day,12
+H2-Ino-25-B2-1,3,H2-Ino-25,H2,Ino,B2,25C (ambient),1,14,14_day,12
+H2-Ino-25-B2-1,3,H2-Ino-25,H2,Ino,B2,25C (ambient),1,21,21_day,12
+H2-Ino-25-B3-1,3,H2-Ino-25,H2,Ino,B3,25C (ambient),1,0,0_day,0
+H2-Ino-25-B3-1,3,H2-Ino-25,H2,Ino,B3,25C (ambient),1,3,3_day,0
+H2-Ino-25-B3-1,3,H2-Ino-25,H2,Ino,B3,25C (ambient),1,4,4_day,1
+H2-Ino-25-B3-1,3,H2-Ino-25,H2,Ino,B3,25C (ambient),1,5,5_day,4
+H2-Ino-25-B3-1,3,H2-Ino-25,H2,Ino,B3,25C (ambient),1,7,7_day,8
+H2-Ino-25-B3-1,3,H2-Ino-25,H2,Ino,B3,25C (ambient),1,10,10_day,7
+H2-Ino-25-B3-1,3,H2-Ino-25,H2,Ino,B3,25C (ambient),1,11,11_day,8
+H2-Ino-25-B3-1,3,H2-Ino-25,H2,Ino,B3,25C (ambient),1,14,14_day,8
+H2-Ino-25-B3-1,3,H2-Ino-25,H2,Ino,B3,25C (ambient),1,21,21_day,8
+H2-Ino-25-B4-1,3,H2-Ino-25,H2,Ino,B4,25C (ambient),1,0,0_day,0
+H2-Ino-25-B4-1,3,H2-Ino-25,H2,Ino,B4,25C (ambient),1,3,3_day,0
+H2-Ino-25-B4-1,3,H2-Ino-25,H2,Ino,B4,25C (ambient),1,4,4_day,1
+H2-Ino-25-B4-1,3,H2-Ino-25,H2,Ino,B4,25C (ambient),1,5,5_day,2
+H2-Ino-25-B4-1,3,H2-Ino-25,H2,Ino,B4,25C (ambient),1,7,7_day,4
+H2-Ino-25-B4-1,3,H2-Ino-25,H2,Ino,B4,25C (ambient),1,10,10_day,10
+H2-Ino-25-B4-1,3,H2-Ino-25,H2,Ino,B4,25C (ambient),1,11,11_day,10
+H2-Ino-25-B4-1,3,H2-Ino-25,H2,Ino,B4,25C (ambient),1,14,14_day,12
+H2-Ino-25-B4-1,3,H2-Ino-25,H2,Ino,B4,25C (ambient),1,21,21_day,14
+H2-Ino-25-B4-2,3,H2-Ino-25,H2,Ino,B4,25C (ambient),2,0,0_day,0
+H2-Ino-25-B4-2,3,H2-Ino-25,H2,Ino,B4,25C (ambient),2,3,3_day,0
+H2-Ino-25-B4-2,3,H2-Ino-25,H2,Ino,B4,25C (ambient),2,4,4_day,1
+H2-Ino-25-B4-2,3,H2-Ino-25,H2,Ino,B4,25C (ambient),2,5,5_day,0
+H2-Ino-25-B4-2,3,H2-Ino-25,H2,Ino,B4,25C (ambient),2,7,7_day,5
+H2-Ino-25-B4-2,3,H2-Ino-25,H2,Ino,B4,25C (ambient),2,10,10_day,7
+H2-Ino-25-B4-2,3,H2-Ino-25,H2,Ino,B4,25C (ambient),2,11,11_day,8
+H2-Ino-25-B4-2,3,H2-Ino-25,H2,Ino,B4,25C (ambient),2,14,14_day,8
+H2-Ino-25-B4-2,3,H2-Ino-25,H2,Ino,B4,25C (ambient),2,21,21_day,9
+H2-Ino-25-C1-1,3,H2-Ino-25,H2,Ino,C1,25C (ambient),1,0,0_day,0
+H2-Ino-25-C1-1,3,H2-Ino-25,H2,Ino,C1,25C (ambient),1,3,3_day,0
+H2-Ino-25-C1-1,3,H2-Ino-25,H2,Ino,C1,25C (ambient),1,4,4_day,0
+H2-Ino-25-C1-1,3,H2-Ino-25,H2,Ino,C1,25C (ambient),1,5,5_day,1
+H2-Ino-25-C1-1,3,H2-Ino-25,H2,Ino,C1,25C (ambient),1,7,7_day,4
+H2-Ino-25-C1-1,3,H2-Ino-25,H2,Ino,C1,25C (ambient),1,10,10_day,7
+H2-Ino-25-C1-1,3,H2-Ino-25,H2,Ino,C1,25C (ambient),1,11,11_day,7
+H2-Ino-25-C1-1,3,H2-Ino-25,H2,Ino,C1,25C (ambient),1,14,14_day,9
+H2-Ino-25-C1-1,3,H2-Ino-25,H2,Ino,C1,25C (ambient),1,21,21_day,10
+H2-Ino-25-C2-1,3,H2-Ino-25,H2,Ino,C2,25C (ambient),1,0,0_day,0
+H2-Ino-25-C2-1,3,H2-Ino-25,H2,Ino,C2,25C (ambient),1,3,3_day,0
+H2-Ino-25-C2-1,3,H2-Ino-25,H2,Ino,C2,25C (ambient),1,4,4_day,0
+H2-Ino-25-C2-1,3,H2-Ino-25,H2,Ino,C2,25C (ambient),1,5,5_day,4
+H2-Ino-25-C2-1,3,H2-Ino-25,H2,Ino,C2,25C (ambient),1,7,7_day,x
+H2-Ino-25-C2-1,3,H2-Ino-25,H2,Ino,C2,25C (ambient),1,10,10_day,x
+H2-Ino-25-C2-1,3,H2-Ino-25,H2,Ino,C2,25C (ambient),1,11,11_day,x
+H2-Ino-25-C2-1,3,H2-Ino-25,H2,Ino,C2,25C (ambient),1,14,14_day,x
+H2-Ino-25-C2-1,3,H2-Ino-25,H2,Ino,C2,25C (ambient),1,21,21_day,x
+H2-Ino-25-C3-1,3,H2-Ino-25,H2,Ino,C3,25C (ambient),1,0,0_day,0
+H2-Ino-25-C3-1,3,H2-Ino-25,H2,Ino,C3,25C (ambient),1,3,3_day,1
+H2-Ino-25-C3-1,3,H2-Ino-25,H2,Ino,C3,25C (ambient),1,4,4_day,0
+H2-Ino-25-C3-1,3,H2-Ino-25,H2,Ino,C3,25C (ambient),1,5,5_day,0
+H2-Ino-25-C3-1,3,H2-Ino-25,H2,Ino,C3,25C (ambient),1,7,7_day,x
+H2-Ino-25-C3-1,3,H2-Ino-25,H2,Ino,C3,25C (ambient),1,10,10_day,x
+H2-Ino-25-C3-1,3,H2-Ino-25,H2,Ino,C3,25C (ambient),1,11,11_day,x
+H2-Ino-25-C3-1,3,H2-Ino-25,H2,Ino,C3,25C (ambient),1,14,14_day,x
+H2-Ino-25-C3-1,3,H2-Ino-25,H2,Ino,C3,25C (ambient),1,21,21_day,x
+H2-Ino-25-C4-1,3,H2-Ino-25,H2,Ino,C4,25C (ambient),1,0,0_day,0
+H2-Ino-25-C4-1,3,H2-Ino-25,H2,Ino,C4,25C (ambient),1,3,3_day,0
+H2-Ino-25-C4-1,3,H2-Ino-25,H2,Ino,C4,25C (ambient),1,4,4_day,1
+H2-Ino-25-C4-1,3,H2-Ino-25,H2,Ino,C4,25C (ambient),1,5,5_day,1
+H2-Ino-25-C4-1,3,H2-Ino-25,H2,Ino,C4,25C (ambient),1,7,7_day,5
+H2-Ino-25-C4-1,3,H2-Ino-25,H2,Ino,C4,25C (ambient),1,10,10_day,14
+H2-Ino-25-C4-1,3,H2-Ino-25,H2,Ino,C4,25C (ambient),1,11,11_day,15
+H2-Ino-25-C4-1,3,H2-Ino-25,H2,Ino,C4,25C (ambient),1,14,14_day,15
+H2-Ino-25-C4-1,3,H2-Ino-25,H2,Ino,C4,25C (ambient),1,21,21_day,15
+H2-Ino-32-A1-1,4,H2-Ino-32,H2,Ino,A1,32C (heat stress),1,0,0_day,0
+H2-Ino-32-A1-1,4,H2-Ino-32,H2,Ino,A1,32C (heat stress),1,3,3_day,x
+H2-Ino-32-A1-1,4,H2-Ino-32,H2,Ino,A1,32C (heat stress),1,4,4_day,x
+H2-Ino-32-A1-1,4,H2-Ino-32,H2,Ino,A1,32C (heat stress),1,5,5_day,x
+H2-Ino-32-A1-1,4,H2-Ino-32,H2,Ino,A1,32C (heat stress),1,7,7_day,x
+H2-Ino-32-A1-1,4,H2-Ino-32,H2,Ino,A1,32C (heat stress),1,10,10_day,x
+H2-Ino-32-A1-1,4,H2-Ino-32,H2,Ino,A1,32C (heat stress),1,11,11_day,x
+H2-Ino-32-A1-1,4,H2-Ino-32,H2,Ino,A1,32C (heat stress),1,14,14_day,x
+H2-Ino-32-A1-1,4,H2-Ino-32,H2,Ino,A1,32C (heat stress),1,21,21_day,x
+H2-Ino-32-A2-1,4,H2-Ino-32,H2,Ino,A2,32C (heat stress),1,0,0_day,0
+H2-Ino-32-A2-1,4,H2-Ino-32,H2,Ino,A2,32C (heat stress),1,3,3_day,x
+H2-Ino-32-A2-1,4,H2-Ino-32,H2,Ino,A2,32C (heat stress),1,4,4_day,x
+H2-Ino-32-A2-1,4,H2-Ino-32,H2,Ino,A2,32C (heat stress),1,5,5_day,x
+H2-Ino-32-A2-1,4,H2-Ino-32,H2,Ino,A2,32C (heat stress),1,7,7_day,x
+H2-Ino-32-A2-1,4,H2-Ino-32,H2,Ino,A2,32C (heat stress),1,10,10_day,x
+H2-Ino-32-A2-1,4,H2-Ino-32,H2,Ino,A2,32C (heat stress),1,11,11_day,x
+H2-Ino-32-A2-1,4,H2-Ino-32,H2,Ino,A2,32C (heat stress),1,14,14_day,x
+H2-Ino-32-A2-1,4,H2-Ino-32,H2,Ino,A2,32C (heat stress),1,21,21_day,x
+H2-Ino-32-A3-1,4,H2-Ino-32,H2,Ino,A3,32C (heat stress),1,0,0_day,0
+H2-Ino-32-A3-1,4,H2-Ino-32,H2,Ino,A3,32C (heat stress),1,3,3_day,x
+H2-Ino-32-A3-1,4,H2-Ino-32,H2,Ino,A3,32C (heat stress),1,4,4_day,x
+H2-Ino-32-A3-1,4,H2-Ino-32,H2,Ino,A3,32C (heat stress),1,5,5_day,x
+H2-Ino-32-A3-1,4,H2-Ino-32,H2,Ino,A3,32C (heat stress),1,7,7_day,x
+H2-Ino-32-A3-1,4,H2-Ino-32,H2,Ino,A3,32C (heat stress),1,10,10_day,x
+H2-Ino-32-A3-1,4,H2-Ino-32,H2,Ino,A3,32C (heat stress),1,11,11_day,x
+H2-Ino-32-A3-1,4,H2-Ino-32,H2,Ino,A3,32C (heat stress),1,14,14_day,x
+H2-Ino-32-A3-1,4,H2-Ino-32,H2,Ino,A3,32C (heat stress),1,21,21_day,x
+H2-Ino-32-A4-1,4,H2-Ino-32,H2,Ino,A4,32C (heat stress),1,0,0_day,0
+H2-Ino-32-A4-1,4,H2-Ino-32,H2,Ino,A4,32C (heat stress),1,3,3_day,x
+H2-Ino-32-A4-1,4,H2-Ino-32,H2,Ino,A4,32C (heat stress),1,4,4_day,x
+H2-Ino-32-A4-1,4,H2-Ino-32,H2,Ino,A4,32C (heat stress),1,5,5_day,x
+H2-Ino-32-A4-1,4,H2-Ino-32,H2,Ino,A4,32C (heat stress),1,7,7_day,x
+H2-Ino-32-A4-1,4,H2-Ino-32,H2,Ino,A4,32C (heat stress),1,10,10_day,x
+H2-Ino-32-A4-1,4,H2-Ino-32,H2,Ino,A4,32C (heat stress),1,11,11_day,x
+H2-Ino-32-A4-1,4,H2-Ino-32,H2,Ino,A4,32C (heat stress),1,14,14_day,x
+H2-Ino-32-A4-1,4,H2-Ino-32,H2,Ino,A4,32C (heat stress),1,21,21_day,x
+H2-Ino-32-B1-1,4,H2-Ino-32,H2,Ino,B1,32C (heat stress),1,0,0_day,0
+H2-Ino-32-B1-1,4,H2-Ino-32,H2,Ino,B1,32C (heat stress),1,3,3_day,0
+H2-Ino-32-B1-1,4,H2-Ino-32,H2,Ino,B1,32C (heat stress),1,4,4_day,0
+H2-Ino-32-B1-1,4,H2-Ino-32,H2,Ino,B1,32C (heat stress),1,5,5_day,0
+H2-Ino-32-B1-1,4,H2-Ino-32,H2,Ino,B1,32C (heat stress),1,7,7_day,x
+H2-Ino-32-B1-1,4,H2-Ino-32,H2,Ino,B1,32C (heat stress),1,10,10_day,x
+H2-Ino-32-B1-1,4,H2-Ino-32,H2,Ino,B1,32C (heat stress),1,11,11_day,x
+H2-Ino-32-B1-1,4,H2-Ino-32,H2,Ino,B1,32C (heat stress),1,14,14_day,x
+H2-Ino-32-B1-1,4,H2-Ino-32,H2,Ino,B1,32C (heat stress),1,21,21_day,x
+H2-Ino-32-B2-1,4,H2-Ino-32,H2,Ino,B2,32C (heat stress),1,0,0_day,0
+H2-Ino-32-B2-1,4,H2-Ino-32,H2,Ino,B2,32C (heat stress),1,3,3_day,0
+H2-Ino-32-B2-1,4,H2-Ino-32,H2,Ino,B2,32C (heat stress),1,4,4_day,0
+H2-Ino-32-B2-1,4,H2-Ino-32,H2,Ino,B2,32C (heat stress),1,5,5_day,7
+H2-Ino-32-B2-1,4,H2-Ino-32,H2,Ino,B2,32C (heat stress),1,7,7_day,8
+H2-Ino-32-B2-1,4,H2-Ino-32,H2,Ino,B2,32C (heat stress),1,10,10_day,8
+H2-Ino-32-B2-1,4,H2-Ino-32,H2,Ino,B2,32C (heat stress),1,11,11_day,8
+H2-Ino-32-B2-1,4,H2-Ino-32,H2,Ino,B2,32C (heat stress),1,14,14_day,8
+H2-Ino-32-B2-1,4,H2-Ino-32,H2,Ino,B2,32C (heat stress),1,21,21_day,8
+H2-Ino-32-B3-1,4,H2-Ino-32,H2,Ino,B3,32C (heat stress),1,0,0_day,0
+H2-Ino-32-B3-1,4,H2-Ino-32,H2,Ino,B3,32C (heat stress),1,3,3_day,1
+H2-Ino-32-B3-1,4,H2-Ino-32,H2,Ino,B3,32C (heat stress),1,4,4_day,1
+H2-Ino-32-B3-1,4,H2-Ino-32,H2,Ino,B3,32C (heat stress),1,5,5_day,9
+H2-Ino-32-B3-1,4,H2-Ino-32,H2,Ino,B3,32C (heat stress),1,7,7_day,10
+H2-Ino-32-B3-1,4,H2-Ino-32,H2,Ino,B3,32C (heat stress),1,10,10_day,10
+H2-Ino-32-B3-1,4,H2-Ino-32,H2,Ino,B3,32C (heat stress),1,11,11_day,10
+H2-Ino-32-B3-1,4,H2-Ino-32,H2,Ino,B3,32C (heat stress),1,14,14_day,10
+H2-Ino-32-B3-1,4,H2-Ino-32,H2,Ino,B3,32C (heat stress),1,21,21_day,10
+H2-Ino-32-B4-1,4,H2-Ino-32,H2,Ino,B4,32C (heat stress),1,0,0_day,0
+H2-Ino-32-B4-1,4,H2-Ino-32,H2,Ino,B4,32C (heat stress),1,3,3_day,0
+H2-Ino-32-B4-1,4,H2-Ino-32,H2,Ino,B4,32C (heat stress),1,4,4_day,0
+H2-Ino-32-B4-1,4,H2-Ino-32,H2,Ino,B4,32C (heat stress),1,5,5_day,7
+H2-Ino-32-B4-1,4,H2-Ino-32,H2,Ino,B4,32C (heat stress),1,7,7_day,10
+H2-Ino-32-B4-1,4,H2-Ino-32,H2,Ino,B4,32C (heat stress),1,10,10_day,9
+H2-Ino-32-B4-1,4,H2-Ino-32,H2,Ino,B4,32C (heat stress),1,11,11_day,9
+H2-Ino-32-B4-1,4,H2-Ino-32,H2,Ino,B4,32C (heat stress),1,14,14_day,9
+H2-Ino-32-B4-1,4,H2-Ino-32,H2,Ino,B4,32C (heat stress),1,21,21_day,9
+H2-Ino-32-C1-1,4,H2-Ino-32,H2,Ino,C1,32C (heat stress),1,0,0_day,0
+H2-Ino-32-C1-1,4,H2-Ino-32,H2,Ino,C1,32C (heat stress),1,3,3_day,0
+H2-Ino-32-C1-1,4,H2-Ino-32,H2,Ino,C1,32C (heat stress),1,4,4_day,4
+H2-Ino-32-C1-1,4,H2-Ino-32,H2,Ino,C1,32C (heat stress),1,5,5_day,6
+H2-Ino-32-C1-1,4,H2-Ino-32,H2,Ino,C1,32C (heat stress),1,7,7_day,6
+H2-Ino-32-C1-1,4,H2-Ino-32,H2,Ino,C1,32C (heat stress),1,10,10_day,6
+H2-Ino-32-C1-1,4,H2-Ino-32,H2,Ino,C1,32C (heat stress),1,11,11_day,6
+H2-Ino-32-C1-1,4,H2-Ino-32,H2,Ino,C1,32C (heat stress),1,14,14_day,6
+H2-Ino-32-C1-1,4,H2-Ino-32,H2,Ino,C1,32C (heat stress),1,21,21_day,6
+H2-Ino-32-C2-1,4,H2-Ino-32,H2,Ino,C2,32C (heat stress),1,0,0_day,0
+H2-Ino-32-C2-1,4,H2-Ino-32,H2,Ino,C2,32C (heat stress),1,3,3_day,x
+H2-Ino-32-C2-1,4,H2-Ino-32,H2,Ino,C2,32C (heat stress),1,4,4_day,x
+H2-Ino-32-C2-1,4,H2-Ino-32,H2,Ino,C2,32C (heat stress),1,5,5_day,x
+H2-Ino-32-C2-1,4,H2-Ino-32,H2,Ino,C2,32C (heat stress),1,7,7_day,x
+H2-Ino-32-C2-1,4,H2-Ino-32,H2,Ino,C2,32C (heat stress),1,10,10_day,x
+H2-Ino-32-C2-1,4,H2-Ino-32,H2,Ino,C2,32C (heat stress),1,11,11_day,x
+H2-Ino-32-C2-1,4,H2-Ino-32,H2,Ino,C2,32C (heat stress),1,14,14_day,x
+H2-Ino-32-C2-1,4,H2-Ino-32,H2,Ino,C2,32C (heat stress),1,21,21_day,x
+H2-Ino-32-C3-1,4,H2-Ino-32,H2,Ino,C3,32C (heat stress),1,0,0_day,0
+H2-Ino-32-C3-1,4,H2-Ino-32,H2,Ino,C3,32C (heat stress),1,3,3_day,0
+H2-Ino-32-C3-1,4,H2-Ino-32,H2,Ino,C3,32C (heat stress),1,4,4_day,7
+H2-Ino-32-C3-1,4,H2-Ino-32,H2,Ino,C3,32C (heat stress),1,5,5_day,13
+H2-Ino-32-C3-1,4,H2-Ino-32,H2,Ino,C3,32C (heat stress),1,7,7_day,14
+H2-Ino-32-C3-1,4,H2-Ino-32,H2,Ino,C3,32C (heat stress),1,10,10_day,14
+H2-Ino-32-C3-1,4,H2-Ino-32,H2,Ino,C3,32C (heat stress),1,11,11_day,14
+H2-Ino-32-C3-1,4,H2-Ino-32,H2,Ino,C3,32C (heat stress),1,14,14_day,14
+H2-Ino-32-C3-1,4,H2-Ino-32,H2,Ino,C3,32C (heat stress),1,21,21_day,14
+H2-Ino-32-C4-1,4,H2-Ino-32,H2,Ino,C4,32C (heat stress),1,0,0_day,0
+H2-Ino-32-C4-1,4,H2-Ino-32,H2,Ino,C4,32C (heat stress),1,3,3_day,0
+H2-Ino-32-C4-1,4,H2-Ino-32,H2,Ino,C4,32C (heat stress),1,4,4_day,0
+H2-Ino-32-C4-1,4,H2-Ino-32,H2,Ino,C4,32C (heat stress),1,5,5_day,0
+H2-Ino-32-C4-1,4,H2-Ino-32,H2,Ino,C4,32C (heat stress),1,7,7_day,4
+H2-Ino-32-C4-1,4,H2-Ino-32,H2,Ino,C4,32C (heat stress),1,10,10_day,9
+H2-Ino-32-C4-1,4,H2-Ino-32,H2,Ino,C4,32C (heat stress),1,11,11_day,9
+H2-Ino-32-C4-1,4,H2-Ino-32,H2,Ino,C4,32C (heat stress),1,14,14_day,12
+H2-Ino-32-C4-1,4,H2-Ino-32,H2,Ino,C4,32C (heat stress),1,21,21_day,12
+H2-Sym-25-A1-1,5,H2-Sym-25,H2,Sym,A1,25C (ambient),1,0,0_day,0
+H2-Sym-25-A1-1,5,H2-Sym-25,H2,Sym,A1,25C (ambient),1,3,3_day,0
+H2-Sym-25-A1-1,5,H2-Sym-25,H2,Sym,A1,25C (ambient),1,4,4_day,0
+H2-Sym-25-A1-1,5,H2-Sym-25,H2,Sym,A1,25C (ambient),1,5,5_day,0
+H2-Sym-25-A1-1,5,H2-Sym-25,H2,Sym,A1,25C (ambient),1,7,7_day,3
+H2-Sym-25-A1-1,5,H2-Sym-25,H2,Sym,A1,25C (ambient),1,10,10_day,9
+H2-Sym-25-A1-1,5,H2-Sym-25,H2,Sym,A1,25C (ambient),1,11,11_day,11
+H2-Sym-25-A1-1,5,H2-Sym-25,H2,Sym,A1,25C (ambient),1,14,14_day,12
+H2-Sym-25-A1-1,5,H2-Sym-25,H2,Sym,A1,25C (ambient),1,21,21_day,12
+H2-Sym-25-A1-2,5,H2-Sym-25,H2,Sym,A1,25C (ambient),2,0,0_day,0
+H2-Sym-25-A1-2,5,H2-Sym-25,H2,Sym,A1,25C (ambient),2,3,3_day,0
+H2-Sym-25-A1-2,5,H2-Sym-25,H2,Sym,A1,25C (ambient),2,4,4_day,0
+H2-Sym-25-A1-2,5,H2-Sym-25,H2,Sym,A1,25C (ambient),2,5,5_day,0
+H2-Sym-25-A1-2,5,H2-Sym-25,H2,Sym,A1,25C (ambient),2,7,7_day,0
+H2-Sym-25-A1-2,5,H2-Sym-25,H2,Sym,A1,25C (ambient),2,10,10_day,0
+H2-Sym-25-A1-2,5,H2-Sym-25,H2,Sym,A1,25C (ambient),2,11,11_day,x
+H2-Sym-25-A1-2,5,H2-Sym-25,H2,Sym,A1,25C (ambient),2,14,14_day,x
+H2-Sym-25-A1-2,5,H2-Sym-25,H2,Sym,A1,25C (ambient),2,21,21_day,x
+H2-Sym-25-A2-1,5,H2-Sym-25,H2,Sym,A2,25C (ambient),1,0,0_day,0
+H2-Sym-25-A2-1,5,H2-Sym-25,H2,Sym,A2,25C (ambient),1,3,3_day,0
+H2-Sym-25-A2-1,5,H2-Sym-25,H2,Sym,A2,25C (ambient),1,4,4_day,0
+H2-Sym-25-A2-1,5,H2-Sym-25,H2,Sym,A2,25C (ambient),1,5,5_day,0
+H2-Sym-25-A2-1,5,H2-Sym-25,H2,Sym,A2,25C (ambient),1,7,7_day,0
+H2-Sym-25-A2-1,5,H2-Sym-25,H2,Sym,A2,25C (ambient),1,10,10_day,0
+H2-Sym-25-A2-1,5,H2-Sym-25,H2,Sym,A2,25C (ambient),1,11,11_day,8
+H2-Sym-25-A2-1,5,H2-Sym-25,H2,Sym,A2,25C (ambient),1,14,14_day,11
+H2-Sym-25-A2-1,5,H2-Sym-25,H2,Sym,A2,25C (ambient),1,21,21_day,13
+H2-Sym-25-A2-2,5,H2-Sym-25,H2,Sym,A2,25C (ambient),2,0,0_day,0
+H2-Sym-25-A2-2,5,H2-Sym-25,H2,Sym,A2,25C (ambient),2,3,3_day,0
+H2-Sym-25-A2-2,5,H2-Sym-25,H2,Sym,A2,25C (ambient),2,4,4_day,0
+H2-Sym-25-A2-2,5,H2-Sym-25,H2,Sym,A2,25C (ambient),2,5,5_day,0
+H2-Sym-25-A2-2,5,H2-Sym-25,H2,Sym,A2,25C (ambient),2,7,7_day,0
+H2-Sym-25-A2-2,5,H2-Sym-25,H2,Sym,A2,25C (ambient),2,10,10_day,0
+H2-Sym-25-A2-2,5,H2-Sym-25,H2,Sym,A2,25C (ambient),2,11,11_day,x
+H2-Sym-25-A2-2,5,H2-Sym-25,H2,Sym,A2,25C (ambient),2,14,14_day,x
+H2-Sym-25-A2-2,5,H2-Sym-25,H2,Sym,A2,25C (ambient),2,21,21_day,x
+H2-Sym-25-A3-1,5,H2-Sym-25,H2,Sym,A3,25C (ambient),1,0,0_day,0
+H2-Sym-25-A3-1,5,H2-Sym-25,H2,Sym,A3,25C (ambient),1,3,3_day,0
+H2-Sym-25-A3-1,5,H2-Sym-25,H2,Sym,A3,25C (ambient),1,4,4_day,0
+H2-Sym-25-A3-1,5,H2-Sym-25,H2,Sym,A3,25C (ambient),1,5,5_day,0
+H2-Sym-25-A3-1,5,H2-Sym-25,H2,Sym,A3,25C (ambient),1,7,7_day,0
+H2-Sym-25-A3-1,5,H2-Sym-25,H2,Sym,A3,25C (ambient),1,10,10_day,0
+H2-Sym-25-A3-1,5,H2-Sym-25,H2,Sym,A3,25C (ambient),1,11,11_day,x
+H2-Sym-25-A3-1,5,H2-Sym-25,H2,Sym,A3,25C (ambient),1,14,14_day,x
+H2-Sym-25-A3-1,5,H2-Sym-25,H2,Sym,A3,25C (ambient),1,21,21_day,x
+H2-Sym-25-A3-2,5,H2-Sym-25,H2,Sym,A3,25C (ambient),2,0,0_day,0
+H2-Sym-25-A3-2,5,H2-Sym-25,H2,Sym,A3,25C (ambient),2,3,3_day,0
+H2-Sym-25-A3-2,5,H2-Sym-25,H2,Sym,A3,25C (ambient),2,4,4_day,0
+H2-Sym-25-A3-2,5,H2-Sym-25,H2,Sym,A3,25C (ambient),2,5,5_day,0
+H2-Sym-25-A3-2,5,H2-Sym-25,H2,Sym,A3,25C (ambient),2,7,7_day,0
+H2-Sym-25-A3-2,5,H2-Sym-25,H2,Sym,A3,25C (ambient),2,10,10_day,0
+H2-Sym-25-A3-2,5,H2-Sym-25,H2,Sym,A3,25C (ambient),2,11,11_day,x
+H2-Sym-25-A3-2,5,H2-Sym-25,H2,Sym,A3,25C (ambient),2,14,14_day,x
+H2-Sym-25-A3-2,5,H2-Sym-25,H2,Sym,A3,25C (ambient),2,21,21_day,x
+H2-Sym-25-A4-1,5,H2-Sym-25,H2,Sym,A4,25C (ambient),1,0,0_day,0
+H2-Sym-25-A4-1,5,H2-Sym-25,H2,Sym,A4,25C (ambient),1,3,3_day,0
+H2-Sym-25-A4-1,5,H2-Sym-25,H2,Sym,A4,25C (ambient),1,4,4_day,0
+H2-Sym-25-A4-1,5,H2-Sym-25,H2,Sym,A4,25C (ambient),1,5,5_day,0
+H2-Sym-25-A4-1,5,H2-Sym-25,H2,Sym,A4,25C (ambient),1,7,7_day,6
+H2-Sym-25-A4-1,5,H2-Sym-25,H2,Sym,A4,25C (ambient),1,10,10_day,10
+H2-Sym-25-A4-1,5,H2-Sym-25,H2,Sym,A4,25C (ambient),1,11,11_day,10
+H2-Sym-25-A4-1,5,H2-Sym-25,H2,Sym,A4,25C (ambient),1,14,14_day,10
+H2-Sym-25-A4-1,5,H2-Sym-25,H2,Sym,A4,25C (ambient),1,21,21_day,10
+H2-Sym-25-A4-2,5,H2-Sym-25,H2,Sym,A4,25C (ambient),2,0,0_day,0
+H2-Sym-25-A4-2,5,H2-Sym-25,H2,Sym,A4,25C (ambient),2,3,3_day,0
+H2-Sym-25-A4-2,5,H2-Sym-25,H2,Sym,A4,25C (ambient),2,4,4_day,0
+H2-Sym-25-A4-2,5,H2-Sym-25,H2,Sym,A4,25C (ambient),2,5,5_day,0
+H2-Sym-25-A4-2,5,H2-Sym-25,H2,Sym,A4,25C (ambient),2,7,7_day,0
+H2-Sym-25-A4-2,5,H2-Sym-25,H2,Sym,A4,25C (ambient),2,10,10_day,0
+H2-Sym-25-A4-2,5,H2-Sym-25,H2,Sym,A4,25C (ambient),2,11,11_day,x
+H2-Sym-25-A4-2,5,H2-Sym-25,H2,Sym,A4,25C (ambient),2,14,14_day,x
+H2-Sym-25-A4-2,5,H2-Sym-25,H2,Sym,A4,25C (ambient),2,21,21_day,x
+H2-Sym-25-B1-1,5,H2-Sym-25,H2,Sym,B1,25C (ambient),1,0,0_day,0
+H2-Sym-25-B1-1,5,H2-Sym-25,H2,Sym,B1,25C (ambient),1,3,3_day,0
+H2-Sym-25-B1-1,5,H2-Sym-25,H2,Sym,B1,25C (ambient),1,4,4_day,0
+H2-Sym-25-B1-1,5,H2-Sym-25,H2,Sym,B1,25C (ambient),1,5,5_day,0
+H2-Sym-25-B1-1,5,H2-Sym-25,H2,Sym,B1,25C (ambient),1,7,7_day,0
+H2-Sym-25-B1-1,5,H2-Sym-25,H2,Sym,B1,25C (ambient),1,10,10_day,8
+H2-Sym-25-B1-1,5,H2-Sym-25,H2,Sym,B1,25C (ambient),1,11,11_day,8
+H2-Sym-25-B1-1,5,H2-Sym-25,H2,Sym,B1,25C (ambient),1,14,14_day,9
+H2-Sym-25-B1-1,5,H2-Sym-25,H2,Sym,B1,25C (ambient),1,21,21_day,12
+H2-Sym-25-B2-1,5,H2-Sym-25,H2,Sym,B2,25C (ambient),1,0,0_day,0
+H2-Sym-25-B2-1,5,H2-Sym-25,H2,Sym,B2,25C (ambient),1,3,3_day,0
+H2-Sym-25-B2-1,5,H2-Sym-25,H2,Sym,B2,25C (ambient),1,4,4_day,0
+H2-Sym-25-B2-1,5,H2-Sym-25,H2,Sym,B2,25C (ambient),1,5,5_day,0
+H2-Sym-25-B2-1,5,H2-Sym-25,H2,Sym,B2,25C (ambient),1,7,7_day,0
+H2-Sym-25-B2-1,5,H2-Sym-25,H2,Sym,B2,25C (ambient),1,10,10_day,0
+H2-Sym-25-B2-1,5,H2-Sym-25,H2,Sym,B2,25C (ambient),1,11,11_day,x
+H2-Sym-25-B2-1,5,H2-Sym-25,H2,Sym,B2,25C (ambient),1,14,14_day,x
+H2-Sym-25-B2-1,5,H2-Sym-25,H2,Sym,B2,25C (ambient),1,21,21_day,x
+H2-Sym-25-B3-1,5,H2-Sym-25,H2,Sym,B3,25C (ambient),1,0,0_day,0
+H2-Sym-25-B3-1,5,H2-Sym-25,H2,Sym,B3,25C (ambient),1,3,3_day,0
+H2-Sym-25-B3-1,5,H2-Sym-25,H2,Sym,B3,25C (ambient),1,4,4_day,0
+H2-Sym-25-B3-1,5,H2-Sym-25,H2,Sym,B3,25C (ambient),1,5,5_day,0
+H2-Sym-25-B3-1,5,H2-Sym-25,H2,Sym,B3,25C (ambient),1,7,7_day,4
+H2-Sym-25-B3-1,5,H2-Sym-25,H2,Sym,B3,25C (ambient),1,10,10_day,8
+H2-Sym-25-B3-1,5,H2-Sym-25,H2,Sym,B3,25C (ambient),1,11,11_day,10
+H2-Sym-25-B3-1,5,H2-Sym-25,H2,Sym,B3,25C (ambient),1,14,14_day,12
+H2-Sym-25-B3-1,5,H2-Sym-25,H2,Sym,B3,25C (ambient),1,21,21_day,12
+H2-Sym-25-B4-1,5,H2-Sym-25,H2,Sym,B4,25C (ambient),1,0,0_day,0
+H2-Sym-25-B4-1,5,H2-Sym-25,H2,Sym,B4,25C (ambient),1,3,3_day,x
+H2-Sym-25-B4-1,5,H2-Sym-25,H2,Sym,B4,25C (ambient),1,4,4_day,x
+H2-Sym-25-B4-1,5,H2-Sym-25,H2,Sym,B4,25C (ambient),1,5,5_day,x
+H2-Sym-25-B4-1,5,H2-Sym-25,H2,Sym,B4,25C (ambient),1,7,7_day,x
+H2-Sym-25-B4-1,5,H2-Sym-25,H2,Sym,B4,25C (ambient),1,10,10_day,x
+H2-Sym-25-B4-1,5,H2-Sym-25,H2,Sym,B4,25C (ambient),1,11,11_day,x
+H2-Sym-25-B4-1,5,H2-Sym-25,H2,Sym,B4,25C (ambient),1,14,14_day,x
+H2-Sym-25-B4-1,5,H2-Sym-25,H2,Sym,B4,25C (ambient),1,21,21_day,x
+H2-Sym-25-C1-1,5,H2-Sym-25,H2,Sym,C1,25C (ambient),1,0,0_day,0
+H2-Sym-25-C1-1,5,H2-Sym-25,H2,Sym,C1,25C (ambient),1,3,3_day,x
+H2-Sym-25-C1-1,5,H2-Sym-25,H2,Sym,C1,25C (ambient),1,4,4_day,x
+H2-Sym-25-C1-1,5,H2-Sym-25,H2,Sym,C1,25C (ambient),1,5,5_day,x
+H2-Sym-25-C1-1,5,H2-Sym-25,H2,Sym,C1,25C (ambient),1,7,7_day,x
+H2-Sym-25-C1-1,5,H2-Sym-25,H2,Sym,C1,25C (ambient),1,10,10_day,x
+H2-Sym-25-C1-1,5,H2-Sym-25,H2,Sym,C1,25C (ambient),1,11,11_day,x
+H2-Sym-25-C1-1,5,H2-Sym-25,H2,Sym,C1,25C (ambient),1,14,14_day,x
+H2-Sym-25-C1-1,5,H2-Sym-25,H2,Sym,C1,25C (ambient),1,21,21_day,x
+H2-Sym-25-C2-1,5,H2-Sym-25,H2,Sym,C2,25C (ambient),1,0,0_day,0
+H2-Sym-25-C2-1,5,H2-Sym-25,H2,Sym,C2,25C (ambient),1,3,3_day,0
+H2-Sym-25-C2-1,5,H2-Sym-25,H2,Sym,C2,25C (ambient),1,4,4_day,0
+H2-Sym-25-C2-1,5,H2-Sym-25,H2,Sym,C2,25C (ambient),1,5,5_day,0
+H2-Sym-25-C2-1,5,H2-Sym-25,H2,Sym,C2,25C (ambient),1,7,7_day,1
+H2-Sym-25-C2-1,5,H2-Sym-25,H2,Sym,C2,25C (ambient),1,10,10_day,10
+H2-Sym-25-C2-1,5,H2-Sym-25,H2,Sym,C2,25C (ambient),1,11,11_day,10
+H2-Sym-25-C2-1,5,H2-Sym-25,H2,Sym,C2,25C (ambient),1,14,14_day,10
+H2-Sym-25-C2-1,5,H2-Sym-25,H2,Sym,C2,25C (ambient),1,21,21_day,14
+H2-Sym-25-C3-1,5,H2-Sym-25,H2,Sym,C3,25C (ambient),1,0,0_day,0
+H2-Sym-25-C3-1,5,H2-Sym-25,H2,Sym,C3,25C (ambient),1,3,3_day,0
+H2-Sym-25-C3-1,5,H2-Sym-25,H2,Sym,C3,25C (ambient),1,4,4_day,0
+H2-Sym-25-C3-1,5,H2-Sym-25,H2,Sym,C3,25C (ambient),1,5,5_day,0
+H2-Sym-25-C3-1,5,H2-Sym-25,H2,Sym,C3,25C (ambient),1,7,7_day,0
+H2-Sym-25-C3-1,5,H2-Sym-25,H2,Sym,C3,25C (ambient),1,10,10_day,0
+H2-Sym-25-C3-1,5,H2-Sym-25,H2,Sym,C3,25C (ambient),1,11,11_day,x
+H2-Sym-25-C3-1,5,H2-Sym-25,H2,Sym,C3,25C (ambient),1,14,14_day,x
+H2-Sym-25-C3-1,5,H2-Sym-25,H2,Sym,C3,25C (ambient),1,21,21_day,x
+H2-Sym-25-C4-1,5,H2-Sym-25,H2,Sym,C4,25C (ambient),1,0,0_day,0
+H2-Sym-25-C4-1,5,H2-Sym-25,H2,Sym,C4,25C (ambient),1,3,3_day,0
+H2-Sym-25-C4-1,5,H2-Sym-25,H2,Sym,C4,25C (ambient),1,4,4_day,0
+H2-Sym-25-C4-1,5,H2-Sym-25,H2,Sym,C4,25C (ambient),1,5,5_day,0
+H2-Sym-25-C4-1,5,H2-Sym-25,H2,Sym,C4,25C (ambient),1,7,7_day,0
+H2-Sym-25-C4-1,5,H2-Sym-25,H2,Sym,C4,25C (ambient),1,10,10_day,0
+H2-Sym-25-C4-1,5,H2-Sym-25,H2,Sym,C4,25C (ambient),1,11,11_day,x
+H2-Sym-25-C4-1,5,H2-Sym-25,H2,Sym,C4,25C (ambient),1,14,14_day,x
+H2-Sym-25-C4-1,5,H2-Sym-25,H2,Sym,C4,25C (ambient),1,21,21_day,x
+H2-Sym-32-A1-1,6,H2-Sym-32,H2,Sym,A1,32C (heat stress),1,0,0_day,0
+H2-Sym-32-A1-1,6,H2-Sym-32,H2,Sym,A1,32C (heat stress),1,3,3_day,0
+H2-Sym-32-A1-1,6,H2-Sym-32,H2,Sym,A1,32C (heat stress),1,4,4_day,0
+H2-Sym-32-A1-1,6,H2-Sym-32,H2,Sym,A1,32C (heat stress),1,5,5_day,1
+H2-Sym-32-A1-1,6,H2-Sym-32,H2,Sym,A1,32C (heat stress),1,7,7_day,12
+H2-Sym-32-A1-1,6,H2-Sym-32,H2,Sym,A1,32C (heat stress),1,10,10_day,12
+H2-Sym-32-A1-1,6,H2-Sym-32,H2,Sym,A1,32C (heat stress),1,11,11_day,9
+H2-Sym-32-A1-1,6,H2-Sym-32,H2,Sym,A1,32C (heat stress),1,14,14_day,9
+H2-Sym-32-A1-1,6,H2-Sym-32,H2,Sym,A1,32C (heat stress),1,21,21_day,9
+H2-Sym-32-A1-2,6,H2-Sym-32,H2,Sym,A1,32C (heat stress),2,0,0_day,0
+H2-Sym-32-A1-2,6,H2-Sym-32,H2,Sym,A1,32C (heat stress),2,3,3_day,0
+H2-Sym-32-A1-2,6,H2-Sym-32,H2,Sym,A1,32C (heat stress),2,4,4_day,0
+H2-Sym-32-A1-2,6,H2-Sym-32,H2,Sym,A1,32C (heat stress),2,5,5_day,0
+H2-Sym-32-A1-2,6,H2-Sym-32,H2,Sym,A1,32C (heat stress),2,7,7_day,4
+H2-Sym-32-A1-2,6,H2-Sym-32,H2,Sym,A1,32C (heat stress),2,10,10_day,6
+H2-Sym-32-A1-2,6,H2-Sym-32,H2,Sym,A1,32C (heat stress),2,11,11_day,6
+H2-Sym-32-A1-2,6,H2-Sym-32,H2,Sym,A1,32C (heat stress),2,14,14_day,6
+H2-Sym-32-A1-2,6,H2-Sym-32,H2,Sym,A1,32C (heat stress),2,21,21_day,
+H2-Sym-32-A2-1,6,H2-Sym-32,H2,Sym,A2,32C (heat stress),1,0,0_day,0
+H2-Sym-32-A2-1,6,H2-Sym-32,H2,Sym,A2,32C (heat stress),1,3,3_day,0
+H2-Sym-32-A2-1,6,H2-Sym-32,H2,Sym,A2,32C (heat stress),1,4,4_day,0
+H2-Sym-32-A2-1,6,H2-Sym-32,H2,Sym,A2,32C (heat stress),1,5,5_day,1
+H2-Sym-32-A2-1,6,H2-Sym-32,H2,Sym,A2,32C (heat stress),1,7,7_day,7
+H2-Sym-32-A2-1,6,H2-Sym-32,H2,Sym,A2,32C (heat stress),1,10,10_day,10
+H2-Sym-32-A2-1,6,H2-Sym-32,H2,Sym,A2,32C (heat stress),1,11,11_day,11
+H2-Sym-32-A2-1,6,H2-Sym-32,H2,Sym,A2,32C (heat stress),1,14,14_day,12
+H2-Sym-32-A2-1,6,H2-Sym-32,H2,Sym,A2,32C (heat stress),1,21,21_day,13
+H2-Sym-32-A2-2,6,H2-Sym-32,H2,Sym,A2,32C (heat stress),2,0,0_day,0
+H2-Sym-32-A2-2,6,H2-Sym-32,H2,Sym,A2,32C (heat stress),2,3,3_day,0
+H2-Sym-32-A2-2,6,H2-Sym-32,H2,Sym,A2,32C (heat stress),2,4,4_day,0
+H2-Sym-32-A2-2,6,H2-Sym-32,H2,Sym,A2,32C (heat stress),2,5,5_day,0
+H2-Sym-32-A2-2,6,H2-Sym-32,H2,Sym,A2,32C (heat stress),2,7,7_day,0
+H2-Sym-32-A2-2,6,H2-Sym-32,H2,Sym,A2,32C (heat stress),2,10,10_day,0
+H2-Sym-32-A2-2,6,H2-Sym-32,H2,Sym,A2,32C (heat stress),2,11,11_day,x
+H2-Sym-32-A2-2,6,H2-Sym-32,H2,Sym,A2,32C (heat stress),2,14,14_day,x
+H2-Sym-32-A2-2,6,H2-Sym-32,H2,Sym,A2,32C (heat stress),2,21,21_day,x
+H2-Sym-32-A3-1,6,H2-Sym-32,H2,Sym,A3,32C (heat stress),1,0,0_day,0
+H2-Sym-32-A3-1,6,H2-Sym-32,H2,Sym,A3,32C (heat stress),1,3,3_day,0
+H2-Sym-32-A3-1,6,H2-Sym-32,H2,Sym,A3,32C (heat stress),1,4,4_day,0
+H2-Sym-32-A3-1,6,H2-Sym-32,H2,Sym,A3,32C (heat stress),1,5,5_day,2
+H2-Sym-32-A3-1,6,H2-Sym-32,H2,Sym,A3,32C (heat stress),1,7,7_day,9
+H2-Sym-32-A3-1,6,H2-Sym-32,H2,Sym,A3,32C (heat stress),1,10,10_day,10
+H2-Sym-32-A3-1,6,H2-Sym-32,H2,Sym,A3,32C (heat stress),1,11,11_day,10
+H2-Sym-32-A3-1,6,H2-Sym-32,H2,Sym,A3,32C (heat stress),1,14,14_day,10
+H2-Sym-32-A3-1,6,H2-Sym-32,H2,Sym,A3,32C (heat stress),1,21,21_day,10
+H2-Sym-32-A3-2,6,H2-Sym-32,H2,Sym,A3,32C (heat stress),2,0,0_day,0
+H2-Sym-32-A3-2,6,H2-Sym-32,H2,Sym,A3,32C (heat stress),2,3,3_day,0
+H2-Sym-32-A3-2,6,H2-Sym-32,H2,Sym,A3,32C (heat stress),2,4,4_day,0
+H2-Sym-32-A3-2,6,H2-Sym-32,H2,Sym,A3,32C (heat stress),2,5,5_day,0
+H2-Sym-32-A3-2,6,H2-Sym-32,H2,Sym,A3,32C (heat stress),2,7,7_day,0
+H2-Sym-32-A3-2,6,H2-Sym-32,H2,Sym,A3,32C (heat stress),2,10,10_day,0
+H2-Sym-32-A3-2,6,H2-Sym-32,H2,Sym,A3,32C (heat stress),2,11,11_day,x
+H2-Sym-32-A3-2,6,H2-Sym-32,H2,Sym,A3,32C (heat stress),2,14,14_day,x
+H2-Sym-32-A3-2,6,H2-Sym-32,H2,Sym,A3,32C (heat stress),2,21,21_day,x
+H2-Sym-32-A4-1,6,H2-Sym-32,H2,Sym,A4,32C (heat stress),1,0,0_day,0
+H2-Sym-32-A4-1,6,H2-Sym-32,H2,Sym,A4,32C (heat stress),1,3,3_day,0
+H2-Sym-32-A4-1,6,H2-Sym-32,H2,Sym,A4,32C (heat stress),1,4,4_day,0
+H2-Sym-32-A4-1,6,H2-Sym-32,H2,Sym,A4,32C (heat stress),1,5,5_day,2
+H2-Sym-32-A4-1,6,H2-Sym-32,H2,Sym,A4,32C (heat stress),1,7,7_day,9
+H2-Sym-32-A4-1,6,H2-Sym-32,H2,Sym,A4,32C (heat stress),1,10,10_day,6
+H2-Sym-32-A4-1,6,H2-Sym-32,H2,Sym,A4,32C (heat stress),1,11,11_day,6
+H2-Sym-32-A4-1,6,H2-Sym-32,H2,Sym,A4,32C (heat stress),1,14,14_day,6
+H2-Sym-32-A4-1,6,H2-Sym-32,H2,Sym,A4,32C (heat stress),1,21,21_day,
+H2-Sym-32-A4-2,6,H2-Sym-32,H2,Sym,A4,32C (heat stress),2,0,0_day,0
+H2-Sym-32-A4-2,6,H2-Sym-32,H2,Sym,A4,32C (heat stress),2,3,3_day,x
+H2-Sym-32-A4-2,6,H2-Sym-32,H2,Sym,A4,32C (heat stress),2,4,4_day,x
+H2-Sym-32-A4-2,6,H2-Sym-32,H2,Sym,A4,32C (heat stress),2,5,5_day,x
+H2-Sym-32-A4-2,6,H2-Sym-32,H2,Sym,A4,32C (heat stress),2,7,7_day,x
+H2-Sym-32-A4-2,6,H2-Sym-32,H2,Sym,A4,32C (heat stress),2,10,10_day,x
+H2-Sym-32-A4-2,6,H2-Sym-32,H2,Sym,A4,32C (heat stress),2,11,11_day,x
+H2-Sym-32-A4-2,6,H2-Sym-32,H2,Sym,A4,32C (heat stress),2,14,14_day,x
+H2-Sym-32-A4-2,6,H2-Sym-32,H2,Sym,A4,32C (heat stress),2,21,21_day,x
+H2-Sym-32-B1-1,6,H2-Sym-32,H2,Sym,B1,32C (heat stress),1,0,0_day,0
+H2-Sym-32-B1-1,6,H2-Sym-32,H2,Sym,B1,32C (heat stress),1,3,3_day,x
+H2-Sym-32-B1-1,6,H2-Sym-32,H2,Sym,B1,32C (heat stress),1,4,4_day,x
+H2-Sym-32-B1-1,6,H2-Sym-32,H2,Sym,B1,32C (heat stress),1,5,5_day,x
+H2-Sym-32-B1-1,6,H2-Sym-32,H2,Sym,B1,32C (heat stress),1,7,7_day,x
+H2-Sym-32-B1-1,6,H2-Sym-32,H2,Sym,B1,32C (heat stress),1,10,10_day,x
+H2-Sym-32-B1-1,6,H2-Sym-32,H2,Sym,B1,32C (heat stress),1,11,11_day,x
+H2-Sym-32-B1-1,6,H2-Sym-32,H2,Sym,B1,32C (heat stress),1,14,14_day,x
+H2-Sym-32-B1-1,6,H2-Sym-32,H2,Sym,B1,32C (heat stress),1,21,21_day,x
+H2-Sym-32-B2-1,6,H2-Sym-32,H2,Sym,B2,32C (heat stress),1,0,0_day,0
+H2-Sym-32-B2-1,6,H2-Sym-32,H2,Sym,B2,32C (heat stress),1,3,3_day,x
+H2-Sym-32-B2-1,6,H2-Sym-32,H2,Sym,B2,32C (heat stress),1,4,4_day,x
+H2-Sym-32-B2-1,6,H2-Sym-32,H2,Sym,B2,32C (heat stress),1,5,5_day,x
+H2-Sym-32-B2-1,6,H2-Sym-32,H2,Sym,B2,32C (heat stress),1,7,7_day,x
+H2-Sym-32-B2-1,6,H2-Sym-32,H2,Sym,B2,32C (heat stress),1,10,10_day,x
+H2-Sym-32-B2-1,6,H2-Sym-32,H2,Sym,B2,32C (heat stress),1,11,11_day,x
+H2-Sym-32-B2-1,6,H2-Sym-32,H2,Sym,B2,32C (heat stress),1,14,14_day,x
+H2-Sym-32-B2-1,6,H2-Sym-32,H2,Sym,B2,32C (heat stress),1,21,21_day,x
+H2-Sym-32-B3-1,6,H2-Sym-32,H2,Sym,B3,32C (heat stress),1,0,0_day,0
+H2-Sym-32-B3-1,6,H2-Sym-32,H2,Sym,B3,32C (heat stress),1,3,3_day,x
+H2-Sym-32-B3-1,6,H2-Sym-32,H2,Sym,B3,32C (heat stress),1,4,4_day,x
+H2-Sym-32-B3-1,6,H2-Sym-32,H2,Sym,B3,32C (heat stress),1,5,5_day,x
+H2-Sym-32-B3-1,6,H2-Sym-32,H2,Sym,B3,32C (heat stress),1,7,7_day,x
+H2-Sym-32-B3-1,6,H2-Sym-32,H2,Sym,B3,32C (heat stress),1,10,10_day,x
+H2-Sym-32-B3-1,6,H2-Sym-32,H2,Sym,B3,32C (heat stress),1,11,11_day,x
+H2-Sym-32-B3-1,6,H2-Sym-32,H2,Sym,B3,32C (heat stress),1,14,14_day,x
+H2-Sym-32-B3-1,6,H2-Sym-32,H2,Sym,B3,32C (heat stress),1,21,21_day,x
+H2-Sym-32-B4-1,6,H2-Sym-32,H2,Sym,B4,32C (heat stress),1,0,0_day,0
+H2-Sym-32-B4-1,6,H2-Sym-32,H2,Sym,B4,32C (heat stress),1,3,3_day,0
+H2-Sym-32-B4-1,6,H2-Sym-32,H2,Sym,B4,32C (heat stress),1,4,4_day,0
+H2-Sym-32-B4-1,6,H2-Sym-32,H2,Sym,B4,32C (heat stress),1,5,5_day,0
+H2-Sym-32-B4-1,6,H2-Sym-32,H2,Sym,B4,32C (heat stress),1,7,7_day,3
+H2-Sym-32-B4-1,6,H2-Sym-32,H2,Sym,B4,32C (heat stress),1,10,10_day,11
+H2-Sym-32-B4-1,6,H2-Sym-32,H2,Sym,B4,32C (heat stress),1,11,11_day,13
+H2-Sym-32-B4-1,6,H2-Sym-32,H2,Sym,B4,32C (heat stress),1,14,14_day,14
+H2-Sym-32-B4-1,6,H2-Sym-32,H2,Sym,B4,32C (heat stress),1,21,21_day,14
+H2-Sym-32-C1-1,6,H2-Sym-32,H2,Sym,C1,32C (heat stress),1,0,0_day,0
+H2-Sym-32-C1-1,6,H2-Sym-32,H2,Sym,C1,32C (heat stress),1,3,3_day,x
+H2-Sym-32-C1-1,6,H2-Sym-32,H2,Sym,C1,32C (heat stress),1,4,4_day,x
+H2-Sym-32-C1-1,6,H2-Sym-32,H2,Sym,C1,32C (heat stress),1,5,5_day,x
+H2-Sym-32-C1-1,6,H2-Sym-32,H2,Sym,C1,32C (heat stress),1,7,7_day,x
+H2-Sym-32-C1-1,6,H2-Sym-32,H2,Sym,C1,32C (heat stress),1,10,10_day,x
+H2-Sym-32-C1-1,6,H2-Sym-32,H2,Sym,C1,32C (heat stress),1,11,11_day,x
+H2-Sym-32-C1-1,6,H2-Sym-32,H2,Sym,C1,32C (heat stress),1,14,14_day,x
+H2-Sym-32-C1-1,6,H2-Sym-32,H2,Sym,C1,32C (heat stress),1,21,21_day,x
+H2-Sym-32-C2-1,6,H2-Sym-32,H2,Sym,C2,32C (heat stress),1,0,0_day,0
+H2-Sym-32-C2-1,6,H2-Sym-32,H2,Sym,C2,32C (heat stress),1,3,3_day,x
+H2-Sym-32-C2-1,6,H2-Sym-32,H2,Sym,C2,32C (heat stress),1,4,4_day,x
+H2-Sym-32-C2-1,6,H2-Sym-32,H2,Sym,C2,32C (heat stress),1,5,5_day,x
+H2-Sym-32-C2-1,6,H2-Sym-32,H2,Sym,C2,32C (heat stress),1,7,7_day,x
+H2-Sym-32-C2-1,6,H2-Sym-32,H2,Sym,C2,32C (heat stress),1,10,10_day,x
+H2-Sym-32-C2-1,6,H2-Sym-32,H2,Sym,C2,32C (heat stress),1,11,11_day,x
+H2-Sym-32-C2-1,6,H2-Sym-32,H2,Sym,C2,32C (heat stress),1,14,14_day,x
+H2-Sym-32-C2-1,6,H2-Sym-32,H2,Sym,C2,32C (heat stress),1,21,21_day,x
+H2-Sym-32-C3-1,6,H2-Sym-32,H2,Sym,C3,32C (heat stress),1,0,0_day,0
+H2-Sym-32-C3-1,6,H2-Sym-32,H2,Sym,C3,32C (heat stress),1,3,3_day,x
+H2-Sym-32-C3-1,6,H2-Sym-32,H2,Sym,C3,32C (heat stress),1,4,4_day,x
+H2-Sym-32-C3-1,6,H2-Sym-32,H2,Sym,C3,32C (heat stress),1,5,5_day,x
+H2-Sym-32-C3-1,6,H2-Sym-32,H2,Sym,C3,32C (heat stress),1,7,7_day,x
+H2-Sym-32-C3-1,6,H2-Sym-32,H2,Sym,C3,32C (heat stress),1,10,10_day,x
+H2-Sym-32-C3-1,6,H2-Sym-32,H2,Sym,C3,32C (heat stress),1,11,11_day,x
+H2-Sym-32-C3-1,6,H2-Sym-32,H2,Sym,C3,32C (heat stress),1,14,14_day,x
+H2-Sym-32-C3-1,6,H2-Sym-32,H2,Sym,C3,32C (heat stress),1,21,21_day,x
+H2-Sym-32-C4-1,6,H2-Sym-32,H2,Sym,C4,32C (heat stress),1,0,0_day,0
+H2-Sym-32-C4-1,6,H2-Sym-32,H2,Sym,C4,32C (heat stress),1,3,3_day,x
+H2-Sym-32-C4-1,6,H2-Sym-32,H2,Sym,C4,32C (heat stress),1,4,4_day,x
+H2-Sym-32-C4-1,6,H2-Sym-32,H2,Sym,C4,32C (heat stress),1,5,5_day,x
+H2-Sym-32-C4-1,6,H2-Sym-32,H2,Sym,C4,32C (heat stress),1,7,7_day,x
+H2-Sym-32-C4-1,6,H2-Sym-32,H2,Sym,C4,32C (heat stress),1,10,10_day,x
+H2-Sym-32-C4-1,6,H2-Sym-32,H2,Sym,C4,32C (heat stress),1,11,11_day,x
+H2-Sym-32-C4-1,6,H2-Sym-32,H2,Sym,C4,32C (heat stress),1,14,14_day,x
+H2-Sym-32-C4-1,6,H2-Sym-32,H2,Sym,C4,32C (heat stress),1,21,21_day,x
