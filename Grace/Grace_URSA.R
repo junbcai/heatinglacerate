@@ -56,22 +56,151 @@ select(-X) %>%
 newlong <- long
 newlong
 
-##Graphing results of Experiment 2
+#Mortality Graph
+newlong
+df <- newlong %>%
+  mutate(Mortality = ifelse(is.na(Tent_count) | Tent_count == 0, "Dead", "Alive"))
+
+df_filtered <- newlong %>%
+  filter(Day %in% c(14, 21)) %>%
+  mutate(Mortality = ifelse(is.na(Tent_count) | Tent_count == 0, "Dead", "Alive"))
+
+
+ggplot(df_filtered, aes(x = Treatment, fill = Mortality)) +
+  geom_bar(position = "stack") +
+  labs(
+    x = "Treatment Group",
+    y = "Count",
+    fill = "Mortality"
+  ) +
+  ggtitle("Mortality by Treatment Group") +
+  facet_wrap(~ Day, ncol = 2) +  # Facet by Day with 2 columns
+  scale_fill_manual(values = c("Dead" = "black", "Alive" = "green")) +  # Custom colors for Dead and Alive
+  theme_minimal() +
+  coord_cartesian(ylim = c(0, 20))  # Set y-axis limits from 0 to 20
+
+
+ggplot(df, aes(x = Treatment, fill = Mortality)) +
+  geom_bar(position = "stack") +
+  labs(
+    x = "Treatment Group",
+    y = "Count",
+    fill = "Mortality"
+  ) +
+  ggtitle("Mortality by Treatment Group") +
+  theme_minimal()
+
+
+##Graphing results of Experiment URSA
 data_means <- newlong %>%
   group_by(Treatment, Day) %>%
   summarise(mean = mean(Tent_count, na.rm=TRUE),
             se = std.error(Tent_count, na.rm=TRUE))
 
 #Everything
+
+# Filter data for the treatments of interest
+treatments_of_interest <- c("H2-Apo-25", "H2-Apo-32", "H2-Ino-25", "H2-Ino-32", "H2-Sym-25", "H2-Sym-32")
+df_filtered <- data_means %>%
+  filter(Treatment %in% treatments_of_interest)
+
+# Custom labels for the facets
+facet_labels <- c(
+  "H2-Apo-25 vs H2-Apo-32" = "H2-Apo-25 vs H2-Apo-32",
+  "H2-Ino-25 vs H2-Ino-32" = "H2-Ino-25 vs H2-Ino-32",
+  "H2-Sym-25 vs H2-Sym-32" = "H2-Sym-25 vs H2-Sym-32",
+  "H2-Apo-25, H2-Ino-25, H2-Sym-25" = "H2-Apo-25, H2-Ino-25, H2-Sym-25"
+)
+
+# Create the ggplot graph with facet_wrap
+ggplot(df_filtered, aes(x = Day, y = mean)) +
+  theme_classic(base_size = 15) +
+  geom_line(aes(color = Treatment, group = Treatment), position = position_dodge(0.5), size = 1.5) +
+  ylab(bquote("Mean tentacle number")) +
+  xlab("Days post laceration (dpl)") +
+  ggtitle("Effect of Temperature on Pedal Lacerate Tentacle Development in Aiptasia") +
+  geom_point(aes(color = Treatment), size = 6, shape = 20, position = position_dodge(0.5)) +
+  scale_x_continuous(breaks = round(seq(min(df_filtered$Day), max(df_filtered$Day), by = 1), 1)) +
+  geom_errorbar(aes(color = Treatment, x = Day, ymin = mean - se, ymax = mean + se), width = 1.2, size = 1, position = position_dodge(0.5)) +
+  scale_color_manual(values = c(
+    "H2-Apo-25" = "aquamarine",
+    "H2-Apo-32" = "chocolate",
+    "H2-Ino-25" = "darkorchid",
+    "H2-Ino-32" = "coral1",
+    "H2-Sym-25" = "blue",
+    "H2-Sym-32" = "red"
+  ),
+  labels = c(
+    "H2-Apo-25",
+    expression(paste("H2-Apo-32")),
+    expression(paste("H2-Ino-25")),
+    expression(paste("H2-Ino-32")),
+    expression(paste("H2-Sym-25")),
+    expression(paste("H2-Sym-32"))
+  )) +
+  theme(legend.text.align = 0,
+        axis.title.x = element_text(size = 24),
+        axis.title.y = element_text(size = 24),
+        axis.text.x = element_text(size = 12, family = "Arial"),
+        axis.text.y = element_text(size = 20, family = "Arial"),
+        legend.text = element_text(size = 18),
+        legend.title = element_text(size = 20)) +
+  scale_size_manual(values = c(1.2, 1.2, 1.2, 1.2)) +
+  labs(colour = "Treatment") +
+  coord_cartesian(ylim = c(0, 15)) +
+  facet_wrap(~ Treatment, ncol = 2)
+
+
+ggplot(df_filtered, aes(x = Day, y = mean)) +
+  theme_classic(base_size = 15) +
+  geom_line(aes(color = Treatment, group = Treatment), position = position_dodge(0.5), size = 1.5) +
+  ylab(bquote("Mean tentacle number")) +
+  xlab("Days post laceration (dpl)") +
+  ggtitle("Effect of Temperature on Pedal Lacerate Tentacle Development in Aiptasia") +
+  geom_point(aes(color = Treatment), size = 10, shape = 20, position = position_dodge(0.5)) +
+  scale_x_continuous(breaks = round(seq(min(df_filtered$Day), max(df_filtered$Day), by = 1), 1)) +
+  geom_errorbar(aes(color = Treatment, x = Day, ymin = mean - se, ymax = mean + se), width = 3.2, size = 2, position = position_dodge(0.5)) +
+  scale_color_manual(values = c(
+    "H2-Apo-25" = "aquamarine",
+    "H2-Apo-32" = "chocolate",
+    "H2-Ino-25" = "darkorchid",
+    "H2-Ino-32" = "coral1",
+    "H2-Sym-25" = "blue",
+    "H2-Sym-32" = "red"
+  ),
+  labels = c(
+    "H2-Apo-25",
+    expression(paste("H2-Apo-32")),
+    expression(paste("H2-Ino-25")),
+    expression(paste("H2-Ino-32")),
+    expression(paste("H2-Sym-25")),
+    expression(paste("H2-Sym-32"))
+  )) +
+  theme(legend.text.align = 0,
+        axis.title.x = element_text(size = 24),
+        axis.title.y = element_text(size = 24),
+        axis.text.x = element_text(size = 20, family = "Arial"),
+        axis.text.y = element_text(size = 20, family = "Arial"),
+        legend.text = element_text(size = 18),
+        legend.title = element_text(size = 20)) +
+  scale_size_manual(values = c(1.2, 1.2, 1.2, 1.2)) +
+  labs(colour = "Treatment") +
+  coord_cartesian(ylim = c(0, 15)) +
+  facet_wrap(~ ifelse(Treatment %in% c("H2-Apo-25", "H2-Ino-25", "H2-Sym-25"), "Combined Treatments", Treatment),
+             ncol = 2)
+
+
+
+#Everything
 ggplot(data = data_means, aes(x = Day, y = mean)) +
   theme_classic(base_size = 15) +
-  geom_line(aes(color = Treatment, group = Treatment), position = position_dodge(0.5)) +
+  geom_line(aes(color = Treatment, group = Treatment), position = position_dodge(0.5), size = 1.5) +  # Increase line thickness to 1.5
   ylab(bquote("Mean tentacle number"))+
   xlab("Days post laceration (dpl)") +
   ggtitle("Effect of Temperature on Pedal Lacerate Tentacle Development in Aiptasia") +
-  geom_point(aes(color = Treatment), size = 2.5, shape = 20, position = position_dodge(0.5)) +
+  geom_point(aes(color = Treatment), size = 10, shape = 20, position = position_dodge(0.5)) +
   scale_x_continuous(breaks = round(seq(min(data_means$Day), max(data_means$Day), by = 1),1)) +
-  geom_errorbar(aes(color = Treatment, x = Day, ymin = mean - se, ymax = mean + se), width = 0.2, position = position_dodge(0.5)) +
+  geom_errorbar(aes(color = Treatment, x = Day, ymin = mean - se, ymax = mean + se), width = 3.2, size = 2, position = position_dodge(0.5)) +
   scale_color_discrete(breaks=c("H2-Apo-25","H2-Apo-32","H2-Ino-25","H2-Ino-3","H2-SYM-Sym","H2-Sym-32")) +
   scale_color_manual(values = c("H2-Apo-25" = "aquamarine",
                                 "H2-Apo-32" = "chocolate",
@@ -85,9 +214,14 @@ ggplot(data = data_means, aes(x = Day, y = mean)) +
                               expression(paste("H2-Ino-32")),
                               expression(paste("H2-Sym-25")),
                               expression(paste("H2-Sym-32")))) +
-  theme(legend.text.align = 0) +
+  theme(legend.text.align = 0,
+        axis.title.x = element_text(size = 24),  # Increase X-axis title size to 20
+        axis.title.y = element_text(size = 24),  # Increase Y-axis title size to 22
+        axis.text.x = element_text(size = 20, family = "Arial"),  # Increase X-axis text size and use Arial font
+        axis.text.y = element_text(size = 20, family = "Arial"),  # Increase Y-axis text size and use Times New Roman font
+        legend.text = element_text(size = 18),   # Increase legend text size to 18
+        legend.title = element_text(size = 20)) +  # Increase legend title size to 20    
   scale_size_manual(values=c(1.2,1.2,1.2,1.2)) +
-  labs(colour = "Treatment")
   labs(colour = "Treatment") +
   coord_cartesian(ylim = c(0, 15))
 
@@ -95,18 +229,24 @@ ggplot(data = data_means, aes(x = Day, y = mean)) +
 
 ggplot(data = data_means[data_means$Treatment %in% c("H2-Ino-25", "H2-Ino-32"), ], aes(x = Day, y = mean)) +
   theme_classic(base_size = 15) +
-  geom_line(aes(color = Treatment, group = Treatment), position = position_dodge(0.5)) +
+  geom_line(aes(color = Treatment, group = Treatment), position = position_dodge(0.5), size = 1.5) +  # Increase line thickness to 1.5
   ylab(bquote("Mean tentacle number")) +
   xlab("Days post laceration (dpl)") +
   ggtitle("Effect of Temperature on Inoculated Pedal Lacerate Tentacle Development in Aiptasia") +
-  geom_point(aes(color = Treatment), size = 2.5, shape = 20, position = position_dodge(0.5)) +
-  scale_x_continuous(breaks = round(seq(min(data_means$Day), max(data_means$Day), by = 1), 1)) +
-  geom_errorbar(aes(color = Treatment, x = Day, ymin = mean - se, ymax = mean + se), width = 0.2, position = position_dodge(0.5)) +
+  geom_point(aes(color = Treatment), size = 10, shape = 20, position = position_dodge(0.5)) +
+  scale_x_continuous(breaks = round(seq(min(data_means$Day), max(data_means$Day), by = 1),1)) +
+  geom_errorbar(aes(color = Treatment, x = Day, ymin = mean - se, ymax = mean + se), width = 1.2, size = 2, position = position_dodge(0.5)) +
   scale_color_manual(values = c("H2-Ino-25" = "Blue",
                                 "H2-Ino-32" = "Red"),
                      labels = c("H2-Ino-25", "H2-Ino-32")) +
-  theme(legend.text.align = 0) +
-  scale_size_manual(values = c(1.2, 1.2)) +
+  theme(legend.text.align = 0,
+        axis.title.x = element_text(size = 24),  # Increase X-axis title size to 20
+        axis.title.y = element_text(size = 24),  # Increase Y-axis title size to 22
+        axis.text.x = element_text(size = 20, family = "Arial"),  # Increase X-axis text size and use Arial font
+        axis.text.y = element_text(size = 20, family = "Arial"),  # Increase Y-axis text size and use Times New Roman font
+        legend.text = element_text(size = 18),   # Increase legend text size to 18
+        legend.title = element_text(size = 20)) +  # Increase legend title size to 20    
+  scale_size_manual(values=c(1.2,1.2,1.2,1.2)) +
   labs(colour = "Treatment") +
   coord_cartesian(ylim = c(0, 15))
 
@@ -114,18 +254,24 @@ ggplot(data = data_means[data_means$Treatment %in% c("H2-Ino-25", "H2-Ino-32"), 
 #Apo vs Apo
 ggplot(data = data_means[data_means$Treatment %in% c("H2-Apo-25", "H2-Apo-32"), ], aes(x = Day, y = mean)) +
   theme_classic(base_size = 15) +
-  geom_line(aes(color = Treatment, group = Treatment), position = position_dodge(0.5)) +
+  geom_line(aes(color = Treatment, group = Treatment), position = position_dodge(0.5), size = 1.5) +  # Increase line thickness to 1.5
   ylab(bquote("Mean tentacle number")) +
   xlab("Days post laceration (dpl)") +
   ggtitle("Effect of Temperature on Aposymbiotic Pedal Lacerate Tentacle Development in Aiptasia") +
-  geom_point(aes(color = Treatment), size = 2.5, shape = 20, position = position_dodge(0.5)) +
-  scale_x_continuous(breaks = round(seq(min(data_means$Day), max(data_means$Day), by = 1), 1)) +
-  geom_errorbar(aes(color = Treatment, x = Day, ymin = mean - se, ymax = mean + se), width = 0.2, position = position_dodge(0.5)) +
+  geom_point(aes(color = Treatment), size = 10, shape = 20, position = position_dodge(0.5)) +
+  scale_x_continuous(breaks = round(seq(min(data_means$Day), max(data_means$Day), by = 1),1)) +
+  geom_errorbar(aes(color = Treatment, x = Day, ymin = mean - se, ymax = mean + se), width = 2.2, size = 2, position = position_dodge(0.5)) +
   scale_color_manual(values = c("H2-Apo-25" = "Blue",
                                 "H2-Apo-32" = "Red"),
                      labels = c("H2-Apo-25", "H2-Apo-32")) +
-  theme(legend.text.align = 0) +
-  scale_size_manual(values = c(1.2, 1.2)) +
+  theme(legend.text.align = 0,
+        axis.title.x = element_text(size = 24),  # Increase X-axis title size to 20
+        axis.title.y = element_text(size = 24),  # Increase Y-axis title size to 22
+        axis.text.x = element_text(size = 20, family = "Arial"),  # Increase X-axis text size and use Arial font
+        axis.text.y = element_text(size = 20, family = "Arial"),  # Increase Y-axis text size and use Times New Roman font
+        legend.text = element_text(size = 18),   # Increase legend text size to 18
+        legend.title = element_text(size = 20)) +  # Increase legend title size to 20    
+  scale_size_manual(values=c(1.2,1.2,1.2,1.2)) +
   labs(colour = "Treatment") +
   coord_cartesian(ylim = c(0, 15))
 
@@ -134,18 +280,24 @@ ggplot(data = data_means[data_means$Treatment %in% c("H2-Apo-25", "H2-Apo-32"), 
 #Sym vs Sym
 ggplot(data = data_means[data_means$Treatment %in% c("H2-Sym-25", "H2-Sym-32"), ], aes(x = Day, y = mean)) +
   theme_classic(base_size = 15) +
-  geom_line(aes(color = Treatment, group = Treatment), position = position_dodge(0.5)) +
+  geom_line(aes(color = Treatment, group = Treatment), position = position_dodge(0.5), size = 1.5) +  # Increase line thickness to 1.5
   ylab(bquote("Mean tentacle number")) +
   xlab("Days post laceration (dpl)") +
   ggtitle("Effect of Temperature on Symbiotic Pedal Lacerate Tentacle Development in Aiptasia") +
-  geom_point(aes(color = Treatment), size = 2.5, shape = 20, position = position_dodge(0.5)) +
-  scale_x_continuous(breaks = round(seq(min(data_means$Day), max(data_means$Day), by = 1), 1)) +
-  geom_errorbar(aes(color = Treatment, x = Day, ymin = mean - se, ymax = mean + se), width = 0.2, position = position_dodge(0.5)) +
+  geom_point(aes(color = Treatment), size = 10, shape = 20, position = position_dodge(0.5)) +
+  scale_x_continuous(breaks = round(seq(min(data_means$Day), max(data_means$Day), by = 1),1)) +
+  geom_errorbar(aes(color = Treatment, x = Day, ymin = mean - se, ymax = mean + se), width = 3.2, size = 2, position = position_dodge(0.5)) +
   scale_color_manual(values = c("H2-Sym-25" = "Blue",
                                 "H2-Sym-32" = "Red"),
                      labels = c("H2-Sym-25", "H2-Sym-32")) +
-  theme(legend.text.align = 0) +
-  scale_size_manual(values = c(1.2, 1.2)) +
+  theme(legend.text.align = 0,
+        axis.title.x = element_text(size = 24),  # Increase X-axis title size to 20
+        axis.title.y = element_text(size = 24),  # Increase Y-axis title size to 22
+        axis.text.x = element_text(size = 20, family = "Arial"),  # Increase X-axis text size and use Arial font
+        axis.text.y = element_text(size = 20, family = "Arial"),  # Increase Y-axis text size and use Times New Roman font
+        legend.text = element_text(size = 18),   # Increase legend text size to 18
+        legend.title = element_text(size = 20)) +  # Increase legend title size to 20    
+  scale_size_manual(values=c(1.2,1.2,1.2,1.2)) +
   labs(colour = "Treatment") +
   coord_cartesian(ylim = c(0, 15))
 
@@ -154,19 +306,25 @@ ggplot(data = data_means[data_means$Treatment %in% c("H2-Sym-25", "H2-Sym-32"), 
 #Sym States
 ggplot(data = data_means[data_means$Treatment %in% c("H2-Apo-25", "H2-Ino-25", "H2-Sym-25"), ], aes(x = Day, y = mean)) +
   theme_classic(base_size = 15) +
-  geom_line(aes(color = Treatment, group = Treatment), position = position_dodge(0.5)) +
+  geom_line(aes(color = Treatment, group = Treatment), position = position_dodge(0.5), size = 1.5) +  # Increase line thickness to 1.5
   ylab(bquote("Mean tentacle number")) +
   xlab("Days post laceration (dpl)") +
   ggtitle("Effect of Symbiotic State on Pedal Lacerate Tentacle Development in Aiptasia") +
-  geom_point(aes(color = Treatment), size = 2.5, shape = 20, position = position_dodge(0.5)) +
-  scale_x_continuous(breaks = round(seq(min(data_means$Day), max(data_means$Day), by = 1), 1)) +
-  geom_errorbar(aes(color = Treatment, x = Day, ymin = mean - se, ymax = mean + se), width = 0.2, position = position_dodge(0.5)) +
+  geom_point(aes(color = Treatment), size = 10, shape = 20, position = position_dodge(0.5)) +
+  scale_x_continuous(breaks = round(seq(min(data_means$Day), max(data_means$Day), by = 1),1)) +
+  geom_errorbar(aes(color = Treatment, x = Day, ymin = mean - se, ymax = mean + se), width = 3.2, size = 2, position = position_dodge(0.5)) +
   scale_color_manual(values = c("H2-Apo-25" = "Blue",
                                 "H2-Ino-25" = "Green",
                                 "H2-Sym-25" = "Brown"),
                      labels = c("H2-Apo-25", "H2-Ino-25", "H2-Sym-25")) +
-  theme(legend.text.align = 0) +
-  scale_size_manual(values = c(1.2, 1.2)) +
+  theme(legend.text.align = 0,
+        axis.title.x = element_text(size = 24),  # Increase X-axis title size to 20
+        axis.title.y = element_text(size = 24),  # Increase Y-axis title size to 22
+        axis.text.x = element_text(size = 20, family = "Arial"),  # Increase X-axis text size and use Arial font
+        axis.text.y = element_text(size = 20, family = "Arial"),  # Increase Y-axis text size and use Times New Roman font
+        legend.text = element_text(size = 18),   # Increase legend text size to 18
+        legend.title = element_text(size = 20)) +  # Increase legend title size to 20    
+  scale_size_manual(values=c(1.2,1.2,1.2,1.2)) +
   labs(colour = "Treatment") +
   coord_cartesian(ylim = c(0, 15))
 
@@ -240,6 +398,62 @@ data_means <- pedal %>%
   group_by(Treatment, Day) %>%
   summarise(mean = mean(Pedal, na.rm=TRUE),
             se = std.error(Pedal, na.rm=TRUE))
+
+
+# Filter data for the treatments of interest
+treatments_of_interest <- c("H2-Apo-25", "H2-Apo-32", "H2-Ino-25", "H2-Ino-32", "H2-Sym-25", "H2-Sym-32")
+df_filtered <- data_means %>%
+  filter(Treatment %in% treatments_of_interest)
+
+# Custom labels for the facets
+facet_labels <- c(
+  "H2-Apo-25 vs H2-Apo-32" = "H2-Apo-25 vs H2-Apo-32",
+  "H2-Ino-25 vs H2-Ino-32" = "H2-Ino-25 vs H2-Ino-32",
+  "H2-Sym-25 vs H2-Sym-32" = "H2-Sym-25 vs H2-Sym-32",
+  "H2-Apo-25, H2-Ino-25, H2-Sym-25" = "H2-Apo-25, H2-Ino-25, H2-Sym-25"
+)
+
+# Create the ggplot graph with facet_wrap
+ggplot(df_filtered, aes(x = Day, y = mean)) +
+  theme_classic(base_size = 15) +
+  geom_line(aes(color = Treatment, group = Treatment), position = position_dodge(0.5), size = 1.5) +
+  ylab(bquote("Mean tentacle number")) +
+  xlab("Days post laceration (dpl)") +
+  ggtitle("Effect of Temperature on Pedal Lacerate Tentacle Development in Aiptasia") +
+  geom_point(aes(color = Treatment), size = 6, shape = 20, position = position_dodge(0.5)) +
+  scale_x_continuous(breaks = round(seq(min(df_filtered$Day), max(df_filtered$Day), by = 1), 1)) +
+  geom_errorbar(aes(color = Treatment, x = Day, ymin = mean - se, ymax = mean + se), width = 1.2, size = 1, position = position_dodge(0.5)) +
+  scale_color_manual(values = c(
+    "H2-Apo-25" = "aquamarine",
+    "H2-Apo-32" = "chocolate",
+    "H2-Ino-25" = "darkorchid",
+    "H2-Ino-32" = "coral1",
+    "H2-Sym-25" = "blue",
+    "H2-Sym-32" = "red"
+  ),
+  labels = c(
+    "H2-Apo-25",
+    expression(paste("H2-Apo-32")),
+    expression(paste("H2-Ino-25")),
+    expression(paste("H2-Ino-32")),
+    expression(paste("H2-Sym-25")),
+    expression(paste("H2-Sym-32"))
+  )) +
+  theme(legend.text.align = 0,
+        axis.title.x = element_text(size = 24),
+        axis.title.y = element_text(size = 24),
+        axis.text.x = element_text(size = 12, family = "Arial"),
+        axis.text.y = element_text(size = 20, family = "Arial"),
+        legend.text = element_text(size = 18),
+        legend.title = element_text(size = 20)) +
+  scale_size_manual(values = c(1.2, 1.2, 1.2, 1.2)) +
+  labs(colour = "Treatment") +
+  coord_cartesian(ylim = c(0, 15)) +
+  facet_wrap(~ Treatment, ncol = 2)
+
+
+
+
 
 #Everything
 ggplot(data = data_means, aes(x = Day, y = mean)) +
