@@ -16,7 +16,7 @@ graphics.off()
 #Set working directory
 
 getwd()
-setwd("C:/GitHub/heatinglacerate")
+setwd("~/Documents/GitHub/heatinglacerate")
 
 #Results of Experiment 1
 
@@ -40,8 +40,7 @@ newlong <- long
 saveRDS(newlong, file = "tables/data_table_cURE2022data.rds")
 
 #Count number of treatment 
-treatment_count <- length(unique(data$Treatment))
-
+treatment_count <- length(unique(newlong$Treatment))
 
 ##Graphing results of Experiment 1 on Feeding
 newlong$treatment <- newlong$feeding
@@ -62,8 +61,7 @@ ggplot(data = data_means, aes(x = day, y = mean)) +
   geom_errorbar(aes(color = treatment, x = day, ymin = mean - se, ymax = mean + se), width = 0.2, position = position_dodge(0.5)) +
   theme(legend.text.align = 0) +
   scale_size_manual(values=c(1.2,1.2,1.2,1.2)) +
-  labs(colour = "Treatment") +
-  geom_vline(xintercept=c(3), linetype="dashed")
+  labs(colour = "Treatment") 
 
 ggsave("Figure_Exp1_Feeding.tif", plot = last_plot(), device = "tiff", path = here("figs"),
        
@@ -89,8 +87,7 @@ ggplot(data = data_means, aes(x = day, y = mean)) +
   geom_errorbar(aes(color = treatment, x = day, ymin = mean - se, ymax = mean + se), width = 0.2, position = position_dodge(0.5)) +
   theme(legend.text.align = 0) +
   scale_size_manual(values=c(1.2,1.2,1.2,1.2)) +
-  labs(colour = "Treatment") +
-  geom_vline(xintercept=c(3), linetype="dashed")
+  labs(colour = "Treatment")
 
 ggsave("Figure_Exp1_Temp.tif", plot = last_plot(), device = "tiff", path = here("figs"),
        
@@ -98,8 +95,6 @@ ggsave("Figure_Exp1_Temp.tif", plot = last_plot(), device = "tiff", path = here(
 
 
 #ANOVA Analysis
-
-view(long)
 
 anova(aov(tent_count ~ temp*feeding, data=long))
 anova(aov(tent_count ~ feeding, data=long))
@@ -113,6 +108,9 @@ library(emmeans)
 data <- long
 
 str(data)
+
+#Count number of treatment 
+treatment_count <- length(unique(data$Treatment))
 
 # Distribution of the data
 hist(data$tent_count)
@@ -128,6 +126,14 @@ plot(model)
 qqnorm(residuals(model))
 qqline(residuals(model))
 Anova(model)
+
+#library(DHARMa)
+#res <- simulateResiduals(model, n = 1000)
+#plot(res)
+#testDispersion(res)
+#testZeroInflation(res)
+
+summary(model)
 
 
 emmeans(model, list(pairwise ~ temp | day_cat), adjust = "tukey")
