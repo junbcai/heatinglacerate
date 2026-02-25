@@ -40,8 +40,8 @@ long$day_cat <- as.factor(long$day_cat)
 
 
 df <- long %>%
-  mutate(day = as.factor(.$day)) %>%
-  mutate(day = recode(day, 0 = "00"))
+  mutate(Day = as.factor(day)) %>%
+  mutate(Day = dplyr::recode(Day, "0" = "00"))
 
 View(df)
 
@@ -52,9 +52,30 @@ View(df)
   mutate(stream = recode(stream, "MAR_MeanSD" = "MAR", "SEC_MeanSD" = "LAK", "BVA_MeanSD" = "BVA", "VCR_MeanSD" = "VAL", "SFS_MeanSD" = "SFS"))
 
 
-##Saving table as output
+# Saving data frame as new object
 newlong <- long
 saveRDS(newlong, file = "tables/Data_Table_Summer2022Data.RDS")
+
+# Mortality table for plotting
+df_filtered <- newlong %>%
+  mutate(day_cat = trimws(as.character(day_cat))) %>%
+  filter(day_cat %in% c("day_14", "day_21")) %>%
+  mutate(
+    Mortality = ifelse(is.na(tent_count) | tent_count == 0, "Dead", "Alive"),
+    day_cat = factor(day_cat, levels = c("day_14", "day_21"))
+  )
+
+nrow(df_filtered)
+table(df_filtered$day_cat)
+
+ggplot(df_filtered, aes(x = treatment, fill = Mortality)) +
+  geom_bar(position = "stack") +
+  labs(x = "Treatment Group", y = "Count", fill = "Mortality") +
+  ggtitle("Mortality by Treatment Group") +
+  facet_wrap(~ day_cat, ncol = 2) +
+  scale_fill_manual(values = c("Dead" = "black", "Alive" = "green")) +
+  theme_minimal() +
+  coord_cartesian(ylim = c(0, 20))
 
 
 ##Graphing results of Experiment 2

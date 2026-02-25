@@ -1,0 +1,125 @@
+/*
+HOECHST ROI -> threshold area in 2nd image (you select)
+
+- Draw ROI on Hoechst
+- Select 2nd image
+- Measure threshold-positive area within the Hoechst ROI
+- Record window titles
+- ASK before closing 2nd image
+*/
+
+thresholdMethod = "Default dark no-reset";   // was Otsu
+minLowerThresh = getNumber("Minimum lower threshold (0–255). Try 20–80.", 40);  // was 60
+
+while (true) {
+
+    run("Set Measurements...", "area decimal=3 redirect=None");
+
+    // --- 1) HOECHST ROI ---
+    waitForUser("Select the HOECHST image window, then press OK.");
+    hoechstTitle = getTitle();
+
+    waitForUser("Draw ROI around the lacerate on HOECHST, then press OK.");
+    if (selectionType() == -1) {
+        showMessage("No ROI detected", "Draw an ROI first.");
+        continue;
+    }
+
+    // Store ROI
+    roiManager("Reset");
+    roiManager("Add");
+    roiManager("Select", 0);
+
+    // Measure ROI area
+    getStatistics(roiArea);
+
+    addRow(hoechstTitle, hoechstTitle, "Hoechst", "ROI Area", roiArea, 0, 0);
+
+    // --- 2) SECOND IMAGE ---
+    waitForUser("Select the SECOND image (EdU/Caspase), then press OK.");
+    secondTitle = getTitle();
+
+    thrArea = thresholdAreaUsingStoredROI(secondTitle, thresholdMethod, minLowerThresh);
+
+    if (roiArea > 0)
+        pct = (thrArea / roiArea) * 100;
+    else
+        pct = 0;
+
+    addRow(hoechstTitle, secondTitle, "Second", "Threshold Area", roiArea, thrArea, pct);
+
+    // ASK before closing second image
+    if (getBoolean("Close the second image?")) {
+        if (isOpen(secondTitle)) {
+            selectWindow(secondTitle);
+            close();
+        }
+    }
+
+    if (!getBoolean("Analyze another sample?"))
+        break;
+}
+
+
+/* --- THRESHOLD AREA INSIDE ROI --- */
+function thresholdAreaUsingStoredROI(imgTitle, method, minLowerThresh) {
+
+    selectWindow(imgTitle);
+
+    run("Select None");
+
+    // Apply stored ROI
+    roiManager("Select", 0);
+    setBackgroundColor(0, 0, 0);
+    run("Clear Outside");
+
+    // STRICT PREPROCESSING
+    run("Subtract Background...", "rolling=50");
+    run("8-bit");
+    run("Median...", "radius=1");
+
+    // Fresh threshold
+    setAutoThreshold(method);
+    getThreshold(lower, upper);
+    if (lower < minLowerThresh)
+        setThreshold(minLowerThresh, upper);
+
+    run("Create Selection");
+
+    if (selectionType() == -1) {
+        run("Select None");
+        return 0;
+    }
+
+    getStatistics(a);
+
+    run("Select None");
+    return a;
+}
+
+
+/* --- ADD ROW TO RESULTS --- */
+function addRow(sampleTitle, imageTitle, channelName, typeName, roiArea, thrArea, pct) {
+
+    r = nResults;
+
+    setResult("Area", r, roiArea);
+    setResult("Sample", r, sampleTitle);
+    setResult("Image", r, imageTitle);
+    setResult("Channel", r, channelName);
+    setResult("Type", r, typeName);
+    setResult("Threshold Area", r, thrArea);
+    setResult("% Positive Area", r, pct);
+
+    updateResults();
+}
+
+
+/* --- CHECK IF WINDOW EXISTS --- */
+function isOpen(title) {
+    list = getList("image.titles");
+    for (i = 0; i < list.length; i++) {
+        if (list[i] == title) return true;
+    }
+    return false;
+}

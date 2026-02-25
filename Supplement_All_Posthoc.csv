@@ -1,0 +1,101 @@
+"test_family","marker","state","time","contrast","group1","group2","n1","n2","statistic","df","p_raw","p_fdr","signif_raw","signif_fdr","heat"
+"Heat (Control vs Heat)","EdU","Apo","2dpl","Heat: Control vs Heat","Control","Heat",3,6,-6.213,5.29,0.00128,0.0128,"**","*",NA
+"Heat (Control vs Heat)","EdU","Apo","5dpl","Heat: Control vs Heat","Control","Heat",3,5,-0.754,5.88,0.48,0.698,"ns","ns",NA
+"Heat (Control vs Heat)","EdU","Apo","8dpl","Heat: Control vs Heat","Control","Heat",5,3,2.868,3.24,0.0584,0.29,"ns","ns",NA
+"Heat (Control vs Heat)","EdU","Apo","14dpl","Heat: Control vs Heat","Control","Heat",3,3,-1.882,3.2,0.151,0.322,"ns","ns",NA
+"Heat (Control vs Heat)","EdU","Inoc","5dpl","Heat: Control vs Heat","Control","Heat",4,5,-2.026,6.27,0.0871,0.29,"ns","ns",NA
+"Heat (Control vs Heat)","EdU","Inoc","8dpl","Heat: Control vs Heat","Control","Heat",4,5,0.03,6.99,0.977,0.977,"ns","ns",NA
+"Heat (Control vs Heat)","EdU","Inoc","14dpl","Heat: Control vs Heat","Control","Heat",3,2,-3.666,1.04,0.161,0.322,"ns","ns",NA
+"Heat (Control vs Heat)","EdU","Sym","2dpl","Heat: Control vs Heat","Control","Heat",5,6,-0.61,8.55,0.558,0.698,"ns","ns",NA
+"Heat (Control vs Heat)","EdU","Sym","5dpl","Heat: Control vs Heat","Control","Heat",8,8,-0.313,9.8,0.761,0.846,"ns","ns",NA
+"Heat (Control vs Heat)","EdU","Sym","8dpl","Heat: Control vs Heat","Control","Heat",6,7,-0.62,9.36,0.55,0.698,"ns","ns",NA
+"Heat (Control vs Heat)","Caspase","Apo","2dpl","Heat: Control vs Heat","Control","Heat",3,6,-0.179,2.69,0.87,0.87,"ns","ns",NA
+"Heat (Control vs Heat)","Caspase","Apo","5dpl","Heat: Control vs Heat","Control","Heat",4,5,-0.27,6.17,0.796,0.87,"ns","ns",NA
+"Heat (Control vs Heat)","Caspase","Apo","8dpl","Heat: Control vs Heat","Control","Heat",6,3,1.87,6.1,0.11,0.275,"ns","ns",NA
+"Heat (Control vs Heat)","Caspase","Apo","14dpl","Heat: Control vs Heat","Control","Heat",3,3,-12.327,2.35,0.00346,0.0173,"**","*",NA
+"Heat (Control vs Heat)","Caspase","Inoc","5dpl","Heat: Control vs Heat","Control","Heat",4,5,-4.816,6.44,0.00243,0.0173,"**","*",NA
+"Heat (Control vs Heat)","Caspase","Inoc","8dpl","Heat: Control vs Heat","Control","Heat",4,5,2.308,5.04,0.0687,0.229,"ns","ns",NA
+"Heat (Control vs Heat)","Caspase","Inoc","14dpl","Heat: Control vs Heat","Control","Heat",3,2,-1.121,1.58,0.404,0.577,"ns","ns",NA
+"Heat (Control vs Heat)","Caspase","Sym","2dpl","Heat: Control vs Heat","Control","Heat",6,6,1.604,5.2,0.167,0.328,"ns","ns",NA
+"Heat (Control vs Heat)","Caspase","Sym","5dpl","Heat: Control vs Heat","Control","Heat",9,8,-1.379,10.26,0.197,0.328,"ns","ns",NA
+"Heat (Control vs Heat)","Caspase","Sym","8dpl","Heat: Control vs Heat","Control","Heat",6,8,0.673,11.47,0.515,0.644,"ns","ns",NA
+"State (Apo/Inoc/Sym pairwise)","EdU",NA,"2dpl","State: pairwise within time×heat","Apo","Sym",3,5,NA,NA,0.0437,0.0777,"*","ns","Control"
+"State (Apo/Inoc/Sym pairwise)","EdU",NA,"5dpl","State: pairwise within time×heat","Apo","Inoc",3,4,NA,NA,0.0806,0.119,"ns","ns","Control"
+"State (Apo/Inoc/Sym pairwise)","EdU",NA,"5dpl","State: pairwise within time×heat","Apo","Sym",3,8,NA,NA,0.978,0.978,"ns","ns","Control"
+"State (Apo/Inoc/Sym pairwise)","EdU",NA,"5dpl","State: pairwise within time×heat","Inoc","Sym",4,8,NA,NA,0.0368,0.0736,"*","ns","Control"
+"State (Apo/Inoc/Sym pairwise)","EdU",NA,"8dpl","State: pairwise within time×heat","Apo","Inoc",5,4,NA,NA,0.165,0.207,"ns","ns","Control"
+"State (Apo/Inoc/Sym pairwise)","EdU",NA,"8dpl","State: pairwise within time×heat","Apo","Sym",5,6,NA,NA,0.00202,0.0108,"**","*","Control"
+"State (Apo/Inoc/Sym pairwise)","EdU",NA,"8dpl","State: pairwise within time×heat","Inoc","Sym",4,6,NA,NA,0.000216,0.00346,"***","**","Control"
+"State (Apo/Inoc/Sym pairwise)","EdU",NA,"14dpl","State: pairwise within time×heat","Apo","Inoc",3,3,NA,NA,0.00675,0.0216,"**","*","Control"
+"State (Apo/Inoc/Sym pairwise)","EdU",NA,"2dpl","State: pairwise within time×heat","Apo","Sym",6,6,NA,NA,0.00655,0.0216,"**","*","Heat"
+"State (Apo/Inoc/Sym pairwise)","EdU",NA,"5dpl","State: pairwise within time×heat","Apo","Inoc",5,5,NA,NA,0.0161,0.0368,"*","*","Heat"
+"State (Apo/Inoc/Sym pairwise)","EdU",NA,"5dpl","State: pairwise within time×heat","Apo","Sym",5,8,NA,NA,0.476,0.544,"ns","ns","Heat"
+"State (Apo/Inoc/Sym pairwise)","EdU",NA,"5dpl","State: pairwise within time×heat","Inoc","Sym",5,8,NA,NA,0.00198,0.0108,"**","*","Heat"
+"State (Apo/Inoc/Sym pairwise)","EdU",NA,"8dpl","State: pairwise within time×heat","Apo","Inoc",3,5,NA,NA,0.082,0.119,"ns","ns","Heat"
+"State (Apo/Inoc/Sym pairwise)","EdU",NA,"8dpl","State: pairwise within time×heat","Apo","Sym",3,7,NA,NA,0.565,0.603,"ns","ns","Heat"
+"State (Apo/Inoc/Sym pairwise)","EdU",NA,"8dpl","State: pairwise within time×heat","Inoc","Sym",5,7,NA,NA,0.00983,0.0262,"**","*","Heat"
+"State (Apo/Inoc/Sym pairwise)","EdU",NA,"14dpl","State: pairwise within time×heat","Apo","Inoc",3,2,NA,NA,0.168,0.207,"ns","ns","Heat"
+"State (Apo/Inoc/Sym pairwise)","Caspase",NA,"2dpl","State: pairwise within time×heat","Apo","Sym",3,6,NA,NA,0.888,0.888,"ns","ns","Control"
+"State (Apo/Inoc/Sym pairwise)","Caspase",NA,"5dpl","State: pairwise within time×heat","Apo","Inoc",4,4,NA,NA,0.0535,0.0778,"ns","ns","Control"
+"State (Apo/Inoc/Sym pairwise)","Caspase",NA,"5dpl","State: pairwise within time×heat","Apo","Sym",4,9,NA,NA,0.298,0.341,"ns","ns","Control"
+"State (Apo/Inoc/Sym pairwise)","Caspase",NA,"5dpl","State: pairwise within time×heat","Inoc","Sym",4,9,NA,NA,0.00313,0.00835,"**","**","Control"
+"State (Apo/Inoc/Sym pairwise)","Caspase",NA,"8dpl","State: pairwise within time×heat","Apo","Inoc",6,4,NA,NA,0.0854,0.114,"ns","ns","Control"
+"State (Apo/Inoc/Sym pairwise)","Caspase",NA,"8dpl","State: pairwise within time×heat","Apo","Sym",6,6,NA,NA,0.0277,0.0443,"*","*","Control"
+"State (Apo/Inoc/Sym pairwise)","Caspase",NA,"8dpl","State: pairwise within time×heat","Inoc","Sym",4,6,NA,NA,0.00131,0.00524,"**","**","Control"
+"State (Apo/Inoc/Sym pairwise)","Caspase",NA,"14dpl","State: pairwise within time×heat","Apo","Inoc",3,3,NA,NA,0.00801,0.0183,"**","*","Control"
+"State (Apo/Inoc/Sym pairwise)","Caspase",NA,"2dpl","State: pairwise within time×heat","Apo","Sym",6,6,NA,NA,0.0123,0.0219,"*","*","Heat"
+"State (Apo/Inoc/Sym pairwise)","Caspase",NA,"5dpl","State: pairwise within time×heat","Apo","Inoc",5,5,NA,NA,9.77e-06,7.82e-05,"***","***","Heat"
+"State (Apo/Inoc/Sym pairwise)","Caspase",NA,"5dpl","State: pairwise within time×heat","Apo","Sym",5,8,NA,NA,0.578,0.617,"ns","ns","Heat"
+"State (Apo/Inoc/Sym pairwise)","Caspase",NA,"5dpl","State: pairwise within time×heat","Inoc","Sym",5,8,NA,NA,1.18e-06,1.89e-05,"***","***","Heat"
+"State (Apo/Inoc/Sym pairwise)","Caspase",NA,"8dpl","State: pairwise within time×heat","Apo","Inoc",3,5,NA,NA,0.0111,0.0219,"*","*","Heat"
+"State (Apo/Inoc/Sym pairwise)","Caspase",NA,"8dpl","State: pairwise within time×heat","Apo","Sym",3,8,NA,NA,0.242,0.298,"ns","ns","Heat"
+"State (Apo/Inoc/Sym pairwise)","Caspase",NA,"8dpl","State: pairwise within time×heat","Inoc","Sym",5,8,NA,NA,0.000159,0.000848,"***","***","Heat"
+"State (Apo/Inoc/Sym pairwise)","Caspase",NA,"14dpl","State: pairwise within time×heat","Apo","Inoc",3,2,NA,NA,0.00227,0.00726,"**","**","Heat"
+"Time (pairwise)","EdU","Apo",NA,"Time: pairwise within state×heat","2dpl","14dpl",3,3,NA,NA,0.0118,0.0708,"*","ns","Control"
+"Time (pairwise)","EdU","Apo",NA,"Time: pairwise within state×heat","2dpl","5dpl",3,3,NA,NA,0.0246,0.0843,"*","ns","Control"
+"Time (pairwise)","EdU","Apo",NA,"Time: pairwise within state×heat","2dpl","8dpl",3,5,NA,NA,0.000911,0.0219,"***","*","Control"
+"Time (pairwise)","EdU","Apo",NA,"Time: pairwise within state×heat","5dpl","14dpl",3,3,NA,NA,0.676,0.773,"ns","ns","Control"
+"Time (pairwise)","EdU","Apo",NA,"Time: pairwise within state×heat","5dpl","8dpl",3,5,NA,NA,0.121,0.29,"ns","ns","Control"
+"Time (pairwise)","EdU","Apo",NA,"Time: pairwise within state×heat","8dpl","14dpl",5,3,NA,NA,0.253,0.432,"ns","ns","Control"
+"Time (pairwise)","EdU","Apo",NA,"Time: pairwise within state×heat","2dpl","14dpl",6,3,NA,NA,0.816,0.84,"ns","ns","Heat"
+"Time (pairwise)","EdU","Apo",NA,"Time: pairwise within state×heat","2dpl","5dpl",6,5,NA,NA,0.569,0.695,"ns","ns","Heat"
+"Time (pairwise)","EdU","Apo",NA,"Time: pairwise within state×heat","2dpl","8dpl",6,3,NA,NA,0.141,0.308,"ns","ns","Heat"
+"Time (pairwise)","EdU","Apo",NA,"Time: pairwise within state×heat","5dpl","14dpl",5,3,NA,NA,0.803,0.84,"ns","ns","Heat"
+"Time (pairwise)","EdU","Apo",NA,"Time: pairwise within state×heat","5dpl","8dpl",5,3,NA,NA,0.321,0.453,"ns","ns","Heat"
+"Time (pairwise)","EdU","Apo",NA,"Time: pairwise within state×heat","8dpl","14dpl",3,3,NA,NA,0.27,0.432,"ns","ns","Heat"
+"Time (pairwise)","EdU","Inoc",NA,"Time: pairwise within state×heat","5dpl","14dpl",4,3,NA,NA,0.0218,0.0843,"*","ns","Control"
+"Time (pairwise)","EdU","Inoc",NA,"Time: pairwise within state×heat","5dpl","8dpl",4,4,NA,NA,0.84,0.84,"ns","ns","Control"
+"Time (pairwise)","EdU","Inoc",NA,"Time: pairwise within state×heat","8dpl","14dpl",4,3,NA,NA,0.0294,0.0882,"*","ns","Control"
+"Time (pairwise)","EdU","Inoc",NA,"Time: pairwise within state×heat","5dpl","14dpl",5,2,NA,NA,0.0103,0.0708,"*","ns","Heat"
+"Time (pairwise)","EdU","Inoc",NA,"Time: pairwise within state×heat","5dpl","8dpl",5,5,NA,NA,0.0213,0.0843,"*","ns","Heat"
+"Time (pairwise)","EdU","Inoc",NA,"Time: pairwise within state×heat","8dpl","14dpl",5,2,NA,NA,0.289,0.434,"ns","ns","Heat"
+"Time (pairwise)","EdU","Sym",NA,"Time: pairwise within state×heat","2dpl","5dpl",5,8,NA,NA,0.115,0.29,"ns","ns","Control"
+"Time (pairwise)","EdU","Sym",NA,"Time: pairwise within state×heat","2dpl","8dpl",5,6,NA,NA,0.222,0.41,"ns","ns","Control"
+"Time (pairwise)","EdU","Sym",NA,"Time: pairwise within state×heat","5dpl","8dpl",8,6,NA,NA,0.00578,0.0694,"**","ns","Control"
+"Time (pairwise)","EdU","Sym",NA,"Time: pairwise within state×heat","2dpl","5dpl",6,8,NA,NA,0.425,0.567,"ns","ns","Heat"
+"Time (pairwise)","EdU","Sym",NA,"Time: pairwise within state×heat","2dpl","8dpl",6,7,NA,NA,0.579,0.695,"ns","ns","Heat"
+"Time (pairwise)","EdU","Sym",NA,"Time: pairwise within state×heat","5dpl","8dpl",8,7,NA,NA,0.162,0.324,"ns","ns","Heat"
+"Time (pairwise)","Caspase","Apo",NA,"Time: pairwise within state×heat","2dpl","14dpl",3,3,NA,NA,0.229,0.344,"ns","ns","Control"
+"Time (pairwise)","Caspase","Apo",NA,"Time: pairwise within state×heat","2dpl","5dpl",3,4,NA,NA,0.218,0.344,"ns","ns","Control"
+"Time (pairwise)","Caspase","Apo",NA,"Time: pairwise within state×heat","2dpl","8dpl",3,6,NA,NA,0.432,0.576,"ns","ns","Control"
+"Time (pairwise)","Caspase","Apo",NA,"Time: pairwise within state×heat","5dpl","14dpl",4,3,NA,NA,0.957,0.957,"ns","ns","Control"
+"Time (pairwise)","Caspase","Apo",NA,"Time: pairwise within state×heat","5dpl","8dpl",4,6,NA,NA,0.529,0.605,"ns","ns","Control"
+"Time (pairwise)","Caspase","Apo",NA,"Time: pairwise within state×heat","8dpl","14dpl",6,3,NA,NA,0.527,0.605,"ns","ns","Control"
+"Time (pairwise)","Caspase","Apo",NA,"Time: pairwise within state×heat","2dpl","14dpl",6,3,NA,NA,0.461,0.582,"ns","ns","Heat"
+"Time (pairwise)","Caspase","Apo",NA,"Time: pairwise within state×heat","2dpl","5dpl",6,5,NA,NA,0.0376,0.082,"*","ns","Heat"
+"Time (pairwise)","Caspase","Apo",NA,"Time: pairwise within state×heat","2dpl","8dpl",6,3,NA,NA,0.0223,0.0581,"*","ns","Heat"
+"Time (pairwise)","Caspase","Apo",NA,"Time: pairwise within state×heat","5dpl","14dpl",5,3,NA,NA,0.0198,0.0581,"*","ns","Heat"
+"Time (pairwise)","Caspase","Apo",NA,"Time: pairwise within state×heat","5dpl","8dpl",5,3,NA,NA,0.565,0.616,"ns","ns","Heat"
+"Time (pairwise)","Caspase","Apo",NA,"Time: pairwise within state×heat","8dpl","14dpl",3,3,NA,NA,0.0123,0.0581,"*","ns","Heat"
+"Time (pairwise)","Caspase","Inoc",NA,"Time: pairwise within state×heat","5dpl","14dpl",4,3,NA,NA,0.0157,0.0581,"*","ns","Control"
+"Time (pairwise)","Caspase","Inoc",NA,"Time: pairwise within state×heat","5dpl","8dpl",4,4,NA,NA,0.131,0.251,"ns","ns","Control"
+"Time (pairwise)","Caspase","Inoc",NA,"Time: pairwise within state×heat","8dpl","14dpl",4,3,NA,NA,0.00173,0.0138,"**","*","Control"
+"Time (pairwise)","Caspase","Inoc",NA,"Time: pairwise within state×heat","5dpl","14dpl",5,2,NA,NA,0.000245,0.00294,"***","**","Heat"
+"Time (pairwise)","Caspase","Inoc",NA,"Time: pairwise within state×heat","5dpl","8dpl",5,5,NA,NA,0.000199,0.00294,"***","**","Heat"
+"Time (pairwise)","Caspase","Inoc",NA,"Time: pairwise within state×heat","8dpl","14dpl",5,2,NA,NA,0.226,0.344,"ns","ns","Heat"
+"Time (pairwise)","Caspase","Sym",NA,"Time: pairwise within state×heat","2dpl","5dpl",6,9,NA,NA,0.0242,0.0581,"*","ns","Control"
+"Time (pairwise)","Caspase","Sym",NA,"Time: pairwise within state×heat","2dpl","8dpl",6,6,NA,NA,0.021,0.0581,"*","ns","Control"
+"Time (pairwise)","Caspase","Sym",NA,"Time: pairwise within state×heat","5dpl","8dpl",9,6,NA,NA,0.76,0.793,"ns","ns","Control"
+"Time (pairwise)","Caspase","Sym",NA,"Time: pairwise within state×heat","2dpl","5dpl",6,8,NA,NA,0.296,0.418,"ns","ns","Heat"
+"Time (pairwise)","Caspase","Sym",NA,"Time: pairwise within state×heat","2dpl","8dpl",6,8,NA,NA,0.136,0.251,"ns","ns","Heat"
+"Time (pairwise)","Caspase","Sym",NA,"Time: pairwise within state×heat","5dpl","8dpl",8,8,NA,NA,0.0105,0.0581,"*","ns","Heat"
