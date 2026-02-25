@@ -22,26 +22,27 @@ setwd("C:/GitHub/heatinglacerate")
 
 ##Reading data table
 long <- read.csv("Grace/Experimental Schedule for URSA - Grace Kelly - Grace_tent_count.csv")
-View(long)
 str(long)
 
-##Converting elements in table
-long$Tent_count <- as.numeric(long$Tent_count)
-long$ID <- as.factor(long$ID)
-long$Plate <- as.factor(long$Plate)
-long$Well <- as.factor(long$Well)
-long$Line <- as.factor(long$Line)
-long$Temp <- as.factor(long$Temp)
-long$Treatment <- as.factor(long$Treatment)
-long$Symbiosis <- as.factor(long$Symbiosis)
-long$Lacerate <- as.factor(long$Lacerate)
-long$Day <- as.numeric(long$Day)
-long$Day_cat <- as.factor(long$Day_cat)
+names(long) <- tolower(names(long))
 
+
+##Converting elements in table
+long$tent_count <- as.numeric(long$tent_count)
+long$id <- as.factor(long$id)
+long$plate <- as.factor(long$plate)
+long$well <- as.factor(long$well)
+long$line <- as.factor(long$line)
+long$temp <- as.factor(long$temp)
+long$treatment <- as.factor(long$treatment)
+long$symbiosis <- as.factor(long$symbiosis)
+long$lacerate <- as.factor(long$lacerate)
+long$day <- as.numeric(long$day)
+long$day_cat <- as.factor(long$day_cat)
 
 df <- long %>%
-  mutate(Day = as.factor(.$Day)) %>%
-  mutate(Day = recode(Day, 0 = "00"))
+  mutate(day = as.factor(day)) %>%
+  mutate(day = dplyr::recode(day, "0" = "00"))
 
 View(df)
 
@@ -59,14 +60,14 @@ newlong
 #Mortality Graph
 newlong
 df <- newlong %>%
-  mutate(Mortality = ifelse(is.na(Tent_count) | Tent_count == 0, "Dead", "Alive"))
+  mutate(Mortality = ifelse(is.na(tent_count) | tent_count == 0, "Dead", "Alive"))
 
 df_filtered <- newlong %>%
-  filter(Day_cat %in% c(14, 21)) %>%
-  mutate(Mortality = ifelse(is.na(Tent_count) | Tent_count == 0, "Dead", "Alive"))
+  filter(day_cat %in% c("14_day", "21_day")) %>%
+  mutate(Mortality = ifelse(is.na(tent_count) | tent_count == 0, "Dead", "Alive"))
 
 
-ggplot(df_filtered, aes(x = Treatment, fill = Mortality)) +
+ggplot(df_filtered, aes(x = treatment, fill = Mortality)) +
   geom_bar(position = "stack") +
   labs(
     x = "Treatment Group",
@@ -74,7 +75,7 @@ ggplot(df_filtered, aes(x = Treatment, fill = Mortality)) +
     fill = "Mortality"
   ) +
   ggtitle("Mortality by Treatment Group") +
-  facet_wrap(~ Day, ncol = 2) +  # Facet by Day with 2 columns
+  facet_wrap(~ day, ncol = 2) +  # Facet by day with 2 columns
   scale_fill_manual(values = c("Dead" = "black", "Alive" = "green")) +  # Custom colors for Dead and Alive
   theme_minimal() +
   theme(legend.text.align = 0,
@@ -90,16 +91,16 @@ ggplot(df_filtered, aes(x = Treatment, fill = Mortality)) +
 
 ##Graphing results of Experiment URSA
 data_means <- newlong %>%
-  group_by(Treatment, Day) %>%
-  summarise(mean = mean(Tent_count, na.rm=TRUE),
-            se = std.error(Tent_count, na.rm=TRUE))
+  group_by(treatment, day) %>%
+  summarise(mean = mean(tent_count, na.rm=TRUE),
+            se = std.error(tent_count, na.rm=TRUE))
 
 #Everything
 
 # Filter data for the treatments of interest
 treatments_of_interest <- c("H2-Apo-25", "H2-Apo-32", "H2-Ino-25", "H2-Ino-32", "H2-Sym-25", "H2-Sym-32")
 df_filtered <- data_means %>%
-  filter(Treatment %in% treatments_of_interest)
+  filter(treatment %in% treatments_of_interest)
 
 # Custom labels for the facets
 facet_labels <- c(
@@ -110,15 +111,15 @@ facet_labels <- c(
 )
 
 # Create the ggplot graph with facet_wrap
-ggplot(df_filtered, aes(x = Day, y = mean)) +
+ggplot(df_filtered, aes(x = day, y = mean)) +
   theme_classic(base_size = 15) +
-  geom_line(aes(color = Treatment, group = Treatment), position = position_dodge(0.5), size = 1.5) +
+  geom_line(aes(color = treatment, group = treatment), position = position_dodge(0.5), size = 1.5) +
   ylab(bquote("Mean tentacle number")) +
   xlab("Days post laceration (dpl)") +
   ggtitle("Effect of Temperature and Symbiotic State on Pedal Lacerate Tentacle Development in Aiptasia") +
-  geom_point(aes(color = Treatment), size = 6, shape = 20, position = position_dodge(0.5)) +
-  scale_x_continuous(breaks = round(seq(min(df_filtered$Day), max(df_filtered$Day), by = 1), 1)) +
-  geom_errorbar(aes(color = Treatment, x = Day, ymin = mean - se, ymax = mean + se), width = 1.2, size = 1, position = position_dodge(0.5)) +
+  geom_point(aes(color = treatment), size = 6, shape = 20, position = position_dodge(0.5)) +
+  scale_x_continuous(breaks = round(seq(min(df_filtered$day), max(df_filtered$day), by = 1), 1)) +
+  geom_errorbar(aes(color = treatment, x = day, ymin = mean - se, ymax = mean + se), width = 1.2, size = 1, position = position_dodge(0.5)) +
   scale_color_manual(values = c(
     "H2-Apo-25" = "aquamarine",
     "H2-Apo-32" = "chocolate",
@@ -144,21 +145,21 @@ ggplot(df_filtered, aes(x = Day, y = mean)) +
         legend.title = element_text(size = 20),
         strip.text = element_text(size = 20)) +  # Change size of facet title    
   scale_size_manual(values = c(1.2, 1.2, 1.2, 1.2)) +
-  labs(colour = "Treatment") +
+  labs(colour = "treatment") +
   coord_cartesian(ylim = c(0, 15)) +
-  facet_wrap(~ Treatment, ncol = 2)
+  facet_wrap(~ treatment, ncol = 2)
 
 
 #Everything
-ggplot(data = data_means, aes(x = Day, y = mean)) +
+ggplot(data = data_means, aes(x = day, y = mean)) +
   theme_classic(base_size = 15) +
-  geom_line(aes(color = Treatment, group = Treatment), position = position_dodge(0.5), size = 1.5) +  # Increase line thickness to 1.5
+  geom_line(aes(color = treatment, group = treatment), position = position_dodge(0.5), size = 1.5) +  # Increase line thickness to 1.5
   ylab(bquote("Mean tentacle number"))+
   xlab("Days post laceration (dpl)") +
   ggtitle("Effect of Temperature on Pedal Lacerate Tentacle Development in Aiptasia") +
-  geom_point(aes(color = Treatment), size = 10, shape = 20, position = position_dodge(0.5)) +
-  scale_x_continuous(breaks = round(seq(min(data_means$Day), max(data_means$Day), by = 1),1)) +
-  geom_errorbar(aes(color = Treatment, x = Day, ymin = mean - se, ymax = mean + se), width = 3.2, size = 2, position = position_dodge(0.5)) +
+  geom_point(aes(color = treatment), size = 10, shape = 20, position = position_dodge(0.5)) +
+  scale_x_continuous(breaks = round(seq(min(data_means$day), max(data_means$day), by = 1),1)) +
+  geom_errorbar(aes(color = treatment, x = day, ymin = mean - se, ymax = mean + se), width = 3.2, size = 2, position = position_dodge(0.5)) +
   scale_color_discrete(breaks=c("H2-Apo-25","H2-Apo-32","H2-Ino-25","H2-Ino-3","H2-SYM-Sym","H2-Sym-32")) +
   scale_color_manual(values = c("H2-Apo-25" = "aquamarine",
                                 "H2-Apo-32" = "chocolate",
@@ -180,20 +181,20 @@ ggplot(data = data_means, aes(x = Day, y = mean)) +
         legend.text = element_text(size = 18),   # Increase legend text size to 18
         legend.title = element_text(size = 20)) +  # Increase legend title size to 20    
   scale_size_manual(values=c(1.2,1.2,1.2,1.2)) +
-  labs(colour = "Treatment") +
+  labs(colour = "treatment") +
   coord_cartesian(ylim = c(0, 15))
 
 #Ino vs Ino
 
-ggplot(data = data_means[data_means$Treatment %in% c("H2-Ino-25", "H2-Ino-32"), ], aes(x = Day, y = mean)) +
+ggplot(data = data_means[data_means$treatment %in% c("H2-Ino-25", "H2-Ino-32"), ], aes(x = day, y = mean)) +
   theme_classic(base_size = 15) +
-  geom_line(aes(color = Treatment, group = Treatment), position = position_dodge(0.5), size = 1.5) +  # Increase line thickness to 1.5
+  geom_line(aes(color = treatment, group = treatment), position = position_dodge(0.5), size = 1.5) +  # Increase line thickness to 1.5
   ylab(bquote("Mean tentacle number")) +
   xlab("Days post laceration (dpl)") +
   ggtitle("Effect of Temperature on Inoculated Pedal Lacerate Tentacle Development in Aiptasia") +
-  geom_point(aes(color = Treatment), size = 10, shape = 20, position = position_dodge(0.5)) +
-  scale_x_continuous(breaks = round(seq(min(data_means$Day), max(data_means$Day), by = 1),1)) +
-  geom_errorbar(aes(color = Treatment, x = Day, ymin = mean - se, ymax = mean + se), width = 1.2, size = 2, position = position_dodge(0.5)) +
+  geom_point(aes(color = treatment), size = 10, shape = 20, position = position_dodge(0.5)) +
+  scale_x_continuous(breaks = round(seq(min(data_means$day), max(data_means$day), by = 1),1)) +
+  geom_errorbar(aes(color = treatment, x = day, ymin = mean - se, ymax = mean + se), width = 1.2, size = 2, position = position_dodge(0.5)) +
   scale_color_manual(values = c("H2-Ino-25" = "Blue",
                                 "H2-Ino-32" = "Red"),
                      labels = c("H2-Ino-25", "H2-Ino-32")) +
@@ -205,20 +206,20 @@ ggplot(data = data_means[data_means$Treatment %in% c("H2-Ino-25", "H2-Ino-32"), 
         legend.text = element_text(size = 18),   # Increase legend text size to 18
         legend.title = element_text(size = 20)) +  # Increase legend title size to 20    
   scale_size_manual(values=c(1.2,1.2,1.2,1.2)) +
-  labs(colour = "Treatment") +
+  labs(colour = "treatment") +
   coord_cartesian(ylim = c(0, 15))
 
 
 #Apo vs Apo
-ggplot(data = data_means[data_means$Treatment %in% c("H2-Apo-25", "H2-Apo-32"), ], aes(x = Day, y = mean)) +
+ggplot(data = data_means[data_means$treatment %in% c("H2-Apo-25", "H2-Apo-32"), ], aes(x = day, y = mean)) +
   theme_classic(base_size = 15) +
-  geom_line(aes(color = Treatment, group = Treatment), position = position_dodge(0.5), size = 1.5) +  # Increase line thickness to 1.5
+  geom_line(aes(color = treatment, group = treatment), position = position_dodge(0.5), size = 1.5) +  # Increase line thickness to 1.5
   ylab(bquote("Mean tentacle number")) +
   xlab("Days post laceration (dpl)") +
   ggtitle("Effect of Temperature on Aposymbiotic Pedal Lacerate Tentacle Development in Aiptasia") +
-  geom_point(aes(color = Treatment), size = 10, shape = 20, position = position_dodge(0.5)) +
-  scale_x_continuous(breaks = round(seq(min(data_means$Day), max(data_means$Day), by = 1),1)) +
-  geom_errorbar(aes(color = Treatment, x = Day, ymin = mean - se, ymax = mean + se), width = 1.2, size = 2, position = position_dodge(0.5)) +
+  geom_point(aes(color = treatment), size = 10, shape = 20, position = position_dodge(0.5)) +
+  scale_x_continuous(breaks = round(seq(min(data_means$day), max(data_means$day), by = 1),1)) +
+  geom_errorbar(aes(color = treatment, x = day, ymin = mean - se, ymax = mean + se), width = 1.2, size = 2, position = position_dodge(0.5)) +
   scale_color_manual(values = c("H2-Apo-25" = "Blue",
                                 "H2-Apo-32" = "Red"),
                      labels = c("H2-Apo-25", "H2-Apo-32")) +
@@ -230,21 +231,21 @@ ggplot(data = data_means[data_means$Treatment %in% c("H2-Apo-25", "H2-Apo-32"), 
         legend.text = element_text(size = 18),   # Increase legend text size to 18
         legend.title = element_text(size = 20)) +  # Increase legend title size to 20    
   scale_size_manual(values=c(1.2,1.2,1.2,1.2)) +
-  labs(colour = "Treatment") +
+  labs(colour = "treatment") +
   coord_cartesian(ylim = c(0, 15))
 
 
 
 #Sym vs Sym
-ggplot(data = data_means[data_means$Treatment %in% c("H2-Sym-25", "H2-Sym-32"), ], aes(x = Day, y = mean)) +
+ggplot(data = data_means[data_means$treatment %in% c("H2-Sym-25", "H2-Sym-32"), ], aes(x = day, y = mean)) +
   theme_classic(base_size = 15) +
-  geom_line(aes(color = Treatment, group = Treatment), position = position_dodge(0.5), size = 1.5) +  # Increase line thickness to 1.5
+  geom_line(aes(color = treatment, group = treatment), position = position_dodge(0.5), size = 1.5) +  # Increase line thickness to 1.5
   ylab(bquote("Mean tentacle number")) +
   xlab("Days post laceration (dpl)") +
   ggtitle("Effect of Temperature on Symbiotic Pedal Lacerate Tentacle Development in Aiptasia") +
-  geom_point(aes(color = Treatment), size = 10, shape = 20, position = position_dodge(0.5)) +
-  scale_x_continuous(breaks = round(seq(min(data_means$Day), max(data_means$Day), by = 1),1)) +
-  geom_errorbar(aes(color = Treatment, x = Day, ymin = mean - se, ymax = mean + se), width = 1.2, size = 2, position = position_dodge(0.5)) +
+  geom_point(aes(color = treatment), size = 10, shape = 20, position = position_dodge(0.5)) +
+  scale_x_continuous(breaks = round(seq(min(data_means$day), max(data_means$day), by = 1),1)) +
+  geom_errorbar(aes(color = treatment, x = day, ymin = mean - se, ymax = mean + se), width = 1.2, size = 2, position = position_dodge(0.5)) +
   scale_color_manual(values = c("H2-Sym-25" = "Blue",
                                 "H2-Sym-32" = "Red"),
                      labels = c("H2-Sym-25", "H2-Sym-32")) +
@@ -256,25 +257,25 @@ ggplot(data = data_means[data_means$Treatment %in% c("H2-Sym-25", "H2-Sym-32"), 
         legend.text = element_text(size = 18),   # Increase legend text size to 18
         legend.title = element_text(size = 20)) +  # Increase legend title size to 20    
   scale_size_manual(values=c(1.2,1.2,1.2,1.2)) +
-  labs(colour = "Treatment") +
+  labs(colour = "treatment") +
   coord_cartesian(ylim = c(0, 15))
 
 
 
 #Sym States
-ggplot(data = data_means[data_means$Treatment %in% c("H2-Apo-25", "H2-Ino-25", "H2-Sym-25"), ], aes(x = Day, y = mean)) +
+p_sym_state  <- ggplot(data = data_means[data_means$treatment %in% c("H2-Apo-25", "H2-Ino-25", "H2-Sym-25"), ], aes(x = day, y = mean)) +
   theme_classic(base_size = 15) +
-  geom_line(aes(color = Treatment, group = Treatment), position = position_dodge(0.5), size = 1.5) +  # Increase line thickness to 1.5
+  geom_line(aes(color = treatment, group = treatment), position = position_dodge(0.5), size = 1.5) +  # Increase line thickness to 1.5
   ylab(bquote("Mean tentacle number")) +
   xlab("Days post laceration (dpl)") +
   ggtitle("Effect of Symbiotic State on Pedal Lacerate Tentacle Development in Aiptasia") +
-  geom_point(aes(color = Treatment), size = 10, shape = 20, position = position_dodge(0.5)) +
-  scale_x_continuous(breaks = round(seq(min(data_means$Day), max(data_means$Day), by = 1),1)) +
-  geom_errorbar(aes(color = Treatment, x = Day, ymin = mean - se, ymax = mean + se), width = 1.2, size = 2, position = position_dodge(0.5)) +
+  geom_point(aes(color = treatment), size = 10, shape = 20, position = position_dodge(0.5)) +
+  scale_x_continuous(breaks = round(seq(min(data_means$day), max(data_means$day), by = 1),1)) +
+  geom_errorbar(aes(color = treatment, x = day, ymin = mean - se, ymax = mean + se), width = 1.2, size = 2, position = position_dodge(0.5)) +
   scale_color_manual(values = c("H2-Apo-25" = "Blue",
                                 "H2-Ino-25" = "Green",
                                 "H2-Sym-25" = "Brown"),
-                     labels = c("H2-Apo-25", "H2-Ino-25", "H2-Sym-25")) +
+                     labels = c("Apo-25", "Inoc-25", "Sym-25")) +
   theme(legend.text.align = 0,
         axis.title.x = element_text(size = 24),  # Increase X-axis title size to 20
         axis.title.y = element_text(size = 24),  # Increase Y-axis title size to 22
@@ -283,15 +284,19 @@ ggplot(data = data_means[data_means$Treatment %in% c("H2-Apo-25", "H2-Ino-25", "
         legend.text = element_text(size = 18),   # Increase legend text size to 18
         legend.title = element_text(size = 20)) +  # Increase legend title size to 20    
   scale_size_manual(values=c(1.2,1.2,1.2,1.2)) +
-  labs(colour = "Treatment") +
+  labs(colour = "treatment") +
   coord_cartesian(ylim = c(0, 15))
+
+ggsave("Grace_ApoInocSym_Figure.pdf", plot = p_sym_state, device = "pdf", path = here("figs"),  width = 11,  height = 8, units = "in")
+ggsave("Grace_ApoInocSym_Figure.tiff", plot = p_sym_state, device = "tiff", path = here("figs"),  width = 11,  height = 8, units = "in", dpi = 600, compression = "lzw")
+
 
 
 
 #ANOVA Analysis
 
 view(long)
-anova(aov(Tent_count ~ Temp*Symbiosis, data=long))
+anova(aov(tent_count ~ temp*symbiosis, data=long))
 
 #General linear mix model 
 library(car)
@@ -300,10 +305,10 @@ library(emmeans)
 
 data <- long
 
-Apo_subset <- subset(long, Treatment %in% c("H2-Apo-25", "H2-Apo-32"))
-Ino_subset <- subset(long, Treatment %in% c("H2-Ino-25", "H2-Ino-32"))
-Sym_subset <- subset(long, Treatment %in% c("H2-Sym-25", "H2-Sym-32"))
-Symbiois_subset <- subset(long, Treatment %in% c("H2-Sym-25", "H2-Ino-25", "H2-Apo-25"))
+Apo_subset <- subset(long, treatment %in% c("H2-Apo-25", "H2-Apo-32"))
+Ino_subset <- subset(long, treatment %in% c("H2-Ino-25", "H2-Ino-32"))
+Sym_subset <- subset(long, treatment %in% c("H2-Sym-25", "H2-Sym-32"))
+Symbiois_subset <- subset(long, treatment %in% c("H2-Sym-25", "H2-Ino-25", "H2-Apo-25"))
 
 
 data <- Sym_subset
@@ -311,13 +316,13 @@ data <- Sym_subset
 str(data)
 
 # Distribution of the data
-hist(data$Tent_count)
+hist(data$tent_count)
 
 # Convert column day as a numeric factor
-as.factor(data$Day)
+as.factor(data$day)
 
 # Choosing the correct mode
-model <- lmer(Tent_count ~ Temp*Day_cat + (1|ID),
+model <- lmer(tent_count ~ temp*day_cat + (1|id),
               data = data)
 
 plot(model)
@@ -326,8 +331,8 @@ qqline(residuals(model))
 Anova(model)
 
 
-emmeans(model, list(pairwise ~ Temp | Day_cat), adjust = "tukey")
-emmeans(model, list(pairwise ~ Symbiosis | Day_cat), adjust = "tukey")
+emmeans(model, list(pairwise ~ temp | day_cat), adjust = "tukey")
+emmeans(model, list(pairwise ~ symbiosis | day_cat), adjust = "tukey")
 
 ############################
 
@@ -340,20 +345,20 @@ str(pedal)
 
 ##Converting elements in table
 pedal$Pedal <- as.numeric(pedal$Pedal)
-pedal$ID <- as.factor(pedal$ID)
-pedal$Plate <- as.factor(pedal$Plate)
-pedal$Well <- as.factor(pedal$Well)
-pedal$Line <- as.factor(pedal$Line)
-pedal$Temp <- as.factor(pedal$Temp)
-pedal$Treatment <- as.factor(pedal$Treatment)
-pedal$Symbiosis <- as.factor(pedal$Symbiosis)
-pedal$Lacerate <- as.factor(pedal$Lacerate)
-pedal$Day <- as.numeric(pedal$Day)
-pedal$Day_cat <- as.factor(pedal$Day_cat)
+pedal$id <- as.factor(pedal$id)
+pedal$plate <- as.factor(pedal$plate)
+pedal$well <- as.factor(pedal$well)
+pedal$line <- as.factor(pedal$line)
+pedal$temp <- as.factor(pedal$temp)
+pedal$treatment <- as.factor(pedal$treatment)
+pedal$symbiosis <- as.factor(pedal$symbiosis)
+pedal$lacerate <- as.factor(pedal$lacerate)
+pedal$day <- as.numeric(pedal$day)
+pedal$day_cat <- as.factor(pedal$day_cat)
 
 
 data_means <- pedal %>%
-  group_by(Treatment, Day) %>%
+  group_by(treatment, day) %>%
   summarise(mean = mean(Pedal, na.rm=TRUE),
             se = std.error(Pedal, na.rm=TRUE))
 
@@ -361,7 +366,7 @@ data_means <- pedal %>%
 # Filter data for the treatments of interest
 treatments_of_interest <- c("H2-Apo-25", "H2-Apo-32", "H2-Ino-25", "H2-Ino-32", "H2-Sym-25", "H2-Sym-32")
 df_filtered <- data_means %>%
-  filter(Treatment %in% treatments_of_interest)
+  filter(treatment %in% treatments_of_interest)
 
 # Custom labels for the facets
 facet_labels <- c(
@@ -372,15 +377,15 @@ facet_labels <- c(
 )
 
 # Create the ggplot graph with facet_wrap
-ggplot(df_filtered, aes(x = Day, y = mean)) +
+ggplot(df_filtered, aes(x = day, y = mean)) +
   theme_classic(base_size = 15) +
-  geom_line(aes(color = Treatment, group = Treatment), position = position_dodge(0.5), size = 1.5) +
+  geom_line(aes(color = treatment, group = treatment), position = position_dodge(0.5), size = 1.5) +
   ylab(bquote("Mean pedal disc size (um^2)")) +
   xlab("Days post laceration (dpl)") +
   ggtitle("Effect of Temperature and Symbiotic State on Pedal Disc Size in Pedal Lacerates") +
-  geom_point(aes(color = Treatment), size = 6, shape = 20, position = position_dodge(0.5)) +
-  scale_x_continuous(breaks = round(seq(min(df_filtered$Day), max(df_filtered$Day), by = 1), 1)) +
-  geom_errorbar(aes(color = Treatment, x = Day, ymin = mean - se, ymax = mean + se), width = 1.2, size = 1, position = position_dodge(0.5)) +
+  geom_point(aes(color = treatment), size = 6, shape = 20, position = position_dodge(0.5)) +
+  scale_x_continuous(breaks = round(seq(min(df_filtered$day), max(df_filtered$day), by = 1), 1)) +
+  geom_errorbar(aes(color = treatment, x = day, ymin = mean - se, ymax = mean + se), width = 1.2, size = 1, position = position_dodge(0.5)) +
   scale_color_manual(values = c(
     "H2-Apo-25" = "aquamarine",
     "H2-Apo-32" = "chocolate",
@@ -405,23 +410,23 @@ ggplot(df_filtered, aes(x = Day, y = mean)) +
         legend.text = element_text(size = 18),
         legend.title = element_text(size = 20)) +
   scale_size_manual(values = c(1.2, 1.2, 1.2, 1.2)) +
-  labs(colour = "Treatment") +
+  labs(colour = "treatment") +
   coord_cartesian(ylim = c(200, 800)) +
-  facet_wrap(~ Treatment, ncol = 2)
+  facet_wrap(~ treatment, ncol = 2)
 
 
 
 
 #Everything
-ggplot(data = data_means, aes(x = Day, y = mean)) +
+ggplot(data = data_means, aes(x = day, y = mean)) +
   theme_classic(base_size = 15) +
-  geom_line(aes(color = Treatment, group = Treatment), position = position_dodge(0.5)) +
+  geom_line(aes(color = treatment, group = treatment), position = position_dodge(0.5)) +
   ylab(bquote("Mean pedal disc size (um^2)")) +
   xlab("Days post laceration (dpl)") +
   ggtitle("Effect of Temperature on Pedal Disc Size in Pedal Lacerates") +
-  geom_point(aes(color = Treatment), size = 2.5, shape = 20, position = position_dodge(0.5)) +
-  scale_x_continuous(breaks = round(seq(min(data_means$Day), max(data_means$Day), by = 1),1)) +
-  geom_errorbar(aes(color = Treatment, x = Day, ymin = mean - se, ymax = mean + se), width = 0.2, position = position_dodge(0.5)) +
+  geom_point(aes(color = treatment), size = 2.5, shape = 20, position = position_dodge(0.5)) +
+  scale_x_continuous(breaks = round(seq(min(data_means$day), max(data_means$day), by = 1),1)) +
+  geom_errorbar(aes(color = treatment, x = day, ymin = mean - se, ymax = mean + se), width = 0.2, position = position_dodge(0.5)) +
   scale_color_discrete(breaks=c("H2-Apo-25","H2-Apo-32","H2-Ino-25","H2-Ino-3","H2-SYM-Sym","H2-Sym-32")) +
   scale_color_manual(values = c("H2-Apo-25" = "aquamarine",
                                 "H2-Apo-32" = "chocolate",
@@ -437,59 +442,59 @@ ggplot(data = data_means, aes(x = Day, y = mean)) +
                               expression(paste("H2-Sym-32")))) +
   theme(legend.text.align = 0) +
   scale_size_manual(values=c(1.2,1.2,1.2,1.2)) +
-  labs(colour = "Treatment") +
+  labs(colour = "treatment") +
   coord_cartesian(xlim = c(2, 14))
 
 
 #Ino vs Ino
 
-ggplot(data = data_means[data_means$Treatment %in% c("H2-Ino-25", "H2-Ino-32"), ], aes(x = Day, y = mean)) +
+ggplot(data = data_means[data_means$treatment %in% c("H2-Ino-25", "H2-Ino-32"), ], aes(x = day, y = mean)) +
   theme_classic(base_size = 15) +
-  geom_line(aes(color = Treatment, group = Treatment), position = position_dodge(0.5)) +
+  geom_line(aes(color = treatment, group = treatment), position = position_dodge(0.5)) +
   ylab(bquote("Mean pedal disc size (um^2)")) +
   xlab("Days post laceration (dpl)") +
   ggtitle("Effect of Temperature on Pedal Disc Size in Inoculated Lacerates") +
-  geom_point(aes(color = Treatment), size = 2.5, shape = 20, position = position_dodge(0.5)) +
-  scale_x_continuous(breaks = round(seq(min(data_means$Day), max(data_means$Day), by = 1), 1)) +
-  geom_errorbar(aes(color = Treatment, x = Day, ymin = mean - se, ymax = mean + se), width = 0.2, position = position_dodge(0.5)) +
+  geom_point(aes(color = treatment), size = 2.5, shape = 20, position = position_dodge(0.5)) +
+  scale_x_continuous(breaks = round(seq(min(data_means$day), max(data_means$day), by = 1), 1)) +
+  geom_errorbar(aes(color = treatment, x = day, ymin = mean - se, ymax = mean + se), width = 0.2, position = position_dodge(0.5)) +
   scale_color_manual(values = c("H2-Ino-25" = "Blue",
                                 "H2-Ino-32" = "Red"),
                      labels = c("H2-Ino-25", "H2-Ino-32")) +
   theme(legend.text.align = 0) +
   scale_size_manual(values = c(1.2, 1.2)) +
-  labs(colour = "Treatment")+
+  labs(colour = "treatment")+
   coord_cartesian(xlim = c(2, 14))
 
 
 #Apo vs Apo
-ggplot(data = data_means[data_means$Treatment %in% c("H2-Apo-25", "H2-Apo-32"), ], aes(x = Day, y = mean)) +
+ggplot(data = data_means[data_means$treatment %in% c("H2-Apo-25", "H2-Apo-32"), ], aes(x = day, y = mean)) +
   theme_classic(base_size = 15) +
-  geom_line(aes(color = Treatment, group = Treatment), position = position_dodge(0.5)) +
+  geom_line(aes(color = treatment, group = treatment), position = position_dodge(0.5)) +
   ylab(bquote("Mean pedal disc size (um^2)")) +
   xlab("Days post laceration (dpl)") +
   ggtitle("Effect of Temperature on Pedal Disc Size in Apo Lacerates") +
-  geom_point(aes(color = Treatment), size = 2.5, shape = 20, position = position_dodge(0.5)) +
-  scale_x_continuous(breaks = round(seq(min(data_means$Day), max(data_means$Day), by = 1), 1)) +
-  geom_errorbar(aes(color = Treatment, x = Day, ymin = mean - se, ymax = mean + se), width = 0.2, position = position_dodge(0.5)) +
+  geom_point(aes(color = treatment), size = 2.5, shape = 20, position = position_dodge(0.5)) +
+  scale_x_continuous(breaks = round(seq(min(data_means$day), max(data_means$day), by = 1), 1)) +
+  geom_errorbar(aes(color = treatment, x = day, ymin = mean - se, ymax = mean + se), width = 0.2, position = position_dodge(0.5)) +
   scale_color_manual(values = c("H2-Apo-25" = "Blue",
                                 "H2-Apo-32" = "Red"),
                      labels = c("H2-Apo-25", "H2-Apo-32")) +
   theme(legend.text.align = 0) +
   scale_size_manual(values = c(1.2, 1.2)) +
-  labs(colour = "Treatment")+
+  labs(colour = "treatment")+
   coord_cartesian(xlim = c(2, 14))
 
 
 #Sym vs Sym
-ggplot(data = data_means[data_means$Treatment %in% c("H2-Sym-25", "H2-Sym-32"), ], aes(x = Day, y = mean)) +
+ggplot(data = data_means[data_means$Treatment %in% c("H2-Sym-25", "H2-Sym-32"), ], aes(x = day, y = mean)) +
   theme_classic(base_size = 15) +
   geom_line(aes(color = Treatment, group = Treatment), position = position_dodge(0.5)) +
   ylab(bquote("Mean pedal disc size (um^2)")) +
   xlab("Days post laceration (dpl)") +
   ggtitle("Effect of Temperature on Pedal Disc Size in Sym Lacerates") +
   geom_point(aes(color = Treatment), size = 2.5, shape = 20, position = position_dodge(0.5)) +
-  scale_x_continuous(breaks = round(seq(min(data_means$Day), max(data_means$Day), by = 1), 1)) +
-  geom_errorbar(aes(color = Treatment, x = Day, ymin = mean - se, ymax = mean + se), width = 0.2, position = position_dodge(0.5)) +
+  scale_x_continuous(breaks = round(seq(min(data_means$day), max(data_means$day), by = 1), 1)) +
+  geom_errorbar(aes(color = Treatment, x = day, ymin = mean - se, ymax = mean + se), width = 0.2, position = position_dodge(0.5)) +
   scale_color_manual(values = c("H2-Sym-25" = "Blue",
                                 "H2-Sym-32" = "Red"),
                      labels = c("H2-Sym-25", "H2-Sym-32")) +
@@ -501,22 +506,22 @@ ggplot(data = data_means[data_means$Treatment %in% c("H2-Sym-25", "H2-Sym-32"), 
 
 
 #Sym States
-ggplot(data = data_means[data_means$Treatment %in% c("H2-Sym-25", "H2-Ino-25", "H2-Apo-25"), ], aes(x = Day, y = mean)) +
+ggplot(data = data_means[data_means$treatment %in% c("H2-Sym-25", "H2-Ino-25", "H2-Apo-25"), ], aes(x = day, y = mean)) +
   theme_classic(base_size = 15) +
-  geom_line(aes(color = Treatment, group = Treatment), position = position_dodge(0.5)) +
+  geom_line(aes(color = treatment, group = treatment), position = position_dodge(0.5)) +
   ylab(bquote("Mean pedal disc size (um^2)")) +
   xlab("Days post laceration (dpl)") +
   ggtitle("Effect of Symbiotic State on Pedal Disc Size ") +
-  geom_point(aes(color = Treatment), size = 2.5, shape = 20, position = position_dodge(0.5)) +
-  scale_x_continuous(breaks = round(seq(min(data_means$Day), max(data_means$Day), by = 1), 1)) +
-  geom_errorbar(aes(color = Treatment, x = Day, ymin = mean - se, ymax = mean + se), width = 0.2, position = position_dodge(0.5)) +
+  geom_point(aes(color = treatment), size = 2.5, shape = 20, position = position_dodge(0.5)) +
+  scale_x_continuous(breaks = round(seq(min(data_means$day), max(data_means$day), by = 1), 1)) +
+  geom_errorbar(aes(color = treatment, x = day, ymin = mean - se, ymax = mean + se), width = 0.2, position = position_dodge(0.5)) +
   scale_color_manual(values = c("H2-Apo-25" = "Blue",
                                 "H2-Ino-25" = "Green",
                                 "H2-Sym-25" = "Brown"),
                      labels = c("H2-Apo-25", "H2-Ino-25", "H2-Sym-25")) +
   theme(legend.text.align = 0) +
   scale_size_manual(values = c(1.2, 1.2)) +
-  labs(colour = "Treatment")+
+  labs(colour = "treatment")+
   coord_cartesian(xlim = c(2, 14))
 
 
@@ -525,7 +530,7 @@ ggplot(data = data_means[data_means$Treatment %in% c("H2-Sym-25", "H2-Ino-25", "
 #ANOVA Analysis
 
 view(pedal)
-anova(aov(Pedal ~ Temp*Symbiosis, data=pedal))
+anova(aov(Pedal ~ temp*symbiosis, data=pedal))
 
 #General linear mix model 
 library(car)
@@ -534,10 +539,10 @@ library(emmeans)
 
 data <- pedal
 
-Apo_subset <- subset(pedal, Treatment %in% c("H2-Apo-25", "H2-Apo-32"))
-Ino_subset <- subset(pedal, Treatment %in% c("H2-Ino-25", "H2-Ino-32"))
-Sym_subset <- subset(pedal, Treatment %in% c("H2-Sym-25", "H2-Sym-32"))
-Symbiois_subset <- subset(pedal, Treatment %in% c("H2-Sym-25", "H2-Ino-25", "H2-Apo-25"))
+Apo_subset <- subset(pedal, treatment %in% c("H2-Apo-25", "H2-Apo-32"))
+Ino_subset <- subset(pedal, treatment %in% c("H2-Ino-25", "H2-Ino-32"))
+Sym_subset <- subset(pedal, treatment %in% c("H2-Sym-25", "H2-Sym-32"))
+Symbiois_subset <- subset(pedal, treatment %in% c("H2-Sym-25", "H2-Ino-25", "H2-Apo-25"))
 
 
 data <- Sym_subset
@@ -545,13 +550,13 @@ data <- Sym_subset
 str(data)
 
 # Distribution of the data
-hist(data$Tent_count)
+hist(data$tent_count)
 
 # Convert column day as a numeric factor
-as.factor(data$Day)
+as.factor(data$day)
 
 # Choosing the correct mode
-model <- lmer(Pedal ~ Temp*Symbiosis*Day_cat + (1|ID),
+model <- lmer(Pedal ~ temp*symbiosis*day_cat + (1|ID),
               data = data)
 
 plot(model)
@@ -560,8 +565,8 @@ qqline(residuals(model))
 Anova(model)
 
 
-emmeans(model, list(pairwise ~ Temp | Day_cat), adjust = "tukey")
-emmeans(model, list(pairwise ~ Symbiosis | Day_cat), adjust = "tukey")
+emmeans(model, list(pairwise ~ Temp | day_cat), adjust = "tukey")
+emmeans(model, list(pairwise ~ symbiosis | day_cat), adjust = "tukey")
 
 
 View(long)

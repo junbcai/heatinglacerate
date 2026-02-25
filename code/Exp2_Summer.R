@@ -52,7 +52,7 @@ View(df)
   mutate(stream = recode(stream, "MAR_MeanSD" = "MAR", "SEC_MeanSD" = "LAK", "BVA_MeanSD" = "BVA", "VCR_MeanSD" = "VAL", "SFS_MeanSD" = "SFS"))
 
 
-# Saving data frame as new object
+##Saving table as output
 newlong <- long
 saveRDS(newlong, file = "tables/Data_Table_Summer2022Data.RDS")
 
