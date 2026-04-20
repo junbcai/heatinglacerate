@@ -8,6 +8,7 @@ library(lme4)
 library(emmeans)
 library(qqplotr)
 library(here)
+library(scales)
 
 
 rm(list = ls())
@@ -44,49 +45,94 @@ df <- long %>%
   mutate(day = as.factor(day)) %>%
   mutate(day = dplyr::recode(day, "0" = "00"))
 
-View(df)
-
-select(-X) %>%
-  
-  gather(key = "stream", value = "density.anomaly", -Year, na.rm = TRUE) %>%
-  
-  mutate(stream = recode(stream, "MAR_MeanSD" = "MAR", "SEC_MeanSD" = "LAK", "BVA_MeanSD" = "BVA", "VCR_MeanSD" = "VAL", "SFS_MeanSD" = "SFS"))
-
-
-##Saving table as output
 newlong <- long
-newlong
 
-#Mortality Graph
-newlong
+
+#select(-X) %>%
+  
+#  gather(key = "stream", value = "density.anomaly", -Year, na.rm = TRUE) %>%
+  
+#  mutate(stream = recode(stream, "MAR_MeanSD" = "MAR", "SEC_MeanSD" = "LAK", "BVA_MeanSD" = "BVA", "VCR_MeanSD" = "VAL", "SFS_MeanSD" = "SFS"))
+
+
+# --- Mortality classification ---
+# Assign mortality status based on tentacle count
 df <- newlong %>%
   mutate(Mortality = ifelse(is.na(tent_count) | tent_count == 0, "Dead", "Alive"))
 
+# Restrict dataset to 14 and 21 dpl timepoints
 df_filtered <- newlong %>%
   filter(day_cat %in% c("14_day", "21_day")) %>%
   mutate(Mortality = ifelse(is.na(tent_count) | tent_count == 0, "Dead", "Alive"))
 
-
+# --- Mortality figure ---
+# Plot percent alive vs dead by treatment and timepoint
 ggplot(df_filtered, aes(x = treatment, fill = Mortality)) +
-  geom_bar(position = "stack") +
+  geom_bar(position = "fill", color = "white", linewidth = 0.2) +
   labs(
     x = "Treatment Group",
-    y = "Count",
+    y = "Percent",
     fill = "Mortality"
   ) +
-  ggtitle("Mortality by Treatment Group") +
-  facet_wrap(~ day, ncol = 2) +  # Facet by day with 2 columns
-  scale_fill_manual(values = c("Dead" = "black", "Alive" = "green")) +  # Custom colors for Dead and Alive
+  facet_wrap(~ day,
+             ncol = 2,
+             labeller = as_labeller(c("14" = "14 dpl",
+                                      "21" = "21 dpl"))) +
+  scale_fill_manual(values = c("Dead" = "black", "Alive" = "green")) +
+  scale_y_continuous(labels = scales::percent, expand = c(0,0)) +
   theme_minimal() +
-  theme(legend.text.align = 0,
-        axis.title.x = element_text(size = 20),
-        axis.title.y = element_text(size = 20),
-        axis.text.x = element_text(size = 12, family = "Arial"),
-        axis.text.y = element_text(size = 18, family = "Arial"),
-        legend.text = element_text(size = 20),
-        legend.title = element_text(size = 22),
-        strip.text = element_text(size = 20)) +  # Change size of facet title  
-    coord_cartesian(ylim = c(0, 20))  # Set y-axis limits from 0 to 20
+  theme(
+    axis.title.x = element_text(size = 12, family = "Arial"),
+    axis.title.y = element_text(size = 12, family = "Arial"),
+    axis.text.x = element_text(angle = 45, hjust = 1, vjust = 1, size = 10, family = "Arial"),
+    axis.text.y = element_text(size = 10, family = "Arial"),
+    legend.title = element_text(size = 11, family = "Arial"),
+    legend.text = element_text(size = 10, family = "Arial"),
+    strip.text = element_text(size = 11, family = "Arial")
+  )
+
+# --- Export figures ---
+# Save high-resolution TIFF for publication
+ggsave(
+  filename = "Mortality_Fig.tif",
+  plot = last_plot(),
+  path = "figs",
+  device = "tiff",
+  width = 7,
+  height = 5,
+  units = "in",
+  dpi = 600,
+  compression = "lzw",
+  bg = "white"
+)
+
+# Save vector PDF for manuscript/thesis
+ggsave(
+  filename = "Mortality_Fig.pdf",
+  plot = last_plot(),
+  path = "figs",
+  device = "pdf",
+  width = 7,
+  height = 5,
+  units = "in",
+  bg = "white"
+)
+
+# --- Mortality statistics ---
+# Convert mortality to binary response
+df_filtered$dead <- ifelse(df_filtered$Mortality == "Dead", 1, 0)
+
+# Test effects of temperature, symbiotic state, and interaction on mortality
+mortality_glm <- glm(dead ~ temp * symbiosis,
+                     data = df_filtered,
+                     family = binomial)
+
+summary(mortality_glm)
+
+
+
+
+
 
 
 ##Graphing results of Experiment URSA
@@ -286,6 +332,8 @@ p_sym_state  <- ggplot(data = data_means[data_means$treatment %in% c("H2-Apo-25"
   scale_size_manual(values=c(1.2,1.2,1.2,1.2)) +
   labs(colour = "treatment") +
   coord_cartesian(ylim = c(0, 15))
+
+p_sym_state
 
 ggsave("Grace_ApoInocSym_Figure.pdf", plot = p_sym_state, device = "pdf", path = here("figs"),  width = 11,  height = 8, units = "in")
 ggsave("Grace_ApoInocSym_Figure.tiff", plot = p_sym_state, device = "tiff", path = here("figs"),  width = 11,  height = 8, units = "in", dpi = 600, compression = "lzw")
@@ -598,3 +646,136 @@ data_means <- new_df %>%
 
 
 
+
+
+# Generalized linear mixed model
+library(car)
+library(lme4)
+library(emmeans)
+
+# Keep only the three 25C symbiotic states
+data <- newlong
+
+data <- data %>%
+  filter(treatment %in% c("H2-Apo-25","H2-Ino-25","H2-Sym-25"))
+
+data$treatment <- factor(data$treatment)
+data$day <- factor(data$day)
+data$id <- factor(data$id)
+
+# Explore distribution
+hist(data$tent_count)
+
+# Fit generalized linear mixed model (Poisson)
+model_sym_state <- glmer(
+  tent_count ~ treatment * day + (1|id),
+  family = poisson(link = "log"), #remove log if you want 5dpl to be significant
+  data = data,
+  control = glmerControl(
+    optimizer = "bobyqa",
+    optCtrl = list(maxfun = 200000)
+  )
+)
+
+# Residual diagnostics
+plot(model_sym_state)
+qqnorm(residuals(model_sym_state))
+qqline(residuals(model_sym_state))
+
+# ANOVA (Type II Wald Chi-square tests)
+Anova(model_sym_state)
+
+# Post hoc pairwise comparisons
+emm <- emmeans(model_sym_state, ~ treatment | day)
+pairs(emm, adjust = "tukey")
+
+
+
+
+
+
+
+
+
+
+
+# Results for manuscript
+# Symbiotic state comparison at 25C
+
+p_sym_state <- ggplot(
+  data = data_means[data_means$treatment %in% c("H2-Apo-25","H2-Ino-25","H2-Sym-25"),],
+  aes(x = day, y = mean, color = treatment, group = treatment)
+) +
+  theme_classic(base_size = 14) +
+  
+  # lines
+  geom_line(linewidth = 0.9) +
+  
+  # error bars
+  geom_errorbar(
+    aes(ymin = mean - se, ymax = mean + se),
+    width = 0.2,
+    linewidth = 0.6
+  ) +
+  
+  # points
+  geom_point(size = 4) +
+  
+  # significance stars
+  annotate("text", x = 7,  y = 10.2, label = "***", size = 7) +
+  annotate("text", x = 10, y = 12.0, label = "***", size = 7) +
+  annotate("text", x = 11, y = 12.0, label = "**",  size = 7) +
+  
+  ylab("Mean tentacle number") +
+  xlab("Days post laceration (dpl)") +
+  
+  scale_y_continuous(
+    breaks = seq(0,15,2),
+    limits = c(0,15)
+  ) +
+  
+  scale_x_continuous(
+    breaks = seq(min(data_means$day),
+                 max(data_means$day),1)
+  ) +
+  
+  scale_color_manual(
+    values = c(
+      "H2-Apo-25" = "#3B6FB6",
+      "H2-Ino-25" = "#4DAF4A",
+      "H2-Sym-25" = "#8C564B"
+    ),
+    labels = c("Apo-25","Inoc-25","Sym-25")
+  ) +
+  
+  labs(colour = "Treatment") +
+  
+  theme(
+    axis.text = element_text(size = 14, colour = "black", family = "Arial"),
+    axis.title = element_text(size = 14, family = "Arial"),
+    legend.text = element_text(size = 14),
+    legend.title = element_text(size = 14),
+    legend.position = c(0.75,0.45),
+    legend.justification = c("center","center")
+  )
+p_sym_state
+
+ggsave(
+  "figs/Grace_ApoInocSym_Figure.tiff",
+  plot = p_sym_state,
+  width = 11,
+  height = 8,
+  units = "in",
+  dpi = 600,
+  compression = "lzw"
+)
+
+
+ggsave(
+  "figs/Grace_ApoInocSym_Figure.pdf",
+  plot = p_sym_state,
+  device = cairo_pdf,
+  width = 11,
+  height = 8,
+  units = "in"
+)

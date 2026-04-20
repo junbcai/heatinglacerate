@@ -1,0 +1,8 @@
+term,Sum Sq,Df,F value,Pr(>F)
+marker,72.3,1,1.62,0.205
+state,1450,2,16.2,2.61e-7
+heat,400,1,8.95,0.00307
+time,385,3,2.87,0.0371
+heat:time,537,3,4,0.00833
+state:time,2460,5,11,1.55e-9
+Residuals,10400,233,NA,NA

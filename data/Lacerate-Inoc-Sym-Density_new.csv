@@ -1,0 +1,1017 @@
+,Label,Area,Mean,Min,Max,MinThr,MaxThr,Type,%,Region,notes,,plate,well,sym,temp,treatment,day,calculation
+1,Snap-287.czi,12472.29,1046.731,574,2918,0,65535,Tentacle Area,0,Pedal disc,"most of the images in plates 7 and 10 aren't great, theres only one fluorescent and a couple of brightfields",,7,A1,inoc,25C,inoc-25C,7,0
+2,Snap-286.czi,3222.617,1569.678,1003,3586,1003,65535,Symbiont Area,25.838,Pedal disc,,,7,A1,inoc,25C,inoc-25C,7,25.83821415
+3,Snap-289.czi,21759.154,933.188,345,3662,0,65535,Tentacle Area,0,Pedal disc,,,7,A2,inoc,25C,inoc-25C,7,0
+4,Snap-288.czi,5413.842,1816.522,1039,3898,1039,65535,Symbiont Area,24.881,Pedal disc,,,7,A2,inoc,25C,inoc-25C,7,24.88075593
+5,Snap-297.czi,23819.346,1327.018,495,3921,0,65535,Tentacle Area,0,Pedal disc,,,7,A3,inoc,25C,inoc-25C,7,0
+6,Snap-296.czi,7586.038,1836.588,1075,3809,1075,65535,Symbiont Area,31.848,Pedal disc,,,7,A3,inoc,25C,inoc-25C,7,31.84822119
+7,Snap-303.czi,3144.344,819.448,318,2668,0,65535,Tentacle Area,0,Tentacle,,,7,A4,inoc,25C,inoc-25C,7,0
+8,Snap-303.czi,654.081,1290.479,989,2668,989,65535,Symbiont Area,20.802,Tentacle,,,7,A4,inoc,25C,inoc-25C,7,20.80182703
+9,Snap-301.czi,2964.661,857.73,426,4095,0,65535,Tentacle Area,0,Tentacle,,,7,A5,inoc,25C,inoc-25C,7,0
+10,Snap-300.czi,473.965,2108.185,1219,3786,1219,65535,Symbiont Area,15.987,Tentacle,,,7,A5,inoc,25C,inoc-25C,7,15.98715671
+11,Snap-305.czi,12000.055,1058.867,543,2755,0,65535,Tentacle Area,0,Pedal disc,,,7,A6,inoc,25C,inoc-25C,7,0
+12,Snap-304.czi,2637.296,1536.108,908,3159,908,65535,Symbiont Area,21.977,Pedal disc,,,7,A6,inoc,25C,inoc-25C,7,21.97736594
+13,Snap-309.czi,11481.764,1123.62,442,4095,0,65535,Tentacle Area,0,Pedal disc,,,7,B1,inoc,25C,inoc-25C,7,0
+14,Snap-308.czi,1977.81,1909.559,1060,3878,1060,65535,Symbiont Area,17.226,Pedal disc,,,7,B1,inoc,25C,inoc-25C,7,17.22566323
+15,Snap-311.czi,17331.082,1012.268,414,4095,0,65535,Tentacle Area,0,Pedal disc,,,7,B2,inoc,25C,inoc-25C,7,0
+16,Snap-310.czi,3503.926,1882.042,1060,3929,1060,65535,Symbiont Area,20.218,Pedal disc,,,7,B2,inoc,25C,inoc-25C,7,20.21758365
+17,Snap-318.czi,9860.509,1457.355,679,3672,0,65535,Tentacle Area,0,Pedal disc,,,7,B4,inoc,25C,inoc-25C,7,0
+18,Snap-317.czi,1798.992,1614.127,893,3624,893,65535,Symbiont Area,18.244,Pedal disc,,,7,B4,inoc,25C,inoc-25C,7,18.24441314
+19,Snap-322.czi,11872.266,704.66,366,2734,0,65535,Tentacle Area,0,Pedal disc,,,7,B5,inoc,25C,inoc-25C,7,0
+20,Snap-321.czi,1304.918,1443.383,797,3913,797,65535,Symbiont Area,10.991,Pedal disc,,,7,B5,inoc,25C,inoc-25C,7,10.99131371
+21,Snap-326.czi,11228.132,1093.25,534,3566,0,65535,Tentacle Area,0,Pedal disc,,,7,B6,inoc,25C,inoc-25C,7,0
+22,Snap-325.czi,2364.853,1347.257,788,3368,788,65535,Symbiont Area,21.062,Pedal disc,,,7,B6,inoc,25C,inoc-25C,7,21.06185606
+1,Snap-329.czi,4507.859,1441.468,624,2707,0,65535,Tentacle Area,0,Tentacle,,,7,C1,inoc,25C,inoc-25C,7,0
+2,Snap-328.czi,646.945,997.371,584,3114,584,65535,Symbiont Area,14.351,Tentacle,,,7,C1,inoc,25C,inoc-25C,7,14.35149147
+3,Snap-333.czi,17800.291,917.625,389,2929,0,65535,Tentacle Area,0,Pedal disc,,,7,C2,inoc,25C,inoc-25C,7,0
+4,Snap-332.czi,506.831,1518.593,790,3973,790,65535,Symbiont Area,2.847,Pedal disc,,,7,C2,inoc,25C,inoc-25C,7,2.84731862
+5,Snap-340.czi,20437.803,1160.995,521,3635,0,65535,Tentacle Area,0,Pedal disc,,,7,C4,inoc,25C,inoc-25C,7,0
+6,Snap-339.czi,1967.431,1403.119,765,4022,765,65535,Symbiont Area,9.626,Pedal disc,,,7,C4,inoc,25C,inoc-25C,7,9.626430982
+7,Snap-344.czi,20252.282,755.871,297,3044,0,65535,Tentacle Area,0,Pedal disc,,,7,C5,inoc,25C,inoc-25C,7,0
+8,Snap-343.czi,2986.283,1497.829,845,3919,845,65535,Symbiont Area,14.745,Pedal disc,,,7,C5,inoc,25C,inoc-25C,7,14.74541486
+9,Snap-346.czi,29274.27,1294.422,495,3411,0,65535,Tentacle Area,0,Pedal disc,,,7,C6,inoc,25C,inoc-25C,7,0
+10,Snap-345.czi,8199.901,1855.4,1059,3856,1059,65535,Symbiont Area,28.011,Pedal disc,,,7,C6,inoc,25C,inoc-25C,7,28.01060795
+11,Snap-346.czi,6773.681,1706.159,739,3269,0,65535,Tentacle Area,0,Body column,,,7,C6,inoc,25C,inoc-25C,7,0
+12,Snap-345.czi,1241.996,1229.462,696,2751,696,65535,Symbiont Area,18.336,Body column,,,7,C6,inoc,25C,inoc-25C,7,18.33561397
+13,Snap-350.czi,17554.227,812.156,324,2870,0,65535,Tentacle Area,0,Pedal disc,,,7,D1,inoc,25C,inoc-25C,7,0
+14,Snap-349.czi,4533.373,1781.879,1018,3904,1018,65535,Symbiont Area,25.825,Pedal disc,,,7,D1,inoc,25C,inoc-25C,7,25.82496512
+15,Snap-354.czi,18807.25,1090.607,452,3675,0,65535,Tentacle Area,0,Pedal disc,,,7,D2,inoc,25C,inoc-25C,7,0
+16,Snap-353.czi,4745.058,1765.351,1031,3880,1031,65535,Symbiont Area,25.23,Pedal disc,,,7,D2,inoc,25C,inoc-25C,7,25.22994058
+17,Snap-357.czi,10529.509,1438.272,628,3854,0,65535,Tentacle Area,0,Pedal disc,,,7,D3,inoc,25C,inoc-25C,7,0
+18,Snap-356.czi,1970.026,1681.299,942,3978,942,65535,Symbiont Area,18.71,Pedal disc,,,7,D3,inoc,25C,inoc-25C,7,18.70957136
+19,Snap-361.czi,24445.101,1262.559,491,3844,0,65535,Tentacle Area,0,Pedal disc,,,7,D4,inoc,25C,inoc-25C,7,0
+20,Snap-360.czi,2642.053,1652.448,893,3908,893,65535,Symbiont Area,10.808,Pedal disc,,,7,D4,inoc,25C,inoc-25C,7,10.80810834
+21,Snap-365.czi,23464.737,1669.083,598,3569,0,65535,Tentacle Area,0,Pedal disc,,,7,D5,inoc,25C,inoc-25C,7,0
+22,Snap-364.czi,8352.772,1762.704,1039,3531,1039,65535,Symbiont Area,35.597,Pedal disc,,,7,D5,inoc,25C,inoc-25C,7,35.59712602
+23,Snap-369.czi,10488.642,997.724,470,2599,0,65535,Tentacle Area,0,Pedal disc,,,7,D6,inoc,25C,inoc-25C,7,0
+24,Snap-368.czi,2136.087,1776.101,1051,3452,1051,65535,Symbiont Area,20.366,Pedal disc,,,7,D6,inoc,25C,inoc-25C,7,20.3657156
+1,Snap-182.czi,11635.932,671.645,352,3325,0,65535,Tentacle Area,0,Pedal disc,,,10,A3,inoc,32C,inoc-32C,7,0
+2,Snap-181.czi,845.656,1710.461,939,3874,939,65535,Symbiont Area,7.268,Pedal disc,,,10,A3,inoc,32C,inoc-32C,7,7.267625833
+3,Snap-184.czi,10279.336,558.914,323,3185,0,65535,Tentacle Area,7.268,Pedal disc,,,10,A4,inoc,32C,inoc-32C,7,0
+4,Snap-183.czi,40.218,1637.763,842,3996,841,65535,Symbiont Area,0.391,Pedal disc,,,10,A4,inoc,32C,inoc-32C,7,0.3912509524
+5,Snap-186.czi,1280.701,1126.597,473,2907,0,65535,Tentacle Area,7.268,Tentacle,,,10,A4,inoc,32C,inoc-32C,7,0
+6,Snap-183.czi,9.081,1771.619,917,3089,904,65535,Symbiont Area,0.709,Tentacle,,,10,A4,inoc,32C,inoc-32C,7,0.7090648012
+7,Snap-190.czi,16519.158,406.009,168,1211,0,65535,Tentacle Area,7.268,Pedal disc,,,10,B1,inoc,32C,inoc-32C,7,0
+8,Snap-189.czi,1901.266,841.813,463,3892,463,65535,Symbiont Area,11.509,Pedal disc,,,10,B1,inoc,32C,inoc-32C,7,11.50946071
+9,Snap-194.czi,11802.209,542.84,216,1739,0,65535,Tentacle Area,7.268,Body column,,,10,B3,inoc,32C,inoc-32C,7,0
+10,Snap-193.czi,749.868,1287.729,684,3743,684,65535,Symbiont Area,6.354,Body column,,,10,B3,inoc,32C,inoc-32C,7,6.353624139
+11,Snap-197.czi,9292.702,700.539,393,1303,0,65535,Tentacle Area,7.268,Pedal disc,,,10,B4,inoc,32C,inoc-32C,7,0
+12,Snap-196.czi,184.872,1528.23,793,3845,791,65535,Symbiont Area,1.989,Pedal disc,,,10,B4,inoc,32C,inoc-32C,7,1.989432137
+13,Snap-199.czi,21262.053,488.655,178,1558,0,65535,Tentacle Area,7.268,Pedal disc,,,10,B5,inoc,32C,inoc-32C,7,0
+14,Snap-198.czi,1140.803,569.012,310,3890,310,65535,Symbiont Area,5.365,Pedal disc,,,10,B5,inoc,32C,inoc-32C,7,5.365441428
+15,Snap-201.czi,11590.525,703.025,393,3610,0,65535,Tentacle Area,7.268,Pedal disc,,,10,C2,inoc,32C,inoc-32C,7,0
+16,Snap-200.czi,437.856,1721.592,896,3872,896,65535,Symbiont Area,3.778,Pedal disc,,,10,C2,inoc,32C,inoc-32C,7,3.777706359
+17,Snap-203.czi,15566.903,718.418,393,3587,0,65535,Tentacle Area,7.268,Pedal disc,,,10,C5,inoc,32C,inoc-32C,7,0
+18,Snap-202.czi,514.615,720,377,3942,377,65535,Symbiont Area,3.306,Pedal disc,,,10,C5,inoc,32C,inoc-32C,7,3.305827755
+19,Snap-207.czi,21227.024,1100.31,343,3493,0,65535,Tentacle Area,7.268,Pedal disc,,,10,D4,inoc,32C,inoc-32C,7,0
+20,Snap-206.czi,1487.196,1453.251,773,3995,773,65535,Symbiont Area,7.006,Pedal disc,,,10,D4,inoc,32C,inoc-32C,7,7.00614462
+1,Snap-372.czi,11195.914,874.465,502,3182,0,65535,Tentacle Area,0,Pedal disc,,,7,A1,inoc,25C,inoc-25C,10,0
+2,Snap-371.czi,148.114,179.447,46,3320,46,65535,Symbiont Area,1.323,Pedal disc,,,7,A1,inoc,25C,inoc-25C,10,1.322929061
+3,Snap-374.czi,1819.533,739.918,475,1204,0,65535,Tentacle Area,0,Tentacle,,,7,A1,inoc,25C,inoc-25C,10,0
+4,Snap-373.czi,65.3,88.106,46,798,46,65535,Symbiont Area,3.589,Tentacle,,,7,A1,inoc,25C,inoc-25C,10,3.588832959
+5,Snap-376.czi,2004.622,746.235,442,2020,0,65535,Tentacle Area,0,Tentacle,,,7,A1,inoc,25C,inoc-25C,10,0
+6,Snap-375.czi,44.11,81.721,46,487,46,65535,Symbiont Area,2.2,Tentacle,,,7,A1,inoc,25C,inoc-25C,10,2.200414841
+7,Snap-378.czi,21045.179,1441.283,626,2839,0,65535,Tentacle Area,0,Tentacle,,,7,A2,inoc,25C,inoc-25C,10,0
+8,Snap-377.czi,4011.406,1035.632,612,3648,612,65535,Symbiont Area,19.061,Tentacle,,,7,A2,inoc,25C,inoc-25C,10,19.06092602
+11,Snap-382.czi,7428.626,914.777,379,1937,0,65535,Tentacle Area,0,Tentacle,,,7,A3,inoc,25C,inoc-25C,10,0
+12,Snap-381.czi,3318.838,1537.382,1033,3518,1033,65535,Symbiont Area,44.676,Tentacle,,,7,A3,inoc,25C,inoc-25C,10,44.67633719
+13,Snap-382.czi,3238.834,902.452,481,1489,0,65535,Tentacle Area,0,Tentacle,,,7,A3,inoc,25C,inoc-25C,10,0
+14,Snap-383.czi,1229.672,2308.506,1661,3951,1661,65535,Symbiont Area,37.966,Tentacle,,,7,A3,inoc,25C,inoc-25C,10,37.96650276
+15,Snap-382.czi,7646.797,942.079,413,1937,0,65535,Tentacle Area,0,Tentacle,,,7,A3,inoc,25C,inoc-25C,10,0
+16,Snap-384.czi,3157.966,1776.829,1189,3787,1189,65535,Symbiont Area,41.298,Tentacle,,,7,A3,inoc,25C,inoc-25C,10,41.29789244
+17,Snap-388.czi,311524.871,230.986,6,4095,0,65535,Tentacle Area,0,Tentacle,,,7,A4,inoc,25C,inoc-25C,10,0
+18,Snap-388.czi,2063.868,1543.77,872,3361,872,65535,Symbiont Area,0.663,Tentacle,,,7,A4,inoc,25C,inoc-25C,10,0.6625050492
+19,Snap-392.czi,18291.554,1531.397,638,2975,0,65535,Tentacle Area,0,Tentacle,,,7,A4,inoc,25C,inoc-25C,10,0
+20,Snap-391.czi,6468.371,2015.32,1286,3997,1286,65535,Symbiont Area,35.363,Tentacle,,,7,A4,inoc,25C,inoc-25C,10,35.36261053
+21,Snap-393.czi,12707.111,1511.995,654,3243,0,65535,Tentacle Area,0,Tentacle,,,7,A4,inoc,25C,inoc-25C,10,0
+22,Snap-390.czi,4406.665,2171.496,1434,4014,1434,65535,Symbiont Area,34.679,Tentacle,,,7,A4,inoc,25C,inoc-25C,10,34.67873225
+23,Snap-395.czi,8278.39,761.976,444,2537,0,65535,Tentacle Area,0,Pedal disc,,,7,A5,inoc,25C,inoc-25C,10,0
+24,Snap-394.czi,413.855,855.774,455,2909,455,65535,Symbiont Area,4.999,Pedal disc,,,7,A5,inoc,25C,inoc-25C,10,4.999220863
+25,Snap-395.czi,9283.404,928.015,483,1861,0,65535,Tentacle Area,0,Body column,,,7,A5,inoc,25C,inoc-25C,10,0
+26,Snap-394.czi,1614.985,2009.895,1137,3865,1137,65535,Symbiont Area,17.396,Body column,,,7,A5,inoc,25C,inoc-25C,10,17.3964744
+27,Snap-398.czi,9170.751,904.635,365,2480,0,65535,Tentacle Area,0,Tentacle,,,7,A5,inoc,25C,inoc-25C,10,0
+28,Snap-396.czi,1797.046,1598.267,1040,3501,1040,65535,Symbiont Area,19.595,Tentacle,,,7,A5,inoc,25C,inoc-25C,10,19.59540718
+29,Snap-399.czi,8322.068,833.745,391,2530,0,65535,Tentacle Area,0,Tentacle,,,7,A5,inoc,25C,inoc-25C,10,0
+30,Snap-397.czi,2200.306,1824.668,1200,3923,1200,65535,Symbiont Area,26.439,Tentacle,,,7,A5,inoc,25C,inoc-25C,10,26.43941386
+31,Snap-401.czi,13139.561,1042.523,396,1729,0,65535,Tentacle Area,0,Tentacle,,,7,A6,inoc,25C,inoc-25C,10,0
+32,Snap-400.czi,3570.091,1801.911,1208,3710,1208,65535,Symbiont Area,27.171,Tentacle,,,7,A6,inoc,25C,inoc-25C,10,27.17055007
+33,Snap-404.czi,11661.879,840.346,354,1914,0,65535,Tentacle Area,0,Tentacle,,,7,A6,inoc,25C,inoc-25C,10,0
+34,Snap-403.czi,4411.855,1667.343,1076,3962,1076,65535,Symbiont Area,37.831,Tentacle,,,7,A6,inoc,25C,inoc-25C,10,37.83142494
+35,Snap-405.czi,10424.64,817.368,288,1422,0,65535,Tentacle Area,0,Tentacle,,,7,A6,inoc,25C,inoc-25C,10,0
+36,Snap-402.czi,3473.871,1820.907,1223,3706,1223,65535,Symbiont Area,33.324,Tentacle,,,7,A6,inoc,25C,inoc-25C,10,33.32365434
+37,Snap-407.czi,7110.127,1345.355,518,3327,0,65535,Tentacle Area,0,Tentacle,,,7,B1,inoc,25C,inoc-25C,10,0
+38,Snap-406.czi,1472.925,1485.485,912,3829,912,65535,Symbiont Area,20.716,Tentacle,,,7,B1,inoc,25C,inoc-25C,10,20.7158747
+39,Snap-410.czi,6161.115,1298.817,528,3394,0,65535,Tentacle Area,0,Tentacle,,,7,B1,inoc,25C,inoc-25C,10,0
+40,Snap-409.czi,1153.344,1397.567,828,3875,828,65535,Symbiont Area,18.72,Tentacle,,,7,B1,inoc,25C,inoc-25C,10,18.71972849
+41,Snap-411.czi,6987.743,1152.469,513,2920,0,65535,Tentacle Area,0,Tentacle,,,7,B1,inoc,25C,inoc-25C,10,0
+42,Snap-408.czi,1580.605,1498.184,924,3485,924,65535,Symbiont Area,22.62,Tentacle,,,7,B1,inoc,25C,inoc-25C,10,22.61967849
+43,Snap-413.czi,20313.041,876.935,392,1905,0,65535,Tentacle Area,0,Tentacle,,,7,B2,inoc,25C,inoc-25C,10,0
+44,Snap-412.czi,4977.499,1790.276,1059,3936,1059,65535,Symbiont Area,24.504,Tentacle,,,7,B2,inoc,25C,inoc-25C,10,24.50395783
+45,Snap-419.czi,11270.079,793.108,354,1380,0,65535,Tentacle Area,0,Tentacle,,,7,B3,inoc,25C,inoc-25C,10,0
+46,Snap-418.czi,1590.551,2104.137,1376,3936,1376,65535,Symbiont Area,14.113,Tentacle,,,7,B3,inoc,25C,inoc-25C,10,14.11304215
+47,Snap-421.czi,6924.173,721.585,269,1601,0,65535,Tentacle Area,0,Tentacle,,,7,B3,inoc,25C,inoc-25C,10,0
+48,Snap-420.czi,1426.436,2009.662,1216,3953,1216,65535,Symbiont Area,20.601,Tentacle,,,7,B3,inoc,25C,inoc-25C,10,20.60081399
+49,Snap-423.czi,10452.965,835.967,437,2525,0,65535,Tentacle Area,0,Tentacle,,,7,B4,inoc,25C,inoc-25C,10,0
+50,Snap-422.czi,1545.144,1559.862,875,3669,875,65535,Symbiont Area,14.782,Tentacle,,,7,B4,inoc,25C,inoc-25C,10,14.78187289
+51,Snap-425.czi,15043.206,956.862,457,3406,0,65535,Tentacle Area,0,Pedal disc,,,7,B5,inoc,25C,inoc-25C,10,0
+52,Snap-424.czi,720.029,2146.838,1174,3714,1174,65535,Symbiont Area,4.786,Pedal disc,,,7,B5,inoc,25C,inoc-25C,10,4.786406568
+53,Snap-427.czi,23009.367,1466.38,477,3851,0,65535,Tentacle Area,0,Tentacle,,,7,B5,inoc,25C,inoc-25C,10,0
+54,Snap-426.czi,3081.206,1693.007,965,3999,965,65535,Symbiont Area,13.391,Tentacle,,,7,B5,inoc,25C,inoc-25C,10,13.39109416
+55,Snap-429.czi,24730.518,927.694,281,1957,0,65535,Tentacle Area,0,Tentacle,,,7,B6,inoc,25C,inoc-25C,10,0
+56,Snap-428.czi,7064.287,1622.588,954,3618,954,65535,Symbiont Area,28.565,Tentacle,,,7,B6,inoc,25C,inoc-25C,10,28.56505877
+57,Snap-432.czi,26668.543,774.838,285,1667,0,65535,Tentacle Area,0,Tentacle,,,7,B6,inoc,25C,inoc-25C,10,0
+58,Snap-431.czi,7329.595,1564.261,937,3698,937,65535,Symbiont Area,27.484,Tentacle,,,7,B6,inoc,25C,inoc-25C,10,27.4840474
+59,Snap-435.czi,27461.44,791.004,346,1754,0,65535,Tentacle Area,0,Tentacle,,,7,C1,inoc,25C,inoc-25C,10,0
+60,Snap-434.czi,3699.826,1720.886,968,3952,968,65535,Symbiont Area,13.473,Tentacle,,,7,C1,inoc,25C,inoc-25C,10,13.47280405
+61,Snap-437.czi,311524.871,142.96,6,4095,0,65535,Tentacle Area,0,Tentacle,,,7,C1,inoc,25C,inoc-25C,10,0
+62,Snap-437.czi,2165.493,1868.22,1091,3994,1091,65535,Symbiont Area,0.695,Tentacle,,,7,C1,inoc,25C,inoc-25C,10,0.6951268427
+63,Snap-441.czi,19592.796,744.062,286,2149,0,65535,Tentacle Area,0,Tentacle,,,7,C2,inoc,25C,inoc-25C,10,0
+64,Snap-440.czi,268.768,2188.11,1095,3920,1095,65535,Symbiont Area,1.372,Tentacle,,,7,C2,inoc,25C,inoc-25C,10,1.371769501
+65,Snap-445.czi,9228.699,572.928,235,1454,0,65535,Tentacle Area,0,Body column,,,7,C4,inoc,25C,inoc-25C,10,0
+66,Snap-444.czi,1400.706,1979.452,1121,3971,1121,65535,Symbiont Area,15.178,Body column,,,7,C4,inoc,25C,inoc-25C,10,15.17771898
+67,Snap-447.czi,27216.241,609.409,222,1444,0,65535,Tentacle Area,0,Tentacle,,,7,C5,inoc,25C,inoc-25C,10,0
+68,Snap-446.czi,5503.359,1618.806,933,3734,933,65535,Symbiont Area,20.221,Tentacle,,,7,C5,inoc,25C,inoc-25C,10,20.22086371
+69,Snap-450.czi,11689.34,829.255,368,1823,0,65535,Tentacle Area,0,Tentacle,,,7,C5,inoc,25C,inoc-25C,10,0
+70,Snap-449.czi,3252.456,1874.205,1158,3752,1158,65535,Symbiont Area,27.824,Tentacle,,,7,C5,inoc,25C,inoc-25C,10,27.8241201
+71,Snap-451.czi,7844.859,924.132,345,1620,0,65535,Tentacle Area,0,Tentacle,,,7,C5,inoc,25C,inoc-25C,10,0
+72,Snap-448.czi,1340.163,2264.783,1572,3601,1572,65535,Symbiont Area,17.083,Tentacle,,,7,C5,inoc,25C,inoc-25C,10,17.08332808
+73,Snap-457.czi,24138.062,928.264,357,3676,0,65535,Tentacle Area,7.704,Tentacle,,,7,D1,inoc,25C,inoc-25C,10,0
+74,Snap-456.czi,4660.081,1848.844,1067,3761,1067,65535,Symbiont Area,19.306,Tentacle,,,7,D1,inoc,25C,inoc-25C,10,19.30594511
+75,Snap-460.czi,23126.994,837.942,320,2203,0,65535,Tentacle Area,0,Tentacle,,,7,D1,inoc,25C,inoc-25C,10,0
+76,Snap-458.czi,4377.908,1742.029,1001,3939,1001,65535,Symbiont Area,18.93,Tentacle,,,7,D1,inoc,25C,inoc-25C,10,18.92986179
+77,Snap-461.czi,9004.258,987.237,416,1783,0,65535,Tentacle Area,0,Tentacle,,,7,D1,inoc,25C,inoc-25C,10,0
+78,Snap-459.czi,2798.816,1734.797,1181,3741,1181,65535,Symbiont Area,31.083,Tentacle,,,7,D1,inoc,25C,inoc-25C,10,31.08324972
+79,Snap-463.czi,11720.692,704.209,399,3008,0,65535,Tentacle Area,0,Pedal disc,,,7,S2,inoc,25C,inoc-25C,10,0
+80,Snap-462.czi,487.155,2051.855,1147,3962,1147,65535,Symbiont Area,4.156,Pedal disc,,,7,D2,inoc,25C,inoc-25C,10,4.156367218
+81,Snap-465.czi,8185.197,896.824,364,3264,0,65535,Tentacle Area,0,Pedal disc,,,7,D3,inoc,25C,inoc-25C,10,0
+82,Snap-464.czi,1029.231,1865.697,1085,3179,1085,65535,Symbiont Area,12.574,Pedal disc,,,7,D3,inoc,25C,inoc-25C,10,12.57429723
+83,Snap-467.czi,23891.565,639.623,234,2592,0,65535,Tentacle Area,0,Pedal disc,,,7,D4,inoc,25C,inoc-25C,10,0
+84,Snap-466.czi,1465.789,1894.855,1029,3242,1029,65535,Symbiont Area,6.135,Pedal disc,,,7,D4,inoc,25C,inoc-25C,10,6.135173648
+85,Snap-470.czi,18202.037,1081.122,359,2720,0,65535,Tentacle Area,0,Tentacle,,,7,D4,inoc,25C,inoc-25C,10,0
+86,Snap-469.czi,6373.016,1287.887,790,3503,790,65535,Symbiont Area,35.013,Tentacle,,,7,D4,inoc,25C,inoc-25C,10,35.0126527
+87,Snap-471.czi,3225.645,724.739,330,1736,0,65535,Tentacle Area,0,Tentacle,,,7,D4,inoc,25C,inoc-25C,10,0
+88,Snap-468.czi,1243.51,1383.919,824,2780,824,65535,Symbiont Area,38.551,Tentacle,,,7,D4,inoc,25C,inoc-25C,10,38.55073946
+89,Snap-473.czi,23655.015,969.216,452,3311,0,65535,Tentacle Area,0,Pedal disc,,,7,D5,inoc,25C,inoc-25C,10,0
+90,Snap-472.czi,2422.369,1498.425,870,3310,870,65535,Symbiont Area,10.24,Pedal disc,,,7,D5,inoc,25C,inoc-25C,10,10.24040357
+91,Snap-476.czi,9779.857,1433.684,615,2926,0,65535,Tentacle Area,0,Tentacle,,,7,D5,inoc,25C,inoc-25C,10,0
+92,Snap-475.czi,3840.156,2034.551,1276,4018,1276,65535,Symbiont Area,39.266,Tentacle,,,7,D5,inoc,25C,inoc-25C,10,39.26597291
+93,Snap-477.czi,4874.793,1295.823,629,2905,0,65535,Tentacle Area,0,Tentacle,,,7,D5,inoc,25C,inoc-25C,10,0
+94,Snap-474.czi,2064.733,1742.79,1103,4017,1103,65535,Symbiont Area,42.355,Tentacle,,,7,D5,inoc,25C,inoc-25C,10,42.35529591
+95,Snap-479.czi,13779.803,804.259,472,1941,0,65535,Tentacle Area,0,Body column,,,10,A1,inoc,32C,inoc-32C,10,0
+96,Snap-478.czi,1123.289,2039.56,1138,3917,1138,65535,Symbiont Area,8.152,Body column,,,10,A1,inoc,32C,inoc-32C,10,8.151705797
+97,Snap-483.czi,12660.622,698.967,256,1676,0,65535,Tentacle Area,0,Tentacle,,,10,A1,inoc,32C,inoc-32C,10,0
+98,Snap-480.czi,1768.72,1773.444,1012,3913,1012,65535,Symbiont Area,13.97,Tentacle,,,10,A1,inoc,32C,inoc-32C,10,13.9702457
+99,Snap-482.czi,16943.175,931.512,445,1839,0,65535,Tentacle Area,0,Tentacle,,,10,A1,inoc,32C,inoc-32C,10,0
+100,Snap-481.czi,2194.035,1417.125,794,3945,794,65535,Symbiont Area,12.949,Tentacle,,,10,A1,inoc,32C,inoc-32C,10,12.94937342
+101,Snap-487.czi,22576.701,794.018,347,1811,0,65535,Tentacle Area,0,Body column,,,10,A3,inoc,32C,inoc-32C,10,0
+102,Snap-486.czi,707.704,1555.585,810,3936,810,65535,Symbiont Area,3.135,Body column,,,10,A3,inoc,32C,inoc-32C,10,3.134665246
+103,Snap-489.czi,23147.102,710.762,324,2079,0,65535,Tentacle Area,0,Tentacle,thresholding is off on this one,,10,A4,inoc,32C,inoc-32C,10,0
+104,Snap-488.czi,6512.265,91.846,46,3843,46,65535,Symbiont Area,28.134,Tentacle,thresholding is off on this one,,10,A4,inoc,32C,inoc-32C,10,28.13425629
+105,Snap-491.czi,18656.974,1687.79,641,3622,0,65535,Tentacle Area,0,Pedal disc,,,10,A5,inoc,32C,inoc-32C,10,0
+106,Snap-490.czi,3296.134,104.987,47,3187,47,65535,Symbiont Area,17.667,Pedal disc,,,10,A5,inoc,32C,inoc-32C,10,17.66703432
+107,Snap-493.czi,15650.798,711.3,344,2238,0,65535,Tentacle Area,0,Tentacle,,,10,B1,inoc,32C,inoc-32C,10,0
+108,Snap-492.czi,220.982,1744.207,908,3861,908,65535,Symbiont Area,1.412,Tentacle,,,10,B1,inoc,32C,inoc-32C,10,1.411953563
+109,Snap-494.czi,311524.871,167.478,71,4095,0,65535,Tentacle Area,0,Pedal disc,,,10,C2,inoc,32C,inoc-32C,10,0
+110,Snap-494.czi,301.201,952.252,499,3820,499,65535,Symbiont Area,0.097,Pedal disc,,,10,C2,inoc,32C,inoc-32C,10,0.0966860203
+111,Snap-497.czi,21769.101,613.569,300,1682,0,65535,Tentacle Area,0,Pedal disc,,,10,C5,inoc,32C,inoc-32C,10,0
+112,Snap-496.czi,1169.777,1356.516,731,3289,731,65535,Symbiont Area,5.374,Pedal disc,,,10,C5,inoc,32C,inoc-32C,10,5.373565955
+1,Snap-502.czi,15845.833,766.668,321,2212,0,65535,Tentacle Area,0,Tentacle,,,11,A1,inoc,32C,inoc-32C,10,0
+2,Snap-501.czi,120.437,1690.752,871,3905,868,65535,Symbiont Area,0.76,Tentacle,,,11,A1,inoc,32C,inoc-32C,10,0.7600547097
+3,Snap-505.czi,10479.777,533.436,255,1039,0,65535,Tentacle Area,0,Tentacle,,,11,A2,inoc,32C,inoc-32C,10,0
+4,Snap-504.czi,9.514,197.909,47,3889,47,65535,Symbiont Area,0.091,Tentacle,,,11,A2,inoc,32C,inoc-32C,10,0.09078437451
+5,Snap-511.czi,15480.845,875.138,360,1922,0,65535,Tentacle Area,0,Tentacle,,,11,B2,inoc,32C,inoc-32C,10,0
+6,Snap-510.czi,516.345,2501.961,1312,3908,1312,65535,Symbiont Area,3.335,Tentacle,,,11,B2,inoc,32C,inoc-32C,10,3.335379949
+7,Snap-517.czi,22033.111,535.25,265,1983,0,65535,Tentacle Area,0,Body column,,,11,B3,inoc,32C,inoc-32C,10,0
+8,Snap-516.czi,1043.934,179.738,47,3948,47,65535,Symbiont Area,4.738,Body column,,,11,B3,inoc,32C,inoc-32C,10,4.738023605
+9,Snap-519.czi,10226.578,619.731,374,3568,0,65535,Tentacle Area,0,Pedal disc,,,11,B5,inoc,32C,inoc-32C,10,0
+10,Snap-518.czi,266.605,71.813,47,339,47,65535,Symbiont Area,2.607,Pedal disc,,,11,B5,inoc,32C,inoc-32C,10,2.606981534
+11,Snap-521.czi,13095.235,569.45,292,1400,0,65535,Tentacle Area,0,Pedal disc,,,11,B6,inoc,32C,inoc-32C,10,0
+12,Snap-520.czi,317.202,1489.708,791,3779,791,65535,Symbiont Area,2.422,Pedal disc,,,11,B6,inoc,32C,inoc-32C,10,2.422270391
+13,Snap-523.czi,1236.591,901.963,490,1969,0,65535,Tentacle Area,0,Tentacle,,,11,B6,inoc,32C,inoc-32C,10,0
+14,Snap-522.czi,95.571,1939.566,1048,3929,1045,65535,Symbiont Area,7.729,Tentacle,,,11,B6,inoc,32C,inoc-32C,10,7.728586089
+15,Snap-526.czi,14686.002,775.603,378,3276,0,65535,Tentacle Area,0,Pedal disc,,,11,C1,inoc,32C,inoc-32C,10,0
+16,Snap-525.czi,558.725,2320.998,1223,3982,1223,65535,Symbiont Area,3.804,Pedal disc,,,11,C1,inoc,32C,inoc-32C,10,3.80447313
+17,Snap-528.czi,344.014,655.331,447,903,0,65535,Tentacle Area,0,Tentacle,,,11,C1,inoc,32C,inoc-32C,10,0
+18,Snap-527.czi,4.541,50.143,46,63,46,65535,Symbiont Area,1.32,Tentacle,,,11,C1,inoc,32C,inoc-32C,10,1.320004418
+19,Snap-531.czi,1359.407,873.583,469,2684,0,65535,Tentacle Area,0,Tentacle,,,11,C3,inoc,32C,inoc-32C,10,0
+20,Snap-530.czi,12.109,50.25,46,63,46,65535,Symbiont Area,0.891,Tentacle,,,11,C3,inoc,32C,inoc-32C,10,0.8907560429
+21,Snap-533.czi,7716.638,405.942,234,1663,0,65535,Tentacle Area,0,Pedal disc,,,11,D1,inoc,32C,inoc-32C,10,0
+22,Snap-532.czi,123.248,2485.761,1287,3845,1284,65535,Symbiont Area,1.597,Pedal disc,,,11,D1,inoc,32C,inoc-32C,10,1.59717224
+23,Snap-535.czi,10854.927,595.57,241,1727,0,65535,Tentacle Area,0,Body column,,,11,D2,inoc,32C,inoc-32C,10,0
+24,Snap-534.czi,716.786,1608.771,892,3785,892,65535,Symbiont Area,6.603,Body column,,,11,D2,inoc,32C,inoc-32C,10,6.603324002
+25,Snap-537.czi,7029.475,655.95,369,2498,0,65535,Tentacle Area,0,Tentacle,checked and fixed!,,11,D2,inoc,32C,inoc-32C,10,0
+26,Snap-536.czi,967.823,1970.863,1142,3860,1142,65535,Symbiont Area,13.768,Tentacle,checked and fixed!,,11,D2,inoc,32C,inoc-32C,10,13.76806945
+27,Snap-539.czi,19051.369,809.917,340,3460,0,65535,Tentacle Area,0,Pedal disc,,,11,D5,inoc,32C,inoc-32C,10,0
+28,Snap-538.czi,1289.566,88.751,47,3963,47,65535,Symbiont Area,6.769,Pedal disc,,,11,D5,inoc,32C,inoc-32C,10,6.768888892
+29,Snap-541.czi,19379.814,885.87,338,3537,0,65535,Tentacle Area,0,Pedal disc,,,11,D5,inoc,32C,inoc-32C,10,0
+30,Snap-540.czi,813.222,97.235,47,3957,47,65535,Symbiont Area,4.196,Pedal disc,,,11,D5,inoc,32C,inoc-32C,10,4.196232224
+31,Snap-543.czi,17278.972,620.218,253,1553,0,65535,Tentacle Area,0,Pedal disc,,,11,D6,inoc,32C,inoc-32C,10,0
+32,Snap-542.czi,157.196,71.796,47,3964,47,65535,Symbiont Area,0.91,Pedal disc,,,11,D6,inoc,32C,inoc-32C,10,0.909753196
+1,Snap-545.czi,8451.154,540.881,320,995,0,65535,Tentacle Area,0,Pedal disc,,,7,A1,inoc,25C,inoc-25C,12,0
+2,Snap-544.czi,196.116,121.924,47,3945,47,65535,Symbiont Area,2.321,Pedal disc,,,7,A1,inoc,25C,inoc-25C,12,2.320582491
+3,Snap-549.czi,4615.106,792.073,359,2233,0,65535,Tentacle Area,0,Tentacle,,,7,A1,inoc,25C,inoc-25C,12,0
+4,Snap-547.czi,332.77,140.383,47,1976,47,65535,Symbiont Area,7.21,Tentacle,,,7,A1,inoc,25C,inoc-25C,12,7.210451938
+5,Snap-548.czi,3234.51,718.442,392,1865,0,65535,Tentacle Area,0,Tentacle,,,7,A1,inoc,25C,inoc-25C,12,0
+6,Snap-546.czi,305.742,150.924,47,1011,47,65535,Symbiont Area,9.453,Tentacle,,,7,A1,inoc,25C,inoc-25C,12,9.452498215
+7,Snap-551.czi,9406.436,789.638,413,1838,0,65535,Tentacle Area,0,Tentacle,,,7,A2,inoc,25C,inoc-25C,12,0
+8,Snap-550.czi,1829.263,1794.193,1130,3921,1130,65535,Symbiont Area,19.447,Tentacle,,,7,A2,inoc,25C,inoc-25C,12,19.44692974
+9,Snap-552.czi,18181.495,622.763,154,2049,0,65535,Tentacle Area,0,Tentacle,,,7,A2,inoc,25C,inoc-25C,12,0
+10,Snap-553.czi,5338.595,1633.231,1018,3723,1018,65535,Symbiont Area,29.363,Tentacle,,,7,A2,inoc,25C,inoc-25C,12,29.36279442
+11,Snap-555.czi,16184.874,531.628,292,1618,0,65535,Tentacle Area,0,Tentacle,,,7,A3,inoc,25C,inoc-25C,12,0
+12,Snap-554.czi,5211.887,1946.04,1163,3816,1163,65535,Symbiont Area,32.202,Tentacle,,,7,A3,inoc,25C,inoc-25C,12,32.2022093
+13,Snap-558.czi,5751.585,584.897,339,2121,0,65535,Tentacle Area,0,Tentacle,,,7,A3,inoc,25C,inoc-25C,12,0
+14,Snap-557.czi,2857.63,2119.744,1369,3892,1369,65535,Symbiont Area,49.684,Tentacle,,,7,A3,inoc,25C,inoc-25C,12,49.68421748
+15,Snap-559.czi,2247.659,734.587,328,1804,0,65535,Tentacle Area,0,Tentacle,,,7,A3,inoc,25C,inoc-25C,12,0
+16,Snap-556.czi,1163.074,2167.325,1412,3961,1412,65535,Symbiont Area,51.746,Tentacle,,,7,A3,inoc,25C,inoc-25C,12,51.74601663
+17,Snap-561.czi,16974.527,782.151,298,2358,0,65535,Tentacle Area,0,Pedal disc,,,7,A4,inoc,25C,inoc-25C,12,0
+18,Snap-560.czi,1286.971,1764.2,1003,3364,1003,65535,Symbiont Area,7.582,Pedal disc,,,7,A4,inoc,25C,inoc-25C,12,7.581778273
+19,Snap-564.czi,23416.519,1184.934,422,3184,0,65535,Tentacle Area,0,Tentacle,,,7,A4,inoc,25C,inoc-25C,12,0
+20,Snap-562.czi,11515.062,2114.457,1301,3984,1301,65535,Symbiont Area,49.175,Tentacle,,,7,A4,inoc,25C,inoc-25C,12,49.17495209
+21,Snap-567.czi,5915.267,833.598,412,3405,0,65535,Tentacle Area,0,Pedal disc,,,7,A5,inoc,25C,inoc-25C,12,0
+22,Snap-566.czi,560.455,2102.492,1198,3285,1197,65535,Symbiont Area,9.475,Pedal disc,,,7,A5,inoc,25C,inoc-25C,12,9.474720245
+23,Snap-568.czi,311524.871,80.396,0,4095,0,65535,Tentacle Area,0,Tentacle,,,7,A5,inoc,25C,inoc-25C,12,0
+24,Snap-568.czi,2750.814,2298.756,1373,3939,1373,65535,Symbiont Area,0.883,Tentacle,,,7,A5,inoc,25C,inoc-25C,12,0.883015854
+25,Snap-571.czi,7330.46,562.97,362,1333,0,65535,Tentacle Area,0,Pedal disc,,,7,A6,inoc,25C,inoc-25C,12,0
+26,Snap-570.czi,1462.33,1359.167,820,3044,820,65535,Symbiont Area,19.949,Pedal disc,,,7,A6,inoc,25C,inoc-25C,12,19.94867989
+27,Snap-574.czi,20886.903,873.779,293,2559,0,65535,Tentacle Area,0,Tentacle,,,7,A6,inoc,25C,inoc-25C,12,0
+28,Snap-572.czi,8901.767,1986.934,1239,3997,1239,65535,Symbiont Area,42.619,Tentacle,,,7,A6,inoc,25C,inoc-25C,12,42.61889376
+29,Snap-576.czi,311524.871,150.23,0,4095,0,65535,Tentacle Area,0,Body column,,,7,B1,inoc,25C,inoc-25C,12,0
+30,Snap-576.czi,470.073,2141.876,1191,3616,1191,65535,Symbiont Area,0.151,Body column,,,7,B1,inoc,25C,inoc-25C,12,0.1508942122
+31,Snap-580.czi,5662.5,1987.545,841,3245,0,65535,Tentacle Area,0,Tentacle,,,7,B1,inoc,25C,inoc-25C,12,0
+32,Snap-579.czi,1357.893,2112.525,1237,3980,1237,65535,Symbiont Area,23.98,Tentacle,,,7,B1,inoc,25C,inoc-25C,12,23.98045033
+33,Snap-581.czi,11382.3,1666.006,582,3350,0,65535,Tentacle Area,0,Tentacle,,,7,B1,inoc,25C,inoc-25C,12,0
+34,Snap-578.czi,1890.455,2141.91,1224,4022,1224,65535,Symbiont Area,16.609,Tentacle,,,7,B1,inoc,25C,inoc-25C,12,16.60872583
+35,Snap-583.czi,24127.25,758.349,375,2403,0,65535,Tentacle Area,0,Body column,,,7,B2,inoc,25C,inoc-25C,12,0
+36,Snap-582.czi,5532.549,1903.403,1108,3924,1108,65535,Symbiont Area,22.931,Body column,,,7,B2,inoc,25C,inoc-25C,12,22.93070698
+37,Snap-586.czi,7266.025,979.231,462,2160,0,65535,Tentacle Area,0,Tentacle,,,7,B2,inoc,25C,inoc-25C,12,0
+38,Snap-585.czi,2352.96,2212.403,1350,3998,1350,65535,Symbiont Area,32.383,Tentacle,,,7,B2,inoc,25C,inoc-25C,12,32.383043
+39,Snap-587.czi,6760.275,823.598,421,2807,0,65535,Tentacle Area,0,Tentacle,,,7,B2,inoc,25C,inoc-25C,12,0
+40,Snap-584.czi,2785.843,1724.62,1065,3995,1065,65535,Symbiont Area,41.209,Tentacle,,,7,B2,inoc,25C,inoc-25C,12,41.20901886
+41,Snap-589.czi,31425.277,660.752,298,3462,0,65535,Tentacle Area,0,Body column,,,7,B3,inoc,25C,inoc-25C,12,0
+42,Snap-588.czi,7586.47,1654.352,970,3756,970,65535,Symbiont Area,24.141,Body column,,,7,B3,inoc,25C,inoc-25C,12,24.14129874
+43,Snap-593.czi,2719.894,819.454,500,2094,0,65535,Tentacle Area,0,Tentacle,,,7,B3,inoc,25C,inoc-25C,12,0
+44,Snap-592.czi,870.954,2146.69,1412,3982,1412,65535,Symbiont Area,32.022,Tentacle,,,7,B3,inoc,25C,inoc-25C,12,32.02161555
+45,Snap-591.czi,311524.871,202.481,0,4095,0,65535,Tentacle Area,0,Tentacle,,,7,B3,inoc,25C,inoc-25C,12,0
+46,Snap-591.czi,4668.73,1943.353,1192,3931,1192,65535,Symbiont Area,1.499,Tentacle,,,7,B3,inoc,25C,inoc-25C,12,1.498670069
+47,Snap-600.czi,9326.433,596.026,326,1821,0,65535,Tentacle Area,0,Tentacle,,,7,B4,inoc,25C,inoc-25C,12,0
+48,Snap-599.czi,3129.208,2285.626,1399,3987,1399,65535,Symbiont Area,33.552,Tentacle,,,7,B4,inoc,25C,inoc-25C,12,33.55203431
+49,Snap-603.czi,10959.148,512.244,311,1281,0,65535,Tentacle Area,0,Pedal disc,,,7,B5,inoc,25C,inoc-25C,12,0
+50,Snap-602.czi,1553.793,1325.241,768,3269,768,65535,Symbiont Area,14.178,Pedal disc,,,7,B5,inoc,25C,inoc-25C,12,14.17804559
+51,Snap-606.czi,15543.118,896.625,440,2510,0,65535,Tentacle Area,0,Tentacle,,,7,B5,inoc,25C,inoc-25C,12,0
+52,Snap-605.czi,2831.466,2027.288,1155,4011,1155,65535,Symbiont Area,18.217,Tentacle,,,7,B5,inoc,25C,inoc-25C,12,18.21684684
+53,Snap-607.czi,5939.701,548.237,280,2615,0,65535,Tentacle Area,0,Tentacle,,,7,B5,inoc,25C,inoc-25C,12,0
+54,Snap-604.czi,850.197,2001.1,1131,3960,1131,65535,Symbiont Area,14.314,Tentacle,,,7,B5,inoc,25C,inoc-25C,12,14.31380132
+55,Snap-609.czi,18262.796,654.171,301,3057,0,65535,Tentacle Area,0,Body column,,,7,B6,inoc,25C,inoc-25C,12,0
+56,Snap-608.czi,1662.554,1787.342,987,3557,987,65535,Symbiont Area,9.104,Body column,,,7,B6,inoc,25C,inoc-25C,12,9.103502005
+57,Snap-614.czi,21552.659,666.448,247,2046,0,65535,Tentacle Area,0,Tentacle,,,7,B6,inoc,25C,inoc-25C,12,0
+58,Snap-611.czi,7665.176,1362.366,860,3311,860,65535,Symbiont Area,35.565,Tentacle,,,7,B6,inoc,25C,inoc-25C,12,35.56487392
+59,Snap-610.czi,311524.871,212.221,0,4095,0,65535,Tentacle Area,0,Tentacle,,,7,B6,inoc,25C,inoc-25C,12,0
+60,Snap-610.czi,824.682,1885.682,1208,4013,1208,65535,Symbiont Area,0.265,Tentacle,,,7,B6,inoc,25C,inoc-25C,12,0.2647242891
+61,Snap-613.czi,8887.929,765.815,384,1586,0,65535,Tentacle Area,0,Tentacle,,,7,B6,inoc,25C,inoc-25C,12,0
+62,Snap-612.czi,2734.598,1362.869,860,3419,860,65535,Symbiont Area,30.768,Tentacle,,,7,B6,inoc,25C,inoc-25C,12,30.76755001
+63,Snap-617.czi,20535.321,651.785,324,2999,0,65535,Tentacle Area,0,Body column,,,7,C1,inoc,25C,inoc-25C,12,0
+64,Snap-616.czi,3290.296,1636.775,940,4041,940,65535,Symbiont Area,16.023,Body column,,,7,C1,inoc,25C,inoc-25C,12,16.02261781
+65,Snap-621.czi,10264.849,718.369,307,2015,0,65535,Tentacle Area,0,Tentacle,,,7,C1,inoc,25C,inoc-25C,12,0
+66,Snap-618.czi,2716.867,2021.741,1255,3993,1255,65535,Symbiont Area,26.468,Tentacle,,,7,C1,inoc,25C,inoc-25C,12,26.46767624
+67,Snap-620.czi,3766.207,664.666,354,1426,0,65535,Tentacle Area,0,Tentacle,,,7,C1,inoc,25C,inoc-25C,12,0
+68,Snap-619.czi,757.869,2063.696,1204,3959,1204,65535,Symbiont Area,20.123,Tentacle,,,7,C1,inoc,25C,inoc-25C,12,20.12287163
+69,Snap-623.czi,11315.054,498.362,197,2876,0,65535,Tentacle Area,0,Pedal disc,,,7,C2,inoc,25C,inoc-25C,12,0
+70,Snap-622.czi,743.598,383.583,203,3749,203,65535,Symbiont Area,6.572,Pedal disc,,,7,C2,inoc,25C,inoc-25C,12,6.571758297
+71,Snap-625.czi,8720.787,477.88,272,2164,0,65535,Tentacle Area,0,Body column,,,7,C3,inoc,25C,inoc-25C,12,0
+72,Snap-624.czi,2105.383,2156.725,1252,3983,1252,65535,Symbiont Area,24.142,Body column,,,7,C3,inoc,25C,inoc-25C,12,24.14212158
+73,Snap-629.czi,2847.899,524.059,300,1694,0,65535,Tentacle Area,0,Tentacle,,,7,C3,inoc,25C,inoc-25C,12,0
+74,Snap-626.czi,619.052,2653.963,1694,3983,1694,65535,Symbiont Area,21.737,Tentacle,,,7,C3,inoc,25C,inoc-25C,12,21.73714728
+75,Snap-628.czi,920.686,558.508,344,1178,0,65535,Tentacle Area,0,Tentacle,,,7,C3,inoc,25C,inoc-25C,12,0
+76,Snap-627.czi,282.174,2891.173,1957,3928,1957,65535,Symbiont Area,30.648,Tentacle,,,7,C3,inoc,25C,inoc-25C,12,30.64823403
+77,Snap-631.czi,15322.136,858.429,325,1719,0,65535,Tentacle Area,0,Body column,,,7,C4,inoc,25C,inoc-25C,12,0
+78,Snap-630.czi,1160.047,1160.407,629,3915,629,65535,Symbiont Area,7.571,Body column,,,7,C4,inoc,25C,inoc-25C,12,7.571052757
+79,Snap-634.czi,20543.105,779.886,322,2555,0,65535,Tentacle Area,0,Tentacle,,,7,C4,inoc,25C,inoc-25C,12,0
+80,Snap-633.czi,5395.679,1919.856,1160,4002,1160,65535,Symbiont Area,26.265,Tentacle,,,7,C4,inoc,25C,inoc-25C,12,26.26515807
+81,Snap-635.czi,1919.213,664.936,385,2234,0,65535,Tentacle Area,0,Tentacle,,,7,C4,inoc,25C,inoc-25C,12,0
+82,Snap-632.czi,860.575,2660.106,1574,4002,1574,65535,Symbiont Area,44.84,Tentacle,,,7,C4,inoc,25C,inoc-25C,12,44.83999431
+83,Snap-637.czi,25594.769,973.345,450,2299,0,65535,Tentacle Area,0,Body column,,,7,C5,inoc,25C,inoc-25C,12,0
+84,Snap-636.czi,477.209,211.002,62,2811,62,65535,Symbiont Area,1.864,Body column,,,7,C5,inoc,25C,inoc-25C,12,1.864478636
+85,Snap-639.czi,25610.554,1159.904,551,2877,0,65535,Tentacle Area,0,Tentacle,,,7,C5,inoc,25C,inoc-25C,12,0
+86,Snap-638.czi,602.619,97.541,47,3966,47,65535,Symbiont Area,2.353,Tentacle,,,7,C5,inoc,25C,inoc-25C,12,2.353010403
+87,Snap-641.czi,37801.319,922.747,395,3797,0,65535,Tentacle Area,0,Body column,,,7,C6,inoc,25C,inoc-25C,12,0
+88,Snap-640.czi,2027.758,1179.372,653,3949,653,65535,Symbiont Area,5.364,Body column,,,7,C6,inoc,25C,inoc-25C,12,5.364251972
+89,Snap-645.czi,13093.072,665.611,256,2273,0,65535,Tentacle Area,0,Tentacle,,,7,C6,inoc,25C,inoc-25C,12,0
+90,Snap-644.czi,2877.09,2191.446,1392,4015,1392,65535,Symbiont Area,21.974,Tentacle,,,7,C6,inoc,25C,inoc-25C,12,21.97414022
+91,Snap-646.czi,32618.622,561.542,161,2000,0,65535,Tentacle Area,0,Tentacle,,,7,C6,inoc,25C,inoc-25C,12,0
+92,Snap-643.czi,12175.414,1790.564,1060,4021,1060,65535,Symbiont Area,37.327,Tentacle,,,7,C6,inoc,25C,inoc-25C,12,37.32657376
+93,Snap-647.czi,9826.778,881.877,346,2563,0,65535,Tentacle Area,0,Tentacle,,,7,C6,inoc,25C,inoc-25C,12,0
+94,Snap-642.czi,3872.59,2073.881,1278,4022,1278,65535,Symbiont Area,39.409,Tentacle,,,7,C6,inoc,25C,inoc-25C,12,39.40854266
+95,Snap-649.czi,11784.479,714.897,456,2160,0,65535,Tentacle Area,0,Body column,,,7,D1,inoc,25C,inoc-25C,12,0
+96,Snap-648.czi,1813.047,1179.88,667,3622,667,65535,Symbiont Area,15.385,Body column,,,7,D1,inoc,25C,inoc-25C,12,15.38504163
+97,Snap-653.czi,11890.861,929.558,391,2859,0,65535,Tentacle Area,0,Tentacle,,,7,D1,inoc,25C,inoc-25C,12,0
+98,Snap-651.czi,3790.424,1814.34,1155,3538,1155,65535,Symbiont Area,31.877,Tentacle,,,7,D1,inoc,25C,inoc-25C,12,31.87678335
+99,Snap-654.czi,11283.053,777.476,352,2286,0,65535,0,0,0,,,7,D1,inoc,25C,inoc-25C,12,0
+100,Snap-656.czi,6974.554,517.207,276,1781,0,65535,Tentacle Area,0,Pedal disc,,,7,D2,inoc,25C,inoc-25C,12,0
+101,Snap-655.czi,294.066,2194.929,1219,3153,1219,65535,Symbiont Area,4.216,Pedal disc,,,7,D2,inoc,25C,inoc-25C,12,4.216269599
+102,Snap-660.czi,14357.989,740.249,279,2195,0,65535,Tentacle Area,0,Tentacle,,,7,D2,inoc,25C,inoc-25C,12,0
+103,Snap-658.czi,3440.14,2026.685,1192,4011,1192,65535,Symbiont Area,23.96,Tentacle,,,7,D2,inoc,25C,inoc-25C,12,23.95976205
+104,Snap-661.czi,311524.871,101.737,0,4095,0,65535,Tentacle Area,0,Tentacle,,,7,D3,inoc,25C,inoc-25C,12,0
+105,Snap-661.czi,1297.782,2042.761,1162,3898,1162,65535,Symbiont Area,0.417,Tentacle,,,7,D3,inoc,25C,inoc-25C,12,0.4165901733
+106,Snap-666.czi,6517.021,853.397,479,2173,0,65535,Tentacle Area,0,Tentacle,,,7,D3,inoc,25C,inoc-25C,12,0
+107,Snap-663.czi,2929.849,1656.889,1036,3650,1036,65535,Symbiont Area,44.957,Tentacle,,,7,D3,inoc,25C,inoc-25C,12,44.95687523
+108,Snap-665.czi,5104.856,670.583,296,1576,0,65535,Tentacle Area,0,Tentacle,,,7,D3,inoc,25C,inoc-25C,12,0
+109,Snap-664.czi,1887.644,1654.342,1068,3141,1068,65535,Symbiont Area,36.977,Tentacle,,,7,D3,inoc,25C,inoc-25C,12,36.97741915
+110,Snap-668.czi,14364.259,657.14,363,1608,0,65535,Tentacle Area,0,Pedal disc,,,7,D4,inoc,25C,inoc-25C,12,0
+111,Snap-667.czi,1767.856,1319.763,763,2832,763,65535,Symbiont Area,12.307,Pedal disc,,,7,D4,inoc,25C,inoc-25C,12,12.30732473
+112,Snap-672.czi,27974.326,1111.877,310,3033,0,65535,Tentacle Area,0,Tentacle,,,7,D4,inoc,25C,inoc-25C,12,0
+113,Snap-672.czi,10310.473,1578.556,1207,3033,1207,65535,Symbiont Area,36.857,Tentacle,,,7,D4,inoc,25C,inoc-25C,12,36.85691301
+114,Snap-671.czi,31084.722,1004.106,429,2993,0,65535,Tentacle Area,0,Tentacle,,,7,D4,inoc,25C,inoc-25C,12,0
+115,Snap-670.czi,7200.076,1805.561,1051,4021,1051,65535,Symbiont Area,23.163,Tentacle,,,7,D4,inoc,25C,inoc-25C,12,23.16274857
+116,Snap-674.czi,13044.422,744.937,375,2273,0,65535,Tentacle Area,0,Pedal disc,,,7,D5,inoc,25C,inoc-25C,12,0
+117,Snap-673.czi,3199.049,1205.6,732,3067,732,65535,Symbiont Area,24.524,Pedal disc,,,7,D5,inoc,25C,inoc-25C,12,24.52426792
+118,Snap-678.czi,27751.398,1339.909,510,3433,0,65535,Tentacle Area,0,Tentacle,,,7,D5,inoc,25C,inoc-25C,12,0
+119,Snap-675.czi,10049.706,1860.423,1131,3983,1131,65535,Symbiont Area,36.213,Tentacle,,,7,D5,inoc,25C,inoc-25C,12,36.21333239
+120,Snap-677.czi,21248.863,1014.324,362,3316,0,65535,Tentacle Area,0,Tentacle,,,7,D5,inoc,25C,inoc-25C,12,0
+121,Snap-676.czi,4629.377,2032.129,1225,3939,1225,65535,Symbiont Area,21.786,Tentacle,,,7,D5,inoc,25C,inoc-25C,12,21.78646923
+122,Snap-682.czi,3203.373,679.785,300,1843,0,65535,Tentacle Area,0,Tentacle,,,7,D6,inoc,25C,inoc-25C,12,0
+123,Snap-681.czi,864.684,2340.328,1345,3987,1345,65535,Symbiont Area,26.993,Tentacle,,,7,D6,inoc,25C,inoc-25C,12,26.99292277
+124,Snap-680.czi,3314.945,470.205,285,1186,0,65535,Tentacle Area,0,Pedal disc,,,7,D6,inoc,25C,inoc-25C,12,0
+125,Snap-679.czi,845.656,1934.864,1147,3338,1147,65535,Symbiont Area,25.51,Pedal disc,,,7,D6,inoc,25C,inoc-25C,12,25.51040817
+1,Snap-684.czi,15191.104,992.347,432,3496,0,65535,Tentacle Area,0,Body column,,,10,A1,inoc,32C,inoc-32C,12,0
+2,Snap-683.czi,1198.751,1907.669,1037,3997,1037,65535,Symbiont Area,7.891,Body column,,,10,A1,inoc,32C,inoc-32C,12,7.891138129
+3,Snap-686.czi,5125.83,1106.311,464,3644,0,65535,Tentacle Area,0,Tentacle,,,10,A1,inoc,32C,inoc-32C,12,0
+4,Snap-685.czi,1170.21,2264.85,1323,3970,1323,65535,Symbiont Area,22.83,Tentacle,,,10,A1,inoc,32C,inoc-32C,12,22.82966856
+5,Snap-687.czi,311524.871,228.098,72,4095,0,65535,Tentacle Area,0,Pedal disc,,,10,A3,inoc,32C,inoc-32C,12,0
+6,Snap-687.czi,19.028,1945.068,992,3873,992,65535,Symbiont Area,0.006,Pedal disc,,,10,A3,inoc,32C,inoc-32C,12,0.006108019542
+7,Snap-692.czi,2210.901,777.469,353,1834,0,65535,Tentacle Area,0,Tentacle,,,10,A3,inoc,32C,inoc-32C,12,0
+8,Snap-689.czi,99.896,1759.892,826,3974,826,65535,Symbiont Area,4.518,Tentacle,,,10,A3,inoc,32C,inoc-32C,12,4.518338903
+9,Snap-691.czi,5882.617,537.697,285,3408,0,65535,Tentacle Area,0,Tentacle,,,10,A3,inoc,32C,inoc-32C,12,0
+10,Snap-690.czi,295.796,2535.44,1214,3963,1213,65535,Symbiont Area,5.028,Tentacle,,,10,A3,inoc,32C,inoc-32C,12,5.028306279
+11,Snap-694.czi,5772.559,846.544,436,2268,0,65535,Tentacle Area,0,Tentacle,,,10,A4,inoc,32C,inoc-32C,12,0
+12,Snap-693.czi,1.081,823,47,3904,47,65535,Symbiont Area,0.019,Tentacle,,,10,A4,inoc,32C,inoc-32C,12,0.01872653012
+13,Snap-696.czi,17721.369,1988.38,620,3471,0,65535,Tentacle Area,0,Pedal disc,,,10,A4,inoc,32C,inoc-32C,12,0
+14,Snap-695.czi,306.175,419.045,220,1557,220,65535,Symbiont Area,1.728,Pedal disc,,,10,A4,inoc,32C,inoc-32C,12,1.727716408
+15,Snap-698.czi,4884.09,737.752,391,3495,0,65535,Tentacle Area,0,Pedal disc,,,10,Bq,inoc,32C,inoc-32C,12,0
+16,Snap-697.czi,889.982,158.721,63,3934,63,65535,Symbiont Area,18.222,Pedal disc,,,10,B1,inoc,32C,inoc-32C,12,18.22206388
+21,Snap-704.czi,9423.734,453.484,195,1045,0,65535,Tentacle Area,0,Pedal disc,,,10,C2,inoc,32C,inoc-32C,12,0
+22,Snap-703.czi,797.222,489.601,267,3889,267,65535,Symbiont Area,8.46,Pedal disc,,,10,C2,inoc,32C,inoc-32C,12,8.4597252
+23,Snap-706.czi,18754.492,2307.143,816,3400,0,65535,Tentacle Area,0,Pedal disc,,,10,C5,inoc,32C,inoc-32C,12,0
+24,Snap-705.czi,778.41,2362.426,1234,3937,1234,65535,Symbiont Area,4.151,Pedal disc,,,10,C5,inoc,32C,inoc-32C,12,4.150525645
+25,Snap-708.czi,5282.593,743.759,375,3372,0,65535,Tentacle Area,0,Pedal disc,,,10,D4,inoc,32C,inoc-32C,12,0
+26,Snap-707.czi,0.865,1647.5,151,3987,47,65535,Symbiont Area,0.016,Pedal disc,,,10,D4,inoc,32C,inoc-32C,12,0.01637453425
+27,Snap-710.czi,8362.502,1799.17,534,3851,0,65535,Tentacle Area,0,Tentacle,,,10,D4,inoc,32C,inoc-32C,12,0
+28,Snap-709.czi,9.946,1819.609,996,3019,913,65535,Symbiont Area,0.119,Tentacle,,,10,D4,inoc,32C,inoc-32C,12,0.1189356965
+1,Snap-712.czi,12321.365,1167.891,365,2859,0,65535,Tentacle Area,0,Body column,,,11,A1,inoc,32C,inoc-32C,12,0
+2,Snap-711.czi,234.172,1341.898,692,2680,692,65535,Symbiont Area,1.901,Body column,,,11,A1,inoc,32C,inoc-32C,12,1.900536182
+3,Snap-714.czi,41644.503,1713.535,291,3197,0,65535,Tentacle Area,0,Body column,,,11,A2,inoc,32C,inoc-32C,12,0
+4,Snap-713.czi,135.141,1047.133,535,4011,535,65535,Symbiont Area,0.325,Body column,,,11,A2,inoc,32C,inoc-32C,12,0.3245110165
+5,Snap-716.czi,4891.226,947.222,412,2058,0,65535,Tentacle Area,0,Tentacle,,,11,A2,inoc,32C,inoc-32C,12,0
+6,Snap-715.czi,198.711,107.597,63,278,63,65535,Symbiont Area,4.063,Tentacle,,,11,A2,inoc,32C,inoc-32C,12,4.062601074
+7,Snap-718.czi,7813.074,695.503,393,3229,0,65535,Tentacle Area,0,Pedal disc,,,11,B1,inoc,32C,inoc-32C,12,0
+8,Snap-717.czi,72.219,1816.997,948,3898,945,65535,Symbiont Area,0.924,Pedal disc,,,11,B1,inoc,32C,inoc-32C,12,0.9243352872
+9,Snap-720.czi,2596.646,1445.765,556,3174,0,65535,Tentacle Area,0,Tentacle,,,11,B1,inoc,32C,inoc-32C,12,0
+10,Snap-719.czi,86.49,3243.54,1685,3997,1685,65535,Symbiont Area,3.331,Tentacle,,,11,B1,inoc,32C,inoc-32C,12,3.330835239
+11,Snap-721.czi,311524.871,253.981,69,4095,0,65535,Tentacle Area,0,Body column,,,11,B2,inoc,32C,inoc-32C,12,0
+12,Snap-721.czi,103.356,181.427,47,3934,47,65535,Symbiont Area,0.033,Body column,,,11,B2,inoc,32C,inoc-32C,12,0.03317744733
+13,Snap-726.czi,14038.408,972.041,451,2422,0,65535,Tentacle Area,0,Tentacle,,,11,B2,inoc,32C,inoc-32C,12,0
+14,Snap-723.czi,230.063,2293.447,1188,3953,1186,65535,Symbiont Area,1.639,Tentacle,,,11,B2,inoc,32C,inoc-32C,12,1.638811181
+15,Snap-725.czi,8627.594,1170.779,534,3090,0,65535,Tentacle Area,0,Tentacle,,,11,B2,inoc,32C,inoc-32C,12,0
+16,Snap-724.czi,138.168,2522.2,1296,3949,1296,65535,Symbiont Area,1.601,Tentacle,,,11,B2,inoc,32C,inoc-32C,12,1.601466179
+17,Snap-728.czi,7037.475,981.183,455,3550,0,65535,Tentacle Area,0,Pedal disc,,,11,B3,inoc,32C,inoc-32C,12,0
+18,Snap-727.czi,56.218,870.435,456,1367,456,65535,Symbiont Area,0.799,Pedal disc,,,11,B3,inoc,32C,inoc-32C,12,0.7988376513
+19,Snap-730.czi,8614.404,394.987,215,1963,0,65535,Tentacle Area,0,Pedal disc,,,11,B4,inoc,32C,inoc-32C,12,0
+20,Snap-729.czi,1.297,84.833,47,272,47,65535,Symbiont Area,0.015,Pedal disc,,,11,B4,inoc,32C,inoc-32C,12,0.015056178
+21,Snap-731.czi,311524.871,107.919,38,4095,0,65535,Tentacle Area,0,Tentacle,,,11,B4,inoc,32C,inoc-32C,12,0
+22,Snap-731.czi,67.895,438.78,47,3991,47,65535,Symbiont Area,0.022,Tentacle,,,11,B4,inoc,32C,inoc-32C,12,0.02179440755
+25,Snap-734.czi,9252.052,728.67,366,3583,0,65535,Tentacle Area,0,Pedal disc,,,11,B5,inoc,32C,inoc-32C,12,0
+26,Snap-733.czi,0.865,663.25,167,1234,47,65535,Symbiont Area,0.009,Pedal disc,,,11,B5,inoc,32C,inoc-32C,12,0.009349277328
+27,Snap-736.czi,3079.909,1678.909,718,3646,0,65535,Tentacle Area,0,Tentacle,,,11,B5,inoc,32C,inoc-32C,12,0
+28,Snap-735.czi,48.218,77.552,47,4003,47,65535,Symbiont Area,1.566,Tentacle,,,11,B5,inoc,32C,inoc-32C,12,1.565565736
+29,Snap-738.czi,7762.694,603.011,349,1733,0,65535,Tentacle Area,0,Pedal disc,,,11,C1,inoc,32C,inoc-32C,12,0
+30,Snap-737.czi,290.174,1027.803,556,3189,556,65535,Symbiont Area,3.738,Pedal disc,,,11,C1,inoc,32C,inoc-32C,12,3.738057947
+31,Snap-740.czi,5755.045,653.704,348,3359,0,65535,Tentacle Area,0,Tentacle,,,11,C1,inoc,32C,inoc-32C,12,0
+32,Snap-739.czi,257.092,2048.598,1026,3952,1026,65535,Symbiont Area,4.467,Tentacle,,,11,C1,inoc,32C,inoc-32C,12,4.467245695
+33,Snap-742.czi,15316.947,393.145,185,2366,0,65535,Tentacle Area,0,Pedal disc,,,11,C3,inoc,32C,inoc-32C,12,0
+34,Snap-741.czi,575.591,2527.757,1332,3984,1331,65535,Symbiont Area,3.758,Pedal disc,,,11,C3,inoc,32C,inoc-32C,12,3.757870286
+35,Snap-744.czi,19848.806,867.524,479,2098,0,65535,Tentacle Area,0,Body column,,,11,C4,inoc,32C,inoc-32C,12,0
+36,Snap-743.czi,6.703,287.29,47,3961,47,65535,Symbiont Area,0.034,Body column,,,11,C4,inoc,32C,inoc-32C,12,0.03377029329
+37,Snap-745.czi,12764.194,1090.628,445,2776,0,65535,Tentacle Area,0,Tentacle,,,11,C4,inoc,32C,inoc-32C,12,0
+38,Snap-746.czi,0.649,1166.667,278,2942,47,65535,Symbiont Area,0.005,Tentacle,,,11,C4,inoc,32C,inoc-32C,12,0.005084535694
+39,Snap-749.czi,8544.563,357.227,197,2774,0,65535,Tentacle Area,0,Pedal disc,,,11,D1,inoc,32C,inoc-32C,12,0
+40,Snap-748.czi,852.143,918.722,498,3889,498,65535,Symbiont Area,9.973,Pedal disc,,,11,D1,inoc,32C,inoc-32C,12,9.972926644
+41,Snap-751.czi,7254.997,796.776,469,3147,0,65535,Tentacle Area,0,Pedal disc,,,11,D2,inoc,32C,inoc-32C,12,0
+42,Snap-750.czi,74.598,2209.742,1146,3875,1142,65535,Symbiont Area,1.028,Pedal disc,,,11,D2,inoc,32C,inoc-32C,12,1.028229233
+43,Snap-752.czi,311524.871,159.295,32,4095,0,65535,Tentacle Area,0,Tentacle,,,11,D2,inoc,32C,inoc-32C,12,0
+44,Snap-752.czi,64.435,2362,1224,3992,1213,65535,Symbiont Area,0.021,Tentacle,,,11,D2,inoc,32C,inoc-32C,12,0.02068374181
+45,Snap-754.czi,19772.263,991.87,432,3038,0,65535,Tentacle Area,0,Tentacle,,,11,D2,inoc,32C,inoc-32C,12,0
+46,Snap-753.czi,914.632,1664.648,866,4005,866,65535,Symbiont Area,4.626,Tentacle,,,11,D2,inoc,32C,inoc-32C,12,4.625833674
+47,Snap-757.czi,22103.168,440.76,207,1297,0,65535,Tentacle Area,0,Pedal disc,,,11,D3,inoc,32C,inoc-32C,12,0
+48,Snap-756.czi,433.531,1177.56,610,3752,610,65535,Symbiont Area,1.961,Pedal disc,,,11,D3,inoc,32C,inoc-32C,12,1.96139757
+49,Snap-759.czi,10968.446,535.959,267,2855,0,65535,Tentacle Area,0,Pedal disc,,,11,D4,inoc,32C,inoc-32C,12,0
+50,Snap-758.czi,77.625,2661.047,1367,3947,1359,65535,Symbiont Area,0.708,Pedal disc,,,11,D4,inoc,32C,inoc-32C,12,0.707711922
+51,Snap-761.czi,11136.669,650.464,285,2254,0,65535,Tentacle Area,0,Tentacle,,,11,D4,inoc,32C,inoc-32C,12,0
+52,Snap-760.czi,560.671,79.989,47,3961,47,65535,Symbiont Area,5.034,Tentacle,,,11,D4,inoc,32C,inoc-32C,12,5.034458688
+53,Snap-763.czi,16566.943,2713.876,1119,3840,0,65535,Tentacle Area,0,Pedal disc,,,11,D6,inoc,32C,inoc-32C,12,0
+54,Snap-762.czi,8,139.892,47,2982,47,65535,Symbiont Area,0.048,Pedal disc,,,11,D6,inoc,32C,inoc-32C,12,0.04828893297
+1,Snap-827.czi,7770.045,844.131,425,2834,0,65535,Tentacle Area,0,Pedal disc,,,7,A1,inoc,25C,inoc-25C,14,0
+2,Snap-826.czi,206.711,79.073,47,1585,47,65535,Symbiont Area,2.66,Pedal disc,,,7,A1,inoc,25C,inoc-25C,14,2.660357823
+3,Snap-829.czi,5756.774,1380.754,555,3285,0,65535,Tentacle Area,0,Tentacle,,,7,A1,inoc,25C,inoc-25C,14,0
+4,Snap-828.czi,58.165,641.305,331,4003,331,65535,Symbiont Area,1.01,Tentacle,,,7,A1,inoc,25C,inoc-25C,14,1.010374908
+5,Snap-831.czi,35524.686,1503.144,423,2699,0,65535,Tentacle Area,0,Body column,,,7,A2,inoc,25C,inoc-25C,14,0
+6,Snap-830.czi,7145.588,1228.92,716,3226,716,65535,Symbiont Area,20.114,Body column,,,7,A2,inoc,25C,inoc-25C,14,20.11442972
+7,Snap-835.czi,18411.991,1260.368,588,3667,0,65535,Tentacle Area,0,Tentacle,,,7,A2,inoc,25C,inoc-25C,14,0
+8,Snap-832.czi,3108.667,1937.925,1189,3932,1189,65535,Symbiont Area,16.884,Tentacle,,,7,A2,inoc,25C,inoc-25C,14,16.88392635
+9,Snap-833.czi,311524.871,300.775,0,4095,0,65535,Tentacle Area,0,Tentacle,,,7,A2,inoc,25C,inoc-25C,14,0
+10,Snap-833.czi,5989.432,1910.239,1218,3891,1218,65535,Symbiont Area,1.923,Tentacle,,,7,A2,inoc,25C,inoc-25C,14,1.922617601
+11,Snap-837.czi,9824.183,616.201,375,2046,0,65535,Tentacle Area,0,Body column,,,7,A3,inoc,25C,inoc-25C,14,0
+12,Snap-836.czi,2760.112,1794.232,1082,3191,1082,65535,Symbiont Area,28.095,Body column,,,7,A3,inoc,25C,inoc-25C,14,28.09507925
+13,Snap-839.czi,5485.196,643.508,369,1664,0,65535,Tentacle Area,0,Tentacle,,,7,A3,inoc,25C,inoc-25C,14,0
+14,Snap-838.czi,2393.611,2195.377,1442,3676,1442,65535,Symbiont Area,43.638,Tentacle,,,7,A3,inoc,25C,inoc-25C,14,43.6376567
+15,Snap-840.czi,311524.871,230.926,3,4033,0,65535,Tentacle Area,0,Pedal disc,,,7,A4,inoc,25C,inoc-25C,14,0
+16,Snap-840.czi,1905.375,1276.176,757,3474,757,65535,Symbiont Area,0.612,Pedal disc,,,7,A4,inoc,25C,inoc-25C,14,0.6116285335
+17,Snap-843.czi,16538.618,903.509,371,2793,0,65535,Tentacle Area,0,Tentacle,,,7,A4,inoc,25C,inoc-25C,14,0
+18,Snap-842.czi,6838.548,2186.731,1356,3974,1356,65535,Symbiont Area,41.349,Tentacle,,,7,A4,inoc,25C,inoc-25C,14,41.34896882
+19,Snap-845.czi,12389.909,597.314,294,1856,0,65535,Tentacle Area,0,Body column,,,7,A5,inoc,25C,inoc-25C,14,0
+20,Snap-844.czi,3746.314,1976.021,1191,3816,1191,65535,Symbiont Area,30.237,Body column,,,7,A5,inoc,25C,inoc-25C,14,30.23681611
+21,Snap-849.czi,5544.658,719.573,338,1587,0,65535,Tentacle Area,0,Tentacle,,,7,A5,inoc,25C,inoc-25C,14,0
+22,Snap-847.czi,2409.828,2058.064,1260,4000,1260,65535,Symbiont Area,43.462,Tentacle,,,7,A5,inoc,25C,inoc-25C,14,43.46215763
+23,Snap-848.czi,749.22,792.088,422,2044,0,65535,Tentacle Area,0,Tentacle,,,7,A5,inoc,25C,inoc-25C,14,0
+24,Snap-846.czi,436.126,1771.784,1228,2522,1228,65535,Symbiont Area,58.211,Tentacle,,,7,A5,inoc,25C,inoc-25C,14,58.21067243
+25,Snap-851.czi,4083.842,535.046,279,2441,0,65535,Tentacle Area,0,Pedal disc,,,7,A6,inoc,25C,inoc-25C,14,0
+26,Snap-850.czi,813.655,1000.178,604,2846,604,65535,Symbiont Area,19.924,Pedal disc,,,7,A6,inoc,25C,inoc-25C,14,19.92376297
+27,Snap-855.czi,9786.56,565.982,318,1380,0,65535,Tentacle Area,0,Tentacle,,,7,A6,inoc,25C,inoc-25C,14,0
+28,Snap-852.czi,4630.458,2386.139,1488,3733,1488,65535,Symbiont Area,47.314,Tentacle,,,7,A6,inoc,25C,inoc-25C,14,47.31445983
+29,Snap-854.czi,7355.974,527.879,285,1853,0,65535,Tentacle Area,0,Tentacle,,,7,A6,inoc,25C,inoc-25C,14,0
+30,Snap-853.czi,2353.609,2047.552,1236,3949,1236,65535,Symbiont Area,31.996,Tentacle,,,7,A6,inoc,25C,inoc-25C,14,31.99588525
+31,Snap-857.czi,18710.598,1478.257,517,3371,0,65535,Tentacle Area,0,Body column,,,7,B1,inoc,25C,inoc-25C,14,0
+32,Snap-856.czi,1056.043,1647.203,892,4058,892,65535,Symbiont Area,5.644,Body column,,,7,B1,inoc,25C,inoc-25C,14,5.64409005
+33,Snap-858.czi,311524.871,121.943,0,4095,0,65535,Tentacle Area,0,Tentacle,,,7,B1,inoc,25C,inoc-25C,14,0
+34,Snap-858.czi,3607.282,2095.821,1272,3963,1272,65535,Symbiont Area,1.158,Tentacle,,,7,B1,inoc,25C,inoc-25C,14,1.157943502
+35,Snap-860.czi,8524.671,1279.72,509,3478,0,65535,Tentacle Area,0,Tentacle,,,7,B1,inoc,25C,inoc-25C,14,0
+36,Snap-859.czi,2384.097,1663.432,1049,3565,1049,65535,Symbiont Area,27.967,Tentacle,,,7,B1,inoc,25C,inoc-25C,14,27.96702653
+37,Snap-863.czi,9300.702,566.584,231,1901,0,65535,Tentacle Area,0,Body column,,,7,B2,inoc,25C,inoc-25C,14,0
+38,Snap-862.czi,1272.052,1699.007,972,3454,972,65535,Symbiont Area,13.677,Body column,,,7,B2,inoc,25C,inoc-25C,14,13.67694611
+39,Snap-866.czi,8015.677,680.244,298,2435,0,65535,Tentacle Area,0,Tentacle,,,7,B2,inoc,25C,inoc-25C,14,0
+40,Snap-865.czi,3436.248,2065.981,1341,3938,1341,65535,Symbiont Area,42.869,Tentacle,,,7,B2,inoc,25C,inoc-25C,14,42.86909265
+41,Snap-867.czi,6089.977,695.764,294,2299,0,65535,Tentacle Area,0,Tentacle,,,7,B2,inoc,25C,inoc-25C,14,0
+42,Snap-864.czi,2128.735,2116.661,1388,3671,1388,65535,Symbiont Area,34.955,Tentacle,,,7,B2,inoc,25C,inoc-25C,14,34.95472971
+43,Snap-869.czi,10430.478,1020.335,338,2155,0,65535,Tentacle Area,0,Body column,,,7,B3,inoc,25C,inoc-25C,14,0
+44,Snap-868.czi,2483.344,1115.968,637,2376,637,65535,Symbiont Area,23.809,Body column,,,7,B3,inoc,25C,inoc-25C,14,23.80853495
+45,Snap-873.czi,3672.582,656.715,429,1780,0,65535,Tentacle Area,0,Tentacle,,,7,B3,inoc,25C,inoc-25C,14,0
+46,Snap-870.czi,1271.619,2524.215,1517,3841,1517,65535,Symbiont Area,34.625,Tentacle,,,7,B3,inoc,25C,inoc-25C,14,34.62465916
+47,Snap-872.czi,9022.853,726.834,360,2812,0,65535,Tentacle Area,0,Tentacle,,,7,B3,inoc,25C,inoc-25C,14,0
+48,Snap-871.czi,3800.154,2479.079,1553,3778,1553,65535,Symbiont Area,42.117,Tentacle,,,7,B3,inoc,25C,inoc-25C,14,42.11698894
+49,Snap-875.czi,9481.25,824.254,410,3411,0,65535,Tentacle Area,0,Tentacle,,,7,B4,inoc,25C,inoc-25C,14,0
+50,Snap-874.czi,2307.337,2179.071,1271,3858,1271,65535,Symbiont Area,24.336,Tentacle,,,7,B4,inoc,25C,inoc-25C,14,24.33578906
+51,Snap-877.czi,4002.325,812.844,456,3617,0,65535,Tentacle Area,0,Tentacle,,,7,B4,inoc,25C,inoc-25C,14,0
+52,Snap-876.czi,1640.932,2610.411,1644,3956,1644,65535,Symbiont Area,40.999,Tentacle,,,7,B4,inoc,25C,inoc-25C,14,40.99946906
+53,Snap-879.czi,12156.818,471.317,240,1086,0,65535,Tentacle Area,0,Body column,,,7,B5,inoc,25C,inoc-25C,14,0
+54,Snap-878.czi,903.604,921.22,494,3513,494,65535,Symbiont Area,7.433,Body column,,,7,B5,inoc,25C,inoc-25C,14,7.432898971
+55,Snap-883.czi,11363.056,613.961,250,2277,0,65535,Tentacle Area,0,Tentacle,,,7,B5,inoc,25C,inoc-25C,14,0
+56,Snap-880.czi,4165.358,1990.183,1242,4013,1242,65535,Symbiont Area,36.657,Tentacle,,,7,B5,inoc,25C,inoc-25C,14,36.65702255
+57,Snap-882.czi,7176.508,618.436,232,1219,0,65535,Tentacle Area,0,Tentacle,,,7,B5,inoc,25C,inoc-25C,14,0
+58,Snap-881.czi,2889.415,1727.559,1114,4015,1114,65535,Symbiont Area,40.262,Tentacle,,,7,B5,inoc,25C,inoc-25C,14,40.26213027
+59,Snap-885.czi,7117.695,310.729,145,1978,0,65535,Tentacle Area,0,Pedal disc,,,7,B6,inoc,25C,inoc-25C,14,0
+60,Snap-884.czi,1445.68,1460.949,877,2779,877,65535,Symbiont Area,20.311,Pedal disc,,,7,B6,inoc,25C,inoc-25C,14,20.31106981
+61,Snap-887.czi,10949.202,423.206,159,1433,0,65535,Tentacle Area,0,Tentacle,,,7,B6,inoc,25C,inoc-25C,14,0
+62,Snap-886.czi,5016.852,2427.156,1483,3953,1483,65535,Symbiont Area,45.819,Tentacle,,,7,B6,inoc,25C,inoc-25C,14,45.81933916
+63,Snap-889.czi,3964.053,364.102,236,698,0,65535,Tentacle Area,0,Pedal disc,,,7,C1,inoc,25C,inoc-25C,14,0
+64,Snap-888.czi,525.643,747.86,444,1910,444,65535,Symbiont Area,13.26,Pedal disc,,,7,C1,inoc,25C,inoc-25C,14,13.26024148
+65,Snap-892.czi,13285.945,603.202,275,2266,0,65535,Tentacle Area,0,Tentacle,,,7,C1,inoc,25C,inoc-25C,14,0
+66,Snap-891.czi,3556.036,2197.334,1256,3988,1256,65535,Symbiont Area,26.765,Tentacle,,,7,C1,inoc,25C,inoc-25C,14,26.76539757
+67,Snap-893.czi,6181.873,725.063,311,2212,0,65535,Tentacle Area,0,Tentacle,,,7,C1,inoc,25C,inoc-25C,14,0
+68,Snap-890.czi,1935.646,2439.916,1401,4014,1401,65535,Symbiont Area,31.312,Tentacle,,,7,C1,inoc,25C,inoc-25C,14,31.31164293
+69,Snap-895.czi,7984.324,693.681,388,3238,0,65535,Tentacle Area,0,Pedal disc,,,7,C2,inoc,25C,inoc-25C,14,0
+70,Snap-894.czi,202.17,2140.576,1149,3481,1149,65535,Symbiont Area,2.532,Pedal disc,,,7,C2,inoc,25C,inoc-25C,14,2.532086624
+71,Snap-897.czi,2950.39,466.666,329,1544,0,65535,Tentacle Area,0,Pedal disc,,,7,C3,inoc,25C,inoc-25C,14,0
+72,Snap-896.czi,703.596,747.236,478,3214,478,65535,Symbiont Area,23.848,Pedal disc,,,7,C3,inoc,25C,inoc-25C,14,23.84755914
+73,Snap-899.czi,2254.794,944.603,475,2424,0,65535,Tentacle Area,0,Tentacle,,,7,C3,inoc,25C,inoc-25C,14,0
+74,Snap-898.czi,670.081,2774.801,1567,4032,1565,65535,Symbiont Area,29.718,Tentacle,,,7,C3,inoc,25C,inoc-25C,14,29.7180585
+75,Snap-901.czi,9946.35,478.64,280,881,0,65535,Tentacle Area,0,Pedal disc,,,7,C4,inoc,25C,inoc-25C,14,0
+76,Snap-900.czi,1006.095,1939.219,1108,3611,1108,65535,Symbiont Area,10.115,Pedal disc,,,7,C4,inoc,25C,inoc-25C,14,10.11521815
+77,Snap-905.czi,9751.747,634.334,238,2097,0,65535,Tentacle Area,0,Tentacle,,,7,C4,inoc,25C,inoc-25C,14,0
+78,Snap-902.czi,2183.656,2297.666,1434,4006,1434,65535,Symbiont Area,22.392,Tentacle,,,7,C4,inoc,25C,inoc-25C,14,22.39245953
+79,Snap-904.czi,11005.42,633.861,321,1998,0,65535,Tentacle Area,0,Tentacle,,,7,C4,inoc,25C,inoc-25C,14,0
+80,Snap-903.czi,3276.89,1822.981,1097,3942,1097,65535,Symbiont Area,29.775,Tentacle,,,7,C4,inoc,25C,inoc-25C,14,29.77523802
+81,Snap-906.czi,311524.871,89.395,41,4095,0,65535,Tentacle Area,0,Body column,,,7,C5,inoc,25C,inoc-25C,14,0
+82,Snap-906.czi,58.165,1317.268,678,2884,677,65535,Symbiont Area,0.019,Body column,,,7,C5,inoc,25C,inoc-25C,14,0.01867106142
+83,Snap-909.czi,5666.392,1342.755,493,3583,0,65535,Tentacle Area,0,Tentacle,,,7,C5,inoc,25C,inoc-25C,14,0
+84,Snap-908.czi,30.271,239.593,47,2020,47,65535,Symbiont Area,0.534,Tentacle,,,7,C5,inoc,25C,inoc-25C,14,0.5342200116
+85,Snap-910.czi,311524.871,566.92,26,4095,0,65535,Tentacle Area,0,Body column,,,7,C6,inoc,25C,inoc-25C,14,0
+86,Snap-910.czi,1602.011,907.125,505,3682,505,65535,Symbiont Area,0.514,Body column,,,7,C6,inoc,25C,inoc-25C,14,0.5142481866
+87,Snap-916.czi,5754.612,967.931,457,2673,0,65535,Tentacle Area,0,Tentacle,,,7,C6,inoc,25C,inoc-25C,14,0
+88,Snap-915.czi,2821.736,2688.813,1797,3968,1797,65535,Symbiont Area,49.034,Tentacle,,,7,C6,inoc,25C,inoc-25C,14,49.03433976
+89,Snap-919.czi,36704.842,512.389,111,1274,0,65535,Tentacle Area,0,Tentacle,,,7,C6,inoc,25C,inoc-25C,14,0
+90,Snap-912.czi,13053.719,1637.741,1002,3907,1002,65535,Symbiont Area,35.564,Tentacle,,,7,C6,inoc,25C,inoc-25C,14,35.5640245
+91,Snap-918.czi,27359.165,635.337,268,1609,0,65535,Tentacle Area,0,Tentacle,,,7,C6,inoc,25C,inoc-25C,14,0
+92,Snap-913.czi,9265.241,1533.412,965,3671,965,65535,Symbiont Area,33.865,Tentacle,,,7,C6,inoc,25C,inoc-25C,14,33.86521847
+93,Snap-917.czi,11395.274,874.037,276,2220,0,65535,Tentacle Area,0,Tentacle,,,7,C6,inoc,25C,inoc-25C,14,0
+94,Snap-914.czi,4243.632,2123.053,1391,3959,1391,65535,Symbiont Area,37.24,Tentacle,,,7,C6,inoc,25C,inoc-25C,14,37.24028049
+95,Snap-921.czi,6909.686,467.549,226,2694,0,65535,Tentacle Area,0,Pedal disc,,,7,D1,inoc,25C,inoc-25C,14,0
+96,Snap-920.czi,1233.347,958.058,572,3201,572,65535,Symbiont Area,17.85,Pedal disc,,,7,D1,inoc,25C,inoc-25C,14,17.84953759
+97,Snap-925.czi,6714.002,578.988,252,2695,0,65535,Tentacle Area,0,Tentacle,,,7,D1,inoc,25C,inoc-25C,14,0
+98,Snap-922.czi,2020.406,2417.423,1466,3966,1466,65535,Symbiont Area,30.092,Tentacle,,,7,D1,inoc,25C,inoc-25C,14,30.09242476
+99,Snap-924.czi,5844.562,851.661,356,2789,0,65535,Tentacle Area,0,Tentacle,,,7,D1,inoc,25C,inoc-25C,14,0
+100,Snap-923.czi,2144.952,2269.819,1400,3849,1400,65535,Symbiont Area,36.7,Tentacle,,,7,D1,inoc,25C,inoc-25C,14,36.69996143
+101,Snap-927.czi,6187.711,520.402,275,910,0,65535,Tentacle Area,0,Body column,,,7,D2,inoc,25C,inoc-25C,14,0
+102,Snap-926.czi,1641.364,1167.178,682,2502,682,65535,Symbiont Area,26.526,Body column,,,7,D2,inoc,25C,inoc-25C,14,26.52619038
+103,Snap-930.czi,5584.227,509.808,284,1802,0,65535,Tentacle Area,0,Tentacle,,,7,D2,inoc,25C,inoc-25C,14,0
+104,Snap-929.czi,2087.652,2377.19,1499,3873,1499,65535,Symbiont Area,37.385,Tentacle,,,7,D2,inoc,25C,inoc-25C,14,37.38479829
+105,Snap-932.czi,4501.156,417.338,238,1590,0,65535,Tentacle Area,0,Tentacle,,,7,D3,inoc,25C,inoc-25C,14,0
+106,Snap-931.czi,1863.643,2278.881,1482,3946,1482,65535,Symbiont Area,41.404,Tentacle,,,7,D3,inoc,25C,inoc-25C,14,41.40365275
+107,Snap-934.czi,1474.871,632.57,372,1307,0,65535,Tentacle Area,0,Tentacle,,,7,D3,inoc,25C,inoc-25C,14,0
+108,Snap-933.czi,632.458,2546.948,1686,3927,1686,65535,Symbiont Area,42.882,Tentacle,,,7,D3,inoc,25C,inoc-25C,14,42.88225886
+109,Snap-936.czi,10706.597,365.192,199,2614,0,65535,Tentacle Area,0,Tentacle,,,7,D4,inoc,25C,inoc-25C,14,0
+110,Snap-935.czi,2226.036,1196.505,729,3361,729,65535,Symbiont Area,20.791,Tentacle,,,7,D4,inoc,25C,inoc-25C,14,20.79125608
+111,Snap-940.czi,8067.139,637.663,249,2256,0,65535,Tentacle Area,0,Tentacle,,,7,D4,inoc,25C,inoc-25C,14,0
+112,Snap-937.czi,3130.938,2590.188,1500,3985,1500,65535,Symbiont Area,38.811,Tentacle,,,7,D4,inoc,25C,inoc-25C,14,38.81100846
+113,Snap-939.czi,7500.197,684.984,250,2839,0,65535,Tentacle Area,0,Tentacle,,,7,D4,inoc,25C,inoc-25C,14,0
+114,Snap-938.czi,3489.655,2298.039,1404,3910,1404,65535,Symbiont Area,46.528,Tentacle,,,7,D4,inoc,25C,inoc-25C,14,46.52751121
+115,Snap-942.czi,10568.429,593.03,355,1929,0,65535,Tentacle Area,0,Pedal disc,,,7,D5,inoc,25C,inoc-25C,14,0
+116,Snap-941.czi,2265.173,1210.794,749,2639,749,65535,Symbiont Area,21.433,Pedal disc,,,7,D5,inoc,25C,inoc-25C,14,21.43339374
+117,Snap-944.czi,31532.524,1005.76,360,3526,0,65535,Tentacle Area,0,Tentacle,,,7,D5,inoc,25C,inoc-25C,14,0
+118,Snap-943.czi,10644.973,2210.532,1283,3920,1283,65535,Symbiont Area,33.759,Tentacle,,,7,D5,inoc,25C,inoc-25C,14,33.75870894
+1,Snap-948.czi,5771.261,638.748,352,3148,0,65535,Tentacle Area,0,Pedal disc,Checked and redone!,,10,A1,inoc,32C,inoc-32C,14,0
+2,Snap-947.czi,1171.507,1668.496,1018,3430,1018,65535,Symbiont Area,20.299,Pedal disc,Checked and redone!,,10,A1,inoc,32C,inoc-32C,14,20.29897799
+3,Snap-950.czi,3867.4,460.968,323,1586,0,65535,Tentacle Area,0,Pedal disc,Checked and redone!,,10,A3,inoc,32C,inoc-32C,14,0
+4,Snap-949.czi,760.031,531.478,313,2616,313,65535,Symbiont Area,19.652,Pedal disc,Checked and redone!,,10,A3,inoc,32C,inoc-32C,14,19.65224699
+5,Snap-952.czi,2274.471,615.405,355,1686,0,65535,Tentacle Area,0,Tentacle,,,10,A3,inoc,32C,inoc-32C,14,0
+6,Snap-951.czi,219.685,2698.141,1455,3928,1455,65535,Symbiont Area,9.659,Tentacle,,,10,A3,inoc,32C,inoc-32C,14,9.658729436
+7,Snap-954.czi,4816.844,415.677,258,997,0,65535,Tentacle Area,0,Pedal disc,,,10,A4,inoc,32C,inoc-32C,14,0
+8,Snap-953.czi,50.813,67.323,47,1696,47,65535,Symbiont Area,1.055,Pedal disc,,,10,A4,inoc,32C,inoc-32C,14,1.054902339
+9,Snap-956.czi,3033.421,667.611,355,2010,0,65535,Tentacle Area,0,Tentacle,,,10,A4,inoc,32C,inoc-32C,14,0
+10,Snap-955.czi,27.677,2966.914,1541,3977,1522,65535,Symbiont Area,0.912,Tentacle,,,10,A4,inoc,32C,inoc-32C,14,0.912402202
+11,Snap-958.czi,19652.474,2008.278,680,3410,0,65535,Tentacle Area,0,Pedal disc,,,10,A5,inoc,32C,inoc-32C,14,0
+12,Snap-957.czi,112.005,266.178,63,4000,63,65535,Symbiont Area,0.57,Pedal disc,,,10,A5,inoc,32C,inoc-32C,14,0.5699282441
+13,Snap-960.czi,5846.292,500.145,294,1282,0,65535,Tentacle Area,0,Body column,,,10,B1,inoc,32C,inoc-32C,14,0
+14,Snap-959.czi,146.601,2263.316,1184,3916,1184,65535,Symbiont Area,2.508,Body column,,,10,B1,inoc,32C,inoc-32C,14,2.507589426
+15,Snap-962.czi,1762.234,561.603,335,1509,0,65535,Tentacle Area,0,Tentacle,,,10,B1,inoc,32C,inoc-32C,14,0
+16,Snap-961.czi,112.221,2900.52,1592,3934,1592,65535,Symbiont Area,6.368,Tentacle,,,10,B1,inoc,32C,inoc-32C,14,6.368110024
+17,Snap-964.czi,5728.233,477.377,235,3402,0,65535,Tentacle Area,0,Body column,,,10,D4,inoc,32C,inoc-32C,14,0
+18,Snap-963.czi,3.243,215.333,47,1664,47,65535,Symbiont Area,0.057,Body column,,,10,D4,inoc,32C,inoc-32C,14,0.05661431719
+19,Snap-966.czi,6252.362,707.172,360,1888,0,65535,Tentacle Area,0,Tentacle,,,10,D4,inoc,32C,inoc-32C,14,0
+20,Snap-965.czi,188.981,123.453,47,3957,47,65535,Symbiont Area,3.023,Tentacle,,,10,D4,inoc,32C,inoc-32C,14,3.022553716
+21,Snap-968.czi,10930.606,628.03,259,2800,0,65535,Tentacle Area,0,Pedal disc,"I don't think these are alive, but they have algae",,10,C2,inoc,32C,inoc-32C,14,0
+22,Snap-967.czi,81.084,2318.779,1199,3982,1196,65535,Symbiont Area,0.742,Pedal disc,"I don't think these are alive, but they have algae",,10,C2,inoc,32C,inoc-32C,14,0.7418069959
+23,Snap-970.czi,20113.898,1851.126,848,3623,0,65535,Tentacle Area,0,Pedal disc,"I don't think these are alive, but they have algae",,10,C5,inoc,32C,inoc-32C,14,0
+24,Snap-969.czi,891.279,2384.962,1238,4027,1238,65535,Symbiont Area,4.431,Pedal disc,"I don't think these are alive, but they have algae",,10,C5,inoc,32C,inoc-32C,14,4.431159987
+1,Snap-972.czi,4601.484,483.59,319,1703,0,65535,Tentacle Area,0,Pedal disc,,,11,B1,inoc,32C,inoc-32C,14,0
+2,Snap-971.czi,170.385,1094.044,600,3137,599,65535,Symbiont Area,3.703,Pedal disc,,,11,B1,inoc,32C,inoc-32C,14,3.702827175
+3,Snap-974.czi,2197.711,1267.528,512,3010,0,65535,Tentacle Area,0,Tentacle,,,11,B1,inoc,32C,inoc-32C,14,0
+4,Snap-973.czi,53.624,3067.677,1602,3996,1592,65535,Symbiont Area,2.44,Tentacle,,,11,B1,inoc,32C,inoc-32C,14,2.439993248
+5,Snap-976.czi,8390.827,1085.605,517,2614,0,65535,Tentacle Area,0,Body column,,,11,B2,inoc,32C,inoc-32C,14,0
+6,Snap-975.czi,869.657,1689.339,933,3712,933,65535,Symbiont Area,10.364,Body column,,,11,B2,inoc,32C,inoc-32C,14,10.36437767
+7,Snap-978.czi,4451.857,569.387,338,2733,0,65535,Tentacle Area,0,Body column,,,11,B3,inoc,32C,inoc-32C,14,0
+8,Snap-977.czi,224.009,159.431,47,1732,47,65535,Symbiont Area,5.032,Body column,,,11,B3,inoc,32C,inoc-32C,14,5.031810321
+9,Snap-980.czi,6474.641,436.879,249,1506,0,65535,Tentacle Area,0,Pedal disc,,,11,B4,inoc,32C,inoc-32C,14,0
+10,Snap-979.czi,2.811,224.923,47,1240,47,65535,Symbiont Area,0.043,Pedal disc,,,11,B4,inoc,32C,inoc-32C,14,0.04341553454
+11,Snap-982.czi,3209.428,874.234,441,3666,0,65535,Tentacle Area,0,Tentacle,,,11,B4,inoc,32C,inoc-32C,14,0
+12,Snap-981.czi,22.92,75.387,47,1722,47,65535,Symbiont Area,0.714,Tentacle,,,11,B4,inoc,32C,inoc-32C,14,0.7141459475
+13,Snap-984.czi,12495.859,598.15,257,1687,0,65535,Tentacle Area,0,Body column,,,11,B5,inoc,32C,inoc-32C,14,0
+14,Snap-983.czi,1.73,1024.25,47,3988,47,65535,Symbiont Area,0.014,Body column,,,11,B5,inoc,32C,inoc-32C,14,0.01384458643
+15,Snap-987.czi,5361.299,640.745,280,1696,0,65535,Tentacle Area,0,Tentacle,,,11,B5,inoc,32C,inoc-32C,14,0
+16,Snap-986.czi,0.649,1364.667,47,3997,47,65535,Symbiont Area,0.012,Tentacle,,,11,B5,inoc,32C,inoc-32C,14,0.01210527523
+17,Snap-989.czi,8656.568,429.317,220,2976,0,65535,Tentacle Area,0,Body column,,,11,B6,inoc,32C,inoc-32C,14,0
+18,Snap-988.czi,421.206,2181.273,1180,3819,1180,65535,Symbiont Area,4.866,Body column,,,11,B6,inoc,32C,inoc-32C,14,4.865738939
+19,Snap-991.czi,4525.589,517.943,250,1402,0,65535,Tentacle Area,0,Tentacle,,,11,B6,inoc,32C,inoc-32C,14,0
+20,Snap-990.czi,229.198,2545.771,1363,3832,1362,65535,Symbiont Area,5.065,Tentacle,,,11,B6,inoc,32C,inoc-32C,14,5.064489948
+21,Snap-993.czi,15979.676,714.281,290,2669,0,65535,Tentacle Area,0,Pedal disc,,,11,C2,inoc,32C,inoc-32C,14,0
+22,Snap-992.czi,1063.611,2145.56,1158,3998,1158,65535,Symbiont Area,6.656,Pedal disc,,,11,C2,inoc,32C,inoc-32C,14,6.656023564
+23,Snap-995.czi,19003.15,912.865,376,1718,0,65535,Tentacle Area,0,Body column,,,11,C4,inoc,32C,inoc-32C,14,0
+24,Snap-994.czi,1.73,604.625,50,1717,47,65535,Symbiont Area,0.009,Body column,,,11,C4,inoc,32C,inoc-32C,14,0.009103753851
+25,Snap-997.czi,7056.935,829.418,396,2086,0,65535,Tentacle Area,0,Tentacle,,,11,C4,inoc,32C,inoc-32C,14,0
+26,Snap-996.czi,103.356,229.427,47,1255,47,65535,Symbiont Area,1.465,Tentacle,,,11,C4,inoc,32C,inoc-32C,14,1.464601842
+27,Snap-999.czi,8915.173,1091.971,478,3614,0,65535,Tentacle Area,0,Body column,,,11,C5,inoc,32C,inoc-32C,14,0
+28,Snap-998.czi,8.649,245.1,47,3991,47,65535,Symbiont Area,0.097,Body column,,,11,C5,inoc,32C,inoc-32C,14,0.09701438211
+29,Snap-1001.czi,2470.587,1031.496,484,3479,0,65535,Tentacle Area,0,Tentacle,,,11,C5,inoc,32C,inoc-32C,14,0
+30,Snap-1000.czi,0,NaN,255,46,47,65535,Symbiont Area,0,Tentacle,,,11,C5,inoc,32C,inoc-32C,14,0
+31,Snap-1003.czi,8824.142,540.059,254,3256,0,65535,Tentacle Area,0,Pedal disc,,,11,D1,inoc,32C,inoc-32C,14,0
+32,Snap-1002.czi,185.305,2687.158,1376,3975,1376,65535,Symbiont Area,2.1,Pedal disc,,,11,D1,inoc,32C,inoc-32C,14,2.099977539
+33,Snap-1005.czi,9709.367,515.839,273,1552,0,65535,Tentacle Area,0,Body column,,,11,D2,inoc,32C,inoc-32C,14,0
+34,Snap-1004.czi,875.927,1217.067,667,3992,667,65535,Symbiont Area,9.021,Body column,,,11,D2,inoc,32C,inoc-32C,14,9.0214635
+35,Snap-1009.czi,5655.797,820.717,409,1595,0,65535,Tentacle Area,0,Tentacle,,,11,D2,inoc,32C,inoc-32C,14,0
+36,Snap-1006.czi,521.967,2732.446,1534,4001,1534,65535,Symbiont Area,9.229,Tentacle,,,11,D2,inoc,32C,inoc-32C,14,9.228884983
+37,Snap-1008.czi,7114.884,742.001,431,1926,0,65535,Tentacle Area,0,Tentacle,,,11,D2,inoc,32C,inoc-32C,14,0
+38,Snap-1007.czi,827.709,2411.135,1359,3993,1359,65535,Symbiont Area,11.633,Tentacle,,,11,D2,inoc,32C,inoc-32C,14,11.63348552
+39,Snap-1011.czi,44443.751,830.568,396,2135,0,65535,Tentacle Area,0,Body column,,,11,D3,inoc,32C,inoc-32C,14,0
+40,Snap-1010.czi,1317.891,160.696,63,3978,63,65535,Symbiont Area,2.965,Body column,,,11,D3,inoc,32C,inoc-32C,14,2.965301016
+41,Snap-1013.czi,27103.588,648.792,283,1584,0,65535,Tentacle Area,0,Tentacle,,,11,D3,inoc,32C,inoc-32C,14,0
+42,Snap-1012.czi,357.636,1490.634,770,3989,770,65535,Symbiont Area,1.32,Tentacle,,,11,D3,inoc,32C,inoc-32C,14,1.319515335
+43,Snap-1015.czi,23794.913,921.101,359,2625,0,65535,Tentacle Area,0,Body column,,,11,D4,inoc,32C,inoc-32C,14,0
+44,Snap-1014.czi,117.41,104.77,47,3995,47,65535,Symbiont Area,0.493,Body column,,,11,D4,inoc,32C,inoc-32C,14,0.4934247921
+45,Snap-1018.czi,13354.921,634.806,215,1752,0,65535,Tentacle Area,0,Tentacle,,,11,D4,inoc,32C,inoc-32C,14,0
+46,Snap-1017.czi,59.894,187.921,47,3987,47,65535,Symbiont Area,0.448,Tentacle,,,11,D4,inoc,32C,inoc-32C,14,0.4484788791
+1,Snap-1020.czi,15380.084,611.847,304,1475,0,65535,Tentacle Area,0,Body column,"very bad image, might want to take this one out",,7,A1,inoc,25C,inoc-25C,16,0
+2,Snap-1019.czi,76.327,53.785,46,372,46,65535,Symbiont Area,0.496,Body column,,,7,A1,inoc,25C,inoc-25C,16,0.4962716719
+3,Snap-1022.czi,8632.999,657.964,350,2052,0,65535,Tentacle Area,0,Pedal disc,,,7,A2,inoc,25C,inoc-25C,16,0
+4,Snap-1021.czi,1296.053,1161.815,716,2841,716,65535,Symbiont Area,15.013,Pedal disc,,,7,A2,inoc,25C,inoc-25C,16,15.01277829
+5,Snap-1025.czi,23420.627,1362.095,453,3771,0,65535,Tentacle Area,0,Tentacle,,,7,A2,inoc,25C,inoc-25C,16,0
+6,Snap-1024.czi,8941.552,2001.46,1257,3987,1257,65535,Symbiont Area,38.178,Tentacle,,,7,A2,inoc,25C,inoc-25C,16,38.17810685
+7,Snap-1026.czi,3924.051,1333.884,606,3432,0,65535,Tentacle Area,0,Tentacle,,,7,A2,inoc,25C,inoc-25C,16,0
+8,Snap-1023.czi,1398.76,2102.478,1269,3652,1269,65535,Symbiont Area,35.646,Tentacle,,,7,A2,inoc,25C,inoc-25C,16,35.64581602
+9,Snap-1028.czi,9181.778,465.387,241,2289,0,65535,Tentacle Area,0,Body column,,,7,A3,inoc,25C,inoc-25C,16,0
+10,Snap-1027.czi,2329.176,1810.348,1099,3502,1099,65535,Symbiont Area,25.367,Body column,,,7,A3,inoc,25C,inoc-25C,16,25.36737438
+11,Snap-1030.czi,10415.774,1029.807,442,3499,0,65535,Tentacle Area,0,Tentacle,,,7,A4,inoc,25C,inoc-25C,16,0
+12,Snap-1029.czi,4628.296,2147.098,1445,3542,1445,65535,Symbiont Area,44.435,Tentacle,,,7,A4,inoc,25C,inoc-25C,16,44.43544954
+13,Snap-1032.czi,7826.696,1050.083,398,3544,0,65535,Tentacle Area,0,Tentacle,,,7,A4,inoc,25C,inoc-25C,16,0
+14,Snap-1031.czi,3848.156,1991.292,1345,3395,1345,65535,Symbiont Area,49.167,Tentacle,,,7,A4,inoc,25C,inoc-25C,16,49.16705593
+15,Snap-1036.czi,8287.472,439.619,246,1152,0,65535,Tentacle Area,0,Body column,,,7,A6,inoc,25C,inoc-25C,16,0
+16,Snap-1035.czi,2790.167,1044.084,659,2243,659,65535,Symbiont Area,33.667,Body column,,,7,A6,inoc,25C,inoc-25C,16,33.6672872
+17,Snap-1040.czi,5774.721,703.026,425,2163,0,65535,Tentacle Area,33.667,Tentacle,,,7,A6,inoc,25C,inoc-25C,16,0
+18,Snap-1038.czi,2708.218,2310.453,1456,3867,1456,65535,Symbiont Area,46.898,Tentacle,,,7,A6,inoc,25C,inoc-25C,16,46.8978155
+19,Snap-1039.czi,7066.233,675.131,314,1336,0,65535,Tentacle Area,0,Tentacle,,,7,A6,inoc,25C,inoc-25C,16,0
+20,Snap-1037.czi,2960.985,2276.384,1402,3972,1402,65535,Symbiont Area,41.903,Tentacle,,,7,A6,inoc,25C,inoc-25C,16,41.90330265
+21,Snap-1042.czi,6219.496,676.264,325,2976,0,65535,Tentacle Area,0,Body column,,,7,B1,inoc,25C,inoc-25C,16,0
+22,Snap-1041.czi,760.68,1010.225,574,2983,574,65535,Symbiont Area,12.231,Body column,,,7,B1,inoc,25C,inoc-25C,16,12.23057302
+23,Snap-1045.czi,3594.308,790.155,344,3487,0,65535,Tentacle Area,0,Tentacle,,,7,B1,inoc,25C,inoc-25C,16,0
+24,Snap-1044.czi,1435.302,2187.906,1387,3731,1387,65535,Symbiont Area,39.933,Tentacle,,,7,B1,inoc,25C,inoc-25C,16,39.93263794
+25,Snap-1046.czi,3205.319,846.388,368,3522,0,65535,Tentacle Area,0,Tentacle,,,7,B1,inoc,25C,inoc-25C,16,0
+26,Snap-1043.czi,898.847,2185.934,1323,3321,1323,65535,Symbiont Area,28.042,Tentacle,,,7,B1,inoc,25C,inoc-25C,16,28.04235709
+27,Snap-1048.czi,5300.972,336.484,215,1064,0,65535,Tentacle Area,0,Pedal disc,,,7,B2,inoc,25C,inoc-25C,16,0
+28,Snap-1047.czi,1500.385,1058.494,665,3489,665,65535,Symbiont Area,28.304,Pedal disc,,,7,B2,inoc,25C,inoc-25C,16,28.3039601
+29,Snap-1050.czi,10124.736,561.112,221,2052,0,65535,Tentacle Area,0,Tentacle,,,7,B2,inoc,25C,inoc-25C,16,0
+30,Snap-1049.czi,4018.758,2287.245,1347,3904,1347,65535,Symbiont Area,39.692,Tentacle,,,7,B2,inoc,25C,inoc-25C,16,39.69247198
+31,Snap-1052.czi,13870.185,1044.973,312,2271,0,65535,Tentacle Area,0,Body column,,,7,B3,inoc,25C,inoc-25C,16,0
+32,Snap-1051.czi,2475.344,930.04,542,3659,542,65535,Symbiont Area,17.847,Body column,,,7,B3,inoc,25C,inoc-25C,16,17.84651034
+33,Snap-1056.czi,3852.265,531.479,301,1660,0,65535,Tentacle Area,0,Tentacle,,,7,B3,inoc,25C,inoc-25C,16,0
+34,Snap-1053.czi,1168.48,2322.373,1515,3858,1515,65535,Symbiont Area,30.332,Tentacle,,,7,B3,inoc,25C,inoc-25C,16,30.33228503
+35,Snap-1055.czi,5527.143,506.109,241,1801,0,65535,Tentacle Area,0,Tentacle,,,7,B3,inoc,25C,inoc-25C,16,0
+36,Snap-1054.czi,2915.578,2311.613,1518,3951,1518,65535,Symbiont Area,52.75,Tentacle,,,7,B3,inoc,25C,inoc-25C,16,52.75018215
+37,Snap-1058.czi,6244.146,339.934,180,2960,0,65535,Tentacle Area,0,Pedal disc,,,7,B3,inoc,25C,inoc-25C,16,0
+38,Snap-1057.czi,1746.449,1607.44,1086,3213,1086,65535,Symbiont Area,27.969,Pedal disc,,,7,B3,inoc,25C,inoc-25C,16,27.96938124
+39,Snap-1060.czi,6191.819,456.606,265,1723,0,65535,Tentacle Area,0,Pedal disc,,,7,B5,inoc,25C,inoc-25C,16,0
+40,Snap-1059.czi,865.981,945.109,573,3136,573,65535,Symbiont Area,13.986,Pedal disc,,,7,B5,inoc,25C,inoc-25C,16,13.98589009
+41,Snap-1062.czi,11819.075,623.448,271,1973,0,65535,Tentacle Area,0,Tentacle,,,7,B5,inoc,25C,inoc-25C,16,0
+42,Snap-1061.czi,4464.614,2146.726,1292,3953,1292,65535,Symbiont Area,37.775,Tentacle,,,7,B5,inoc,25C,inoc-25C,16,37.77464819
+43,Snap-1063.czi,311524.871,97.46,0,3799,0,65535,Tentacle Area,0,Body column,,,7,B6,inoc,25C,inoc-25C,16,0
+44,Snap-1063.czi,2829.088,918.879,559,2048,559,65535,Symbiont Area,0.908,Body column,,,7,B6,inoc,25C,inoc-25C,16,0.9081419377
+45,Snap-1066.czi,7321.595,656.789,302,2969,0,65535,Tentacle Area,0,Tentacle,,,7,B6,inoc,25C,inoc-25C,16,0
+46,Snap-1065.czi,2620.431,2328.773,1498,3820,1498,65535,Symbiont Area,35.79,Tentacle,,,7,B6,inoc,25C,inoc-25C,16,35.79043911
+47,Snap-1068.czi,8091.788,501.951,235,2269,0,65535,Tentacle Area,0,Tentacle,,,7,C1,inoc,25C,inoc-25C,16,0
+48,Snap-1067.czi,1646.986,2014.165,1191,3648,1191,65535,Symbiont Area,20.354,Tentacle,,,7,C1,inoc,25C,inoc-25C,16,20.35379572
+49,Snap-1070.czi,4593.916,461.801,243,2140,0,65535,Tentacle Area,0,Body column,,,7,C1,inoc,25C,inoc-25C,16,0
+50,Snap-1069.czi,1076.584,794.271,484,2185,484,65535,Symbiont Area,23.435,Body column,,,7,C1,inoc,25C,inoc-25C,16,23.43499533
+51,Snap-1072.czi,5674.393,691.03,360,2603,0,65535,Tentacle Area,0,Pedal disc,,,7,C2,inoc,25C,inoc-25C,16,0
+52,Snap-1071.czi,57.3,1443.389,740,3442,739,65535,Symbiont Area,1.01,Pedal disc,,,7,C2,inoc,25C,inoc-25C,16,1.009799638
+53,Snap-1074.czi,14425.451,1450.24,389,3334,0,65535,Tentacle Area,0,Tentacle,,,7,C2,inoc,25C,inoc-25C,16,0
+54,Snap-1073.czi,545.319,2467.037,1279,4010,1278,65535,Symbiont Area,3.78,Tentacle,,,7,C2,inoc,25C,inoc-25C,16,3.78025616
+55,Snap-1076.czi,4989.392,900.488,433,3624,0,65535,Tentacle Area,0,Tentacle,,,7,C3,inoc,25C,inoc-25C,16,0
+56,Snap-1075.czi,784.681,2465.263,1471,3977,1471,65535,Symbiont Area,15.727,Tentacle,,,7,C3,inoc,25C,inoc-25C,16,15.72698637
+57,Snap-1078.czi,16733.653,668.983,328,1434,0,65535,Tentacle Area,0,Body column,,,7,C4,inoc,25C,inoc-25C,16,0
+58,Snap-1077.czi,2471.019,1218.896,725,2909,725,65535,Symbiont Area,14.767,Body column,,,7,C4,inoc,25C,inoc-25C,16,14.76676372
+59,Snap-1084.czi,4907.226,432.06,187,955,0,65535,Tentacle Area,0,Tentacle,,,7,C4,inoc,25C,inoc-25C,16,0
+60,Snap-1079.czi,2050.245,2076.624,1310,3766,1310,65535,Symbiont Area,41.78,Tentacle,,,7,C4,inoc,25C,inoc-25C,16,41.7801218
+61,Snap-1082.czi,4670.028,437.283,201,1105,0,65535,Tentacle Area,0,Tentacle,,,7,C4,inoc,25C,inoc-25C,16,0
+62,Snap-1081.czi,1473.573,2351.019,1564,3721,1564,65535,Symbiont Area,31.554,Tentacle,,,7,C4,inoc,25C,inoc-25C,16,31.55383651
+63,Snap-1083.czi,5747.26,404.903,179,1124,0,65535,Tentacle Area,0,Tentacle,,,7,C4,inoc,25C,inoc-25C,16,0
+64,Snap-1080.czi,2494.804,2082.306,1394,3602,1394,65535,Symbiont Area,43.409,Tentacle,,,7,C4,inoc,25C,inoc-25C,16,43.40858078
+65,Snap-1086.czi,15165.157,1572,575,3306,0,65535,Tentacle Area,0,Body column,,,7,C5,inoc,25C,inoc-25C,16,0
+66,Snap-1085.czi,90.598,1754.461,881,3990,881,65535,Symbiont Area,0.597,Body column,,,7,C5,inoc,25C,inoc-25C,16,0.5974089157
+67,Snap-1088.czi,5929.106,1736.606,634,3888,0,65535,Tentacle Area,0,Tentacle,,,7,C5,inoc,25C,inoc-25C,16,0
+68,Snap-1087.czi,13.406,2331.484,1200,3950,1195,65535,Symbiont Area,0.226,Tentacle,,,7,C5,inoc,25C,inoc-25C,16,0.2261049136
+69,Snap-1090.czi,35490.523,692.884,212,1621,0,65535,Tentacle Area,0,Body column,,,7,C6,inoc,25C,inoc-25C,16,0
+70,Snap-1089.czi,6830.764,910.701,525,2306,525,65535,Symbiont Area,19.247,Body column,,,7,C6,inoc,25C,inoc-25C,16,19.2467268
+71,Snap-1094.czi,21845.212,597.791,276,3549,0,65535,Tentacle Area,0,Tentacle,,,7,C6,inoc,25C,inoc-25C,16,0
+72,Snap-1092.czi,7917.943,2050.854,1365,3740,1365,65535,Symbiont Area,36.246,Tentacle,,,7,C6,inoc,25C,inoc-25C,16,36.24566793
+73,Snap-1093.czi,23895.457,679.968,269,1421,0,65535,Tentacle Area,0,Tentacle,,,7,C6,inoc,25C,inoc-25C,16,0
+74,Snap-1091.czi,3370.299,2439.31,1534,3799,1534,65535,Symbiont Area,14.104,Tentacle,,,7,C6,inoc,25C,inoc-25C,16,14.10435046
+75,Snap-1096.czi,6786.654,326.82,193,1179,0,65535,Tentacle Area,0,Pedal disc,,,7,D1,inoc,25C,inoc-25C,16,0
+76,Snap-1095.czi,1694.772,700.031,427,2002,427,65535,Symbiont Area,24.972,Pedal disc,,,7,D1,inoc,25C,inoc-25C,16,24.97212912
+77,Snap-1098.czi,6782.762,532.683,236,2001,0,65535,Tentacle Area,0,Tentacle,,,7,D1,inoc,25C,inoc-25C,16,0
+78,Snap-1097.czi,2776.761,2219.385,1355,3839,1355,65535,Symbiont Area,40.939,Tentacle,,,7,D1,inoc,25C,inoc-25C,16,40.93849968
+79,Snap-1100.czi,8761.005,524.447,178,1847,0,65535,Tentacle Area,0,Tentacle,,,7,D2,inoc,25C,inoc-25C,16,0
+80,Snap-1099.czi,3687.069,2519.095,1694,3962,1694,65535,Symbiont Area,42.085,Tentacle,,,7,D2,inoc,25C,inoc-25C,16,42.08500052
+81,Snap-1104.czi,11231.375,939.44,390,3873,0,65535,Tentacle Area,0,Tentacle,,,7,D3,inoc,25C,inoc-25C,16,0
+82,Snap-1103.czi,3013.312,2524.891,1740,3961,1740,65535,Symbiont Area,26.829,Tentacle,,,7,D3,inoc,25C,inoc-25C,16,26.82941314
+83,Snap-1106.czi,6625.783,896.777,396,3205,0,65535,Tentacle Area,0,Tentacle,,,7,D3,inoc,25C,inoc-25C,16,0
+84,Snap-1105.czi,3225.212,2412.686,1433,3972,1433,65535,Symbiont Area,48.677,Tentacle,,,7,D3,inoc,25C,inoc-25C,16,48.67669225
+85,Snap-1108.czi,12886.794,885.253,412,3624,0,65535,Tentacle Area,0,Tentacle,,,7,D4,inoc,25C,inoc-25C,16,0
+86,Snap-1107.czi,6012.569,2099.251,1377,3817,1377,65535,Symbiont Area,46.657,Tentacle,,,7,D4,inoc,25C,inoc-25C,16,46.65682558
+87,Snap-1112.czi,21597.418,592.748,215,1527,0,65535,Tentacle Area,0,Body column,,,7,D4,inoc,25C,inoc-25C,16,0
+88,Snap-1109.czi,6785.357,968.281,592,2895,592,65535,Symbiont Area,31.417,Body column,,,7,D4,inoc,25C,inoc-25C,16,31.41744536
+89,Snap-1111.czi,7958.81,553.276,270,2516,0,65535,Tentacle Area,0,Tentacle,,,7,D4,inoc,25C,inoc-25C,16,0
+90,Snap-1110.czi,4047.3,2260.823,1430,3900,1430,65535,Symbiont Area,50.853,Tentacle,,,7,D4,inoc,25C,inoc-25C,16,50.85307979
+91,Snap-1114.czi,9956.08,491.017,346,2799,0,65535,Tentacle Area,0,Pedal disc,,,7,D5,inoc,25C,inoc-25C,16,0
+92,Snap-1113.czi,3070.179,1136.594,705,2603,705,65535,Symbiont Area,30.837,Pedal disc,,,7,D5,inoc,25C,inoc-25C,16,30.8372271
+93,Snap-1116.czi,21764.776,933.849,338,3830,0,65535,Tentacle Area,0,Tentacle,,,7,D5,inoc,25C,inoc-25C,16,0
+94,Snap-1115.czi,5650.824,2174.453,1256,3682,1256,65535,Symbiont Area,25.963,Tentacle,,,7,D5,inoc,25C,inoc-25C,16,25.96316176
+,Snap-1117.czi,,,,,,,,,,"no aiptasia in image, did not analyze",,7,D6,inoc,25C,inoc-25C,16,0
+,Snap-1118.czi,,,,,,,,,,"no aiptasia in image, did not analyze",,7,D6,inoc,25C,inoc-25C,16,0
+1,Snap-1120.czi,13077.072,534.949,237,1049,0,65535,Tentacle Area,0,Body column,,,10,A1,inoc,32C,inoc-32C,16,0
+2,Snap-1119.czi,1543.63,1440.019,823,3940,823,65535,Symbiont Area,11.804,Body column,,,10,A1,inoc,32C,inoc-32C,16,11.80409498
+3,Snap-1124.czi,10061.382,656.392,285,1804,0,65535,Tentacle Area,0,Tentacle,,,10,A1,inoc,32C,inoc-32C,16,0
+4,Snap-1122.czi,1307.729,1983.724,1142,3956,1142,65535,Symbiont Area,12.998,Tentacle,,,10,A1,inoc,32C,inoc-32C,16,12.99750869
+5,Snap-1123.czi,5283.025,715.722,289,1442,0,65535,Tentacle Area,0,Tentacle,,,10,A1,inoc,32C,inoc-32C,16,0
+6,Snap-1121.czi,531.265,2662.669,1527,4018,1527,65535,Symbiont Area,10.056,Tentacle,,,10,A1,inoc,32C,inoc-32C,16,10.05607583
+7,Snap-1126.czi,10668.325,739.787,406,2411,0,65535,Tentacle Area,0,Body column,,,10,A3,inoc,32C,inoc-32C,16,0
+8,Snap-1125.czi,291.904,1731.582,918,3869,918,65535,Symbiont Area,2.736,Body column,,,10,A3,inoc,32C,inoc-32C,16,2.73617461
+9,Snap-1128.czi,3873.671,569.518,278,1619,0,65535,Tentacle Area,0,Tentacle,,,10,A3,inoc,32C,inoc-32C,16,0
+10,Snap-1127.czi,126.492,2506.858,1309,3918,1308,65535,Symbiont Area,3.265,Tentacle,,,10,A3,inoc,32C,inoc-32C,16,3.265429614
+11,Snap-1129.czi,311524.871,96.282,46,4095,0,65535,Tentacle Area,0,Pedal disc,,,10,A3,inoc,32C,inoc-32C,16,0
+12,Snap-1129.czi,3.676,163.353,47,1231,47,65535,Symbiont Area,0.001,Pedal disc,,,10,A3,inoc,32C,inoc-32C,16,0.001180002094
+13,Snap-1132.czi,7561.604,1927.471,609,3504,0,65535,Tentacle Area,0,Tentacle,,,10,A4,inoc,32C,inoc-32C,16,0
+14,Snap-1131.czi,25.731,1952.025,952,3997,943,65535,Symbiont Area,0.34,Tentacle,,,10,A4,inoc,32C,inoc-32C,16,0.3402849448
+15,Snap-1134.czi,18749.518,2226.896,1170,3598,0,65535,Tentacle Area,0,Pedal disc,,,10,A5,inoc,32C,inoc-32C,16,0
+16,Snap-1133.czi,186.386,106.497,47,4000,47,65535,Symbiont Area,0.994,Pedal disc,,,10,A5,inoc,32C,inoc-32C,16,0.9940842213
+17,Snap-1137.czi,2721.84,519.327,347,1021,0,65535,Tentacle Area,0,Pedal disc,,,10,A6,inoc,32C,inoc-32C,16,0
+18,Snap-1136.czi,56.218,1127.431,592,3874,590,65535,Symbiont Area,2.065,Pedal disc,,,10,A6,inoc,32C,inoc-32C,16,2.065441025
+19,Snap-1139.czi,4072.382,719.88,344,2165,0,65535,Tentacle Area,0,Tentacle,,,10,A6,inoc,32C,inoc-32C,16,0
+20,Snap-1138.czi,224.874,3065.588,1598,3936,1598,65535,Symbiont Area,5.522,Tentacle,,,10,A6,inoc,32C,inoc-32C,16,5.521927953
+21,Snap-1140.czi,311524.871,101.113,30,4095,0,65535,Tentacle Area,0,Pedal disc,,,10,C2,inoc,32C,inoc-32C,16,0
+22,Snap-1140.czi,182.71,1257.369,645,3211,645,65535,Symbiont Area,0.059,Pedal disc,,,10,C2,inoc,32C,inoc-32C,16,0.05865021287
+23,Snap-1143.czi,20997.826,1558.485,598,2791,0,65535,Tentacle Area,0,Pedal disc,,,10,C5,inoc,32C,inoc-32C,16,0
+24,Snap-1142.czi,1399.192,2206.906,1155,4003,1155,65535,Symbiont Area,6.664,Pedal disc,,,10,C5,inoc,32C,inoc-32C,16,6.663508879
+25,Snap-1145.czi,8012.434,662.215,275,1648,0,65535,Tentacle Area,0,Body column,,,10,D4,inoc,32C,inoc-32C,16,0
+26,Snap-1144.czi,60.543,381.011,47,1608,47,65535,Symbiont Area,0.756,Body column,,,10,D4,inoc,32C,inoc-32C,16,0.7556130884
+27,Snap-1147.czi,10677.19,852.177,271,2344,0,65535,Tentacle Area,0,Tentacle,,,10,D4,inoc,32C,inoc-32C,16,0
+28,Snap-1146.czi,1.946,235.333,47,1601,47,65535,Symbiont Area,0.018,Tentacle,,,10,D4,inoc,32C,inoc-32C,16,0.01822576914
+1,Snap-1149.czi,12654.136,1362.36,529,3628,0,65535,Tentacle Area,0,Body column,,,11,B1,inoc,32C,inoc-32C,16,0
+2,Snap-1148.czi,414.287,2576.435,1352,3956,1352,65535,Symbiont Area,3.274,Body column,,,11,B1,inoc,32C,inoc-32C,16,3.273925616
+3,Snap-1151.czi,23188.834,909.572,448,3338,0,65535,Tentacle Area,0,Body column,,,11,B2,inoc,32C,inoc-32C,16,0
+4,Snap-1150.czi,137.519,2109.153,1084,3928,1084,65535,Symbiont Area,0.593,Body column,,,11,B2,inoc,32C,inoc-32C,16,0.5930397363
+5,Snap-1153.czi,9773.154,798.148,387,2138,0,65535,Tentacle Area,0,Tentacle,,,11,B2,inoc,32C,inoc-32C,16,0
+6,Snap-1152.czi,484.128,2183.615,1164,3961,1163,65535,Symbiont Area,4.954,Tentacle,"blurry image, not a great sample",,11,B2,inoc,32C,inoc-32C,16,4.953651605
+7,Snap-1155.czi,6951.201,1077.647,304,3018,0,65535,Tentacle Area,0,Pedal disc,,,11,B3,inoc,32C,inoc-32C,16,0
+8,Snap-1154.czi,24.001,118.324,47,4000,47,65535,Symbiont Area,0.345,Pedal disc,not an aiptasia,,11,B3,inoc,32C,inoc-32C,16,0.3452784634
+9,Snap-1157.czi,16323.474,836.58,236,1713,0,65535,Tentacle Area,0,Body column,,,11,B4,inoc,32C,inoc-32C,16,0
+10,Snap-1156.czi,10.163,155.043,47,2887,47,65535,Symbiont Area,0.062,Body column,,,11,B4,inoc,32C,inoc-32C,16,0.06226003117
+11,Snap-1159.czi,6447.829,699.618,320,1821,0,65535,Tentacle Area,0,Tentacle,,,11,B4,inoc,32C,inoc-32C,16,0
+12,Snap-1158.czi,136.006,61.687,47,1607,47,65535,Symbiont Area,2.109,Tentacle,,,11,B4,inoc,32C,inoc-32C,16,2.109330133
+13,Snap-1161.czi,4774.248,588.051,325,1729,0,65535,Tentacle Area,0,Pedal disc,,,11,B5,inoc,32C,inoc-32C,16,0
+14,Snap-1160.czi,6.054,110.393,47,1587,47,65535,Symbiont Area,0.127,Pedal disc,,,11,B5,inoc,32C,inoc-32C,16,0.1268053105
+15,Snap-1163.czi,3553.874,793.109,433,1664,0,65535,Tentacle Area,0,Tentacle,,,11,B5,inoc,32C,inoc-32C,16,0
+16,Snap-1162.czi,17.947,118.506,47,3925,47,65535,Symbiont Area,0.505,Tentacle,,,11,B5,inoc,32C,inoc-32C,16,0.5049982076
+17,Snap-1165.czi,24883.822,1535.145,529,3580,0,65535,Tentacle Area,0,Body column,,,11,C1,inoc,32C,inoc-32C,16,0
+18,Snap-1164.czi,734.949,2127.478,1125,4016,1125,65535,Symbiont Area,2.954,Body column,,,11,C1,inoc,32C,inoc-32C,16,2.953521368
+19,Snap-1167.czi,7431.005,1776.006,557,3667,0,65535,Tentacle Area,0,Tentacle,,,11,C1,inoc,32C,inoc-32C,16,0
+20,Snap-1166.czi,353.744,2729.83,1478,3974,1477,65535,Symbiont Area,4.76,Tentacle,,,11,C1,inoc,32C,inoc-32C,16,4.76037898
+21,Snap-1169.czi,15940.539,767.044,280,2964,0,65535,Tentacle Area,0,Pedal disc,,,11,C3,inoc,32C,inoc-32C,16,0
+22,Snap-1168.czi,1902.348,1839.05,1048,3925,1048,65535,Symbiont Area,11.934,Pedal disc,,,11,C3,inoc,32C,inoc-32C,16,11.93402557
+23,Snap-1171.czi,18815.251,1092.861,530,2822,0,65535,Tentacle Area,0,Body column,,,11,C4,inoc,32C,inoc-32C,16,0
+24,Snap-1170.czi,28.542,133.697,46,3947,46,65535,Symbiont Area,0.152,Body column,,,11,C4,inoc,32C,inoc-32C,16,0.1516960895
+25,Snap-1173.czi,8660.892,792.664,446,2100,0,65535,Tentacle Area,0,Tentacle,,,11,C4,inoc,32C,inoc-32C,16,0
+26,Snap-1172.czi,48.434,104.969,47,1678,47,65535,Symbiont Area,0.559,Tentacle,,,11,C4,inoc,32C,inoc-32C,16,0.559226463
+27,Snap-1175.czi,4111.951,419.146,227,1091,0,65535,Tentacle Area,0,Pedal disc,,,11,C5,inoc,32C,inoc-32C,16,0
+28,Snap-1174.czi,2.811,67.462,47,286,47,65535,Symbiont Area,0.068,Pedal disc,,,11,C5,inoc,32C,inoc-32C,16,0.06836170956
+29,Snap-1177.czi,7999.028,667.7,278,2476,0,65535,Tentacle Area,0,Tentacle,,,11,C5,inoc,32C,inoc-32C,16,0
+30,Snap-1176.czi,4.541,378.381,47,3984,47,65535,Symbiont Area,0.057,Tentacle,,,11,C5,inoc,32C,inoc-32C,16,0.05676939748
+31,Snap-1179.czi,9585.903,836.102,360,3306,0,65535,Tentacle Area,0,Pedal disc,,,11,D1,inoc,32C,inoc-32C,16,0
+32,Snap-1178.czi,142.06,221.481,110,524,110,65535,Symbiont Area,1.482,Pedal disc,,,11,D1,inoc,32C,inoc-32C,16,1.481967844
+33,Snap-1181.czi,7515.981,560.504,303,3335,0,65535,Tentacle Area,0,Body column,,,11,D2,inoc,32C,inoc-32C,16,0
+34,Snap-1180.czi,413.855,2076.606,1117,3934,1117,65535,Symbiont Area,5.506,Body column,,,11,D2,inoc,32C,inoc-32C,16,5.506333771
+35,Snap-1185.czi,5789.641,574.221,296,1460,0,65535,Tentacle Area,0,Tentacle,,,11,D2,inoc,32C,inoc-32C,16,0
+36,Snap-1182.czi,893.442,2266.505,1313,3965,1313,65535,Symbiont Area,15.432,Tentacle,,,11,D2,inoc,32C,inoc-32C,16,15.43173402
+37,Snap-1184.czi,8042.056,582.451,285,1715,0,65535,Tentacle Area,0,Tentacle,,,11,D2,inoc,32C,inoc-32C,16,0
+38,Snap-1183.czi,1170.642,2192.863,1247,3964,1247,65535,Symbiont Area,14.557,Tentacle,,,11,D2,inoc,32C,inoc-32C,16,14.55650147
+39,Snap-1187.czi,13745.423,546.215,266,2043,0,65535,Tentacle Area,0,Pedal disc,,,11,D3,inoc,32C,inoc-32C,16,0
+40,Snap-1186.czi,75.679,2675.354,1363,3922,1359,65535,Symbiont Area,0.551,Pedal disc,,,11,D3,inoc,32C,inoc-32C,16,0.550575999
+41,Snap-1189.czi,17570.227,947.86,367,2488,0,65535,Tentacle Area,0,Tentacle,,,11,D3,inoc,32C,inoc-32C,16,0
+42,Snap-1188.czi,202.819,2955.739,1520,3959,1516,65535,Symbiont Area,1.154,Tentacle,,,11,D3,inoc,32C,inoc-32C,16,1.154333407
+43,Snap-1191.czi,7758.153,636.383,266,2812,0,65535,Tentacle Area,0,Pedal disc,,,11,D4,inoc,32C,inoc-32C,16,0
+44,Snap-1190.czi,22.055,109.814,47,3972,47,65535,Symbiont Area,0.284,Pedal disc,,,11,D4,inoc,32C,inoc-32C,16,0.2842815809
+45,Snap-1193.czi,9140.479,1330.175,414,3077,0,65535,Tentacle Area,0,Tentacle,,,11,D4,inoc,32C,inoc-32C,16,0
+46,Snap-1192.czi,1.297,313.5,47,1641,47,65535,Symbiont Area,0.014,Tentacle,,,11,D4,inoc,32C,inoc-32C,16,0.01418962836
+1,Snap-1255.czi,7616.526,311.021,198,1390,0,65535,Tentacle Area,0,Pedal disc,,,7,A2,inoc,25C,inoc-25C,18,0
+2,Snap-1254.czi,2108.41,1052.748,663,2163,663,65535,Symbiont Area,27.682,Pedal disc,,,7,A2,inoc,25C,inoc-25C,18,27.68204297
+3,Snap-1257.czi,11558.307,595.226,259,1749,0,65535,Tentacle Area,0,Tentacle,,,7,A2,inoc,25C,inoc-25C,18,0
+4,Snap-1256.czi,4823.331,2408.972,1437,3938,1437,65535,Symbiont Area,41.73,Tentacle,,,7,A2,inoc,25C,inoc-25C,18,41.73042817
+5,Snap-1259.czi,5761.964,663.132,382,3152,0,65535,Tentacle Area,0,Tentacle,,,7,A3,inoc,25C,inoc-25C,18,0
+6,Snap-1258.czi,2621.728,2294.284,1392,3653,1392,65535,Symbiont Area,45.501,Tentacle,,,7,A3,inoc,25C,inoc-25C,18,45.50059667
+7,Snap-1261.czi,8962.526,140.557,59,594,0,65535,Tentacle Area,0,Body column,,,7,A4,inoc,25C,inoc-25C,18,0
+8,Snap-1260.czi,3488.574,1436.777,873,2791,873,65535,Symbiont Area,38.924,Body column,,,7,A4,inoc,25C,inoc-25C,18,38.92400424
+9,Snap-1263.czi,12087.626,997.905,308,3274,0,65535,Tentacle Area,0,Pedal disc,,,7,A5,inoc,25C,inoc-25C,18,0
+10,Snap-1262.czi,1259.294,67.681,47,365,47,65535,Symbiont Area,10.418,Pedal disc,,,7,A5,inoc,25C,inoc-25C,18,10.41804238
+11,Snap-1265.czi,8375.908,374.618,222,2653,0,65535,Tentacle Area,0,Pedal disc,,,7,A6,inoc,25C,inoc-25C,18,0
+12,Snap-1264.czi,2795.789,1063.307,655,2586,655,65535,Symbiont Area,33.379,Pedal disc,,,7,A6,inoc,25C,inoc-25C,18,33.37893635
+13,Snap-1267.czi,2661.297,717.469,241,2596,0,65535,Tentacle Area,0,Tentacle,,,7,A6,inoc,25C,inoc-25C,18,0
+14,Snap-1266.czi,191.575,1900.129,1057,3725,1057,65535,Symbiont Area,7.199,Tentacle,,,7,A6,inoc,25C,inoc-25C,18,7.198557696
+15,Snap-1269.czi,4802.141,345.82,163,1192,0,65535,Tentacle Area,0,Pedal disc,,,7,B1,inoc,25C,inoc-25C,18,0
+16,Snap-1268.czi,1787.748,1370.445,862,3458,862,65535,Symbiont Area,37.228,Pedal disc,,,7,B1,inoc,25C,inoc-25C,18,37.2281447
+17,Snap-1271.czi,4428.504,315.879,166,816,0,65535,Tentacle Area,0,Pedal disc,,,7,B1,inoc,25C,inoc-25C,18,0
+18,Snap-1270.czi,1557.036,1570.144,990,3605,990,65535,Symbiont Area,35.159,Pedal disc,,,7,B1,inoc,25C,inoc-25C,18,35.15941275
+19,Snap-1273.czi,8101.302,403.982,209,1508,0,65535,Tentacle Area,0,Body column,,,7,B2,inoc,25C,inoc-25C,18,0
+20,Snap-1272.czi,2088.085,1614.584,996,3577,996,65535,Symbiont Area,25.775,Body column,,,7,B2,inoc,25C,inoc-25C,18,25.77468412
+21,Snap-1275.czi,4521.049,398.563,213,1499,0,65535,Tentacle Area,0,Tentacle,,,7,B2,inoc,25C,inoc-25C,18,0
+22,Snap-1274.czi,1596.605,1914.66,1197,3723,1197,65535,Symbiont Area,35.315,Tentacle,,,7,B2,inoc,25C,inoc-25C,18,35.31492359
+23,Snap-1277.czi,9977.919,340.854,164,1182,0,65535,Tentacle Area,0,Body column,,,7,B3,inoc,25C,inoc-25C,18,0
+24,Snap-1276.czi,2584.754,1437.074,867,2773,867,65535,Symbiont Area,25.905,Body column,,,7,B3,inoc,25C,inoc-25C,18,25.90474026
+25,Snap-1279.czi,4709.813,295.49,163,1250,0,65535,Tentacle Area,0,Tentacle,,,7,B3,inoc,25C,inoc-25C,18,0
+26,Snap-1278.czi,2099.112,1645.92,1094,3255,1094,65535,Symbiont Area,44.569,Tentacle,,,7,B3,inoc,25C,inoc-25C,18,44.56890327
+27,Snap-1281.czi,5947.269,681.274,299,2569,0,65535,Tentacle Area,0,Tentacle,,,7,B4,inoc,25C,inoc-25C,18,0
+28,Snap-1280.czi,2684.433,2325.209,1377,3899,1377,65535,Symbiont Area,45.137,Tentacle,,,7,B4,inoc,25C,inoc-25C,18,45.13723862
+29,Snap-1283.czi,7354.893,743.619,363,3489,0,65535,Tentacle Area,0,Body column,,,7,B5,inoc,25C,inoc-25C,18,0
+30,Snap-1282.czi,1834.453,1782.305,1043,3496,1043,65535,Symbiont Area,24.942,Body column,,,7,B5,inoc,25C,inoc-25C,18,24.94194001
+31,Snap-1285.czi,7705.178,721.581,349,3473,0,65535,Tentacle Area,0,Tentacle,,,7,B5,inoc,25C,inoc-25C,18,0
+32,Snap-1284.czi,1827.101,1712.228,996,3477,996,65535,Symbiont Area,23.713,Tentacle,,,7,B5,inoc,25C,inoc-25C,18,23.71263844
+33,Snap-1287.czi,9395.192,1002.035,419,3623,0,65535,Tentacle Area,0,Body column,,,7,B6,inoc,25C,inoc-25C,18,0
+34,Snap-1286.czi,2956.877,1966.231,1223,3758,1223,65535,Symbiont Area,31.472,Body column,,,7,B6,inoc,25C,inoc-25C,18,31.47223601
+35,Snap-1289.czi,4481.263,1060.098,487,3677,0,65535,Tentacle Area,0,Pedal disc,,,7,C1,inoc,25C,inoc-25C,18,0
+36,Snap-1288.czi,1238.321,2108.297,1327,3950,1327,65535,Symbiont Area,27.633,Pedal disc,,,7,C1,inoc,25C,inoc-25C,18,27.63330338
+37,Snap-1291.czi,11294.513,666.591,398,1356,0,65535,Tentacle Area,0,Body column,,,7,C2,inoc,25C,inoc-25C,18,0
+38,Snap-1290.czi,331.689,1688.699,884,3941,884,65535,Symbiont Area,2.937,Body column,,,7,C2,inoc,25C,inoc-25C,18,2.936726887
+39,Snap-1293.czi,6221.658,651.175,300,1980,0,65535,Tentacle Area,0,Tentacle,,,7,C2,inoc,25C,inoc-25C,18,0
+40,Snap-1292.czi,819.277,2144.336,1193,3959,1192,65535,Symbiont Area,13.168,Tentacle,,,7,C2,inoc,25C,inoc-25C,18,13.16814585
+41,Snap-1295.czi,719.813,616.67,330,1287,0,65535,Tentacle Area,0,Tentacle,,,7,C2,inoc,25C,inoc-25C,18,0
+42,Snap-1294.czi,188.116,1945.617,1125,3139,1125,65535,Symbiont Area,26.134,Tentacle,,,7,C2,inoc,25C,inoc-25C,18,26.13400981
+43,Snap-1297.czi,12142.115,205.402,90,1074,0,65535,Tentacle Area,0,Body column,,,7,C4,inoc,25C,inoc-25C,18,0
+44,Snap-1296.czi,3021.096,1461.342,888,3540,888,65535,Symbiont Area,24.881,Body column,,,7,C4,inoc,25C,inoc-25C,18,24.88113479
+45,Snap-1299.czi,12994.906,214.779,95,1008,0,65535,Tentacle Area,0,Tentacle,,,7,C4,inoc,25C,inoc-25C,18,0
+46,Snap-1298.czi,2159.872,1486.957,887,3294,887,65535,Symbiont Area,16.621,Tentacle,,,7,C4,inoc,25C,inoc-25C,18,16.62091284
+47,Snap-1301.czi,4425.477,696.502,432,3313,0,65535,Tentacle Area,0,Pedal disc,,,7,C5,inoc,25C,inoc-25C,18,0
+48,Snap-1300.czi,153.52,1413.606,739,3735,739,65535,Symbiont Area,3.469,Pedal disc,,,7,C5,inoc,25C,inoc-25C,18,3.469004584
+49,Snap-1303.czi,1816.939,1333.093,615,3478,0,65535,Tentacle Area,0,Tentacle,,,7,C5,inoc,25C,inoc-25C,18,0
+50,Snap-1302.czi,102.707,106.872,47,2512,47,65535,Symbiont Area,5.653,Tentacle,,,7,C5,inoc,25C,inoc-25C,18,5.652748937
+51,Snap-1305.czi,12052.165,936.317,200,2301,0,65535,0,0,0,,,7,C6,inoc,25C,inoc-25C,18,0
+52,Snap-1305.czi,12269.255,1001.778,200,2359,0,65535,Tentacle Area,0,Body column,,,7,C6,inoc,25C,inoc-25C,18,0
+53,Snap-1304.czi,1987.54,1129.949,648,2546,648,65535,Symbiont Area,16.199,Body column,,,7,C6,inoc,25C,inoc-25C,18,16.19935359
+54,Snap-1307.czi,8693.975,422.749,200,2238,0,65535,Tentacle Area,0,Tentacle,,,7,C6,inoc,25C,inoc-25C,18,0
+55,Snap-1306.czi,4216.82,2072.111,1346,3574,1346,65535,Symbiont Area,48.503,Tentacle,,,7,C6,inoc,25C,inoc-25C,18,48.50278497
+56,Snap-1309.czi,2453.073,455.989,161,1296,0,65535,Tentacle Area,0,Tentacle,,,7,C6,inoc,25C,inoc-25C,18,0
+57,Snap-1308.czi,832.466,2134.939,1349,3442,1349,65535,Symbiont Area,33.936,Tentacle,,,7,C6,inoc,25C,inoc-25C,18,33.93563909
+58,Snap-1311.czi,7960.323,846.79,401,3781,0,65535,Tentacle Area,0,Tentacle,,,7,D1,inoc,25C,inoc-25C,18,0
+59,Snap-1310.czi,3116.235,2103.153,1345,3417,1345,65535,Symbiont Area,39.147,Tentacle,,,7,D1,inoc,25C,inoc-25C,18,39.1470924
+60,Snap-1313.czi,8448.127,925.35,402,3827,0,65535,Tentacle Area,0,Tentacle,,,7,D1,inoc,25C,inoc-25C,18,0
+61,Snap-1312.czi,3447.708,2063.381,1308,3949,1308,65535,Symbiont Area,40.81,Tentacle,,,7,D1,inoc,25C,inoc-25C,18,40.81032399
+62,Snap-1315.czi,7660.636,323.366,143,1421,0,65535,Tentacle Area,0,Body column,,,7,D2,inoc,25C,inoc-25C,18,0
+63,Snap-1314.czi,2224.523,1575.366,935,3237,935,65535,Symbiont Area,29.038,Body column,,,7,D2,inoc,25C,inoc-25C,18,29.03835922
+64,Snap-1317.czi,7599.444,327.313,137,1528,0,65535,Tentacle Area,0,Tentacle,,,7,D2,inoc,25C,inoc-25C,18,0
+65,Snap-1316.czi,2173.926,1570.43,933,3466,933,65535,Symbiont Area,28.606,Tentacle,,,7,D2,inoc,25C,inoc-25C,18,28.60638226
+66,Snap-1319.czi,6736.922,468.238,217,2563,0,65535,Tentacle Area,0,Pedal disc,,,7,D3,inoc,25C,inoc-25C,18,0
+67,Snap-1318.czi,3022.825,1052.592,703,2712,703,65535,Symbiont Area,44.87,Pedal disc,,,7,D3,inoc,25C,inoc-25C,18,44.86952647
+68,Snap-1321.czi,17205.023,403.096,177,2710,0,65535,Tentacle Area,0,Body column,,,7,D4,inoc,25C,inoc-25C,18,0
+69,Snap-1320.czi,3393.219,1675.236,998,3182,998,65535,Symbiont Area,19.722,Body column,,,7,D4,inoc,25C,inoc-25C,18,19.72225785
+70,Snap-1323.czi,10542.266,446.745,179,2442,0,65535,Tentacle Area,0,Tentacle,,,7,D4,inoc,25C,inoc-25C,18,0
+71,Snap-1322.czi,2846.818,1957.794,1216,3563,1216,65535,Symbiont Area,27.004,Tentacle,,,7,D4,inoc,25C,inoc-25C,18,27.00385287
+72,Snap-1325.czi,4843.224,446.74,178,2311,0,65535,Tentacle Area,0,Tentacle,,,7,D4,inoc,25C,inoc-25C,18,0
+73,Snap-1324.czi,1934.349,1908.723,1199,3555,1199,65535,Symbiont Area,39.939,Tentacle,,,7,D4,inoc,25C,inoc-25C,18,39.93928425
+74,Snap-1327.czi,12847.225,452.981,227,3253,0,65535,Tentacle Area,0,Tentacle,,,7,D5,inoc,25C,inoc-25C,18,0
+75,Snap-1326.czi,4760.193,1263.238,776,2813,776,65535,Symbiont Area,37.052,Tentacle,,,7,D5,inoc,25C,inoc-25C,18,37.05230507
+76,Snap-1329.czi,11331.271,422.501,226,2749,0,65535,Tentacle Area,0,Tentacle,,,7,D5,inoc,25C,inoc-25C,18,0
+77,Snap-1328.czi,4076.274,1048.67,661,2425,661,65535,Symbiont Area,35.974,Tentacle,,,7,D5,inoc,25C,inoc-25C,18,35.97366968
+1,Snap-1195.czi,13699.8,525.097,280,1122,0,65535,Tentacle Area,0,Body column,,,10,A1,inoc,32C,inoc-32C,18,0
+2,Snap-1194.czi,2459.127,1699.477,990,3773,990,65535,Symbiont Area,17.95,Body column,,,10,A1,inoc,32C,inoc-32C,18,17.95009416
+3,Snap-1201.czi,14125.547,745.638,272,2090,0,65535,Tentacle Area,1.835,Body column,,,10,A3,inoc,32C,inoc-32C,18,0
+4,Snap-1200.czi,276.768,2695.941,1399,3967,1398,65535,Symbiont Area,1.959,Body column,,,10,A3,inoc,32C,inoc-32C,18,1.959343592
+5,Snap-1203.czi,15193.915,951.924,303,2536,0,65535,Tentacle Area,1.835,Body column,,,10,A4,inoc,32C,inoc-32C,18,0
+6,Snap-1202.czi,0.865,1155.25,146,3996,47,65535,Symbiont Area,0.006,Body column,,,10,A4,inoc,32C,inoc-32C,18,0.005693068574
+7,Snap-1205.czi,20686.678,2439.101,974,3839,0,65535,Tentacle Area,0,Pedal disc,,,10,A5,inoc,32C,inoc-32C,18,0
+8,Snap-1204.czi,46.705,1151.329,567,4008,567,65535,Symbiont Area,0.226,Pedal disc,,,10,A5,inoc,32C,inoc-32C,18,0.2257733214
+9,Snap-1207.czi,9644.284,791.159,414,1687,0,65535,Tentacle Area,0,Body column,,,10,B1,inoc,32C,inoc-32C,18,0
+10,Snap-1206.czi,393.097,2697.256,1440,3919,1440,65535,Symbiont Area,4.076,Body column,,,10,B1,inoc,32C,inoc-32C,18,4.07595836
+11,Snap-1209.czi,12448.938,875.69,323,3086,0,65535,Tentacle Area,0,Pedal disc,,,10,C2,inoc,32C,inoc-32C,18,0
+12,Snap-1208.czi,96.869,2021.763,1040,3973,1040,65535,Symbiont Area,0.778,Pedal disc,,,10,C2,inoc,32C,inoc-32C,18,0.7781306325
+13,Snap-1211.czi,4494.453,827.025,337,2699,0,65535,Tentacle Area,0,Pedal disc,,,10,D4,inoc,32C,inoc-32C,18,0
+14,Snap-1210.czi,3.243,179.667,47,1165,47,65535,Symbiont Area,0.072,Pedal disc,,,10,D4,inoc,32C,inoc-32C,18,0.07215561048
+15,Snap-1213.czi,3999.73,1034.322,422,2925,0,65535,Tentacle Area,0,Tentacle,,,10,D4,inoc,32C,inoc-32C,18,0
+16,Snap-1212.czi,1.081,405.4,47,1164,47,65535,Symbiont Area,0.027,Tentacle,,,10,D4,inoc,32C,inoc-32C,18,0.02702682431
+1,Snap-1216.czi,4889.928,1053.957,527,3807,0,65535,Tentacle Area,0,Tentacle,,,11,B1,inoc,32C,inoc-32C,18,0
+2,Snap-1215.czi,247.578,2504.34,1339,3958,1338,65535,Symbiont Area,5.063,Tentacle,,,11,B1,inoc,32C,inoc-32C,18,5.063019333
+3,Snap-1218.czi,24711.49,800.552,241,2383,0,65535,Tentacle Area,0,Body column,,,11,B2,inoc,32C,inoc-32C,18,0
+4,Snap-1217.czi,439.153,2237.76,1166,3995,1166,65535,Symbiont Area,1.777,Body column,,,11,B2,inoc,32C,inoc-32C,18,1.777120684
+5,Snap-1222.czi,2064.949,839.392,384,1468,0,65535,Tentacle Area,0,Tentacle,,,11,B2,inoc,32C,inoc-32C,18,0
+6,Snap-1219.czi,56.867,2249.259,1145,3982,1144,65535,Symbiont Area,2.754,Tentacle,,,11,B2,inoc,32C,inoc-32C,18,2.753917893
+7,Snap-1221.czi,2921.416,715.615,317,1328,0,65535,Tentacle Area,0,Tentacle,,,11,B2,inoc,32C,inoc-32C,18,0
+8,Snap-1220.czi,357.204,1988.865,1098,3957,1098,65535,Symbiont Area,12.227,Tentacle,,,11,B2,inoc,32C,inoc-32C,18,12.2270844
+9,Snap-1224.czi,2708.651,515.623,245,2364,0,65535,Tentacle Area,0,Pedal disc,,,11,B3,inoc,32C,inoc-32C,18,0
+10,Snap-1223.czi,47.353,80.479,47,4006,47,65535,Symbiont Area,1.748,Pedal disc,,,11,B3,inoc,32C,inoc-32C,18,1.74821341
+11,Snap-1227.czi,9996.73,912.6,398,3618,0,65535,Tentacle Area,0,Body column,,,11,B4,inoc,32C,inoc-32C,18,0
+12,Snap-1226.czi,17.73,142.427,47,3972,47,65535,Symbiont Area,0.177,Body column,,,11,B4,inoc,32C,inoc-32C,18,0.1773579961
+13,Snap-1229.czi,6991.203,974.67,490,3544,0,65535,Tentacle Area,0,Body column,,,11,B5,inoc,32C,inoc-32C,18,0
+14,Snap-1228.czi,9.73,60.222,47,253,47,65535,Symbiont Area,0.139,Body column,,,11,B5,inoc,32C,inoc-32C,18,0.1391749031
+15,Snap-1231.czi,7930.484,974.934,425,3335,0,65535,Tentacle Area,0,Tentacle,,,11,C1,inoc,32C,inoc-32C,18,0
+16,Snap-1230.czi,594.403,2411.103,1322,3935,1322,65535,Symbiont Area,7.495,Tentacle,,,11,C1,inoc,32C,inoc-32C,18,7.495166751
+17,Snap-1233.czi,17083.937,1214.146,363,3410,0,65535,Tentacle Area,0,Pedal disc,,,11,C3,inoc,32C,inoc-32C,18,0
+18,Snap-1232.czi,2331.987,1876.966,1065,3908,1065,65535,Symbiont Area,13.65,Pedal disc,,,11,C3,inoc,32C,inoc-32C,18,13.65017326
+19,Snap-1235.czi,14391.504,530.16,214,1089,0,65535,Tentacle Area,0,Body column,,,11,C4,inoc,32C,inoc-32C,18,0
+20,Snap-1234.czi,4.108,561.421,47,3949,47,65535,Symbiont Area,0.029,Body column,,,11,C4,inoc,32C,inoc-32C,18,0.0285446191
+21,Snap-1237.czi,6006.082,384.455,174,1043,0,65535,Tentacle Area,0,Tentacle,,,11,C4,inoc,32C,inoc-32C,18,0
+22,Snap-1236.czi,67.03,52.335,47,268,47,65535,Symbiont Area,1.116,Tentacle,,,11,C4,inoc,32C,inoc-32C,18,1.116035379
+23,Snap-1239.czi,9227.618,982.909,374,3254,0,65535,Tentacle Area,0,Pedal disc,,,11,D1,inoc,32C,inoc-32C,18,0
+24,Snap-1238.czi,1447.194,92.745,47,3837,47,65535,Symbiont Area,15.683,Pedal disc,,,11,D1,inoc,32C,inoc-32C,18,15.68328901
+25,Snap-1241.czi,7876.644,973.052,415,3492,0,65535,Tentacle Area,0,Tentacle,,,11,D1,inoc,32C,inoc-32C,18,0
+26,Snap-1240.czi,670.297,67.996,47,403,47,65535,Symbiont Area,8.51,Tentacle,,,11,D1,inoc,32C,inoc-32C,18,8.509931387
+27,Snap-1243.czi,18092.843,682.023,302,1683,0,65535,Tentacle Area,0,Body column,,,11,D2,inoc,32C,inoc-32C,18,0
+28,Snap-1242.czi,1582.335,1584.906,867,3955,867,65535,Symbiont Area,8.746,Body column,,,11,D2,inoc,32C,inoc-32C,18,8.745640472
+29,Snap-1245.czi,7792.749,561.018,322,1756,0,65535,Tentacle Area,0,Tentacle,,,11,D2,inoc,32C,inoc-32C,18,0
+30,Snap-1244.czi,816.249,2275.845,1261,3942,1261,65535,Symbiont Area,10.474,Tentacle,,,11,D2,inoc,32C,inoc-32C,18,10.474468
+31,Snap-1247.czi,6660.811,559.37,325,1793,0,65535,Tentacle Area,0,Tentacle,,,11,D2,inoc,32C,inoc-32C,18,0
+32,Snap-1246.czi,659.702,2272.229,1252,3906,1252,65535,Symbiont Area,9.904,Tentacle,,,11,D2,inoc,32C,inoc-32C,18,9.90422938
+33,Snap-1249.czi,9263.511,262.473,139,1342,0,65535,Tentacle Area,0,Pedal disc,,,11,D3,inoc,32C,inoc-32C,18,0
+34,Snap-1248.czi,175.791,147.183,47,1501,47,65535,Symbiont Area,1.898,Pedal disc,,,11,D3,inoc,32C,inoc-32C,18,1.897671412
+35,Snap-1251.czi,12521.374,677.609,197,1885,0,65535,Tentacle Area,0,Tentacle,,,11,D3,inoc,32C,inoc-32C,18,0
+36,Snap-1250.czi,142.925,3058.03,1543,3985,1538,65535,Symbiont Area,1.141,Tentacle,,,11,D3,inoc,32C,inoc-32C,18,1.141448215
+37,Snap-1253.czi,8925.768,832.76,224,1669,0,65535,Tentacle Area,0,Body column,,,11,D5,inoc,32C,inoc-32C,18,0
+38,Snap-1252.czi,16.866,57.346,47,420,47,65535,Symbiont Area,0.189,Body column,,,11,D5,inoc,32C,inoc-32C,18,0.18895853
+1,Snap-557.czi,15892.97,417.153,161,2070,0,65535,Tentacle Area,0,Tentacle,,,7,A2,inoc,25C,inoc-25C,20,0
+2,Snap-556.czi,5546.387,1954.734,1220,3497,1220,65535,Symbiont Area,34.898,Tentacle,,,7,A2,inoc,25C,inoc-25C,20,34.89836701
+3,Snap-559.czi,1791.857,1462.52,700,3882,0,65535,Tentacle Area,0,Tentacle,,,7,A3,inoc,25C,inoc-25C,20,0
+4,Snap-558.czi,332.338,3112.189,1793,3985,1793,65535,Symbiont Area,18.547,Tentacle,,,7,A3,inoc,25C,inoc-25C,20,18.54712737
+5,Snap-561.czi,7885.51,683.482,292,2712,0,65535,Tentacle Area,0,Pedal disc,,,7,A4,inoc,25C,inoc-25C,20,0
+6,Snap-560.czi,3395.381,1825.196,1145,3947,1145,65535,Symbiont Area,43.058,Pedal disc,,,7,A4,inoc,25C,inoc-25C,20,43.05848322
+7,Snap-563.czi,11114.181,694.764,241,2585,0,65535,Tentacle Area,0,Pedal disc,,,7,A5,inoc,25C,inoc-25C,20,0
+8,Snap-562.czi,3140.236,72.045,47,3878,47,65535,Symbiont Area,28.254,Pedal disc,,,7,A5,inoc,25C,inoc-25C,20,28.25431761
+9,Snap-565.czi,7227.104,403.98,222,2144,0,65535,Tentacle Area,0,Pedal disc,,,7,A6,inoc,25C,inoc-25C,20,0
+10,Snap-564.czi,2284.85,1290.723,803,3329,803,65535,Symbiont Area,31.615,Pedal disc,,,7,A6,inoc,25C,inoc-25C,20,31.61501481
+11,Snap-567.czi,6223.172,764.453,319,2514,0,65535,Tentacle Area,0,Tentacle,,,7,B1,inoc,25C,inoc-25C,20,0
+12,Snap-566.czi,1891.32,2369.418,1419,3977,1419,65535,Symbiont Area,30.392,Tentacle,,,7,B1,inoc,25C,inoc-25C,20,30.39157523
+13,Snap-569.czi,5366.704,588.625,349,2655,0,65535,Tentacle Area,0,Pedal disc,,,7,B2,inoc,25C,inoc-25C,20,0
+14,Snap-568.czi,1714.448,2218.345,1390,3982,1390,65535,Symbiont Area,31.946,Pedal disc,,,7,B2,inoc,25C,inoc-25C,20,31.94601379
+15,Snap-571.czi,6466.641,388.417,185,1657,0,65535,Tentacle Area,0,Pedal disc,,,7,B3,inoc,25C,inoc-25C,20,0
+16,Snap-570.czi,2207.441,2037.118,1251,3967,1251,65535,Symbiont Area,34.136,Pedal disc,,,7,B3,inoc,25C,inoc-25C,20,34.13582105
+17,Snap-573.czi,3706.961,801.332,377,3059,0,65535,Tentacle Area,0,Pedal disc,,,7,B4,inoc,25C,inoc-25C,20,0
+18,Snap-572.czi,1029.447,2526.884,1490,3997,1489,65535,Symbiont Area,27.771,Pedal disc,,,7,B4,inoc,25C,inoc-25C,20,27.77064555
+19,Snap-575.czi,5169.075,535.056,303,1915,0,65535,Tentacle Area,0,Pedal disc,,,7,B5,inoc,25C,inoc-25C,20,0
+20,Snap-574.czi,1998.784,2070.534,1303,3745,1303,65535,Symbiont Area,38.668,Pedal disc,,,7,B5,inoc,25C,inoc-25C,20,38.6681176
+21,Snap-581.czi,5422.707,619.793,326,2658,0,65535,Tentacle Area,0,Tentacle,,,7,C2,inoc,25C,inoc-25C,20,0
+22,Snap-580.czi,751.814,2276.979,1304,3830,1304,65535,Symbiont Area,13.864,Tentacle,,,7,C2,inoc,25C,inoc-25C,20,13.86418259
+23,Snap-583.czi,2530.481,643.255,333,2670,0,65535,Tentacle Area,0,Tentacle,,,7,C2,inoc,25C,inoc-25C,20,0
+24,Snap-582.czi,549.211,2204.766,1333,3781,1332,65535,Symbiont Area,21.704,Tentacle,,,7,C2,inoc,25C,inoc-25C,20,21.70381836
+25,Snap-587.czi,2450.262,908.345,463,2653,0,65535,Tentacle Area,0,Pedal disc,,,7,C3,inoc,25C,inoc-25C,20,0
+26,Snap-586.czi,436.774,2657.357,1530,3952,1530,65535,Symbiont Area,17.826,Pedal disc,,,7,C3,inoc,25C,inoc-25C,20,17.82560396
+27,Snap-591.czi,7103.64,387.021,166,1952,0,65535,Tentacle Area,0,Pedal disc,,,7,C4,inoc,25C,inoc-25C,20,0
+28,Snap-589.czi,2810.276,1737.808,1090,3707,1090,65535,Symbiont Area,39.561,Pedal disc,,,7,C4,inoc,25C,inoc-25C,20,39.5610701
+29,Snap-590.czi,7310.783,373.513,165,1903,0,65535,Tentacle Area,0,Tentacle,,,7,C4,inoc,25C,inoc-25C,20,0
+30,Snap-588.czi,2615.458,1803.296,1136,3761,1136,65535,Symbiont Area,35.775,Tentacle,,,7,C4,inoc,25C,inoc-25C,20,35.77534718
+31,Snap-593.czi,4233.469,422.367,183,1548,0,65535,Tentacle Area,0,Pedal disc,,,7,C5,inoc,25C,inoc-25C,20,0
+32,Snap-592.czi,49.948,3124.532,1617,3955,1611,65535,Symbiont Area,1.18,Pedal disc,,,7,C5,inoc,25C,inoc-25C,20,1.179836205
+33,Snap-595.czi,7456.735,350.554,128,1508,0,65535,Tentacle Area,0,Tentacle,,,7,C6,inoc,25C,inoc-25C,20,0
+34,Snap-594.czi,2813.952,2075.462,1237,3504,1237,65535,Symbiont Area,37.737,Tentacle,,,7,C6,inoc,25C,inoc-25C,20,37.73705248
+35,Snap-597.czi,8747.599,142.419,88,683,0,65535,Tentacle Area,0,Pedal disc,,,7,C6,inoc,25C,inoc-25C,20,0
+36,Snap-596.czi,3273.43,1074.512,674,2253,674,65535,Symbiont Area,37.421,Pedal disc,,,7,C6,inoc,25C,inoc-25C,20,37.42089687
+37,Snap-599.czi,5600.66,701.215,303,2745,0,65535,Tentacle Area,0,Pedal disc,,,7,D1,inoc,25C,inoc-25C,20,0
+38,Snap-598.czi,2724.003,1454.818,925,3865,925,65535,Symbiont Area,48.637,Pedal disc,,,7,D1,inoc,25C,inoc-25C,20,48.63717848
+39,Snap-601.czi,3937.89,669.82,322,1924,0,65535,Tentacle Area,0,Tentacle,,,7,D2,inoc,25C,inoc-25C,20,0
+40,Snap-600.czi,1307.296,2373.894,1456,3993,1456,65535,Symbiont Area,33.198,Tentacle,,,7,D2,inoc,25C,inoc-25C,20,33.19788008
+41,Snap-603.czi,5831.588,796.148,331,2594,0,65535,Tentacle Area,0,Pedal disc,,,7,D3,inoc,25C,inoc-25C,20,0
+42,Snap-602.czi,2165.71,2202.412,1347,3734,1347,65535,Symbiont Area,37.138,Pedal disc,,,7,D3,inoc,25C,inoc-25C,20,37.1375687
+43,Snap-605.czi,8036.651,602.05,268,2606,0,65535,Tentacle Area,0,Tentacle,,,7,D4,inoc,25C,inoc-25C,20,0
+44,Snap-604.czi,3144.344,1615.733,982,3054,982,65535,Symbiont Area,39.125,Tentacle,,,7,D4,inoc,25C,inoc-25C,20,39.12505346
+45,Snap-607.czi,5145.506,573.44,304,2685,0,65535,Tentacle Area,0,Pedal disc,,,7,D5,inoc,25C,inoc-25C,20,0
+46,Snap-606.czi,1686.771,1789.671,1133,3610,1133,65535,Symbiont Area,32.781,Pedal disc,,,7,D5,inoc,25C,inoc-25C,20,32.78144074
+1,Snap-1337.czi,10981.852,841.802,416,3484,0,65535,Tentacle Area,0,Pedal disc,,,11,B2,inoc,32C,inoc-32C,20,0
+2,Snap-1336.czi,653.216,1110.313,613,3971,613,65535,Symbiont Area,5.948,Pedal disc,,,11,B2,inoc,32C,inoc-32C,20,5.948140623
+3,Snap-1339.czi,12826.251,937.564,410,3632,0,65535,Tentacle Area,0,Tentacle,,,11,B2,inoc,32C,inoc-32C,20,0
+4,Snap-1338.czi,218.387,2605.873,1368,3977,1368,65535,Symbiont Area,1.703,Tentacle,,,11,B2,inoc,32C,inoc-32C,20,1.702656528
+5,Snap-1341.czi,8860.036,847.225,375,2960,0,65535,Tentacle Area,0,Tentacle,,,11,B4,inoc,32C,inoc-32C,20,0
+6,Snap-1340.czi,292.12,441.05,236,3983,236,65535,Symbiont Area,3.297,Tentacle,,,11,B4,inoc,32C,inoc-32C,20,3.297052066
+7,Snap-1343.czi,4417.261,954.157,397,2960,0,65535,Tentacle Area,0,Pedal disc,,,11,B5,inoc,32C,inoc-32C,20,0
+8,Snap-1342.czi,284.985,57.475,47,1168,47,65535,Symbiont Area,6.452,Pedal disc,,,11,B5,inoc,32C,inoc-32C,20,6.451622397
+9,Snap-1345.czi,5260.538,631.846,320,1359,0,65535,Tentacle Area,0,Body column,,,11,C1,inoc,32C,inoc-32C,20,0
+10,Snap-1344.czi,762.842,1748.594,982,3749,982,65535,Symbiont Area,14.501,Body column,,,11,C1,inoc,32C,inoc-32C,20,14.50121642
+11,Snap-1347.czi,7025.583,638.696,424,3340,0,65535,Tentacle Area,0,Pedal disc,,,11,C4,inoc,32C,inoc-32C,20,0
+12,Snap-1346.czi,3.243,315.333,47,3962,47,65535,Symbiont Area,0.046,Pedal disc,,,11,C4,inoc,32C,inoc-32C,20,0.04615987029
+13,Snap-1349.czi,4696.839,1682.555,589,3617,0,65535,Tentacle Area,0,Tentacle,,,11,C4,inoc,32C,inoc-32C,20,0
+14,Snap-1348.czi,1.297,269.667,47,1203,47,65535,Symbiont Area,0.028,Tentacle,,,11,C4,inoc,32C,inoc-32C,20,0.02761431678
+15,Snap-1351.czi,13382.598,1817.154,647,3641,0,65535,Tentacle Area,0,Body column,,,11,D1,inoc,32C,inoc-32C,20,0
+16,Snap-1350.czi,447.153,406.184,220,1552,220,65535,Symbiont Area,3.341,Body column,,,11,D1,inoc,32C,inoc-32C,20,3.341301891
+17,Snap-1353.czi,12919.011,1844.718,657,3666,0,65535,Tentacle Area,0,Body column,,,11,D1,inoc,32C,inoc-32C,20,0
+18,Snap-1352.czi,806.087,215.667,63,3983,63,65535,Symbiont Area,6.24,Body column,,,11,D1,inoc,32C,inoc-32C,20,6.239541092
+19,Snap-1355.czi,12557.267,802.128,422,1685,0,65535,Tentacle Area,0,Body column,,,11,D2,inoc,32C,inoc-32C,20,0
+20,Snap-1354.czi,1422.977,1893.259,1066,3710,1066,65535,Symbiont Area,11.332,Body column,,,11,D2,inoc,32C,inoc-32C,20,11.33190048
+21,Snap-1357.czi,8081.409,635.51,281,1536,0,65535,Tentacle Area,0,Tentacle,,,11,D2,inoc,32C,inoc-32C,20,0
+22,Snap-1356.czi,913.118,2387.98,1341,3958,1341,65535,Symbiont Area,11.299,Tentacle,,,11,D2,inoc,32C,inoc-32C,20,11.29899501
+23,Snap-1359.czi,14537.455,431.289,216,1445,0,65535,Tentacle Area,0,Pedal disc,,,11,D3,inoc,32C,inoc-32C,20,0
+24,Snap-1358.czi,292.552,77.191,47,3914,47,65535,Symbiont Area,2.012,Pedal disc,,,11,D3,inoc,32C,inoc-32C,20,2.012401758
+25,Snap-1361.czi,7923.781,757.134,368,2123,0,65535,Tentacle Area,0,Tentacle,,,11,D3,inoc,32C,inoc-32C,20,0
+26,Snap-1360.czi,156.763,2872.926,1455,3963,1453,65535,Symbiont Area,1.978,Tentacle,,,11,D3,inoc,32C,inoc-32C,20,1.978386328
+27,Snap-1363.czi,6881.144,783.87,447,3503,0,65535,Tentacle Area,0,Pedal disc,,,11,D4,inoc,32C,inoc-32C,20,0
+28,Snap-1362.czi,1364.164,604.157,344,1766,344,65535,Symbiont Area,19.825,Pedal disc,lots of background interference might want to discard,,11,D4,inoc,32C,inoc-32C,20,19.82466869
+29,Snap-1365.czi,3173.318,1563.744,621,3478,0,65535,Tentacle Area,0,Tentacle,,,11,D4,inoc,32C,inoc-32C,20,0
+30,Snap-1364.czi,1098.423,139.194,94,3900,94,65535,Symbiont Area,34.614,Tentacle,,,11,D4,inoc,32C,inoc-32C,20,34.61433742
+1,Snap-1399.czi,17805.264,461.748,215,2636,0,65535,Tentacle Area,0,Body column,,,7,A1,inoc,25C,inoc-25C,21,0
+2,Snap-1398.czi,5352.866,1354.299,835,3042,835,65535,Symbiont Area,30.063,Body column,,,7,A1,inoc,25C,inoc-25C,21,30.06339024
+3,Snap-1401.czi,17228.159,539.994,219,2683,0,65535,Tentacle Area,0,Body column,,,7,A2,inoc,25C,inoc-25C,21,0
+4,Snap-1400.czi,4325.797,1404.012,878,2614,878,65535,Symbiont Area,25.109,Body column,,,7,A2,inoc,25C,inoc-25C,21,25.10887553
+5,Snap-1403.czi,5389.624,668.866,326,2606,0,65535,Tentacle Area,0,Pedal disc,,,7,A4,inoc,25C,inoc-25C,21,0
+6,Snap-1402.czi,2086.355,2069.467,1308,3831,1308,65535,Symbiont Area,38.711,Pedal disc,,,7,A4,inoc,25C,inoc-25C,21,38.71058538
+7,Snap-1405.czi,9966.675,511.912,237,2291,0,65535,Tentacle Area,0,Pedal disc,,,7,A5,inoc,25C,inoc-25C,21,0
+8,Snap-1404.czi,739.057,64.128,47,1482,47,65535,Symbiont Area,7.415,Pedal disc,,,7,A5,inoc,25C,inoc-25C,21,7.415281425
+9,Snap-1407.czi,6553.347,900.241,508,2825,0,65535,Tentacle Area,0,Pedal disc,,,7,A6,inoc,25C,inoc-25C,21,0
+10,Snap-1406.czi,2135.222,2087.186,1306,3965,1306,65535,Symbiont Area,32.582,Pedal disc,,,7,A6,inoc,25C,inoc-25C,21,32.58215993
+11,Snap-1409.czi,4700.083,795.846,387,2680,0,65535,Tentacle Area,0,Tentacle,,,7,B1,inoc,25C,inoc-25C,21,0
+12,Snap-1408.czi,1137.343,2263.912,1341,3993,1341,65535,Symbiont Area,24.198,Tentacle,,,7,B1,inoc,25C,inoc-25C,21,24.1983599
+13,Snap-1411.czi,5057.503,717.155,338,2540,0,65535,Tentacle Area,0,Pedal disc,,,7,B2,inoc,25C,inoc-25C,21,0
+14,Snap-1410.czi,1334.541,2136.756,1261,3814,1261,65535,Symbiont Area,26.387,Pedal disc,,,7,B2,inoc,25C,inoc-25C,21,26.38734965
+15,Snap-1413.czi,5913.321,593.454,297,2642,0,65535,Tentacle Area,26.387,Pedal disc,,,7,B3,inoc,25C,inoc-25C,21,0
+16,Snap-1412.czi,1886.563,2011.488,1269,3964,1269,65535,Symbiont Area,31.904,Pedal disc,,,7,B3,inoc,25C,inoc-25C,21,31.9036122
+17,Snap-1415.czi,3802.317,726.636,371,2633,0,65535,Tentacle Area,0,Pedal disc,,,7,B5,inoc,25C,inoc-25C,21,0
+18,Snap-1414.czi,675.271,2381.077,1401,3717,1401,65535,Symbiont Area,17.759,Pedal disc,,,7,B5,inoc,25C,inoc-25C,21,17.75946088
+19,Snap-1417.czi,5828.345,687.227,347,2684,0,65535,Tentacle Area,0,Pedal disc,,,7,C2,inoc,25C,inoc-25C,21,0
+20,Snap-1416.czi,831.601,2313.944,1301,3987,1301,65535,Symbiont Area,14.268,Pedal disc,,,7,C2,inoc,25C,inoc-25C,21,14.26821851
+21,Snap-1419.czi,2394.692,630.976,335,1473,0,65535,Tentacle Area,0,Pedal disc,,,7,C3,inoc,25C,inoc-25C,21,0
+22,Snap-1418.czi,442.829,2600.611,1458,3941,1457,65535,Symbiont Area,18.492,Pedal disc,,,7,C3,inoc,25C,inoc-25C,21,18.49210671
+23,Snap-1421.czi,6946.012,608.431,307,2598,0,65535,Tentacle Area,0,Pedal disc,,,7,C4,inoc,25C,inoc-25C,21,0
+24,Snap-1420.czi,2529.184,1921.779,1188,3522,1188,65535,Symbiont Area,36.412,Pedal disc,,,7,C4,inoc,25C,inoc-25C,21,36.41203039
+25,Snap-1423.czi,3301.107,443.181,246,1709,0,65535,Tentacle Area,0,Pedal disc,,,7,C5,inoc,25C,inoc-25C,21,0
+26,Snap-1422.czi,43.245,2017.205,1062,3787,1062,65535,Symbiont Area,1.31,Pedal disc,,,7,C5,inoc,25C,inoc-25C,21,1.310015095
+27,Snap-1425.czi,15087.748,266.145,128,1368,0,65535,Tentacle Area,0,Body column,,,7,C6,inoc,25C,inoc-25C,21,0
+28,Snap-1424.czi,4720.624,852.889,530,2259,530,65535,Symbiont Area,31.288,Body column,,,7,C6,inoc,25C,inoc-25C,21,31.28779722
+29,Snap-1427.czi,4613.377,765.502,307,2454,0,65535,Tentacle Area,0,Pedal disc,,,7,D3,inoc,25C,inoc-25C,21,0
+30,Snap-1426.czi,1283.079,2256.024,1323,4017,1323,65535,Symbiont Area,27.812,Pedal disc,,,7,D3,inoc,25C,inoc-25C,21,27.81214282
+31,Snap-1430.czi,7664.311,562.307,262,2495,0,65535,Tentacle Area,0,Pedal disc,,,7,D4,inoc,25C,inoc-25C,21,0
+32,Snap-1429.czi,3062.611,1389.733,850,2757,850,65535,Symbiont Area,39.959,Pedal disc,,,7,D4,inoc,25C,inoc-25C,21,39.95937795
+33,Snap-1432.czi,3026.718,500.687,256,1644,0,65535,Tentacle Area,0,Pedal disc,,,7,D5,inoc,25C,inoc-25C,21,0
+34,Snap-1431.czi,1042.421,2466.876,1537,3959,1537,65535,Symbiont Area,34.441,Pedal disc,,,7,D5,inoc,25C,inoc-25C,21,34.44063834
+1,Snap-1434.czi,6450.424,711.548,310,2392,0,65535,Tentacle Area,0,Body column,,,10,A1,inoc,32C,inoc-32C,21,0
+2,Snap-1433.czi,2167.223,1555.984,926,2840,926,65535,Symbiont Area,33.598,Body column,"outlier, checked and corrected",,10,A1,inoc,32C,inoc-32C,21,33.59814797
+3,Snap-1436.czi,5151.777,1640.871,397,2631,0,65535,Tentacle Area,0,Pedal disc,,,10,A3,inoc,32C,inoc-32C,21,0
+4,Snap-1435.czi,520.237,96.342,47,3973,47,65535,Symbiont Area,10.098,Pedal disc,,,10,A3,inoc,32C,inoc-32C,21,10.09820495
+5,Snap-1438.czi,19449.223,1611.024,503,2498,0,65535,Tentacle Area,0,Pedal disc,,,10,A6,inoc,32C,inoc-32C,21,0
+6,Snap-1437.czi,161.953,2185.3,1114,3982,1114,65535,Symbiont Area,0.833,Pedal disc,,,10,A6,inoc,32C,inoc-32C,21,0.8326965041
+7,Snap-1440.czi,11044.341,727.828,243,2035,0,65535,Tentacle Area,0,Pedal disc,,,10,C2,inoc,32C,inoc-32C,21,0
+8,Snap-1439.czi,219.252,1453.958,758,3919,758,65535,Symbiont Area,1.985,Pedal disc,,,10,C2,inoc,32C,inoc-32C,21,1.985197668

@@ -1,0 +1,23 @@
+marker,state,time,contrast,estimate,SE,df,t.ratio,p.value
+Caspase,Apo,2dpl,Control - Heat,-2.17,6.36,29,-0.34,0.736
+Caspase,Apo,5dpl,Control - Heat,-1.18,6.04,29,-0.2,0.846
+Caspase,Apo,8dpl,Control - Heat,3.33,5.81,29,0.57,0.571
+Caspase,Apo,14dpl,Control - Heat,-9.58,6.04,29,-1.59,0.123
+Caspase,Inoc,5dpl,Control - Heat,-12.66,4.51,25,-2.81,0.00959
+Caspase,Inoc,8dpl,Control - Heat,7.84,4.69,25,1.67,0.107
+Caspase,Inoc,14dpl,Control - Heat,-0.59,4.09,25,-0.14,0.887
+Caspase,Sym,2dpl,Control - Heat,10.24,3.45,50,2.97,0.0046
+Caspase,Sym,5dpl,Control - Heat,-1.3,2.84,50,-0.46,0.65
+Caspase,Sym,8dpl,Control - Heat,0.33,3.23,50,0.1,0.918
+Caspase,Sym,14dpl,Control - Heat,-17.07,3.34,50,-5.12,4.95e-6
+EdU,Apo,2dpl,Control - Heat,-10.71,3.8,27,-2.82,0.00893
+EdU,Apo,5dpl,Control - Heat,-3.66,3.92,27,-0.93,0.359
+EdU,Apo,8dpl,Control - Heat,-0.99,3.6,27,-0.27,0.786
+EdU,Apo,14dpl,Control - Heat,-3.17,3.6,27,-0.88,0.386
+EdU,Inoc,5dpl,Control - Heat,-9.22,3.4,25,-2.71,0.012
+EdU,Inoc,8dpl,Control - Heat,0.1,3.4,25,0.03,0.977
+EdU,Inoc,14dpl,Control - Heat,-3.67,2.82,25,-1.3,0.206
+EdU,Sym,2dpl,Control - Heat,-0.86,2.9,49,-0.3,0.767
+EdU,Sym,5dpl,Control - Heat,0.22,2.27,49,0.1,0.923
+EdU,Sym,8dpl,Control - Heat,-2.78,2.58,49,-1.07,0.288
+EdU,Sym,14dpl,Control - Heat,-3.09,2.67,49,-1.16,0.253
