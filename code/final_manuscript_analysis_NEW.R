@@ -328,6 +328,9 @@ ggsave(
 # 2022 MORTALITY FIGURE, H2 ONLY
 # =========================
 
+# -------------------------
+# Prepare mortality data
+# -------------------------
 df_mortality_2022 <- newlong %>%
   filter(
     line == "H2",
@@ -340,6 +343,21 @@ df_mortality_2022 <- newlong %>%
     day_cat = factor(day_cat, levels = c("day_14", "day_21"))
   )
 
+# -------------------------
+# Shared theme
+# -------------------------
+my_theme <- theme_classic(base_size = 14) +
+  theme(
+    text = element_text(family = "sans", size = 14),
+    axis.text = element_text(size = 14, colour = "black"),
+    axis.title = element_text(size = 14),
+    legend.text = element_text(size = 14),
+    legend.title = element_text(size = 14)
+  )
+
+# -------------------------
+# Shared data prep
+# -------------------------
 mortality_2022_plot_df_flipped <- df_mortality_2022 %>%
   mutate(
     sym_state = case_when(
@@ -361,88 +379,138 @@ mortality_2022_plot_df_flipped <- df_mortality_2022 %>%
     .groups = "drop"
   ) %>%
   mutate(
+    survival_prop = 1 - mortality_prop,
     temp_label = factor(temp_label, levels = c("25°C", "32°C")),
+    sym_state = factor(sym_state, levels = c("Aposymbiotic", "Symbiotic")),
+    outline_group = case_when(
+      sym_state == "Aposymbiotic" & temp_label == "25°C" ~ "apo_25",
+      sym_state == "Symbiotic"    & temp_label == "25°C" ~ "sym_25",
+      sym_state == "Aposymbiotic" & temp_label == "32°C" ~ "apo_32",
+      sym_state == "Symbiotic"    & temp_label == "32°C" ~ "sym_32"
+    ),
     group_order = case_when(
-      temp_label == "25°C" & sym_state == "Aposymbiotic" & day_label == "14 dpl" ~ 1,
-      temp_label == "25°C" & sym_state == "Symbiotic"    & day_label == "14 dpl" ~ 2,
-      temp_label == "25°C" & sym_state == "Aposymbiotic" & day_label == "21 dpl" ~ 3,
-      temp_label == "25°C" & sym_state == "Symbiotic"    & day_label == "21 dpl" ~ 4,
-      temp_label == "32°C" & sym_state == "Aposymbiotic" & day_label == "14 dpl" ~ 1,
-      temp_label == "32°C" & sym_state == "Symbiotic"    & day_label == "14 dpl" ~ 2,
-      temp_label == "32°C" & sym_state == "Aposymbiotic" & day_label == "21 dpl" ~ 3,
-      temp_label == "32°C" & sym_state == "Symbiotic"    & day_label == "21 dpl" ~ 4
+      sym_state == "Aposymbiotic" & day_label == "14 dpl" ~ 1,
+      sym_state == "Aposymbiotic" & day_label == "21 dpl" ~ 2,
+      sym_state == "Symbiotic"    & day_label == "14 dpl" ~ 3,
+      sym_state == "Symbiotic"    & day_label == "21 dpl" ~ 4
     ),
     axis_text = case_when(
-      sym_state == "Aposymbiotic" & day_label == "14 dpl" ~ "Apo\n14 dpl",
-      sym_state == "Symbiotic"    & day_label == "14 dpl" ~ "Sym\n14 dpl",
-      sym_state == "Aposymbiotic" & day_label == "21 dpl" ~ "Apo\n21 dpl",
-      sym_state == "Symbiotic"    & day_label == "21 dpl" ~ "Sym\n21 dpl"
+      day_label == "14 dpl" ~ "14 dpl",
+      day_label == "21 dpl" ~ "21 dpl"
     )
   ) %>%
   arrange(temp_label, group_order) %>%
-  group_by(temp_label) %>%
+  group_by(temp_label, sym_state) %>%
   mutate(
     bar_label = factor(axis_text, levels = rev(unique(axis_text)))
   ) %>%
-  ungroup() %>%
-  mutate(
-    bar_text = scales::percent(mortality_prop, accuracy = 1)
-  )
+  ungroup()
 
-mortality_2022_flipped <- ggplot(
+# -------------------------
+# Shared colors
+# -------------------------
+survival_fill_colors <- c(
+  "sym_25" = "#3B6FB6",
+  "apo_25" = "#6FA3D9",
+  "sym_32" = "#E64B35",
+  "apo_32" = "#F39B7F"
+)
+
+outline_colors <- c(
+  "sym_25" = "#3B6FB6",
+  "apo_25" = "#6FA3D9",
+  "sym_32" = "#E64B35",
+  "apo_32" = "#F39B7F"
+)
+
+# -------------------------
+# Shared base plot
+# -------------------------
+p_survival_2022_base <- ggplot(
   mortality_2022_plot_df_flipped,
-  aes(x = bar_label, y = mortality_prop)
+  aes(x = bar_label)
 ) +
-  geom_col(
-    fill = "grey60",
-    width = 0.82
-  ) +
-  geom_col(
-    aes(y = 1, color = temp_label),
-    fill = NA,
-    linewidth = 0.9,
-    width = 0.82
-  ) +
   coord_flip() +
-  facet_grid(
-    rows = vars(temp_label),
+  ggh4x::facet_nested(
+    rows = vars(temp_label, sym_state),
     scales = "free_y",
     space = "free_y",
     switch = "y"
   ) +
-  scale_color_manual(
-    values = c(
-      "25°C" = "#3B6FB6",
-      "32°C" = "#D55E00"
-    ),
-    guide = "none"
-  ) +
   scale_y_continuous(
-    labels = percent,
+    labels = scales::percent,
     limits = c(0, 1),
     expand = expansion(mult = c(0, 0.04))
   ) +
   labs(
     x = "Treatment Group",
-    y = "Percent Mortality"
+    y = "Percent Survival"
   ) +
   my_theme +
   theme(
     panel.grid = element_blank(),
     strip.placement = "outside",
     strip.text.y.right = element_text(size = 14, face = "bold"),
-    strip.background = element_rect(
+    strip.background.y = element_rect(
       fill = "white",
       color = "black",
       linewidth = 1
     ),
-    panel.spacing.y = unit(0.9, "lines"),
+    ggh4x.facet.nestline = element_blank(),
+    panel.spacing.y = unit(0.08, "lines"),
     axis.text.y = element_text(size = 14, lineheight = 0.9),
     axis.text.x = element_text(size = 14),
     plot.margin = margin(8, 14, 8, 8)
   )
 
-mortality_2022_flipped
+# -------------------------
+# Version 1:
+# grey survival bar + colored 100% outline
+# -------------------------
+p_survival_2022_flipped_outline <- p_survival_2022_base +
+  geom_col(
+    aes(y = survival_prop),
+    fill = "grey80",
+    width = 0.82
+  ) +
+  geom_col(
+    aes(y = 1, color = outline_group),
+    fill = NA,
+    linewidth = 0.9,
+    width = 0.82
+  ) +
+  scale_color_manual(
+    values = outline_colors,
+    guide = "none"
+  )
+
+# -------------------------
+# Version 2:
+# colored survival bar + black 100% outline
+# -------------------------
+p_survival_2022_flipped_colorbar <- p_survival_2022_base +
+  geom_col(
+    aes(y = survival_prop, fill = outline_group),
+    width = 0.82,
+    color = NA
+  ) +
+  geom_col(
+    aes(y = 1),
+    width = 0.82,
+    fill = NA,
+    color = "black",
+    linewidth = 0.9
+  ) +
+  scale_fill_manual(
+    values = survival_fill_colors,
+    guide = "none"
+  )
+
+# -------------------------
+# Draw both
+# -------------------------
+p_survival_2022_flipped_outline
+p_survival_2022_flipped_colorbar
 
 
 ### =========================
