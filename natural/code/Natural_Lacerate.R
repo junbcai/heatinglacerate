@@ -713,7 +713,7 @@ print(max_tentacles_wide)
 # ---------------------------------------------------------
 
 lacerate_sym_density <- read_csv(
-  "~/Documents/GitHub/heatinglacerate/natural/data/natural_lacerate_sym_density.csv",
+  "~/Documents/GitHub/heatinglacerate/natural/data/natural_lacerate_sym_density  - W7-8.csv",
   show_col_types = FALSE
 ) %>%
   clean_names() %>%
@@ -857,10 +857,10 @@ cld_sym_calc_df <- cld_sym_calc_df %>%
 # ---------------------------------------------------------
 
 sym_density_colors <- c(
-  "H2-Sym-25" = "#3B6FB6",
-  "H2-Sym-32" = "#D62728",
-  "VWA-Sym-25" = "#4DAF4A",
-  "VWA-Sym-32" = "#8C564B"
+  "H2-25" = "#3B6FB6",
+  "H2-32" = "#D62728",
+  "VWA-25" = "#4DAF4A",
+  "VWA-32" = "#8C564B"
 )
 
 
@@ -902,6 +902,10 @@ p_symbiont_calc <- ggplot(
   )
 
 p_symbiont_calc
+
+
+p_symbiont_calc + p_symbiont_calc
+
 # =========================================================
 # =========================================================
 # SECTION 4. PARENT PHYSIOLOGY
@@ -918,6 +922,8 @@ p_symbiont_calc
 #   - Fv/Fm through time
 # =========================================================
 
+show_letters <- TRUE
+
 # ---------------------------------------------------------
 # 4.1 Read parent weekly data
 # ---------------------------------------------------------
@@ -929,29 +935,23 @@ parent_weekly <- read_csv(
   clean_names() %>%
   mutate(
     date = ymd(date),
-
-    # keep week in order on plots
     week = factor(week, levels = paste0("W", 1:10)),
-
-    # clean genotype/temp in case of stray spaces
+    
     genotype = str_trim(as.character(genotype)),
     temp = str_trim(as.character(temp)),
-
-    # make temp consistent for treatment labels
+    
     temp = case_when(
       temp %in% c("25", "25C", "25 c", "25 C") ~ "25",
       temp %in% c("32", "32C", "32 c", "32 C") ~ "32",
       TRUE ~ temp
     ),
-
-    # treatment from existing columns
+    
     treatment = paste0(genotype, "_", temp),
     treatment = factor(
       treatment,
       levels = c("H2_25", "H2_32", "VWA_25", "VWA_32")
     ),
-
-    # safely parse numeric columns, turning notes/blanks into NA
+    
     pedal_disc_diameter_mm = parse_number(as.character(pedal_disc_diameter_mm)),
     pedal_disc_area_mm2 = parse_number(as.character(pedal_disc_area_mm2)),
     fv_fm = parse_number(as.character(fv_fm))
@@ -965,7 +965,6 @@ parent_weekly <- read_csv(
 
 print(parent_weekly)
 
-# optional quick checks
 parent_weekly %>%
   count(treatment, week)
 
@@ -976,6 +975,7 @@ parent_weekly %>%
     missing_fvfm = sum(is.na(fv_fm))
   )
 
+
 # ---------------------------------------------------------
 # 4.2 Summarize parent physiology by week and treatment
 # ---------------------------------------------------------
@@ -984,48 +984,24 @@ parent_summary <- parent_weekly %>%
   group_by(week, treatment) %>%
   summarise(
     n_size = sum(!is.na(pedal_disc_diameter_mm)),
-    mean_size = ifelse(
-      n_size > 0,
-      mean(pedal_disc_diameter_mm, na.rm = TRUE),
-      NA_real_
-    ),
-    se_size = ifelse(
-      n_size > 1,
-      sd(pedal_disc_diameter_mm, na.rm = TRUE) / sqrt(n_size),
-      NA_real_
-    ),
-
+    mean_size = ifelse(n_size > 0, mean(pedal_disc_diameter_mm, na.rm = TRUE), NA_real_),
+    se_size = ifelse(n_size > 1, sd(pedal_disc_diameter_mm, na.rm = TRUE) / sqrt(n_size), NA_real_),
+    
     n_area = sum(!is.na(pedal_disc_area_mm2)),
-    mean_area = ifelse(
-      n_area > 0,
-      mean(pedal_disc_area_mm2, na.rm = TRUE),
-      NA_real_
-    ),
-    se_area = ifelse(
-      n_area > 1,
-      sd(pedal_disc_area_mm2, na.rm = TRUE) / sqrt(n_area),
-      NA_real_
-    ),
-
+    mean_area = ifelse(n_area > 0, mean(pedal_disc_area_mm2, na.rm = TRUE), NA_real_),
+    se_area = ifelse(n_area > 1, sd(pedal_disc_area_mm2, na.rm = TRUE) / sqrt(n_area), NA_real_),
+    
     n_fvfm = sum(!is.na(fv_fm)),
-    mean_fvfm = ifelse(
-      n_fvfm > 0,
-      mean(fv_fm, na.rm = TRUE),
-      NA_real_
-    ),
-    se_fvfm = ifelse(
-      n_fvfm > 1,
-      sd(fv_fm, na.rm = TRUE) / sqrt(n_fvfm),
-      NA_real_
-    ),
-
+    mean_fvfm = ifelse(n_fvfm > 0, mean(fv_fm, na.rm = TRUE), NA_real_),
+    se_fvfm = ifelse(n_fvfm > 1, sd(fv_fm, na.rm = TRUE) / sqrt(n_fvfm), NA_real_),
+    
     .groups = "drop"
   )
 
 print(parent_summary)
 
 # ---------------------------------------------------------
-# 4.3 Colors and theme for parent physiology plots
+# 4.3 Colors and theme
 # ---------------------------------------------------------
 
 parent_colors <- c(
@@ -1045,14 +1021,137 @@ parent_theme <- theme_classic(base_size = 14) +
     legend.text = element_text(size = 12)
   )
 
+
 # ---------------------------------------------------------
-# 4.4 Plot pedal disc diameter through week
+# 4.4 Tukey letters for parent physiology plots
 # ---------------------------------------------------------
 
-weeks_to_plot <- c("W1", "W2", "W3", "W4", "W5", "W6", "W7", "W8", "W9", "W10")
+letters_diameter <- parent_weekly %>%
+  filter(!is.na(pedal_disc_diameter_mm)) %>%
+  group_by(week) %>%
+  group_modify(~{
+    dat <- .x
+    
+    if (n_distinct(dat$treatment) < 2) {
+      dat %>%
+        distinct(treatment) %>%
+        mutate(.group = "a")
+    } else {
+      mod <- lm(pedal_disc_diameter_mm ~ treatment, data = dat)
+      em <- emmeans(mod, ~ treatment)
+      
+      multcomp::cld(em, Letters = letters, adjust = "tukey") %>%
+        as.data.frame() %>%
+        dplyr::select(treatment, .group) %>%
+        mutate(.group = str_trim(.group))
+    }
+  }) %>%
+  ungroup()
 
-p_diameter <-  parent_summary %>%
-  filter(week %in% weeks_to_plot) %>%
+diameter_range <- diff(range(parent_summary$mean_size + parent_summary$se_size, na.rm = TRUE))
+diameter_offset <- diameter_range * 0.06
+
+diameter_letter_pos <- parent_summary %>%
+  group_by(week) %>%
+  summarise(
+    week_top = max(mean_size + se_size, na.rm = TRUE),
+    .groups = "drop"
+  )
+
+letters_diameter <- letters_diameter %>%
+  mutate(treatment_rank = as.numeric(treatment)) %>%
+  left_join(diameter_letter_pos, by = "week") %>%
+  mutate(y = week_top + diameter_offset * treatment_rank)
+
+
+letters_area <- parent_weekly %>%
+  filter(
+    week %in% c("W2", "W4", "W6", "W8", "W10"),
+    !is.na(pedal_disc_area_mm2)
+  ) %>%
+  group_by(week) %>%
+  group_modify(~{
+    dat <- .x
+    
+    if (n_distinct(dat$treatment) < 2) {
+      dat %>%
+        distinct(treatment) %>%
+        mutate(.group = "a")
+    } else {
+      mod <- lm(pedal_disc_area_mm2 ~ treatment, data = dat)
+      em <- emmeans(mod, ~ treatment)
+      
+      multcomp::cld(em, Letters = letters, adjust = "tukey") %>%
+        as.data.frame() %>%
+        dplyr::select(treatment, .group) %>%
+        mutate(.group = str_trim(.group))
+    }
+  }) %>%
+  ungroup()
+
+area_range <- diff(range(parent_summary$mean_area + parent_summary$se_area, na.rm = TRUE))
+area_offset <- area_range * 0.06
+
+area_letter_pos <- parent_summary %>%
+  filter(week %in% c("W2", "W4", "W6", "W8", "W10")) %>%
+  group_by(week) %>%
+  summarise(
+    week_top = max(mean_area + se_area, na.rm = TRUE),
+    .groups = "drop"
+  )
+
+letters_area <- letters_area %>%
+  mutate(treatment_rank = as.numeric(treatment)) %>%
+  left_join(area_letter_pos, by = "week") %>%
+  mutate(y = week_top + area_offset * treatment_rank)
+
+
+letters_fvfm <- parent_weekly %>%
+  filter(!is.na(fv_fm)) %>%
+  group_by(week) %>%
+  group_modify(~{
+    dat <- .x
+    
+    if (n_distinct(dat$treatment) < 2) {
+      dat %>%
+        distinct(treatment) %>%
+        mutate(.group = "a")
+    } else {
+      mod <- lm(fv_fm ~ treatment, data = dat)
+      em <- emmeans(mod, ~ treatment)
+      
+      multcomp::cld(em, Letters = letters, adjust = "tukey") %>%
+        as.data.frame() %>%
+        dplyr::select(treatment, .group) %>%
+        mutate(.group = str_trim(.group))
+    }
+  }) %>%
+  ungroup()
+
+fvfm_range <- diff(range(parent_summary$mean_fvfm + parent_summary$se_fvfm, na.rm = TRUE))
+fvfm_offset <- fvfm_range * 0.06
+
+fvfm_letter_pos <- parent_summary %>%
+  group_by(week) %>%
+  summarise(
+    week_top = max(mean_fvfm + se_fvfm, na.rm = TRUE),
+    .groups = "drop"
+  )
+
+letters_fvfm <- letters_fvfm %>%
+  mutate(treatment_rank = as.numeric(treatment)) %>%
+  left_join(fvfm_letter_pos, by = "week") %>%
+  mutate(y = week_top + fvfm_offset * treatment_rank)
+
+
+# ---------------------------------------------------------
+# 4.5 Pedal disc diameter plot
+# ---------------------------------------------------------
+
+weeks_to_plot_diameter <- c("W1", "W2", "W3", "W4", "W5", "W6", "W7", "W8", "W9", "W10")
+
+p_diameter_base <- parent_summary %>%
+  filter(week %in% weeks_to_plot_diameter) %>%
   ggplot(
     aes(x = week, y = mean_size, color = treatment, group = treatment)
   ) +
@@ -1065,6 +1164,7 @@ p_diameter <-  parent_summary %>%
     na.rm = TRUE
   ) +
   scale_color_manual(values = parent_colors) +
+  scale_y_continuous(expand = expansion(mult = c(0.05, 0.25))) +
   labs(
     x = "Week",
     y = "Pedal disc diameter (mm)",
@@ -1072,16 +1172,28 @@ p_diameter <-  parent_summary %>%
   ) +
   parent_theme
 
-p_diameter
+p_diameter_letters <- p_diameter_base +
+  geom_text(
+    data = letters_diameter %>% filter(week %in% weeks_to_plot_diameter),
+    aes(x = week, y = y, label = .group, color = treatment, group = treatment),
+    position = position_dodge(width = 0.45),
+    size = 4,
+    fontface = "bold",
+    show.legend = FALSE,
+    na.rm = TRUE
+  )
+
+p_diameter <- if (show_letters) p_diameter_letters else p_diameter_base
+
 
 # ---------------------------------------------------------
-# 4.5 Plot pedal disc area through week
+# 4.6 Pedal disc area plot
 # ---------------------------------------------------------
 
-weeks_to_plot <- c("W2", "W4", "W6", "W8", "W10")
+weeks_to_plot_area <- c("W2", "W4", "W6", "W8", "W10")
 
-p_area <- parent_summary %>%
-  filter(week %in% weeks_to_plot) %>%
+p_area_base <- parent_summary %>%
+  filter(week %in% weeks_to_plot_area) %>%
   ggplot(
     aes(x = week, y = mean_area, color = treatment, group = treatment)
   ) +
@@ -1094,6 +1206,7 @@ p_area <- parent_summary %>%
     na.rm = TRUE
   ) +
   scale_color_manual(values = parent_colors) +
+  scale_y_continuous(expand = expansion(mult = c(0.05, 0.25))) +
   labs(
     x = "Week",
     y = expression(paste("Pedal disc area (mm"^2, ")")),
@@ -1101,16 +1214,28 @@ p_area <- parent_summary %>%
   ) +
   parent_theme
 
-p_area
+p_area_letters <- p_area_base +
+  geom_text(
+    data = letters_area %>% filter(week %in% weeks_to_plot_area),
+    aes(x = week, y = y, label = .group, color = treatment, group = treatment),
+    position = position_dodge(width = 0.45),
+    size = 4,
+    fontface = "bold",
+    show.legend = FALSE,
+    na.rm = TRUE
+  )
+
+p_area <- if (show_letters) p_area_letters else p_area_base
+
 
 # ---------------------------------------------------------
-# 4.6 Plot Fv/Fm through week
+# 4.7 Fv/Fm plot
 # ---------------------------------------------------------
 
-weeks_to_plot <- c("W1", "W2", "W3", "W4", "W5", "W6", "W7", "W8", "W9", "W10")
+weeks_to_plot_fvfm <- c("W1", "W2", "W3", "W4", "W5", "W6", "W7", "W8", "W9", "W10")
 
-p_fvfm <-  parent_summary %>%
-  filter(week %in% weeks_to_plot) %>%
+p_fvfm_base <- parent_summary %>%
+  filter(week %in% weeks_to_plot_fvfm) %>%
   ggplot(
     aes(x = week, y = mean_fvfm, color = treatment, group = treatment)
   ) +
@@ -1123,6 +1248,7 @@ p_fvfm <-  parent_summary %>%
     na.rm = TRUE
   ) +
   scale_color_manual(values = parent_colors) +
+  scale_y_continuous(expand = expansion(mult = c(0.05, 0.25))) +
   labs(
     x = "Week",
     y = "Fv/Fm",
@@ -1130,43 +1256,59 @@ p_fvfm <-  parent_summary %>%
   ) +
   parent_theme
 
-p_fvfm
-
-# ---------------------------------------------------------
-# 4.7 Combine parent physiology plots
-# ---------------------------------------------------------
-
-parent_combined_plot <- p_area / p_diameter / p_fvfm +
-  plot_annotation(tag_levels = "A")
-
-parent_combined_plot
-
-
-# =========================================================
-# TOTAL LACERATES ACROSS ALL 10 WEEKS (TREATMENT-LEVEL)
-# =========================================================
-
-total_lacerates <- lacerate_meta %>%
-  filter(!is.na(lacerate_id), lacerate_id != "") %>%
-  distinct(lacerate_id, treatment, genotype, temp) %>%
-  count(treatment, genotype, temp, name = "total_lacerates")
-
-print(total_lacerates)
-
-# add grand total
-total_lacerates_with_total <- total_lacerates %>%
-  bind_rows(
-    total_lacerates %>%
-      summarise(
-        treatment = "Total",
-        genotype = NA,
-        temp = NA,
-        total_lacerates = sum(total_lacerates)
-      )
+p_fvfm_letters <- p_fvfm_base +
+  geom_text(
+    data = letters_fvfm %>% filter(week %in% weeks_to_plot_fvfm),
+    aes(x = week, y = y, label = .group, color = treatment, group = treatment),
+    position = position_dodge(width = 0.45),
+    size = 4,
+    fontface = "bold",
+    show.legend = FALSE,
+    na.rm = TRUE
   )
 
-print(total_lacerates_with_total)
+p_fvfm <- if (show_letters) p_fvfm_letters else p_fvfm_base
 
+
+# ---------------------------------------------------------
+# 4.8 Combined plots
+# ---------------------------------------------------------
+
+parent_combined_plot_no_letters <- p_area_base / p_diameter_base / p_fvfm_base +
+  plot_annotation(tag_levels = "A")
+
+parent_combined_plot_letters <- p_area_letters / p_diameter_letters / p_fvfm_letters +
+  plot_annotation(tag_levels = "A")
+
+parent_combined_plot <- if (show_letters) {
+  parent_combined_plot_letters
+} else {
+  parent_combined_plot_no_letters
+}
+
+
+# ---------------------------------------------------------
+# 4.9 Print plots
+# ---------------------------------------------------------
+
+cat("\n\n==============================\n")
+cat("PARENT PHYSIOLOGY WITHOUT LETTERS\n")
+cat("==============================\n")
+
+print(p_area_base)
+print(p_diameter_base)
+print(p_fvfm_base)
+print(parent_combined_plot_no_letters)
+
+
+cat("\n\n==============================\n")
+cat("PARENT PHYSIOLOGY WITH TUKEY LETTERS\n")
+cat("==============================\n")
+
+print(p_area_letters)
+print(p_diameter_letters)
+print(p_fvfm_letters)
+print(parent_combined_plot_letters)
 
 # =========================================================
 # SECTION 5. TOTAL TENTACLES COUNTED (UNIQUE vs ALL COUNTS)
@@ -1291,9 +1433,10 @@ p_final_rate
 p_final_rate_nozeros
 p_final_tentacles_nonzero
 
+p_symbiont_calc
+
 p_area
 p_diameter
 p_fvfm
-
 parent_combined_plot
-p_fvfm,
+p_fvfm

@@ -1,0 +1,1996 @@
+,label,area,Min Threshold,Max Threshold,type,percent_raw,region,plate,notes,calculation,well,treatment,genotype,temperature,symbiotic_state
+1,A1-bf-Snap-371.czi,2555.779,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,A1-H2-32,H2-32,H2,32,sym
+2,A1-fl-Snap-370.czi,410.827,1207,65535,Symbiont Area,16.074,Tentacle,H2-32,,16.07443367,A1-H2-32,H2-32,H2,32,sym
+3,A1-bf-Snap-371.czi,1133.884,0,65535,Tentacle Area,10.49,Tentacle,H2-32,,n/a,A1-H2-32,H2-32,H2,32,sym
+4,A1-fl-Snap-370.czi,104.22,1269,65535,Symbiont Area,9.191,Tentacle,H2-32,,9.191416406,A1-H2-32,H2-32,H2,32,sym
+5,A1-bf-Snap-371.czi,939.065,0,65535,Tentacle Area,16.074,Tentacle,H2-32,,n/a,A1-H2-32,H2-32,H2,32,sym
+6,A1-fl-Snap-370.czi,105.518,1395,65535,Symbiont Area,11.236,Tentacle,H2-32,,11.23649588,A1-H2-32,H2-32,H2,32,sym
+7,A1-bf-Snap-371.czi,2103.437,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,A1-H2-32,H2-32,H2,32,sym
+8,A1-fl-Snap-370.czi,270.065,987,65535,Symbiont Area,12.839,Tentacle,H2-32,,12.83922456,A1-H2-32,H2-32,H2,32,sym
+9,A1-bf-Snap-371.czi,928.47,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,A1-H2-32,H2-32,H2,32,sym
+10,A1-fl-Snap-370.czi,91.463,1348,65535,Symbiont Area,9.851,Tentacle,H2-32,,9.850937564,A1-H2-32,H2-32,H2,32,sym
+11,A2-bf-Snap-373.czi,3810.749,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,A2-H2-32,H2-32,H2,32,sym
+12,A2-fl-Snap-372.czi,716.57,1281,65535,Symbiont Area,18.804,Tentacle,H2-32,,18.80391493,A2-H2-32,H2-32,H2,32,sym
+13,A2-bf-Snap-373.czi,1419.733,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,A2-H2-32,H2-32,H2,32,sym
+14,A2-fl-Snap-372.czi,142.492,717,65535,Symbiont Area,10.037,Tentacle,H2-32,,10.03653504,A2-H2-32,H2-32,H2,32,sym
+15,A2-bf-Snap-373.czi,1320.27,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,A2-H2-32,H2-32,H2,32,sym
+16,A2-fl-Snap-372.czi,287.795,1175,65535,Symbiont Area,21.798,Tentacle,H2-32,,21.79819279,A2-H2-32,H2-32,H2,32,sym
+17,A2-bf-Snap-373.czi,918.091,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,A2-H2-32,H2-32,H2,32,sym
+18,A2-fl-Snap-372.czi,95.139,1281,65535,Symbiont Area,10.363,Tentacle,H2-32,,10.36269825,A2-H2-32,H2-32,H2,32,sym
+19,A3-bf-Snap-375.czi,1132.154,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,A3-H2-32,H2-32,H2,32,sym
+20,A3-fl-Snap-374.czi,88.22,1221,65535,Symbiont Area,7.792,Tentacle,H2-32,,7.792226146,A3-H2-32,H2-32,H2,32,sym
+21,A3-bf-Snap-375.czi,2252.2,0,65535,Tentacle Area,0.039,Tentacle,H2-32,,n/a,A3-H2-32,H2-32,H2,32,sym
+22,A3-fl-Snap-374.czi,180.548,1190,65535,Symbiont Area,8.017,Tentacle,H2-32,,8.016517183,A3-H2-32,H2-32,H2,32,sym
+23,A3-bf-Snap-375.czi,1161.561,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,A3-H2-32,H2-32,H2,32,sym
+24,A3-fl-Snap-374.czi,91.463,1221,65535,Symbiont Area,7.874,Tentacle,H2-32,,7.874145224,A3-H2-32,H2-32,H2,32,sym
+25,A3-bf-Snap-375.czi,2397.935,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,A3-H2-32,H2-32,H2,32,sym
+26,A3-fl-Snap-374.czi,319.148,1129,65535,Symbiont Area,13.309,Tentacle,H2-32,,13.30928486,A3-H2-32,H2-32,H2,32,sym
+27,A3-bf-Snap-375.czi,1396.813,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,A3-H2-32,H2-32,H2,32,sym
+28,A3-fl-Snap-374.czi,271.362,656,65535,Symbiont Area,19.427,Tentacle,H2-32,,19.42722469,A3-H2-32,H2-32,H2,32,sym
+29,A4-bf-Snap-377.czi,1757.261,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,A4-H2-32,H2-32,H2,32,sym
+30,A4-fl-Snap-376.czi,770.626,1435,65535,Symbiont Area,43.854,Tentacle,H2-32,,43.85381568,A4-H2-32,H2-32,H2,32,sym
+31,A4-bf-Snap-377.czi,2669.081,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,A4-H2-32,H2-32,H2,32,sym
+32,A4-fl-Snap-376.czi,797.87,1080,65535,Symbiont Area,29.893,Tentacle,H2-32,,29.89306057,A4-H2-32,H2-32,H2,32,sym
+33,A4-bf-Snap-377.czi,586.186,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,A4-H2-32,H2-32,H2,32,sym
+34,A4-fl-Snap-376.czi,267.038,864,65535,Symbiont Area,45.555,Tentacle,H2-32,,45.55516508,A4-H2-32,H2-32,H2,32,sym
+35,A4-bf-Snap-377.czi,2008.514,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,A4-H2-32,H2-32,H2,32,sym
+36,A4-fl-Snap-376.czi,871.603,1173,65535,Symbiont Area,43.395,Tentacle,H2-32,,43.39541572,A4-H2-32,H2-32,H2,32,sym
+37,A4-bf-Snap-377.czi,447.153,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,A4-H2-32,H2-32,H2,32,sym
+38,A4-fl-Snap-376.czi,131.032,1636,65535,Symbiont Area,29.304,Tentacle,H2-32,,29.30361644,A4-H2-32,H2-32,H2,32,sym
+39,A5-bf-Snap-379.czi,2699.137,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,A5-H2-32,H2-32,H2,32,sym
+40,A5-fl-Snap-378.czi,649.972,1189,65535,Symbiont Area,24.081,Tentacle,H2-32,,24.08073395,A5-H2-32,H2-32,H2,32,sym
+41,A5-fl-Snap-378.czi,226728.346,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,A5-H2-32,H2-32,H2,32,sym
+42,A5-fl-Snap-378.czi,157.196,1006,65535,Symbiont Area,0.069,Tentacle,H2-32,,0.06933231013,A5-H2-32,H2-32,H2,32,sym
+43,A5-fl-Snap-378.czi,226728.346,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,A5-H2-32,H2-32,H2,32,sym
+44,A5-fl-Snap-378.czi,108.329,1052,65535,Symbiont Area,0.048,Tentacle,H2-32,,0.04777920446,A5-H2-32,H2-32,H2,32,sym
+45,A5-bf-Snap-379.czi,1031.393,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,A5-H2-32,H2-32,H2,32,sym
+46,A5-fl-Snap-378.czi,154.168,945,65535,Symbiont Area,14.948,Tentacle,H2-32,,14.94755152,A5-H2-32,H2-32,H2,32,sym
+47,A5-bf-Snap-379.czi,1085.233,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,A5-H2-32,H2-32,H2,32,sym
+48,A5-fl-Snap-378.czi,136.87,1219,65535,Symbiont Area,12.612,Tentacle,H2-32,,12.61203815,A5-H2-32,H2-32,H2,32,sym
+49,A6-bf-Snap-381.czi,2008.946,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,A6-H2-32,H2-32,H2,32,sym
+50,A6-fl-Snap-380.czi,160.006,1221,65535,Symbiont Area,7.965,Tentacle,H2-32,,7.964674013,A6-H2-32,H2-32,H2,32,sym
+53,A6-bf-Snap-381.czi,2093.707,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,A6-H2-32,H2-32,H2,32,sym
+54,A6-fl-Snap-380.czi,136.006,1095,65535,Symbiont Area,6.496,Tentacle,H2-32,,6.495942364,A6-H2-32,H2-32,H2,32,sym
+55,A6-bf-Snap-381.czi,1101.018,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,A6-H2-32,H2-32,H2,32,sym
+56,A6-fl-Snap-380.czi,81.517,1332,65535,Symbiont Area,7.404,Tentacle,H2-32,,7.403784498,A6-H2-32,H2-32,H2,32,sym
+57,A6-bf-Snap-381.czi,1625.796,0,65535,Tentacle Area,0.082,Tentacle,H2-32,,n/a,A6-H2-32,H2-32,H2,32,sym
+58,A6-fl-Snap-380.czi,195.9,1126,65535,Symbiont Area,12.049,Tentacle,H2-32,,12.04948222,A6-H2-32,H2-32,H2,32,sym
+59,A7-bf-Snap-383.czi,526.508,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,A7-H2-32,H2-32,H2,32,sym
+60,A7-fl-Snap-382.czi,81.949,1326,65535,Symbiont Area,15.565,Tentacle,H2-32,,15.5646258,A7-H2-32,H2-32,H2,32,sym
+61,A7-bf-Snap-383.czi,1228.807,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,A7-H2-32,H2-32,H2,32,sym
+62,A7-fl-Snap-382.czi,308.337,1326,65535,Symbiont Area,25.092,Tentacle,H2-32,,25.09238636,A7-H2-32,H2-32,H2,32,sym
+63,A7-bf-Snap-383.czi,2386.475,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,A7-H2-32,H2-32,H2,32,sym
+64,A7-fl-Snap-382.czi,537.752,1058,65535,Symbiont Area,22.533,Tentacle,H2-32,,22.53331797,A7-H2-32,H2-32,H2,32,sym
+65,A7-bf-Snap-383.czi,1830.561,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,A7-H2-32,H2-32,H2,32,sym
+66,A7-fl-Snap-382.czi,425.098,1137,65535,Symbiont Area,23.222,Tentacle,H2-32,,23.22227995,A7-H2-32,H2-32,H2,32,sym
+67,A7-bf-Snap-383.czi,969.985,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,A7-H2-32,H2-32,H2,32,sym
+68,A7-fl-Snap-382.czi,232.226,1326,65535,Symbiont Area,23.941,Tentacle,H2-32,,23.94119497,A7-H2-32,H2-32,H2,32,sym
+69,A8-bf-Snap-385.czi,851.278,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,A8-H2-32,H2-32,H2,32,sym
+70,A8-fl-Snap-384.czi,295.796,1623,65535,Symbiont Area,34.747,Tentacle,H2-32,,34.74728585,A8-H2-32,H2-32,H2,32,sym
+71,A8-bf-Snap-385.czi,851.926,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,A8-H2-32,H2-32,H2,32,sym
+72,A8-fl-Snap-384.czi,307.256,1072,65535,Symbiont Area,36.066,Tentacle,H2-32,,36.06604329,A8-H2-32,H2-32,H2,32,sym
+73,A8-bf-Snap-385.czi,1647.634,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,A8-H2-32,H2-32,H2,32,sym
+74,A8-fl-Snap-384.czi,453.856,1229,65535,Symbiont Area,27.546,Tentacle,H2-32,,27.54592343,A8-H2-32,H2-32,H2,32,sym
+75,A8-bf-Snap-385.czi,3790.857,0,65535,Tentacle Area,16.828,Body column,H2-32,,n/a,A8-H2-32,H2-32,H2,32,sym
+76,A8-fl-Snap-384.czi,736.246,788,65535,Symbiont Area,19.422,Body column,H2-32,,19.42162419,A8-H2-32,H2-32,H2,32,sym
+77,B1-bf-Snap-387.czi,1268.592,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,B1-H2-32,H2-32,H2,32,sym
+78,B1-fl-Snap-386.czi,247.361,1134,65535,Symbiont Area,19.499,Tentacle,H2-32,,19.49886173,B1-H2-32,H2-32,H2,32,sym
+79,B1-bf-Snap-387.czi,1368.704,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,B1-H2-32,H2-32,H2,32,sym
+80,B1-fl-Snap-386.czi,294.282,1527,65535,Symbiont Area,21.501,Tentacle,H2-32,,21.50077738,B1-H2-32,H2-32,H2,32,sym
+81,B1-bf-Snap-387.czi,1295.404,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,B1-H2-32,H2-32,H2,32,sym
+82,B1-fl-Snap-386.czi,151.79,1055,65535,Symbiont Area,11.718,Tentacle,H2-32,,11.71758,B1-H2-32,H2-32,H2,32,sym
+83,B1-bf-Snap-387.czi,1338.433,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,B1-H2-32,H2-32,H2,32,sym
+84,B1-fl-Snap-386.czi,139.465,1370,65535,Symbiont Area,10.42,Tentacle,H2-32,,10.42002102,B1-H2-32,H2-32,H2,32,sym
+85,B2-bf-Snap-389.czi,2009.595,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,B2-H2-32,H2-32,H2,32,sym
+86,B2-fl-Snap-388.czi,404.341,1402,65535,Symbiont Area,20.121,Tentacle,H2-32,,20.1205218,B2-H2-32,H2-32,H2,32,sym
+87,B2-bf-Snap-389.czi,580.348,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,B2-H2-32,H2-32,H2,32,sym
+88,B2-fl-Snap-388.czi,39.137,945,65535,Symbiont Area,6.744,Tentacle,H2-32,,6.743712393,B2-H2-32,H2-32,H2,32,sym
+89,B2-bf-Snap-389.czi,1188.589,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,B2-H2-32,H2-32,H2,32,sym
+90,B2-fl-Snap-388.czi,227.685,1055,65535,Symbiont Area,19.156,Tentacle,H2-32,,19.15590671,B2-H2-32,H2-32,H2,32,sym
+91,B2-bf-Snap-389.czi,2232.739,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,B2-H2-32,H2-32,H2,32,sym
+92,B2-fl-Snap-388.czi,592.24,1354,65535,Symbiont Area,26.525,Tentacle,H2-32,,26.52526784,B2-H2-32,H2-32,H2,32,sym
+93,B4-bf-Snap-391.czi,1180.805,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,B4-H2-32,H2-32,H2,32,sym
+94,B4-fl-Snap-390.czi,204.981,933,65535,Symbiont Area,17.359,Tentacle,H2-32,,17.35942853,B4-H2-32,H2-32,H2,32,sym
+95,B4-bf-Snap-391.czi,1297.999,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,B4-H2-32,H2-32,H2,32,sym
+96,B4-fl-Snap-390.czi,218.82,1138,65535,Symbiont Area,16.858,Tentacle,H2-32,,16.85825644,B4-H2-32,H2-32,H2,32,sym
+97,B4-bf-Snap-391.czi,1208.698,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,B4-H2-32,H2-32,H2,32,sym
+98,B4-fl-Snap-390.czi,227.036,1202,65535,Symbiont Area,18.784,Tentacle,H2-32,,18.78351747,B4-H2-32,H2-32,H2,32,sym
+99,B4-bf-Snap-391.czi,6581.457,0,65535,Tentacle Area,0,Body column,H2-32,,n/a,B4-H2-32,H2-32,H2,32,sym
+100,B4-fl-Snap-390.czi,306.175,1107,65535,Symbiont Area,4.652,Body column,H2-32,,4.652085397,B4-H2-32,H2-32,H2,32,sym
+101,B5-bf-Snap-393.czi,2285.498,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,B5-H2-32,H2-32,H2,32,sym
+102,B5-fl-Snap-392.czi,273.308,929,65535,Symbiont Area,11.958,Tentacle,H2-32,,11.95835656,B5-H2-32,H2-32,H2,32,sym
+103,B5-bf-Snap-393.czi,1274.863,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,B5-H2-32,H2-32,H2,32,sym
+104,B5-fl-Snap-392.czi,256.443,1291,65535,Symbiont Area,20.115,Tentacle,H2-32,,20.11533788,B5-H2-32,H2-32,H2,32,sym
+105,B5-bf-Snap-393.czi,1012.149,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,B5-H2-32,H2-32,H2,32,sym
+106,B5-fl-Snap-392.czi,140.979,1212,65535,Symbiont Area,13.929,Tentacle,H2-32,,13.92868046,B5-H2-32,H2-32,H2,32,sym
+107,B5-bf-Snap-393.czi,2171.548,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,B5-H2-32,H2-32,H2,32,sym
+108,B5-fl-Snap-392.czi,125.843,1149,65535,Symbiont Area,5.795,Tentacle,H2-32,,5.795082586,B5-H2-32,H2-32,H2,32,sym
+109,B5-bf-Snap-393.czi,2250.254,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,B5-H2-32,H2-32,H2,32,sym
+110,B5-fl-Snap-392.czi,140.114,1196,65535,Symbiont Area,6.227,Tentacle,H2-32,,6.226585977,B5-H2-32,H2-32,H2,32,sym
+111,B5-bf-Snap-393.czi,2267.768,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,B5-H2-32,H2-32,H2,32,sym
+112,B5-fl-Snap-392.czi,144.006,1181,65535,Symbiont Area,6.35,Tentacle,H2-32,,6.350120471,B5-H2-32,H2-32,H2,32,sym
+113,B7-bf-Snap-395.czi,10198.036,0,65535,Tentacle Area,0,Body column,H2-32,,n/a,B7-H2-32,H2-32,H2,32,sym
+114,B7-fl-Snap-394.czi,2361.177,841,65535,Symbiont Area,23.153,Body column,H2-32,,23.15325225,B7-H2-32,H2-32,H2,32,sym
+115,B7-bf-Snap-395.czi,5059.449,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,B7-H2-32,H2-32,H2,32,sym
+116,B7-fl-Snap-394.czi,2263.011,1461,65535,Symbiont Area,44.728,Tentacle,H2-32,,44.72840817,B7-H2-32,H2-32,H2,32,sym
+117,B7-bf-Snap-395.czi,4863.549,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,B7-H2-32,H2-32,H2,32,sym
+118,B7-fl-Snap-394.czi,2023.65,1092,65535,Symbiont Area,41.609,Tentacle,H2-32,,41.60850441,B7-H2-32,H2-32,H2,32,sym
+119,B7-bf-Snap-395.czi,3160.561,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,B7-H2-32,H2-32,H2,32,sym
+120,B7-fl-Snap-394.czi,1266.862,988,65535,Symbiont Area,40.083,Tentacle,H2-32,,40.08345354,B7-H2-32,H2-32,H2,32,sym
+121,B8-bf-Snap-397.czi,2076.841,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,B8-H2-32,H2-32,H2,32,sym
+122,B8-fl-Snap-396.czi,1083.72,970,65535,Symbiont Area,52.181,Tentacle,H2-32,,52.18117323,B8-H2-32,H2-32,H2,32,sym
+123,B8-bf-Snap-397.czi,7433.383,0,65535,Tentacle Area,0,Body column,H2-32,,n/a,B8-H2-32,H2-32,H2,32,sym
+124,B8-fl-Snap-396.czi,1407.192,610,65535,Symbiont Area,18.931,Body column,H2-32,,18.93070759,B8-H2-32,H2-32,H2,32,sym
+125,B8-bf-Snap-397.czi,1692.826,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,B8-H2-32,H2-32,H2,32,sym
+126,B8-fl-Snap-396.czi,723.921,939,65535,Symbiont Area,42.764,Tentacle,H2-32,,42.76405254,B8-H2-32,H2-32,H2,32,sym
+127,B8-bf-Snap-397.czi,5112.424,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,B8-H2-32,H2-32,H2,32,sym
+128,B8-fl-Snap-396.czi,2341.717,1580,65535,Symbiont Area,45.804,Tentacle,H2-32,,45.80443641,B8-H2-32,H2-32,H2,32,sym
+129,C1-bf-Snap-399.czi,2450.694,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,C1-H2-32,H2-32,H2,32,sym
+130,C1-fl-Snap-398.czi,466.181,763,65535,Symbiont Area,19.022,Tentacle,H2-32,,19.02240753,C1-H2-32,H2-32,H2,32,sym
+131,C1-bf-Snap-399.czi,3707.61,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,C1-H2-32,H2-32,H2,32,sym
+132,C1-fl-Snap-398.czi,998.959,1190,65535,Symbiont Area,26.943,Tentacle,H2-32,,26.94347572,C1-H2-32,H2-32,H2,32,sym
+133,C1-bf-Snap-399.czi,1904.294,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,C1-H2-32,H2-32,H2,32,sym
+134,C1-fl-Snap-398.czi,516.129,824,65535,Symbiont Area,27.103,Tentacle,H2-32,,27.10343046,C1-H2-32,H2-32,H2,32,sym
+135,C1-bf-Snap-399.czi,3128.343,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,C1-H2-32,H2-32,H2,32,sym
+136,C1-fl-Snap-398.czi,463.803,748,65535,Symbiont Area,14.826,Tentacle,H2-32,,14.82583591,C1-H2-32,H2-32,H2,32,sym
+137,C1-bf-Snap-399.czi,3195.157,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,C1-H2-32,H2-32,H2,32,sym
+138,C1-fl-Snap-398.czi,411.692,870,65535,Symbiont Area,12.885,Tentacle,H2-32,,12.88487545,C1-H2-32,H2-32,H2,32,sym
+139,C2-bf-Snap-401.czi,1093.882,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,C2-H2-32,H2-32,H2,32,sym
+140,C2-fl-Snap-400.czi,273.741,1021,65535,Symbiont Area,25.025,Tentacle,H2-32,,25.02472844,C2-H2-32,H2-32,H2,32,sym
+141,C2-bf-Snap-401.czi,1779.316,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,C2-H2-32,H2-32,H2,32,sym
+142,C2-fl-Snap-400.czi,622.296,1099,65535,Symbiont Area,34.974,Tentacle,H2-32,,34.97388884,C2-H2-32,H2-32,H2,32,sym
+143,C2-bf-Snap-401.czi,1712.286,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,C2-H2-32,H2-32,H2,32,sym
+144,C2-fl-Snap-400.czi,600.241,1114,65535,Symbiont Area,35.055,Tentacle,H2-32,,35.05494993,C2-H2-32,H2-32,H2,32,sym
+145,C2-bf-Snap-401.czi,2589.511,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,C2-H2-32,H2-32,H2,32,sym
+146,C2-fl-Snap-400.czi,920.902,928,65535,Symbiont Area,35.563,Tentacle,H2-32,,35.56277614,C2-H2-32,H2-32,H2,32,sym
+147,C2-bf-Snap-401.czi,883.495,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,C2-H2-32,H2-32,H2,32,sym
+148,C2-fl-Snap-400.czi,438.937,1346,65535,Symbiont Area,49.682,Tentacle,H2-32,,49.68188841,C2-H2-32,H2-32,H2,32,sym
+150,C3-bf-Snap-403.czi,3473.006,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,C3-H2-32,H2-32,H2,32,sym
+151,C3-fl-Snap-402.czi,1386.435,1281,65535,Symbiont Area,39.92,Tentacle,H2-32,,39.92031687,C3-H2-32,H2-32,H2,32,sym
+152,C3-bf-Snap-403.czi,3287.917,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,C3-H2-32,H2-32,H2,32,sym
+153,C3-fl-Snap-402.czi,2176.305,1470,65535,Symbiont Area,66.191,Tentacle,H2-32,,66.1909957,C3-H2-32,H2-32,H2,32,sym
+154,C3-bf-Snap-403.czi,4570.78,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,C3-H2-32,H2-32,H2,32,sym
+155,C3-fl-Snap-402.czi,2070.571,1325,65535,Symbiont Area,45.3,Tentacle,H2-32,,45.30016759,C3-H2-32,H2-32,H2,32,sym
+156,C5-bf-Snap-573.czi,1092.801,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,C5-H2-32,H2-32,H2,32,sym
+157,C5-fl-Snap-572.czi,480.884,1367,65535,Symbiont Area,44.005,Tentacle,H2-32,,44.00471815,C5-H2-32,H2-32,H2,32,sym
+158,C5-bf-Snap-573.czi,1979.324,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,C5-H2-32,H2-32,H2,32,sym
+159,C5-fl-Snap-572.czi,842.629,1918,65535,Symbiont Area,42.572,Tentacle,H2-32,,42.57155473,C5-H2-32,H2-32,H2,32,sym
+160,C5-bf-Snap-573.czi,210.603,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,C5-H2-32,H2-32,H2,32,sym
+161,C5-fl-Snap-572.czi,139.898,1163,65535,Symbiont Area,66.427,Tentacle,H2-32,,66.42735384,C5-H2-32,H2-32,H2,32,sym
+162,C5-bf-Snap-573.czi,2060.408,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,C5-H2-32,H2-32,H2,32,sym
+163,C5-fl-Snap-572.czi,972.796,1305,65535,Symbiont Area,47.214,Tentacle,H2-32,,47.21375572,C5-H2-32,H2-32,H2,32,sym
+164,C6-bf-Snap-407.czi,1926.132,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,C6-H2-32,H2-32,H2,32,sym
+165,C6-fl-Snap-406.czi,361.528,919,65535,Symbiont Area,18.77,Tentacle,H2-32,,18.7696378,C6-H2-32,H2-32,H2,32,sym
+166,C6-bf-Snap-407.czi,3885.996,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,C6-H2-32,H2-32,H2,32,sym
+167,C6-fl-Snap-406.czi,699.055,981,65535,Symbiont Area,17.989,Tentacle,H2-32,,17.98908182,C6-H2-32,H2-32,H2,32,sym
+168,C6-bf-Snap-407.czi,2953.417,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,C6-H2-32,H2-32,H2,32,sym
+169,C6-fl-Snap-406.czi,687.379,732,65535,Symbiont Area,23.274,Tentacle,H2-32,,23.27402463,C6-H2-32,H2-32,H2,32,sym
+170,C6-bf-Snap-407.czi,2783.897,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,C6-H2-32,H2-32,H2,32,sym
+171,C6-fl-Snap-406.czi,656.459,717,65535,Symbiont Area,23.581,Tentacle,H2-32,,23.58057787,C6-H2-32,H2-32,H2,32,sym
+172,C6-bf-Snap-407.czi,4687.326,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,C6-H2-32,H2-32,H2,32,sym
+173,C6-fl-Snap-406.czi,763.49,732,65535,Symbiont Area,16.288,Tentacle,H2-32,,16.28839129,C6-H2-32,H2-32,H2,32,sym
+175,C7-bf-Snap-409.czi,2763.572,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,C7-H2-32,H2-32,H2,32,sym
+176,C7-fl-Snap-408.czi,1490.871,1248,65535,Symbiont Area,53.947,Tentacle,H2-32,,53.94724653,C7-H2-32,H2-32,H2,32,sym
+177,C7-bf-Snap-409.czi,3543.712,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,C7-H2-32,H2-32,H2,32,sym
+178,C7-fl-Snap-408.czi,1339.298,1109,65535,Symbiont Area,37.794,Tentacle,H2-32,,37.79364689,C7-H2-32,H2-32,H2,32,sym
+179,C7-bf-Snap-409.czi,10709.624,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,C7-H2-32,H2-32,H2,32,sym
+180,C7-fl-Snap-408.czi,2556.861,786,65535,Symbiont Area,23.874,Tentacle,H2-32,,23.8744236,C7-H2-32,H2-32,H2,32,sym
+181,C7-bf-Snap-409.czi,1077.882,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,C7-H2-32,H2-32,H2,32,sym
+182,C7-fl-Snap-408.czi,315.256,1079,65535,Symbiont Area,29.248,Tentacle,H2-32,,29.24772842,C7-H2-32,H2-32,H2,32,sym
+183,C8-bf-Snap-411.czi,4004.271,0,65535,Tentacle Area,0,Tentacle,H2-32,"Image very foggy in the middle, only 2 clear tentacles ",n/a,C8-H2-32,H2-32,H2,32,sym
+184,C8-fl-Snap-410.czi,427.477,641,65535,Symbiont Area,10.676,Tentacle,H2-32,,10.67552621,C8-H2-32,H2-32,H2,32,sym
+185,C8-bf-Snap-411.czi,3265.214,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,C8-H2-32,H2-32,H2,32,sym
+186,C8-fl-Snap-410.czi,318.283,1485,65535,Symbiont Area,9.748,Tentacle,H2-32,,9.747691882,C8-H2-32,H2-32,H2,32,sym
+187,D1-bf-Snap-413.czi,3175.913,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,D1-H2-32,H2-32,H2,32,sym
+188,D1-fl-Snap-412.czi,1335.838,831,65535,Symbiont Area,42.062,Tentacle,H2-32,,42.06154262,D1-H2-32,H2-32,H2,32,sym
+189,D1-bf-Snap-413.czi,1834.453,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,D1-H2-32,H2-32,H2,32,sym
+190,D1-fl-Snap-412.czi,1035.934,1320,65535,Symbiont Area,56.471,Tentacle,H2-32,,56.47100253,D1-H2-32,H2-32,H2,32,sym
+191,D1-bf-Snap-413.czi,3668.69,0,65535,Tentacle Area,56.471,Tentacle,H2-32,,n/a,D1-H2-32,H2-32,H2,32,sym
+192,D1-fl-Snap-412.czi,1485.033,795,65535,Symbiont Area,40.479,Tentacle,H2-32,,40.47856319,D1-H2-32,H2-32,H2,32,sym
+193,D1-bf-Snap-413.czi,1262.538,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,D1-H2-32,H2-32,H2,32,sym
+194,D1-fl-Snap-412.czi,669,1259,65535,Symbiont Area,52.989,Tentacle,H2-32,,52.98850411,D1-H2-32,H2-32,H2,32,sym
+195,D1-bf-Snap-413.czi,1105.775,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,D1-H2-32,H2-32,H2,32,sym
+196,D1-fl-Snap-412.czi,544.887,941,65535,Symbiont Area,49.276,Tentacle,H2-32,,49.2764803,D1-H2-32,H2-32,H2,32,sym
+197,D1-bf-Snap-413.czi,6462.965,0,65535,Tentacle Area,0,Body column,H2-32,,n/a,D1-H2-32,H2-32,H2,32,sym
+198,D1-fl-Snap-412.czi,1319.621,562,65535,Symbiont Area,20.418,Body Column ,H2-32,,20.41819815,D1-H2-32,H2-32,H2,32,sym
+199,D2-bf-Snap-415.czi,2971.58,0,65535,Tentacle Area,20.418,Tentacle,H2-32,,n/a,D2-H2-32,H2-32,H2,32,sym
+200,D2-fl-Snap-414.czi,140.114,1210,65535,Symbiont Area,4.715,Tentacle,H2-32,,4.715134709,D2-H2-32,H2-32,H2,32,sym
+201,D2-bf-Snap-415.czi,855.819,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,D2-H2-32,H2-32,H2,32,sym
+202,D2-fl-Snap-414.czi,87.571,1351,65535,Symbiont Area,10.232,Tentacle,H2-32,,10.23242064,D2-H2-32,H2-32,H2,32,sym
+203,D2-bf-Snap-415.czi,418.612,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,D2-H2-32,H2-32,H2,32,sym
+204,D2-fl-Snap-414.czi,77.409,1602,65535,Symbiont Area,18.492,Tentacle,H2-32,,18.49182537,D2-H2-32,H2-32,H2,32,sym
+205,D2-bf-Snap-415.czi,2128.303,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,D2-H2-32,H2-32,H2,32,sym
+206,D2-fl-Snap-414.czi,306.607,958,65535,Symbiont Area,14.406,Tentacle,H2-32,,14.40617243,D2-H2-32,H2-32,H2,32,sym
+207,D3-bf-Snap-417.czi,2403.125,0,65535,Tentacle Area,14.406,Tentacle,H2-32,,n/a,D3-H2-32,H2-32,H2,32,sym
+208,D3-fl-Snap-416.czi,438.504,1004,65535,Symbiont Area,18.247,Tentacle,H2-32,,18.24724057,D3-H2-32,H2-32,H2,32,sym
+209,D3-bf-Snap-417.czi,3027.582,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,D3-H2-32,H2-32,H2,32,sym
+210,D3-fl-Snap-416.czi,513.318,895,65535,Symbiont Area,16.955,Tentacle,H2-32,,16.95471832,D3-H2-32,H2-32,H2,32,sym
+211,D3-bf-Snap-417.czi,2761.409,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,D3-H2-32,H2-32,H2,32,sym
+212,D3-fl-Snap-416.czi,994.851,1161,65535,Symbiont Area,36.027,Tentacle,H2-32,,36.02693408,D3-H2-32,H2-32,H2,32,sym
+213,D3-bf-Snap-417.czi,1520.927,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,D3-H2-32,H2-32,H2,32,sym
+214,D3-fl-Snap-416.czi,443.477,1036,65535,Symbiont Area,29.158,Tentacle,H2-32,,29.15833567,D3-H2-32,H2-32,H2,32,sym
+215,D3-bf-Snap-417.czi,6770.221,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,D3-H2-32,H2-32,H2,32,sym
+216,D3-fl-Snap-416.czi,2206.144,1365,65535,Symbiont Area,32.586,Tentacle,H2-32,,32.58599682,D3-H2-32,H2-32,H2,32,sym
+217,D4-bf-Snap-419.czi,5346.812,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,D4-H2-32,H2-32,H2,32,sym
+218,D4-fl-Snap-418.czi,1059.502,673,65535,Symbiont Area,19.816,Tentacle,H2-32,,19.81558357,D4-H2-32,H2-32,H2,32,sym
+219,D4-bf-Snap-419.czi,4691.866,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,D4-H2-32,H2-32,H2,32,sym
+220,D4-fl-Snap-418.czi,1187.508,759,65535,Symbiont Area,25.31,Tentacle,H2-32,,25.30992999,D4-H2-32,H2-32,H2,32,sym
+221,D4-bf-Snap-419.czi,18163.332,0,65535,Tentacle Area,0,Body Column ,H2-32,,n/a,D4-H2-32,H2-32,H2,32,sym
+222,D4-fl-Snap-418.czi,1411.517,716,65535,Symbiont Area,7.771,Body Column ,H2-32,,7.771244835,D4-H2-32,H2-32,H2,32,sym
+223,D4-bf-Snap-419.czi,3594.741,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,D4-H2-32,H2-32,H2,32,sym
+224,D4-fl-Snap-418.czi,1928.078,587,65535,Symbiont Area,53.636,Tentacle,H2-32,,53.63607559,D4-H2-32,H2-32,H2,32,sym
+225,D5-bf--Snap-421.czi,5296.431,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,D5-H2-32,H2-32,H2,32,sym
+226,D5-fl-Snap-420.czi,2054.786,1460,65535,Symbiont Area,38.796,Tentacle,H2-32,,38.79567203,D5-H2-32,H2-32,H2,32,sym
+227,D5-bf--Snap-421.czi,7218.023,0,65535,Tentacle Area,0,Body column,H2-32,,n/a,D5-H2-32,H2-32,H2,32,sym
+228,D5-fl-Snap-420.czi,1323.729,769,65535,Symbiont Area,18.339,Body column,H2-32,,18.33921837,D5-H2-32,H2-32,H2,32,sym
+229,D5-bf--Snap-421.czi,1882.455,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,D5-H2-32,H2-32,H2,32,sym
+230,D5-fl-Snap-420.czi,1026.853,1076,65535,Symbiont Area,54.549,Tentacle,H2-32,,54.54860807,D5-H2-32,H2-32,H2,32,sym
+231,D6-bf-Snap-423.czi,3951.079,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,D6-H2-32,H2-32,H2,32,sym
+232,D6-fl-Snap-422.czi,1315.297,1339,65535,Symbiont Area,33.29,Tentacle,H2-32,,33.2895647,D6-H2-32,H2-32,H2,32,sym
+233,D6-bf-Snap-423.czi,2569.402,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,D6-H2-32,H2-32,H2,32,sym
+234,D6-fl-Snap-422.czi,997.878,819,65535,Symbiont Area,38.837,Tentacle,H2-32,,38.83697452,D6-H2-32,H2-32,H2,32,sym
+235,D6-bf-Snap-423.czi,1138.208,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,D6-H2-32,H2-32,H2,32,sym
+236,D6-fl-Snap-422.czi,393.097,709,65535,Symbiont Area,34.536,Tentacle,H2-32,,34.53648191,D6-H2-32,H2-32,H2,32,sym
+237,D6-bf-Snap-423.czi,2980.445,0,65535,Tentacle Area,0,Body column,H2-32,,n/a,D6-H2-32,H2-32,H2,32,sym
+238,D6-fl-Snap-422.czi,588.132,788,65535,Symbiont Area,19.733,Body column,H2-32,,19.73302644,D6-H2-32,H2-32,H2,32,sym
+239,D7-bf-Snap-425.czi,1024.042,0,65535,Tentacle Area,0,Tentacle,H2-32,Very small body column and tentacles.,n/a,D7-H2-32,H2-32,H2,32,sym
+240,D7-fl-Snap-424.czi,548.779,1870,65535,Symbiont Area,53.59,Tentacle,H2-32,,53.58950121,D7-H2-32,H2-32,H2,32,sym
+241,D7-bf-Snap-425.czi,621.431,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,D7-H2-32,H2-32,H2,32,sym
+242,D7-fl-Snap-424.czi,337.743,1195,65535,Symbiont Area,54.349,Tentacle,H2-32,,54.34923588,D7-H2-32,H2-32,H2,32,sym
+243,D7-bf-Snap-425.czi,145.303,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,D7-H2-32,H2-32,H2,32,sym
+244,D7-fl-Snap-424.czi,77.625,1839,65535,Symbiont Area,53.423,Tentacle,H2-32,,53.42284743,D7-H2-32,H2-32,H2,32,sym
+245,D8-bf-Snap-427.czi,1530.008,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,D8-H2-32,H2-32,H2,32,sym
+246,D8-fl-Snap-426.czi,185.953,636,65535,Symbiont Area,12.154,Tentacle,H2-32,,12.1537273,D8-H2-32,H2-32,H2,32,sym
+247,D8-bf-Snap-427.czi,1128.911,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,D8-H2-32,H2-32,H2,32,sym
+248,D8-fl-Snap-426.czi,76.111,717,65535,Symbiont Area,6.742,Tentacle,H2-32,,6.741984089,D8-H2-32,H2-32,H2,32,sym
+249,D8-bf-Snap-427.czi,1464.708,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,D8-H2-32,H2-32,H2,32,sym
+250,D8-fl-Snap-426.czi,86.49,554,65535,Symbiont Area,5.905,Tentacle,H2-32,,5.904931222,D8-H2-32,H2-32,H2,32,sym
+251,D8-bf-Snap-427.czi,522.4,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,D8-H2-32,H2-32,H2,32,sym
+252,D8-fl-Snap-426.czi,41.731,649,65535,Symbiont Area,7.988,Tentacle,H2-32,,7.988323124,D8-H2-32,H2-32,H2,32,sym
+253,E1-BF-Snap-429.czi,1877.698,0,65535,Tentacle Area,0,0,H2-32,,n/a,E1-H2-32,H2-32,H2,32,sym
+254,E1-fl-Snap-428.czi,1096.693,1221,65535,Symbiont Area,58.406,0,H2-32,,58.40625063,E1-H2-32,H2-32,H2,32,sym
+255,E1-BF-Snap-429.czi,1369.137,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,E1-H2-32,H2-32,H2,32,sym
+256,E1-fl-Snap-428.czi,747.49,1206,65535,Symbiont Area,54.596,Tentacle,H2-32,,54.59570518,E1-H2-32,H2-32,H2,32,sym
+257,E1-BF-Snap-429.czi,1609.795,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,E1-H2-32,H2-32,H2,32,sym
+258,E1-fl-Snap-428.czi,678.082,1146,65535,Symbiont Area,42.122,Tentacle,H2-32,,42.1222578,E1-H2-32,H2-32,H2,32,sym
+259,E1-BF-Snap-429.czi,1016.69,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,E1-H2-32,H2-32,H2,32,sym
+260,E1-fl-Snap-428.czi,471.154,1327,65535,Symbiont Area,46.342,Tentacle,H2-32,,46.34195281,E1-H2-32,H2-32,H2,32,sym
+261,E1-BF-Snap-429.czi,652.567,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,E1-H2-32,H2-32,H2,32,sym
+262,E1-fl-Snap-428.czi,345.311,1628,65535,Symbiont Area,52.916,Tentacle,H2-32,,52.91579255,E1-H2-32,H2-32,H2,32,sym
+263,E2-bf-Snap-431.czi,1679.203,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,E2-H2-32,H2-32,H2,32,sym
+264,E2-fl-Snap-430.czi,275.038,1421,65535,Symbiont Area,16.379,Tentacle,H2-32,,16.37907984,E2-H2-32,H2-32,H2,32,sym
+265,E2-bf-Snap-431.czi,2493.074,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,E2-H2-32,H2-32,H2,32,sym
+266,E2-fl-Snap-430.czi,613.214,1357,65535,Symbiont Area,24.597,Tentacle,H2-32,,24.59670271,E2-H2-32,H2-32,H2,32,sym
+267,E2-bf-Snap-431.czi,3772.261,0,65535,Tentacle Area,0,Body column,H2-32,,n/a,E2-H2-32,H2-32,H2,32,sym
+268,E2-fl-Snap-430.czi,109.626,679,65535,Symbiont Area,2.906,Body column,H2-32,,2.906108565,E2-H2-32,H2-32,H2,32,sym
+269,E3-bf-Snap-433.czi,4290.553,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,E3-H2-32,H2-32,H2,32,sym
+270,E3-fl-Snap-432.czi,323.04,1010,65535,Symbiont Area,7.529,Tentacle,H2-32,,7.529099396,E3-H2-32,H2-32,H2,32,sym
+271,E3-bf-Snap-433.czi,1790.127,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,E3-H2-32,H2-32,H2,32,sym
+272,E3-fl-Snap-432.czi,184.007,1136,65535,Symbiont Area,10.279,Tentacle,H2-32,,10.27899138,E3-H2-32,H2-32,H2,32,sym
+273,E3-bf-Snap-433.czi,1886.996,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,E3-H2-32,H2-32,H2,32,sym
+274,E3-fl-Snap-432.czi,187.467,1136,65535,Symbiont Area,9.935,Tentacle,H2-32,,9.934679247,E3-H2-32,H2-32,H2,32,sym
+275,E3-bf-Snap-433.czi,2484.858,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,E3-H2-32,H2-32,H2,32,sym
+276,E3-fl-Snap-432.czi,144.871,899,65535,Symbiont Area,5.83,Tentacle,H2-32,,5.830152065,E3-H2-32,H2-32,H2,32,sym
+277,E4-bf-Snap-435.czi,2070.571,0,65535,Tentacle Area,5.83,Tentacle,H2-32,,n/a,E4-H2-32,H2-32,H2,32,sym
+278,E4-fl-Snap-434.czi,1335.622,1185,65535,Symbiont Area,64.505,Tentacle,H2-32,,64.50500852,E4-H2-32,H2-32,H2,32,sym
+279,E4-bf-Snap-435.czi,1619.093,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,E4-H2-32,H2-32,H2,32,sym
+280,E4-fl-Snap-434.czi,971.066,1528,65535,Symbiont Area,59.976,Tentacle,H2-32,,59.97592479,E4-H2-32,H2-32,H2,32,sym
+281,E4-bf-Snap-435.czi,1429.463,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,E4-H2-32,H2-32,H2,32,sym
+282,E4-fl-Snap-434.czi,1119.181,1622,65535,Symbiont Area,78.294,Tentacle,H2-32,,78.29380684,E4-H2-32,H2-32,H2,32,sym
+283,E4-bf-Snap-435.czi,687.163,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,E4-H2-32,H2-32,H2,32,sym
+284,E4-fl-Snap-434.czi,439.369,1544,65535,Symbiont Area,63.94,Tentacle,H2-32,,63.93956019,E4-H2-32,H2-32,H2,32,sym
+285,E4-bf-Snap-435.czi,1130.208,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,E4-H2-32,H2-32,H2,32,sym
+286,E4-fl-Snap-434.czi,683.703,1341,65535,Symbiont Area,60.494,Tentacle,H2-32,,60.49355517,E4-H2-32,H2-32,H2,32,sym
+REMOVED,E5-bf-SNAP-437.czi,REMOVED,REMOVED,REMOVED,REMOVED,REMOVED,REMOVED,H2-32,Moved - measurements were off,n/a,E5-H2-32,H2-32,H2,32,sym
+REMOVED,E5-fl-SNAP-436.czi,REMOVED,REMOVED,REMOVED,REMOVED,REMOVED,REMOVED,H2-32,Moved - measurements were off,#VALUE!,E5-H2-32,H2-32,H2,32,sym
+287,E6-bf-Snap-439.czi,810.844,0,65535,Tentacle Area,14.607,Tentacle,H2-32,"Small aiptasia, small column body and tentacles",n/a,E6-H2-32,H2-32,H2,32,sym
+288,E6-fl-Snap-438.czi,473.965,1394,65535,Symbiont Area,58.453,Tentacle,H2-32,,58.45329065,E6-H2-32,H2-32,H2,32,sym
+289,E6-bf-Snap-439.czi,897.334,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,E6-H2-32,H2-32,H2,32,sym
+290,E6-fl-Snap-438.czi,744.463,1450,65535,Symbiont Area,82.964,Tentacle,H2-32,,82.96386853,E6-H2-32,H2-32,H2,32,sym
+291,E6-bf-Snap-439.czi,3041.205,0,65535,Tentacle Area,82.964,Body column,H2-32,,n/a,E6-H2-32,H2-32,H2,32,sym
+292,E6-fl-Snap-438.czi,1239.834,1004,65535,Symbiont Area,40.768,Body column,H2-32,,40.76785353,E6-H2-32,H2-32,H2,32,sym
+293,E7-bf-Snap-441.czi,2091.761,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,E7-H2-32,H2-32,H2,32,sym
+294,E7-fl-Snap-440.czi,325.851,949,65535,Symbiont Area,15.578,Tentacle,H2-32,,15.57783131,E7-H2-32,H2-32,H2,32,sym
+295,E7-bf-Snap-441.czi,823.385,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,E7-H2-32,H2-32,H2,32,sym
+296,E7-fl-Snap-440.czi,131.465,1408,65535,Symbiont Area,15.966,Tentacle,H2-32,,15.96640697,E7-H2-32,H2-32,H2,32,sym
+297,E7-bf-Snap-441.czi,1021.014,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,E7-H2-32,H2-32,H2,32,sym
+298,E7-fl-Snap-440.czi,29.19,1234,65535,Symbiont Area,2.859,Tentacle,H2-32,,2.8589226,E7-H2-32,H2-32,H2,32,sym
+299,E7-bf-Snap-441.czi,1032.907,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,E7-H2-32,H2-32,H2,32,sym
+300,E7-fl-Snap-440.czi,81.517,1060,65535,Symbiont Area,7.892,Tentacle,H2-32,,7.891998021,E7-H2-32,H2-32,H2,32,sym
+301,F1-bf-Snap-585.czi,2282.471,0,65535,Tentacle Area,7.892,Tentacle,H2-32,"Body is not clear, it is too bright (white), only 1 tentacle present ",n/a,F1-H2-32,H2-32,H2,32,sym
+302,F1-fl-Snap-584.czi,76.327,1277,65535,Symbiont Area,3.344,Tentacle,H2-32,"Body is not clear, symbionts on body are bright, small, 3 tentacles visible ",3.34405125,F1-H2-32,H2-32,H2,32,sym
+303,F2-bf-Snap-449.czi,635.701,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,F2-H2-32,H2-32,H2,32,sym
+304,F2-fl-Snap-448.czi,40.65,1312,65535,Symbiont Area,6.395,Tentacle,H2-32,,6.394515661,F2-H2-32,H2-32,H2,32,sym
+305,F2-bf-Snap-449.czi,18042.03,0,65535,Tentacle Area,0,Body column,H2-32,,n/a,F2-H2-32,H2-32,H2,32,sym
+306,F2-fl-Snap-448.czi,598.511,969,65535,Symbiont Area,3.317,Body column,H2-32,,3.31731518,F2-H2-32,H2-32,H2,32,sym
+REMOVED,F3-bf-Snap-581.czi,REMOVED,REMOVED,REMOVED,REMOVED,REMOVED,REMOVED,H2-32,,n/a,F3-H2-32,H2-32,H2,32,sym
+REMOVED,F3-fl-Snap-581.czi,REMOVED,REMOVED,REMOVED,REMOVED,REMOVED,REMOVED,H2-32,"Fluorescent image is completely black , cannot measure",#VALUE!,F3-H2-32,H2-32,H2,32,sym
+307,F4-bf-Snap-455.czi,1379.083,0,65535,Tentacle Area,3.317,Tentacle,H2-32,,n/a,F4-H2-32,H2-32,H2,32,sym
+308,F4-fl-Snap-454.czi,46.056,1160,65535,Symbiont Area,3.34,Tentacle,H2-32,,3.339610451,F4-H2-32,H2-32,H2,32,sym
+309,F4-bf-Snap-455.czi,518.075,0,65535,Tentacle Area,0,Tentacle,H2-32,"Image very blurry, only 2 tentacles could be imaged",n/a,F4-H2-32,H2-32,H2,32,sym
+310,F4-fl-Snap-454.czi,49.732,1160,65535,Symbiont Area,9.599,Tentacle,H2-32,"Image very blurry, only 2 tentacles could be imaged",9.599382329,F4-H2-32,H2-32,H2,32,sym
+311,F5-bf-Snap-463.czi,4118.221,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,F5-H2-32,H2-32,H2,32,sym
+312,F5-fl-Snap-462.czi,82.598,1506,65535,Symbiont Area,2.006,Tentacle,H2-32,,2.005671867,F5-H2-32,H2-32,H2,32,sym
+313,F5-bf-Snap-463.czi,1686.771,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,F5-H2-32,H2-32,H2,32,sym
+314,F5-fl-Snap-462.czi,46.272,1428,65535,Symbiont Area,2.743,Tentacle,H2-32,,2.74322952,F5-H2-32,H2-32,H2,32,sym
+315,F5-bf-Snap-463.czi,3920.159,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,F5-H2-32,H2-32,H2,32,sym
+316,F5-fl-Snap-462.czi,95.788,1271,65535,Symbiont Area,2.443,Tentacle,H2-32,,2.443472318,F5-H2-32,H2-32,H2,32,sym
+317,F5-bf-Snap-463.czi,4355.42,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,F5-H2-32,H2-32,H2,32,sym
+318,F5-fl-Snap-462.czi,87.571,1491,65535,Symbiont Area,2.011,Tentacle,H2-32,,2.010621249,F5-H2-32,H2-32,H2,32,sym
+319,F6-bf-Snap-465.czi,3234.51,0,65535,Tentacle Area,2.011,Tentacle,H2-32,"Scratch marks from plate visible, blocking view of organsim a little",n/a,F6-H2-32,H2-32,H2,32,sym
+320,F6-fl-Snap-464.czi,113.734,1465,65535,Symbiont Area,3.516,Tentacle,H2-32,,3.516266761,F6-H2-32,H2-32,H2,32,sym
+321,F6-bf-Snap-465.czi,3657.878,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,F6-H2-32,H2-32,H2,32,sym
+322,F6-fl-Snap-464.czi,98.815,1055,65535,Symbiont Area,2.701,Tentacle,H2-32,,2.701429627,F6-H2-32,H2-32,H2,32,sym
+323,F6-bf-Snap-465.czi,3908.699,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,F6-H2-32,H2-32,H2,32,sym
+324,F6-fl-Snap-464.czi,224.225,1071,65535,Symbiont Area,5.737,Tentacle,H2-32,,5.736563496,F6-H2-32,H2-32,H2,32,sym
+325,F6-bf-Snap-465.czi,3323.811,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,F6-H2-32,H2-32,H2,32,sym
+326,F6-fl-Snap-464.czi,62.921,1118,65535,Symbiont Area,1.893,Tentacle,H2-32,,1.893037841,F6-H2-32,H2-32,H2,32,sym
+327,F7-fl-Snap-575.czi,3185.21,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,F7-H2-32,H2-32,H2,32,sym
+328,F7-fl-Snap-574.czi,74.165,1312,65535,Symbiont Area,2.328,Tentacle,H2-32,,2.328417907,F7-H2-32,H2-32,H2,32,sym
+329,F7-fl-Snap-575.czi,741.436,0,65535,Tentacle Area,0,Tentacle,H2-32,,n/a,F7-H2-32,H2-32,H2,32,sym
+330,F7-fl-Snap-574.czi,112.653,1659,65535,Symbiont Area,15.194,Tentacle,H2-32,,15.19389401,F7-H2-32,H2-32,H2,32,sym
+331,A1-bf-Snap-471.czi,4164.71,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,A1-H2-25,H2-25,H2,25,sym
+332,A1-fl-Snap-470.czi,1881.59,751,65535,Symbiont Area,45.179,Tentacle,H2-25,,45.17937624,A1-H2-25,H2-25,H2,25,sym
+333,A1-bf-Snap-471.czi,1142.1,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,A1-H2-25,H2-25,H2,25,sym
+334,A1-fl-Snap-470.czi,651.702,1012,65535,Symbiont Area,57.062,Tentacle,H2-25,,57.0617284,A1-H2-25,H2-25,H2,25,sym
+335,A1-bf-Snap-471.czi,13463.682,0,65535,Tentacle Area,0,Body column,H2-25,,n/a,A1-H2-25,H2-25,H2,25,sym
+336,A1-fl-Snap-470.czi,3890.536,583,65535,Symbiont Area,28.897,Body column,H2-25,,28.89652325,A1-H2-25,H2-25,H2,25,sym
+337,A1-bf-Snap-471.czi,2688.325,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,A1-H2-25,H2-25,H2,25,sym
+338,A1-fl-Snap-470.czi,1430.545,1027,65535,Symbiont Area,53.213,Tentacle,H2-25,,53.21324617,A1-H2-25,H2-25,H2,25,sym
+339,A2-bf-Snap-473.czi,3040.988,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,A2-H2-25,H2-25,H2,25,sym
+340,A2-fl-Snap-472.czi,1630.769,690,65535,Symbiont Area,53.626,Tentacle,H2-25,,53.62628856,A2-H2-25,H2-25,H2,25,sym
+341,A2-bf-Snap-473.czi,1260.376,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,A2-H2-25,H2-25,H2,25,sym
+342,A2-fl-Snap-472.czi,779.275,1392,65535,Symbiont Area,61.829,Tentacle,H2-25,,61.82877173,A2-H2-25,H2-25,H2,25,sym
+343,A2-bf-Snap-473.czi,1869.265,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,A2-H2-25,H2-25,H2,25,sym
+344,A2-fl-Snap-472.czi,1307.08,1166,65535,Symbiont Area,69.925,Tentacle,H2-25,,69.92481002,A2-H2-25,H2-25,H2,25,sym
+345,A2-bf-Snap-473.czi,1622.985,0,65535,Tentacle Area,69.925,Tentacle,H2-25,,n/a,A2-H2-25,H2-25,H2,25,sym
+346,A2-fl-Snap-472.czi,603.7,1197,65535,Symbiont Area,37.197,Tentacle,H2-25,,37.19689338,A2-H2-25,H2-25,H2,25,sym
+347,A2-bf-Snap-473.czi,1193.346,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,A2-H2-25,H2-25,H2,25,sym
+348,A2-fl-Snap-472.czi,819.277,1780,65535,Symbiont Area,68.654,Tentacle,H2-25,,68.65376848,A2-H2-25,H2-25,H2,25,sym
+349,A3-bf-Snap-475.czi,3777.235,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,A3-H2-25,H2-25,H2,25,sym
+350,A3-fl-Snap-474.czi,2080.517,1151,65535,Symbiont Area,55.08,Tentacle,H2-25,,55.08042258,A3-H2-25,H2-25,H2,25,sym
+351,A3-bf-Snap-475.czi,4610.566,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,A3-H2-25,H2-25,H2,25,sym
+352,A3-fl-Snap-474.czi,2520.535,952,65535,Symbiont Area,54.669,Tentacle,H2-25,,54.66866758,A3-H2-25,H2-25,H2,25,sym
+353,A3-bf-Snap-475.czi,3954.107,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,A3-H2-25,H2-25,H2,25,sym
+354,A3-fl-Snap-474.czi,2506.048,1123,65535,Symbiont Area,63.378,Tentacle,H2-25,,63.37835572,A3-H2-25,H2-25,H2,25,sym
+355,A3-bf-Snap-475.czi,1676.392,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,A3-H2-25,H2-25,H2,25,sym
+356,A3-fl-Snap-474.czi,963.715,1350,65535,Symbiont Area,57.487,Tentacle,H2-25,,57.48744924,A3-H2-25,H2-25,H2,25,sym
+357,A4-fl-Snap-477.czi,4796.735,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,A4-H2-25,H2-25,H2,25,sym
+358,A4-fl-Snap-476.czi,2757.95,1369,65535,Symbiont Area,57.496,Tentacle,H2-25,,57.4964012,A4-H2-25,H2-25,H2,25,sym
+359,A4-fl-Snap-477.czi,3383.921,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,A4-H2-25,H2-25,H2,25,sym
+360,A4-fl-Snap-476.czi,1916.402,1323,65535,Symbiont Area,56.633,Tentacle,H2-25,,56.63258687,A4-H2-25,H2-25,H2,25,sym
+361,A4-fl-Snap-477.czi,1343.19,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,A4-H2-25,H2-25,H2,25,sym
+362,A4-fl-Snap-476.czi,1016.69,1669,65535,Symbiont Area,75.692,Tentacle,H2-25,,75.69219545,A4-H2-25,H2-25,H2,25,sym
+363,A4-fl-Snap-477.czi,772.572,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,A4-H2-25,H2-25,H2,25,sym
+364,A4-fl-Snap-476.czi,473.965,1429,65535,Symbiont Area,61.349,Tentacle,H2-25,,61.34897459,A4-H2-25,H2-25,H2,25,sym
+365,A5-fl-Snap-478.czi,1416.058,1703,65535,Symbiont Area,82.742,Tentacle,H2-25,,n/a,A5-H2-25,H2-25,H2,25,sym
+366,A5-bf-Snap-479.czi,1984.729,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,A5-H2-25,H2-25,H2,25,sym
+367,A5-fl-Snap-478.czi,1202.427,1628,65535,Symbiont Area,60.584,Tentacle,H2-25,,60.58393866,A5-H2-25,H2-25,H2,25,sym
+REMOVE,A5-bf-Snap-479.czi,0.216,0,65535,REMOVE,0,0,H2-25,REMOVE,REMOVE,A5-H2-25,H2-25,H2,25,sym
+369,A5-bf-Snap-479.czi,1129.992,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,A5-H2-25,H2-25,H2,25,sym
+370,A5-fl-Snap-478.czi,929.551,1365,65535,Symbiont Area,82.262,Tentacle,H2-25,,82.26173283,A5-H2-25,H2-25,H2,25,sym
+371,A5-bf-Snap-479.czi,1749.476,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,A5-H2-25,H2-25,H2,25,sym
+372,A5-fl-Snap-478.czi,1265.565,1447,65535,Symbiont Area,72.34,Tentacle,H2-25,,72.33966056,A5-H2-25,H2-25,H2,25,sym
+373,A5-bf-Snap-479.czi,1691.961,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,A5-H2-25,H2-25,H2,25,sym
+374,A5-fl-Snap-478.czi,1342.973,1628,65535,Symbiont Area,79.374,Tentacle,H2-25,,79.37375625,A5-H2-25,H2-25,H2,25,sym
+375,A6-bf-Snap-481.czi,708.786,0,65535,Tentacle Area,79.374,Tentacle,H2-25,,n/a,A6-H2-25,H2-25,H2,25,sym
+376,A6-fl-Snap-480.czi,457.965,1312,65535,Symbiont Area,64.613,Tentacle,H2-25,,64.61259111,A6-H2-25,H2-25,H2,25,sym
+377,A6-bf-Snap-481.czi,3784.37,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,A6-H2-25,H2-25,H2,25,sym
+378,A6-fl-Snap-480.czi,2290.688,1344,65535,Symbiont Area,60.53,Tentacle,H2-25,,60.53023357,A6-H2-25,H2-25,H2,25,sym
+379,A6-bf-Snap-481.czi,1206.968,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,A6-H2-25,H2-25,H2,25,sym
+380,A6-fl-Snap-480.czi,695.596,1172,65535,Symbiont Area,57.632,Tentacle,H2-25,,57.63168535,A6-H2-25,H2-25,H2,25,sym
+381,A6-bf-Snap-481.czi,2969.202,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,A6-H2-25,H2-25,H2,25,sym
+382,A6-fl-Snap-480.czi,1828.182,1281,65535,Symbiont Area,61.572,Tentacle,H2-25,,61.57149295,A6-H2-25,H2-25,H2,25,sym
+383,A6-bf-Snap-481.czi,2993.851,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,A6-H2-25,H2-25,H2,25,sym
+384,A6-fl-Snap-480.czi,1493.466,1109,65535,Symbiont Area,49.884,Tentacle,H2-25,,49.88444649,A6-H2-25,H2-25,H2,25,sym
+385,A7-bf-Snap-483.czi,4368.61,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,A7-H2-25,H2-25,H2,25,sym
+386,A7-fl-Snap-482.czi,2885.955,1399,65535,Symbiont Area,66.061,Tentacle,H2-25,,66.06117278,A7-H2-25,H2-25,H2,25,sym
+387,A7-bf-Snap-483.czi,1367.407,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,A7-H2-25,H2-25,H2,25,sym
+388,A7-fl-Snap-482.czi,833.115,1654,65535,Symbiont Area,60.927,Tentacle,H2-25,,60.92662975,A7-H2-25,H2-25,H2,25,sym
+389,A7-bf-Snap-483.czi,4362.123,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,A7-H2-25,H2-25,H2,25,sym
+390,A7-fl-Snap-482.czi,2027.109,1143,65535,Symbiont Area,46.471,Tentacle,H2-25,,46.47069787,A7-H2-25,H2-25,H2,25,sym
+391,A7-bf-Snap-483.czi,2648.972,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,A7-H2-25,H2-25,H2,25,sym
+392,A7-fl-Snap-482.czi,954.633,1233,65535,Symbiont Area,36.038,Tentacle,H2-25,,36.03786676,A7-H2-25,H2-25,H2,25,sym
+393,A8-bf-Snap-485.czi,1519.197,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,A8-H2-25,H2-25,H2,25,sym
+394,A8-fl-Snap-484.czi,1183.399,1250,65535,Symbiont Area,77.896,Tentacle,H2-25,,77.89634919,A8-H2-25,H2-25,H2,25,sym
+395,A8-bf-Snap-485.czi,2762.274,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,A8-H2-25,H2-25,H2,25,sym
+396,A8-fl-Snap-484.czi,1914.889,1250,65535,Symbiont Area,69.323,Tentacle,H2-25,,69.32292017,A8-H2-25,H2-25,H2,25,sym
+397,A8-bf-Snap-485.czi,1205.238,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,A8-H2-25,H2-25,H2,25,sym
+398,A8-fl-Snap-484.czi,764.355,1264,65535,Symbiont Area,63.419,Tentacle,H2-25,,63.41942421,A8-H2-25,H2-25,H2,25,sym
+399,A8-bf-Snap-485.czi,2978.283,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,A8-H2-25,H2-25,H2,25,sym
+400,A8-fl-Snap-484.czi,1543.198,1566,65535,Symbiont Area,51.815,Tentacle,H2-25,,51.81502228,A8-H2-25,H2-25,H2,25,sym
+401,A8-bf-Snap-485.czi,446.505,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,A8-H2-25,H2-25,H2,25,sym
+402,A8-fl-Snap-484.czi,292.985,1308,65535,Symbiont Area,65.617,Tentacle,H2-25,,65.6174063,A8-H2-25,H2-25,H2,25,sym
+403,B2-bf-Snap-489.czi,570.185,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,B2-H2-25,H2-25,H2,25,sym
+404,B2-fl-Snap-488.czi,329.527,1453,65535,Symbiont Area,57.793,Tentacle,H2-25,,57.79299701,B2-H2-25,H2-25,H2,25,sym
+405,B2-bf-Snap-489.czi,920.47,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,B2-H2-25,H2-25,H2,25,sym
+406,B2-fl-Snap-488.czi,614.944,1804,65535,Symbiont Area,66.808,Tentacle,H2-25,,66.80760916,B2-H2-25,H2-25,H2,25,sym
+407,B2-bf-Snap-489.czi,3784.802,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,B2-H2-25,H2-25,H2,25,sym
+408,B2-fl-Snap-488.czi,1604.822,1315,65535,Symbiont Area,42.402,Tentacle,H2-25,,42.40174255,B2-H2-25,H2-25,H2,25,sym
+409,B2-bf-Snap-489.czi,562.834,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,B2-H2-25,H2-25,H2,25,sym
+410,B2-fl-Snap-488.czi,387.475,1514,65535,Symbiont Area,68.844,Tentacle,H2-25,,68.84356666,B2-H2-25,H2-25,H2,25,sym
+411,B2-bf-Snap-489.czi,248.226,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,B2-H2-25,H2-25,H2,25,sym
+412,B2-fl-Snap-488.czi,135.141,1621,65535,Symbiont Area,54.443,Tentacle,H2-25,,54.44272558,B2-H2-25,H2-25,H2,25,sym
+413,B2-bf-Snap-489.czi,3456.14,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,B2-H2-25,H2-25,H2,25,sym
+414,B2-fl-Snap-488.czi,1647.202,1544,65535,Symbiont Area,47.66,Tentacle,H2-25,,47.66016423,B2-H2-25,H2-25,H2,25,sym
+415,B2-bf-Snap-489.czi,623.809,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,B2-H2-25,H2-25,H2,25,sym
+416,B2-fl-Snap-488.czi,336.879,1590,65535,Symbiont Area,54.003,Tentacle,H2-25,,54.00354916,B2-H2-25,H2-25,H2,25,sym
+417,B3-bf-Snap-627.czi,2493.507,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,B3-H2-25,H2-25,H2,25,sym
+418,B3-fl-Snap-626.czi,1446.329,950,65535,Symbiont Area,58.004,Tentacle,H2-25,,58.00380749,B3-H2-25,H2-25,H2,25,sym
+419,B3-bf-Snap-627.czi,9432.383,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,B3-H2-25,H2-25,H2,25,sym
+420,B3-fl-Snap-626.czi,4673.271,920,65535,Symbiont Area,49.545,Tentacle,H2-25,,49.54496653,B3-H2-25,H2-25,H2,25,sym
+421,B3-bf-Snap-627.czi,457.316,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,B3-H2-25,H2-25,H2,25,sym
+422,B3-fl-Snap-626.czi,226.388,875,65535,Symbiont Area,49.504,Tentacle,H2-25,,49.5036255,B3-H2-25,H2-25,H2,25,sym
+423,B3-bf-Snap-627.czi,11178.616,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,B3-H2-25,H2-25,H2,25,sym
+424,B3-fl-Snap-626.czi,5712.016,1086,65535,Symbiont Area,51.098,Tentacle,H2-25,,51.09770297,B3-H2-25,H2-25,H2,25,sym
+425,B3-bf-Snap-627.czi,2592.105,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,B3-H2-25,H2-25,H2,25,sym
+426,B3-fl-Snap-626.czi,1704.934,1372,65535,Symbiont Area,65.774,Tentacle,H2-25,,65.77411023,B3-H2-25,H2-25,H2,25,sym
+427,B3-bf-Snap-627.czi,2648.54,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,B3-H2-25,H2-25,H2,25,sym
+428,B3-fl-Snap-626.czi,1703.204,1312,65535,Symbiont Area,64.307,Tentacle,H2-25,,64.30727873,B3-H2-25,H2-25,H2,25,sym
+429,B4-bf-Snap-493.czi,3279.917,0,65535,Tentacle Area,64.307,Tentacle,H2-25,,n/a,B4-H2-25,H2-25,H2,25,sym
+430,B4-fl-Snap-492.czi,1343.838,747,65535,Symbiont Area,40.972,Tentacle,H2-25,,40.97170752,B4-H2-25,H2-25,H2,25,sym
+431,B4-bf-Snap-493.czi,2917.308,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,B4-H2-25,H2-25,H2,25,sym
+432,B4-fl-Snap-492.czi,1525.035,830,65535,Symbiont Area,52.275,Tentacle,H2-25,,52.27541967,B4-H2-25,H2-25,H2,25,sym
+433,B4-bf-Snap-493.czi,2363.339,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,B4-H2-25,H2-25,H2,25,sym
+434,B4-fl-Snap-492.czi,1270.754,1078,65535,Symbiont Area,53.769,Tentacle,H2-25,,53.76943384,B4-H2-25,H2-25,H2,25,sym
+435,B4-bf-Snap-493.czi,1458.87,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,B4-H2-25,H2-25,H2,25,sym
+436,B4-fl-Snap-492.czi,873.549,1493,65535,Symbiont Area,59.878,Tentacle,H2-25,,59.87846758,B4-H2-25,H2-25,H2,25,sym
+437,B4-bf-Snap-493.czi,18012.191,0,65535,Tentacle Area,0,Body column,H2-25,,n/a,B4-H2-25,H2-25,H2,25,sym
+438,B4-fl-Snap-492.czi,6740.814,747,65535,Symbiont Area,37.424,Body column,H2-25,,37.42362048,B4-H2-25,H2-25,H2,25,sym
+439,B5-bf-Snap-588.czi,4494.885,0,65535,Tentacle Area,0,Tentacle,H2-25,"Blurry picture, unclear, tentacle and blurry cannot see, only 1 tentacle visible ",n/a,B5-H2-25,H2-25,H2,25,sym
+440,B5-fl-Snap-589.czi,2591.673,1679,65535,Symbiont Area,57.658,Tentacle,H2-25,,57.65827157,B5-H2-25,H2-25,H2,25,sym
+441,B6-bf-Snap-499.czi,2054.137,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,B6-H2-25,H2-25,H2,25,sym
+442,B6-fl-Snap-498.czi,1222.536,856,65535,Symbiont Area,59.516,Tentacle,H2-25,,59.51579666,B6-H2-25,H2-25,H2,25,sym
+443,B6-bf-Snap-499.czi,1325.675,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,B6-H2-25,H2-25,H2,25,sym
+444,B6-fl-Snap-498.czi,702.299,914,65535,Symbiont Area,52.977,Tentacle,H2-25,,52.97670998,B6-H2-25,H2-25,H2,25,sym
+445,B6-bf-Snap-499.czi,2354.474,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,B6-H2-25,H2-25,H2,25,sym
+446,B6-fl-Snap-498.czi,1708.394,1285,65535,Symbiont Area,72.559,Tentacle,H2-25,,72.55947613,B6-H2-25,H2-25,H2,25,sym
+447,B6-bf-Snap-499.czi,6597.025,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,B6-H2-25,H2-25,H2,25,sym
+448,B6-fl-Snap-498.czi,3236.672,1185,65535,Symbiont Area,49.063,Tentacle,H2-25,,49.06260019,B6-H2-25,H2-25,H2,25,sym
+449,B6-bf-Snap-499.czi,1173.886,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,B6-H2-25,H2-25,H2,25,sym
+450,B6-fl-Snap-498.czi,591.592,1213,65535,Symbiont Area,50.396,Tentacle,H2-25,,50.39603505,B6-H2-25,H2-25,H2,25,sym
+451,B6-bf-Snap-499.czi,5093.829,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,B6-H2-25,H2-25,H2,25,sym
+452,B6-fl-Snap-498.czi,2126.357,985,65535,Symbiont Area,41.744,Tentacle,H2-25,,41.74378449,B6-H2-25,H2-25,H2,25,sym
+453,B7-bf-Snap-501.czi,4121.032,0,65535,Tentacle Area,41.744,Tentacle,H2-25,,n/a,B7-H2-25,H2-25,H2,25,sym
+454,B7-fl-Snap-500.czi,2699.353,1427,65535,Symbiont Area,65.502,Tentacle,H2-25,,65.50186943,B7-H2-25,H2-25,H2,25,sym
+455,B7-bf-Snap-501.czi,2702.38,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,B7-H2-25,H2-25,H2,25,sym
+456,B7-fl-Snap-500.czi,1933.916,1562,65535,Symbiont Area,71.563,Tentacle,H2-25,,71.56343667,B7-H2-25,H2-25,H2,25,sym
+457,B7-bf-Snap-501.czi,2869.306,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,B7-H2-25,H2-25,H2,25,sym
+458,B7-fl-Snap-500.czi,2055.219,1562,65535,Symbiont Area,71.628,Tentacle,H2-25,,71.62773855,B7-H2-25,H2-25,H2,25,sym
+459,B7-bf-Snap-501.czi,3840.588,0,65535,Tentacle Area,0,Body column,H2-25,,n/a,B7-H2-25,H2-25,H2,25,sym
+460,B7-fl-Snap-500.czi,1243.726,579,65535,Symbiont Area,32.384,Body column,H2-25,,32.38373916,B7-H2-25,H2-25,H2,25,sym
+461,B8-bf-Snap-629.czi,1570.875,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,B8-H2-25,H2-25,H2,25,sym
+462,B8-fl-Snap-628.czi,709.434,958,65535,Symbiont Area,45.162,Tentacle,H2-25,,45.16170924,B8-H2-25,H2-25,H2,25,sym
+463,B8-bf-Snap-629.czi,3236.456,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,B8-H2-25,H2-25,H2,25,sym
+464,B8-fl-Snap-628.czi,1735.638,1699,65535,Symbiont Area,53.628,Tentacle,H2-25,,53.62773355,B8-H2-25,H2-25,H2,25,sym
+465,B8-bf-Snap-629.czi,6122.411,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,B8-H2-25,H2-25,H2,25,sym
+466,B8-fl-Snap-628.czi,2779.14,973,65535,Symbiont Area,45.393,Tentacle,H2-25,,45.39290159,B8-H2-25,H2-25,H2,25,sym
+467,B8-bf-Snap-629.czi,1970.891,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,B8-H2-25,H2-25,H2,25,sym
+468,B8-fl-Snap-628.czi,877.009,798,65535,Symbiont Area,44.498,Tentacle,H2-25,,44.49809756,B8-H2-25,H2-25,H2,25,sym
+469,B8-bf-Snap-629.czi,9474.115,0,65535,Tentacle Area,0,Body column,H2-25,,n/a,B8-H2-25,H2-25,H2,25,sym
+470,B8-fl-Snap-628.czi,1988.838,552,65535,Symbiont Area,20.992,Body column,H2-25,,20.99233543,B8-H2-25,H2-25,H2,25,sym
+471,C2-bf-Snap-635.czi,1094.963,0,65535,Tentacle Area,20.992,Tentacle,H2-25,,n/a,C2-H2-25,H2-25,H2,25,sym
+472,C2-fl-Snap-634.czi,546.617,1726,65535,Symbiont Area,49.921,Tentacle,H2-25,,49.92104756,C2-H2-25,H2-25,H2,25,sym
+473,C2-bf-Snap-635.czi,4960.85,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,C2-H2-25,H2-25,H2,25,sym
+474,C2-fl-Snap-634.czi,2806.6,1030,65535,Symbiont Area,56.575,Tentacle,H2-25,,56.57498211,C2-H2-25,H2-25,H2,25,sym
+475,C2-bf-Snap-635.czi,4274.552,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,C2-H2-25,H2-25,H2,25,sym
+476,C2-fl-Snap-634.czi,2112.951,1120,65535,Symbiont Area,49.431,Tentacle,H2-25,,49.43093452,C2-H2-25,H2-25,H2,25,sym
+477,C2-bf-Snap-635.czi,658.621,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,C2-H2-25,H2-25,H2,25,sym
+478,C2-fl-Snap-634.czi,373.204,1348,65535,Symbiont Area,56.664,Tentacle,H2-25,,56.66445497,C2-H2-25,H2-25,H2,25,sym
+479,C2-bf-Snap-635.czi,938.633,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,C2-H2-25,H2-25,H2,25,sym
+480,C2-fl-Snap-634.czi,622.079,1696,65535,Symbiont Area,66.275,Tentacle,H2-25,,66.27499779,C2-H2-25,H2-25,H2,25,sym
+481,C3-bf-Snap-511.czi,2199.224,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,C3-H2-25,H2-25,H2,25,sym
+482,C3-fl-Snap-510.czi,1326.108,1670,65535,Symbiont Area,60.299,Tentacle,H2-25,,60.29890543,C3-H2-25,H2-25,H2,25,sym
+483,C3-bf-Snap-511.czi,594.403,0,65535,Tentacle Area,41.327,Tentacle,H2-25,,n/a,C3-H2-25,H2-25,H2,25,sym
+484,C3-fl-Snap-510.czi,424.017,1259,65535,Symbiont Area,71.335,Tentacle,H2-25,,71.33493606,C3-H2-25,H2-25,H2,25,sym
+485,C3-bf-Snap-511.czi,221.847,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,C3-H2-25,H2-25,H2,25,sym
+486,C3-fl-Snap-510.czi,86.922,1040,65535,Symbiont Area,39.181,Tentacle,H2-25,,39.18105722,C3-H2-25,H2-25,H2,25,sym
+487,C3-bf-Snap-511.czi,1627.526,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,C3-H2-25,H2-25,H2,25,sym
+488,C3-fl-Snap-510.czi,1136.262,1026,65535,Symbiont Area,69.815,Tentacle,H2-25,,69.8152902,C3-H2-25,H2-25,H2,25,sym
+489,C3-bf-Snap-511.czi,518.075,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,C3-H2-25,H2-25,H2,25,sym
+490,C3-fl-Snap-510.czi,335.581,1464,65535,Symbiont Area,64.775,Tentacle,H2-25,,64.77459827,C3-H2-25,H2-25,H2,25,sym
+491,C4-bf-Snap-633.czi,3248.997,0,65535,Tentacle Area,64.775,Tentacle,H2-25,,n/a,C4-H2-25,H2-25,H2,25,sym
+492,C4-fl-Snap-632.czi,1818.02,788,65535,Symbiont Area,55.956,Tentacle,H2-25,,55.95634591,C4-H2-25,H2-25,H2,25,sym
+493,C4-bf-Snap-633.czi,3725.557,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,C4-H2-25,H2-25,H2,25,sym
+494,C4-fl-Snap-632.czi,1372.164,587,65535,Symbiont Area,36.831,Tentacle,H2-25,,36.83111009,C4-H2-25,H2-25,H2,25,sym
+495,C4-bf-Snap-633.czi,2833.412,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,C4-H2-25,H2-25,H2,25,sym
+496,C4-fl-Snap-632.czi,1334.757,1203,65535,Symbiont Area,47.108,Tentacle,H2-25,,47.10776266,C4-H2-25,H2-25,H2,25,sym
+497,C4-bf-Snap-633.czi,1019.933,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,C4-H2-25,H2-25,H2,25,sym
+498,C4-fl-Snap-632.czi,563.05,1633,65535,Symbiont Area,55.205,Tentacle,H2-25,,55.20460658,C4-H2-25,H2-25,H2,25,sym
+499,C4-bf-Snap-633.czi,2211.982,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,C4-H2-25,H2-25,H2,25,sym
+500,C4-fl-Snap-632.czi,1221.023,816,65535,Symbiont Area,55.2,Tentacle,H2-25,,55.20040398,C4-H2-25,H2-25,H2,25,sym
+501,C5-bf-Snap-631.czi,6888.496,0,65535,Tentacle Area,55.2,Tentacle,H2-25,,n/a,C5-H2-25,H2-25,H2,25,sym
+502,C5-fl-Snap-630.czi,2768.112,966,65535,Symbiont Area,40.185,Tentacle,H2-25,,40.18456278,C5-H2-25,H2-25,H2,25,sym
+503,C5-bf-Snap-631.czi,1651.31,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,C5-H2-25,H2-25,H2,25,sym
+504,C5-fl-Snap-630.czi,985.121,1977,65535,Symbiont Area,59.657,Tentacle,H2-25,,59.65693904,C5-H2-25,H2-25,H2,25,sym
+505,C5-fl-Snap-630.czi,226728.346,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,C5-H2-25,H2-25,H2,25,sym
+506,C5-fl-Snap-630.czi,88.004,1721,65535,Symbiont Area,0.039,Tentacle,H2-25,,0.03881473206,C5-H2-25,H2-25,H2,25,sym
+507,C5-bf-Snap-631.czi,406.503,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,C5-H2-25,H2-25,H2,25,sym
+508,C5-fl-Snap-630.czi,310.283,2143,65535,Symbiont Area,76.33,Tentacle,H2-25,,76.32981798,C5-H2-25,H2-25,H2,25,sym
+509,C6-bf-Snap-517.czi,1945.809,0,65535,Tentacle Area,0,Tentacle,H2-25,"Blurry, unlear image, only 2 partial tentacles clear",n/a,C6-H2-25,H2-25,H2,25,sym
+510,C6-fl-Snap-516.czi,939.93,786,65535,Symbiont Area,48.305,Tentacle,H2-25,,48.30535782,C6-H2-25,H2-25,H2,25,sym
+511,C6-bf-Snap-517.czi,955.714,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,C6-H2-25,H2-25,H2,25,sym
+512,C6-fl-Snap-516.czi,485.641,796,65535,Symbiont Area,50.814,Tentacle,H2-25,,50.8144696,C6-H2-25,H2-25,H2,25,sym
+513,C7-bf-Snap-519.czi,4724.084,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,C7-H2-25,H2-25,H2,25,sym
+514,C7-fl-Snap-518.czi,2482.047,1299,65535,Symbiont Area,52.54,Tentacle,H2-25,,52.54028082,C7-H2-25,H2-25,H2,25,sym
+515,C7-bf-Snap-519.czi,984.689,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,C7-H2-25,H2-25,H2,25,sym
+516,C7-fl-Snap-518.czi,670.946,1439,65535,Symbiont Area,68.138,Tentacle,H2-25,,68.13785876,C7-H2-25,H2-25,H2,25,sym
+517,C7-bf-Snap-519.czi,4048.813,0,65535,Tentacle Area,0,Body column,H2-25,,n/a,C7-H2-25,H2-25,H2,25,sym
+518,C7-fl-Snap-518.czi,1219.725,586,65535,Symbiont Area,30.126,Body column,H2-25,,30.12549604,C7-H2-25,H2-25,H2,25,sym
+513,C8-bf-Snap-521.czi,2385.61,0,65535,Tentacle Area,30.126,Tentacle,H2-25,,n/a,C8-H2-25,H2-25,H2,25,sym
+514,C8-fl-Snap-520.czi,1704.285,1236,65535,Symbiont Area,71.44,Tentacle,H2-25,,71.44021864,C8-H2-25,H2-25,H2,25,sym
+515,C8-bf-Snap-521.czi,1353.352,0,65535,Tentacle Area,30.126,Tentacle,H2-25,,n/a,C8-H2-25,H2-25,H2,25,sym
+516,C8-fl-Snap-520.czi,718.299,1507,65535,Symbiont Area,53.076,Tentacle,H2-25,,53.07554871,C8-H2-25,H2-25,H2,25,sym
+517,C8-bf-Snap-521.czi,3390.192,0,65535,Tentacle Area,30.126,Tentacle,H2-25,,n/a,C8-H2-25,H2-25,H2,25,sym
+518,C8-fl-Snap-520.czi,1388.597,1568,65535,Symbiont Area,40.959,Tentacle,H2-25,,40.95924361,C8-H2-25,H2-25,H2,25,sym
+519,C8-bf-Snap-521.czi,469.857,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,C8-H2-25,H2-25,H2,25,sym
+520,C8-fl-Snap-520.czi,314.175,1357,65535,Symbiont Area,66.866,Tentacle,H2-25,,66.86608904,C8-H2-25,H2-25,H2,25,sym
+521,C8-bf-Snap-521.czi,1643.526,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,C8-H2-25,H2-25,H2,25,sym
+522,C8-fl-Snap-520.czi,684.568,1327,65535,Symbiont Area,41.652,Tentacle,H2-25,,41.65239856,C8-H2-25,H2-25,H2,25,sym
+523,D1-bf-Snap-523.czi,1259.943,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,D1-H2-25,H2-25,H2,25,sym
+524,D1-fl-Snap-522.czi,753.76,1449,65535,Symbiont Area,59.825,Tentacle,H2-25,,59.82492859,D1-H2-25,H2-25,H2,25,sym
+525,D1-bf-Snap-523.czi,615.809,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,D1-H2-25,H2-25,H2,25,sym
+526,D1-fl-Snap-522.czi,405.422,1863,65535,Symbiont Area,65.836,Tentacle,H2-25,,65.83567307,D1-H2-25,H2-25,H2,25,sym
+527,D1-bf-Snap-523.czi,5379.029,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,D1-H2-25,H2-25,H2,25,sym
+528,D1-fl-Snap-522.czi,2578.051,828,65535,Symbiont Area,47.928,Tentacle,H2-25,,47.92781374,D1-H2-25,H2-25,H2,25,sym
+REMOVED,D2-bf-Snap-523.czi,REMOVED,REMOVED,REMOVED,REMOVED,REMOVED,REMOVED,H2-25,D2 bf image missing ,REMOVED,D2-H2-25,H2-25,H2,25,sym
+REMOVED,D2-fl-Snap-524.czi,REMOVED,REMOVED,REMOVED,REMOVED,REMOVED,REMOVED,H2-25,,REMOVED,D2-H2-25,H2-25,H2,25,sym
+REMOVED,D3-bf-Snap-525.czi,REMOVED,REMOVED,REMOVED,REMOVED,REMOVED,REMOVED,H2-25,"Blurry, no clear tentacles ",REMOVED,D3-H2-25,H2-25,H2,25,sym
+REMOVED,D3-fl-Snap-524.czi,REMOVED,REMOVED,REMOVED,REMOVED,REMOVED,REMOVED,H2-25,,REMOVED,D3-H2-25,H2-25,H2,25,sym
+529,D4-bf-Snap-625.czi,3525.765,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,D4-H2-25,H2-25,H2,25,sym
+530,D4-fl-Snap-624.czi,871.387,1200,65535,Symbiont Area,24.715,Tentacle,H2-25,,24.71483494,D4-H2-25,H2-25,H2,25,sym
+529,D4-bf-Snap-625.czi,3525.765,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,D4-H2-25,H2-25,H2,25,sym
+530,D4-fl-Snap-624.czi,871.387,1200,65535,Symbiont Area,24.715,Tentacle,H2-25,,24.71483494,D4-H2-25,H2-25,H2,25,sym
+531,D4-bf-Snap-625.czi,9522.333,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,D4-H2-25,H2-25,H2,25,sym
+532,D4-fl-Snap-624.czi,1275.511,765,65535,Symbiont Area,13.395,Tentacle,H2-25,,13.39494218,D4-H2-25,H2-25,H2,25,sym
+533,D4-bf-Snap-625.czi,8794.303,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,D4-H2-25,H2-25,H2,25,sym
+534,D4-fl-Snap-624.czi,2187.765,435,65535,Symbiont Area,24.877,Tentacle,H2-25,,24.87707099,D4-H2-25,H2-25,H2,25,sym
+535,D4-bf-Snap-625.czi,2369.177,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,D4-H2-25,H2-25,H2,25,sym
+536,D4-fl-Snap-624.czi,894.523,645,65535,Symbiont Area,37.757,Tentacle,H2-25,,37.75669779,D4-H2-25,H2-25,H2,25,sym
+537,D4-bf-Snap-625.czi,795.059,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,D4-H2-25,H2-25,H2,25,sym
+538,D4-fl-Snap-624.czi,462.073,930,65535,Symbiont Area,58.118,Tentacle,H2-25,,58.11807677,D4-H2-25,H2-25,H2,25,sym
+539,D5-bf-Snap-623.czi,2740.219,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,D5-H2-25,H2-25,H2,25,sym
+540,D5-fl-Snap-622.czi,1414.544,1534,65535,Symbiont Area,51.622,Tentacle,H2-25,,51.62156747,D5-H2-25,H2-25,H2,25,sym
+541,D5-bf-Snap-623.czi,1477.898,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,D5-H2-25,H2-25,H2,25,sym
+542,D5-fl-Snap-622.czi,694.731,1274,65535,Symbiont Area,47.008,Tentacle,H2-25,,47.00804792,D5-H2-25,H2-25,H2,25,sym
+543,D5-bf-Snap-623.czi,2944.336,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,D5-H2-25,H2-25,H2,25,sym
+544,D5-fl-Snap-622.czi,1038.529,793,65535,Symbiont Area,35.272,Tentacle,H2-25,,35.2720953,D5-H2-25,H2-25,H2,25,sym
+545,D5-bf-Snap-623.czi,9302.216,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,D5-H2-25,H2-25,H2,25,sym
+546,D5-fl-Snap-622.czi,3570.523,728,65535,Symbiont Area,38.384,Tentacle,H2-25,,38.38357441,D5-H2-25,H2-25,H2,25,sym
+547,D6-bf-Snap-621.czi,1336.487,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,D6-H2-25,H2-25,H2,25,sym
+548,D6-fl-Snap-620.czi,523.048,1582,65535,Symbiont Area,39.136,Tentacle,H2-25,,39.1360335,D6-H2-25,H2-25,H2,25,sym
+549,D6-bf-Snap-621.czi,3954.539,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,D6-H2-25,H2-25,H2,25,sym
+550,D6-fl-Snap-620.czi,2113.599,1365,65535,Symbiont Area,53.447,Tentacle,H2-25,,53.44741827,D6-H2-25,H2-25,H2,25,sym
+551,D6-bf-Snap-621.czi,3961.026,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,D6-H2-25,H2-25,H2,25,sym
+552,D6-fl-Snap-620.czi,2583.24,1379,65535,Symbiont Area,65.216,Tentacle,H2-25,,65.21643635,D6-H2-25,H2-25,H2,25,sym
+553,D6-bf-Snap-621.czi,896.469,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,D6-H2-25,H2-25,H2,25,sym
+554,D6-fl-Snap-620.czi,540.779,1234,65535,Symbiont Area,60.323,Tentacle,H2-25,,60.32322367,D6-H2-25,H2-25,H2,25,sym
+555,D7-bf-Snap-619.czi,7127.857,0,65535,Tentacle Area,0,Tentacle,H2-25,"Blurry image, only 2 tentacles present",n/a,D7-H2-25,H2-25,H2,25,sym
+556,D7-fl-Snap-618.czi,2496.101,951,65535,Symbiont Area,35.019,Tentacle,H2-25,,35.0189545,D7-H2-25,H2-25,H2,25,sym
+557,D7-bf-Snap-619.czi,3978.972,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,D7-H2-25,H2-25,H2,25,sym
+558,D7-fl-Snap-618.czi,1804.398,655,65535,Symbiont Area,45.348,Tentacle,H2-25,,45.34834626,D7-H2-25,H2-25,H2,25,sym
+559,D7-bf-Snap-619.czi,8533.752,0,65535,Tentacle Area,0,Body column,H2-25,,n/a,D7-H2-25,H2-25,H2,25,sym
+560,D7-fl-Snap-618.czi,3590.849,593,65535,Symbiont Area,42.078,Body column,H2-25,,42.07819726,D7-H2-25,H2-25,H2,25,sym
+561,E1-bf-Snap-605.czi,4217.901,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,E1-H2-25,H2-25,H2,25,sym
+562,E1-fl-Snap-604.czi,2754.706,1592,65535,Symbiont Area,65.31,Tentacle,H2-25,,65.30987806,E1-H2-25,H2-25,H2,25,sym
+563,E1-bf-Snap-605.czi,2359.663,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,E1-H2-25,H2-25,H2,25,sym
+564,E1-fl-Snap-604.czi,1866.454,1636,65535,Symbiont Area,79.098,Tentacle,H2-25,,79.09832887,E1-H2-25,H2-25,H2,25,sym
+565,E1-bf-Snap-605.czi,161.088,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,E1-H2-25,H2-25,H2,25,sym
+566,E1-fl-Snap-604.czi,93.842,1160,65535,Symbiont Area,58.255,Tentacle,H2-25,,58.25511522,E1-H2-25,H2-25,H2,25,sym
+567,E1-bf-Snap-605.czi,433.099,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,E1-H2-25,H2-25,H2,25,sym
+568,E1-fl-Snap-604.czi,282.606,1443,65535,Symbiont Area,65.252,Tentacle,H2-25,,65.25205553,E1-H2-25,H2-25,H2,25,sym
+569,E2-bf-Snap-607.czi,1449.356,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,E2-H2-25,H2-25,H2,25,sym
+570,E2-fl-Snap-606.czi,726.084,1271,65535,Symbiont Area,50.097,Tentacle,H2-25,,50.0970086,E2-H2-25,H2-25,H2,25,sym
+571,E2-bf-Snap-607.czi,1346.001,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,E2-H2-25,H2-25,H2,25,sym
+572,E2-fl-Snap-606.czi,809.979,1221,65535,Symbiont Area,60.177,Tentacle,H2-25,,60.17670121,E2-H2-25,H2-25,H2,25,sym
+573,E2-bf-Snap-607.czi,3397.327,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,E2-H2-25,H2-25,H2,25,sym
+574,E2-fl-Snap-606.czi,2124.194,1145,65535,Symbiont Area,62.525,Tentacle,H2-25,,62.52545016,E2-H2-25,H2-25,H2,25,sym
+575,E2-bf-Snap-607.czi,375.583,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,E2-H2-25,H2-25,H2,25,sym
+576,E2-fl-Snap-606.czi,241.091,919,65535,Symbiont Area,64.191,Tentacle,H2-25,,64.19113751,E2-H2-25,H2-25,H2,25,sym
+577,E2-bf-Snap-607.czi,1094.531,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,E2-H2-25,H2-25,H2,25,sym
+578,E2-fl-Snap-606.czi,672.46,1309,65535,Symbiont Area,61.438,Tentacle,H2-25,,61.43818677,E2-H2-25,H2-25,H2,25,sym
+580,E3-bf-Snap-609.czi,2029.055,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,E3-H2-25,H2-25,H2,25,sym
+581,E3-fl-Snap-608.czi,1081.125,956,65535,Symbiont Area,53.282,Tentacle,H2-25,,53.28219294,E3-H2-25,H2-25,H2,25,sym
+582,E3-bf-Snap-609.czi,5533.414,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,E3-H2-25,H2-25,H2,25,sym
+583,E3-fl-Snap-608.czi,2306.688,1123,65535,Symbiont Area,41.687,Tentacle,H2-25,,41.68652481,E3-H2-25,H2-25,H2,25,sym
+584,E3-bf-Snap-609.czi,4879.55,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,E3-H2-25,H2-25,H2,25,sym
+585,E3-fl-Snap-608.czi,1929.376,1381,65535,Symbiont Area,39.54,Tentacle,H2-25,,39.54003955,E3-H2-25,H2-25,H2,25,sym
+586,E3-bf-Snap-609.czi,2479.668,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,E3-H2-25,H2-25,H2,25,sym
+587,E3-fl-Snap-608.czi,1378.651,1381,65535,Symbiont Area,55.598,Tentacle,H2-25,,55.59820912,E3-H2-25,H2-25,H2,25,sym
+588,E3-bf-Snap-609.czi,262.065,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,E3-H2-25,H2-25,H2,25,sym
+589,E3-fl-Snap-608.czi,125.41,1821,65535,Symbiont Area,47.855,Tentacle,H2-25,,47.8545399,E3-H2-25,H2-25,H2,25,sym
+590,E4-fl-Snap-610.czi,226728.346,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,E4-H2-25,H2-25,H2,25,sym
+591,E4-fl-Snap-610.czi,1854.778,1633,65535,Symbiont Area,0.818,Tentacle,H2-25,,0.8180618051,E4-H2-25,H2-25,H2,25,sym
+592,E4-bf-Snap-611.czi,975.175,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,E4-H2-25,H2-25,H2,25,sym
+593,E4-fl-Snap-610.czi,673.757,1689,65535,Symbiont Area,69.091,Tentacle,H2-25,,69.09088112,E4-H2-25,H2-25,H2,25,sym
+594,E4-bf-Snap-611.czi,1149.668,0,65535,Tentacle Area,0,Body column,H2-25,,n/a,E4-H2-25,H2-25,H2,25,sym
+595,E4-fl-Snap-610.czi,388.34,558,65535,Symbiont Area,33.778,Body column,H2-25,,33.77844734,E4-H2-25,H2-25,H2,25,sym
+596,E5-bf-Snap-549.czi,1760.071,0,65535,Tentacle Area,0,Tentacle,H2-25,"Very small, only 1 small tentacle ",n/a,E5-H2-25,H2-25,H2,25,sym
+597,E5-fl-Snap-548.czi,1019.285,1617,65535,Symbiont Area,57.912,Tentacle,H2-25,,57.91158425,E5-H2-25,H2-25,H2,25,sym
+598,E5-bf-Snap-549.czi,4997.825,0,65535,Tentacle Area,0,Body column,H2-25,,n/a,E5-H2-25,H2-25,H2,25,sym
+599,E5-fl-Snap-548.czi,3111.91,1259,65535,Symbiont Area,62.265,Body column,H2-25,,62.2652854,E5-H2-25,H2-25,H2,25,sym
+600,E5-bf-Snap-549.czi,352.879,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,E5-H2-25,H2-25,H2,25,sym
+601,E5-fl-Snap-548.czi,263.794,1458,65535,Symbiont Area,74.755,Tentacle,H2-25,,74.75480264,E5-H2-25,H2-25,H2,25,sym
+602,E6-bf-Snap-613.czi,790.519,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,E6-H2-25,H2-25,H2,25,sym
+603,E6-fl-Snap-612.czi,420.558,1300,65535,Symbiont Area,53.2,Tentacle,H2-25,,53.20023934,E6-H2-25,H2-25,H2,25,sym
+604,E6-bf-Snap-613.czi,619.701,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,E6-H2-25,H2-25,H2,25,sym
+605,E6-fl-Snap-612.czi,311.796,1211,65535,Symbiont Area,50.314,Tentacle,H2-25,,50.31394172,E6-H2-25,H2-25,H2,25,sym
+606,E6-bf-Snap-613.czi,977.769,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,E6-H2-25,H2-25,H2,25,sym
+607,E6-fl-Snap-612.czi,609.106,1046,65535,Symbiont Area,62.295,Tentacle,H2-25,,62.29549106,E6-H2-25,H2-25,H2,25,sym
+608,E6-bf-Snap-613.czi,1620.39,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,E6-H2-25,H2-25,H2,25,sym
+609,E6-fl-Snap-612.czi,1035.069,1151,65535,Symbiont Area,63.878,Tentacle,H2-25,,63.87777017,E6-H2-25,H2-25,H2,25,sym
+610,E6-bf-Snap-613.czi,1713.151,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,E6-H2-25,H2-25,H2,25,sym
+611,E6-fl-Snap-612.czi,1064.692,1569,65535,Symbiont Area,62.148,Tentacle,H2-25,,62.14817024,E6-H2-25,H2-25,H2,25,sym
+612,E7-bf-Snap-615.czi,1570.442,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,E7-H2-25,H2-25,H2,25,sym
+613,E7-fl-Snap-614.czi,820.574,935,65535,Symbiont Area,52.251,Tentacle,H2-25,,52.25114968,E7-H2-25,H2-25,H2,25,sym
+614,E7-bf-Snap-615.czi,4644.081,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,E7-H2-25,H2-25,H2,25,sym
+615,E7-fl-Snap-614.czi,2358.15,1084,65535,Symbiont Area,50.778,Tentacle,H2-25,,50.77753812,E7-H2-25,H2-25,H2,25,sym
+616,E7-bf-Snap-615.czi,1083.287,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,E7-H2-25,H2-25,H2,25,sym
+617,E7-fl-Snap-614.czi,500.777,906,65535,Symbiont Area,46.228,Tentacle,H2-25,,46.22754635,E7-H2-25,H2-25,H2,25,sym
+618,E7-bf-Snap-615.czi,4377.691,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,E7-H2-25,H2-25,H2,25,sym
+619,E7-fl-Snap-614.czi,2191.008,1084,65535,Symbiont Area,50.049,Tentacle,H2-25,,50.04939819,E7-H2-25,H2-25,H2,25,sym
+620,E7-bf-Snap-615.czi,1004.149,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,E7-H2-25,H2-25,H2,25,sym
+621,E7-fl-Snap-614.czi,536.887,1277,65535,Symbiont Area,53.467,Tentacle,H2-25,,53.46686597,E7-H2-25,H2-25,H2,25,sym
+622,E7-bf-Snap-615.czi,355.041,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,E7-H2-25,H2-25,H2,25,sym
+623,E7-fl-Snap-614.czi,160.223,1589,65535,Symbiont Area,45.128,Tentacle,H2-25,,45.12802747,E7-H2-25,H2-25,H2,25,sym
+624,E7-bf-Snap-615.czi,3633.661,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,E7-H2-25,H2-25,H2,25,sym
+625,E7-fl-Snap-614.czi,1661.473,1232,65535,Symbiont Area,45.724,Tentacle,H2-25,,45.72449108,E7-H2-25,H2-25,H2,25,sym
+626,E8-bf-Snap-617.czi,1192.697,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,E8-H2-25,H2-25,H2,25,sym
+627,E8-fl-Snap-616.czi,566.293,1079,65535,Symbiont Area,47.48,Tentacle,H2-25,,47.48003894,E8-H2-25,H2-25,H2,25,sym
+628,E8-bf-Snap-617.czi,3082.72,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,E8-H2-25,H2-25,H2,25,sym
+629,E8-fl-Snap-616.czi,1169.993,1464,65535,Symbiont Area,37.953,Tentacle,H2-25,,37.95326854,E8-H2-25,H2-25,H2,25,sym
+630,E8-bf-Snap-617.czi,764.139,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,E8-H2-25,H2-25,H2,25,sym
+631,E8-fl-Snap-616.czi,415.152,1563,65535,Symbiont Area,54.329,Tentacle,H2-25,,54.32938248,E8-H2-25,H2-25,H2,25,sym
+632,E8-bf-Snap-617.czi,2001.162,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,E8-H2-25,H2-25,H2,25,sym
+633,E8-fl-Snap-616.czi,1075.719,1439,65535,Symbiont Area,53.755,Tentacle,H2-25,,53.75471851,E8-H2-25,H2-25,H2,25,sym
+634,E8-bf-Snap-617.czi,1192.697,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,E8-H2-25,H2-25,H2,25,sym
+635,E8-fl-Snap-616.czi,566.293,1079,65535,Symbiont Area,47.48,Tentacle,H2-25,,47.48003894,E8-H2-25,H2-25,H2,25,sym
+636,E8-bf-Snap-617.czi,3082.72,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,E8-H2-25,H2-25,H2,25,sym
+637,E8-fl-Snap-616.czi,1169.993,1464,65535,Symbiont Area,37.953,Tentacle,H2-25,,37.95326854,E8-H2-25,H2-25,H2,25,sym
+638,E8-bf-Snap-617.czi,764.139,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,E8-H2-25,H2-25,H2,25,sym
+639,E8-fl-Snap-616.czi,415.152,1563,65535,Symbiont Area,54.329,Tentacle,H2-25,,54.32938248,E8-H2-25,H2-25,H2,25,sym
+640,E8-bf-Snap-617.czi,2001.162,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,E8-H2-25,H2-25,H2,25,sym
+641,E8-fl-Snap-616.czi,1075.719,1439,65535,Symbiont Area,53.755,Tentacle,H2-25,,53.75471851,E8-H2-25,H2-25,H2,25,sym
+642,F2-bf-Snap-559.czi,1169.993,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,F2-H2-25,H2-25,H2,25,sym
+643,F2-fl-Snap-558.czi,738.408,1778,65535,Symbiont Area,63.112,Tentacle,H2-25,,63.11217247,F2-H2-25,H2-25,H2,25,sym
+644,F2-bf-Snap-559.czi,2851.792,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,F2-H2-25,H2-25,H2,25,sym
+645,F2-fl-Snap-558.czi,1376.705,920,65535,Symbiont Area,48.275,Tentacle,H2-25,,48.27508458,F2-H2-25,H2-25,H2,25,sym
+646,F2-bf-Snap-559.czi,3834.102,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,F2-H2-25,H2-25,H2,25,sym
+647,F2-fl-Snap-558.czi,1809.587,996,65535,Symbiont Area,47.197,Tentacle,H2-25,,47.19715334,F2-H2-25,H2-25,H2,25,sym
+648,F2-bf-Snap-559.czi,1494.763,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,F2-H2-25,H2-25,H2,25,sym
+649,F2-fl-Snap-558.czi,648.243,1012,65535,Symbiont Area,43.368,Tentacle,H2-25,,43.36761079,F2-H2-25,H2-25,H2,25,sym
+650,F2-bf-Snap-559.czi,713.326,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,F2-H2-25,H2-25,H2,25,sym
+651,F2-fl-Snap-558.czi,429.639,1272,65535,Symbiont Area,60.23,Tentacle,H2-25,,60.23038555,F2-H2-25,H2-25,H2,25,sym
+652,F2-bf-Snap-559.czi,750.301,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,F2-H2-25,H2-25,H2,25,sym
+653,F2-fl-Snap-558.czi,466.614,1303,65535,Symbiont Area,62.19,Tentacle,H2-25,,62.19024098,F2-H2-25,H2-25,H2,25,sym
+654,F3-bf-Snap-593.czi,1792.505,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,F3-H2-25,H2-25,H2,25,sym
+655,F3-fl-Snap-592.czi,902.956,1856,65535,Symbiont Area,50.374,Tentacle,H2-25,,50.37397385,F3-H2-25,H2-25,H2,25,sym
+656,F3-bf-Snap-593.czi,1807.641,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,F3-H2-25,H2-25,H2,25,sym
+657,F3-fl-Snap-592.czi,1005.879,1330,65535,Symbiont Area,55.646,Tentacle,H2-25,,55.64594961,F3-H2-25,H2-25,H2,25,sym
+658,F3-bf-Snap-593.czi,4034.11,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,F3-H2-25,H2-25,H2,25,sym
+659,F3-fl-Snap-592.czi,1808.073,1176,65535,Symbiont Area,44.82,Tentacle,H2-25,,44.81962564,F3-H2-25,H2-25,H2,25,sym
+660,F3-bf-Snap-593.czi,4490.993,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,F3-H2-25,H2-25,H2,25,sym
+661,F3-fl-Snap-592.czi,2460.424,1408,65535,Symbiont Area,54.786,Tentacle,H2-25,,54.7857456,F3-H2-25,H2-25,H2,25,sym
+662,F3-bf-Snap-593.czi,836.142,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,F3-H2-25,H2-25,H2,25,sym
+663,F3-fl-Snap-592.czi,422.071,1764,65535,Symbiont Area,50.478,Tentacle,H2-25,,50.47838764,F3-H2-25,H2-25,H2,25,sym
+664,F4-bf-Snap-595.czi,3045.745,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,F4-H2-25,H2-25,H2,25,sym
+665,F4-fl-Snap-594.czi,1277.241,1417,65535,Symbiont Area,41.935,Tentacle,H2-25,,41.93525722,F4-H2-25,H2-25,H2,25,sym
+666,F4-bf-Snap-595.czi,6505.129,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,F4-H2-25,H2-25,H2,25,sym
+667,F4-fl-Snap-594.czi,3514.305,811,65535,Symbiont Area,54.024,Tentacle,H2-25,,54.02360199,F4-H2-25,H2-25,H2,25,sym
+668,F4-bf-Snap-595.czi,5420.977,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,F4-H2-25,H2-25,H2,25,sym
+669,F4-fl-Snap-594.czi,2828.872,1199,65535,Symbiont Area,52.184,Tentacle,H2-25,,52.18380377,F4-H2-25,H2-25,H2,25,sym
+670,F4-bf-Snap-595.czi,2028.623,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,F4-H2-25,H2-25,H2,25,sym
+671,F4-fl-Snap-594.czi,1188.589,666,65535,Symbiont Area,58.591,Tentacle,H2-25,,58.59092596,F4-H2-25,H2-25,H2,25,sym
+672,F4-bf-Snap-595.czi,19298.946,0,65535,Tentacle Area,0,Body column,H2-25,,n/a,F4-H2-25,H2-25,H2,25,sym
+673,F4-fl-Snap-594.czi,9430.005,702,65535,Symbiont Area,48.863,Body column,H2-25,,48.862798,F4-H2-25,H2-25,H2,25,sym
+674,F5-bf-Snap-597.czi,1599.633,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,F5-H2-25,H2-25,H2,25,sym
+675,F5-fl-Snap-596.czi,914.416,1366,65535,Symbiont Area,57.164,Tentacle,H2-25,,57.16411202,F5-H2-25,H2-25,H2,25,sym
+676,F5-bf-Snap-597.czi,1252.375,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,F5-H2-25,H2-25,H2,25,sym
+677,F5-fl-Snap-596.czi,916.794,1072,65535,Symbiont Area,73.204,Tentacle,H2-25,,73.20443158,F5-H2-25,H2-25,H2,25,sym
+678,F5-bf-Snap-597.czi,833.764,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,F5-H2-25,H2-25,H2,25,sym
+679,F5-fl-Snap-596.czi,586.186,1111,65535,Symbiont Area,70.306,Tentacle,H2-25,,70.30598587,F5-H2-25,H2-25,H2,25,sym
+680,F6-bf-Snap-599.czi,3473.006,0,65535,Tentacle Area,70.306,Tentacle,H2-25,,n/a,F6-H2-25,H2-25,H2,25,sym
+681,F6-fl-Snap-598.czi,2339.338,999,65535,Symbiont Area,67.358,Tentacle,H2-25,,67.35772987,F6-H2-25,H2-25,H2,25,sym
+682,F6-bf-Snap-599.czi,1187.075,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,F6-H2-25,H2-25,H2,25,sym
+683,F6-fl-Snap-598.czi,659.27,1316,65535,Symbiont Area,55.537,Tentacle,H2-25,,55.53735021,F6-H2-25,H2-25,H2,25,sym
+684,F6-bf-Snap-599.czi,3002.717,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,F6-H2-25,H2-25,H2,25,sym
+685,F6-fl-Snap-598.czi,1960.08,1025,65535,Symbiont Area,65.277,Tentacle,H2-25,,65.2768809,F6-H2-25,H2-25,H2,25,sym
+686,F6-bf-Snap-599.czi,3780.91,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,F6-H2-25,H2-25,H2,25,sym
+687,F6-fl-Snap-598.czi,2838.169,1227,65535,Symbiont Area,75.066,Tentacle,H2-25,,75.06576459,F6-H2-25,H2-25,H2,25,sym
+688,F6-bf-Snap-599.czi,11495.17,0,65535,Tentacle Area,0,Body column,H2-25,,n/a,F6-H2-25,H2-25,H2,25,sym
+689,F6-fl-Snap-598.czi,4755.004,759,65535,Symbiont Area,41.365,Body column,H2-25,,41.36523427,F6-H2-25,H2-25,H2,25,sym
+690,F7-bf-Snap-601.czi,587.267,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,F7-H2-25,H2-25,H2,25,sym
+691,F7-fl-Snap-600.czi,338.176,1598,65535,Symbiont Area,57.585,Tentacle,H2-25,,57.58471019,F7-H2-25,H2-25,H2,25,sym
+692,F7-fl-Snap-600.czi,226728.346,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,F7-H2-25,H2-25,H2,25,sym
+693,F7-fl-Snap-600.czi,674.406,1719,65535,Symbiont Area,0.297,Tentacle,H2-25,,0.297451118,F7-H2-25,H2-25,H2,25,sym
+694,F7-bf-Snap-601.czi,534.508,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,F7-H2-25,H2-25,H2,25,sym
+695,F7-fl-Snap-600.czi,286.714,1643,65535,Symbiont Area,53.641,Tentacle,H2-25,,53.64073129,F7-H2-25,H2-25,H2,25,sym
+696,F7-bf-Snap-601.czi,593.754,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,F7-H2-25,H2-25,H2,25,sym
+697,F7-fl-Snap-600.czi,296.877,1415,65535,Symbiont Area,50,Tentacle,H2-25,,50,F7-H2-25,H2-25,H2,25,sym
+698,F8-bf-Snap-603.czi,2578.267,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,F8-H2-25,H2-25,H2,25,sym
+699,F8-fl-Snap-602.czi,1139.073,1325,65535,Symbiont Area,44.18,Tentacle,H2-25,,44.17979209,F8-H2-25,H2-25,H2,25,sym
+700,F8-bf-Snap-603.czi,3203.373,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,F8-H2-25,H2-25,H2,25,sym
+701,F8-fl-Snap-602.czi,1742.125,1745,65535,Symbiont Area,54.384,Tentacle,H2-25,,54.38408203,F8-H2-25,H2-25,H2,25,sym
+702,F8-bf-Snap-603.czi,611.484,0,65535,Tentacle Area,0,Tentacle,H2-25,,n/a,F8-H2-25,H2-25,H2,25,sym
+703,F8-fl-Snap-602.czi,315.688,1091,65535,Symbiont Area,51.627,Tentacle,H2-25,,51.62653479,F8-H2-25,H2-25,H2,25,sym
+704,F8-bf-Snap-603.czi,14291.175,0,65535,Tentacle Area,51.627,Tentacle,H2-25,,REMOVED,F8-H2-25,H2-25,H2,25,sym
+1,A1-bf-Snap-275.czi,859.062,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,A1-VWA-25,VWA-25,VWA,25,sym
+2,A1-fl-Snap-274.czi,382.286,1832,65535,Symbiont Area,44.5,Tentacle,VWA-25,,44.50039694,A1-VWA-25,VWA-25,VWA,25,sym
+3,A1-bf-Snap-275.czi,313.742,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,A1-VWA-25,VWA-25,VWA,25,sym
+4,A1-fl-Snap-274.czi,217.09,1060,65535,Symbiont Area,69.194,Tentacle,VWA-25,,69.19379618,A1-VWA-25,VWA-25,VWA,25,sym
+5,A1-bf-Snap-275.czi,1531.954,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,A1-VWA-25,VWA-25,VWA,25,sym
+6,A1-fl-Snap-274.czi,854.521,1529,65535,Symbiont Area,55.78,Tentacle,VWA-25,,55.77980801,A1-VWA-25,VWA-25,VWA,25,sym
+7,A1-bf-Snap-275.czi,2238.145,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,A1-VWA-25,VWA-25,VWA,25,sym
+8,A1-fl-Snap-274.czi,1835.534,1696,65535,Symbiont Area,82.011,Tentacle,VWA-25,,82.01139783,A1-VWA-25,VWA-25,VWA,25,sym
+9,A1-bf-Snap-275.czi,1258.646,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,A1-VWA-25,VWA-25,VWA,25,sym
+10,A1-fl-Snap-274.czi,785.329,1832,65535,Symbiont Area,62.395,Tentacle,VWA-25,,62.39474801,A1-VWA-25,VWA-25,VWA,25,sym
+11,A1-bf-Snap-275.czi,883.928,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,A1-VWA-25,VWA-25,VWA,25,sym
+12,A1-fl-Snap-274.czi,500.777,1499,65535,Symbiont Area,56.654,Tentacle,VWA-25,,56.65359622,A1-VWA-25,VWA-25,VWA,25,sym
+13,A2-bf-Snap-277.czi,462.073,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,A2-VWA-25,VWA-25,VWA,25,sym
+14,A2-fl-Snap-276.czi,132.978,1010,65535,Symbiont Area,28.779,Tentacle,VWA-25,,28.77856962,A2-VWA-25,VWA-25,VWA,25,sym
+15,A2-bf-Snap-277.czi,1252.808,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,A2-VWA-25,VWA-25,VWA,25,sym
+16,A2-fl-Snap-276.czi,831.385,1727,65535,Symbiont Area,66.362,Tentacle,VWA-25,,66.36172502,A2-VWA-25,VWA-25,VWA,25,sym
+17,A2-bf-Snap-277.czi,2118.789,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,A2-VWA-25,VWA-25,VWA,25,sym
+18,A2-fl-Snap-276.czi,881.766,970,65535,Symbiont Area,41.616,Tentacle,VWA-25,,41.6165083,A2-VWA-25,VWA-25,VWA,25,sym
+19,A2-bf-Snap-277.czi,813.871,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,A2-VWA-25,VWA-25,VWA,25,sym
+20,A2-fl-Snap-276.czi,610.619,1143,65535,Symbiont Area,75.027,Tentacle,VWA-25,,75.02650912,A2-VWA-25,VWA-25,VWA,25,sym
+1,A3-bf-Snap-279.czi,1564.82,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,A3-VWA-25,VWA-25,VWA,25,sym
+2,A3-fl-Snap-278.czi,743.598,1517,65535,Symbiont Area,47.52,Tentacle,VWA-25,,47.51971473,A3-VWA-25,VWA-25,VWA,25,sym
+3,A3-bf-Snap-279.czi,496.02,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,A3-VWA-25,VWA-25,VWA,25,sym
+4,A3-fl-Snap-278.czi,225.09,1344,65535,Symbiont Area,45.379,Tentacle,VWA-25,,45.37921858,A3-VWA-25,VWA-25,VWA,25,sym
+5,A3-bf-Snap-279.czi,1444.815,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,A3-VWA-25,VWA-25,VWA,25,sym
+6,A3-fl-Snap-278.czi,940.579,1503,65535,Symbiont Area,65.1,Tentacle,VWA-25,,65.10030696,A3-VWA-25,VWA-25,VWA,25,sym
+7,A3-bf-Snap-279.czi,1791.857,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,A3-VWA-25,VWA-25,VWA,25,sym
+8,A3-fl-Snap-278.czi,1131.289,1546,65535,Symbiont Area,63.135,Tentacle,VWA-25,,63.13500463,A3-VWA-25,VWA-25,VWA,25,sym
+REMOVED,A4-fl-Snap-324.czi,REMOVED,REMOVED,REMOVED,REMOVED,REMOVED,REMOVED,VWA-25,"Image very blurry, brightfield not visibile as much, not imageble ",REMOVED,A4-VWA-25,VWA-25,VWA,25,sym
+REMOVED,A4-bf-Snap-325.czi,REMOVED,REMOVED,REMOVED,REMOVED,REMOVED,REMOVED,VWA-25,,REMOVED,A4-VWA-25,VWA-25,VWA,25,sym
+9,A5-bf-Snap-281.czi,1145.344,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,A5-VWA-25,VWA-25,VWA,25,sym
+10,A5-fl-Snap-280.czi,620.566,1577,65535,Symbiont Area,54.182,Tentacle,VWA-25,,54.18162578,A5-VWA-25,VWA-25,VWA,25,sym
+11,A5-bf-Snap-281.czi,3531.17,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,A5-VWA-25,VWA-25,VWA,25,sym
+12,A5-fl-Snap-280.czi,2406.152,1548,65535,Symbiont Area,68.14,Tentacle,VWA-25,,68.14036141,A5-VWA-25,VWA-25,VWA,25,sym
+13,A5-bf-Snap-281.czi,1019.717,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,A5-VWA-25,VWA-25,VWA,25,sym
+14,A5-fl-Snap-280.czi,792.032,1782,65535,Symbiont Area,77.672,Tentacle,VWA-25,,77.67174618,A5-VWA-25,VWA-25,VWA,25,sym
+15,A5-bf-Snap-281.czi,1078.098,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,A5-VWA-25,VWA-25,VWA,25,sym
+16,A5-fl-Snap-280.czi,865.549,1431,65535,Symbiont Area,80.285,Tentacle,VWA-25,,80.28481641,A5-VWA-25,VWA-25,VWA,25,sym
+17,A6-bf-Snap-283.czi,2824.98,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,A6-VWA-25,VWA-25,VWA,25,sym
+18,A6-fl-Snap-282.czi,1861.265,1719,65535,Symbiont Area,65.886,Tentacle,VWA-25,,65.88595317,A6-VWA-25,VWA-25,VWA,25,sym
+19,A6-bf-Snap-283.czi,832.466,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,A6-VWA-25,VWA-25,VWA,25,sym
+20,A6-fl-Snap-282.czi,627.917,1340,65535,Symbiont Area,75.429,Tentacle,VWA-25,,75.42854603,A6-VWA-25,VWA-25,VWA,25,sym
+21,A6-bf-Snap-283.czi,1881.157,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,A6-VWA-25,VWA-25,VWA,25,sym
+22,A6-fl-Snap-282.czi,1238.753,1516,65535,Symbiont Area,65.851,Tentacle,VWA-25,,65.85059089,A6-VWA-25,VWA-25,VWA,25,sym
+23,A6-bf-Snap-283.czi,3165.318,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,A6-VWA-25,VWA-25,VWA,25,sym
+24,A6-fl-Snap-282.czi,2386.259,1719,65535,Symbiont Area,75.388,Tentacle,VWA-25,,75.38765457,A6-VWA-25,VWA-25,VWA,25,sym
+25,A6-bf-Snap-283.czi,1630.553,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,A6-VWA-25,VWA-25,VWA,25,sym
+26,A6-fl-Snap-282.czi,1054.746,1150,65535,Symbiont Area,64.686,Tentacle,VWA-25,,64.6863978,A6-VWA-25,VWA-25,VWA,25,sym
+27,A7-bf-Snap-285.czi,3056.34,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,A7-VWA-25,VWA-25,VWA,25,sym
+28,A7-fl-Snap-284.czi,1518.116,1381,65535,Symbiont Area,49.671,Tentacle,VWA-25,,49.67104445,A7-VWA-25,VWA-25,VWA,25,sym
+29,A7-bf-Snap-285.czi,7742.585,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,A7-VWA-25,VWA-25,VWA,25,sym
+30,A7-fl-Snap-284.czi,4859.873,1259,65535,Symbiont Area,62.768,Tentacle,VWA-25,,62.7680936,A7-VWA-25,VWA-25,VWA,25,sym
+31,A7-bf-Snap-285.czi,3748.477,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,A7-VWA-25,VWA-25,VWA,25,sym
+32,A7-fl-Snap-284.czi,2354.906,1213,65535,Symbiont Area,62.823,Tentacle,VWA-25,,62.82300785,A7-VWA-25,VWA-25,VWA,25,sym
+33,A7-bf-Snap-285.czi,3542.847,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,A7-VWA-25,VWA-25,VWA,25,sym
+34,A7-fl-Snap-284.czi,2054.786,906,65535,Symbiont Area,57.998,Tentacle,VWA-25,,57.99815798,A7-VWA-25,VWA-25,VWA,25,sym
+35,A7-bf-Snap-285.czi,453.424,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,A7-VWA-25,VWA-25,VWA,25,sym
+36,A7-fl-Snap-284.czi,310.715,1504,65535,Symbiont Area,68.526,Tentacle,VWA-25,,68.52636826,A7-VWA-25,VWA-25,VWA,25,sym
+37,A8-bf-Snap-287.czi,885.441,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,A8-VWA-25,VWA-25,VWA,25,sym
+38,A8-fl-Snap-286.czi,301.85,1354,65535,Symbiont Area,34.09,Tentacle,VWA-25,,34.09035723,A8-VWA-25,VWA-25,VWA,25,sym
+39,A8-bf-Snap-287.czi,1272.052,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,A8-VWA-25,VWA-25,VWA,25,sym
+40,A8-fl-Snap-286.czi,804.357,1289,65535,Symbiont Area,63.233,Tentacle,VWA-25,,63.23302821,A8-VWA-25,VWA-25,VWA,25,sym
+41,A8-bf-Snap-287.czi,1858.021,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,A8-VWA-25,VWA-25,VWA,25,sym
+42,A8-fl-Snap-286.czi,1343.622,1407,65535,Symbiont Area,72.315,Tentacle,VWA-25,,72.3146832,A8-VWA-25,VWA-25,VWA,25,sym
+43,A8-bf-Snap-287.czi,4628.945,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,A8-VWA-25,VWA-25,VWA,25,sym
+44,A8-fl-Snap-286.czi,2779.356,1275,65535,Symbiont Area,60.043,Tentacle,VWA-25,,60.04296875,A8-VWA-25,VWA-25,VWA,25,sym
+45,A8-bf-Snap-287.czi,2635.999,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,A8-VWA-25,VWA-25,VWA,25,sym
+46,A8-fl-Snap-286.czi,1283.079,986,65535,Symbiont Area,48.675,Tentacle,VWA-25,,48.67524608,A8-VWA-25,VWA-25,VWA,25,sym
+21,B1-bf-Snap-289.czi,1266.862,0,65535,Tentacle Area,75.027,Tentacle,VWA-25,,n/a,B1-VWA-25,VWA-25,VWA,25,sym
+22,B1-fl-Snap-288.czi,616.457,1010,65535,Symbiont Area,48.66,Tentacle,VWA-25,,48.66015399,B1-VWA-25,VWA-25,VWA,25,sym
+23,B1-bf-Snap-289.czi,4939.228,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,B1-VWA-25,VWA-25,VWA,25,sym
+24,B1-fl-Snap-288.czi,3508.467,1668,65535,Symbiont Area,71.033,Tentacle,VWA-25,,71.03269985,B1-VWA-25,VWA-25,VWA,25,sym
+25,B1-bf-Snap-289.czi,565.212,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,B1-VWA-25,VWA-25,VWA,25,sym
+26,B1-fl-Snap-288.czi,359.15,1270,65535,Symbiont Area,63.542,Tentacle,VWA-25,,63.54252917,B1-VWA-25,VWA-25,VWA,25,sym
+27,B1-bf-Snap-289.czi,984.689,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,B1-VWA-25,VWA-25,VWA,25,sym
+28,B1-fl-Snap-288.czi,485.641,1209,65535,Symbiont Area,49.319,Tentacle,VWA-25,,49.31922668,B1-VWA-25,VWA-25,VWA,25,sym
+29,B1-bf-Snap-289.czi,1468.168,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,B1-VWA-25,VWA-25,VWA,25,sym
+30,B1-fl-Snap-288.czi,795.708,827,65535,Symbiont Area,54.197,Tentacle,VWA-25,,54.19733981,B1-VWA-25,VWA-25,VWA,25,sym
+31,B1-bf-Snap-289.czi,836.791,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,B1-VWA-25,VWA-25,VWA,25,sym
+32,B1-fl-Snap-288.czi,465.316,918,65535,Symbiont Area,55.607,Tentacle,VWA-25,,55.60719463,B1-VWA-25,VWA-25,VWA,25,sym
+33,B2-bf-Snap-291.czi,3406.841,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,B2-VWA-25,VWA-25,VWA,25,sym
+34,B2-fl-Snap-290.czi,2253.713,1377,65535,Symbiont Area,66.153,Tentacle,VWA-25,,66.1525736,B2-VWA-25,VWA-25,VWA,25,sym
+35,B2-bf-Snap-291.czi,3298.729,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,B2-VWA-25,VWA-25,VWA,25,sym
+36,B2-fl-Snap-290.czi,2245.28,1420,65535,Symbiont Area,68.065,Tentacle,VWA-25,,68.06500322,B2-VWA-25,VWA-25,VWA,25,sym
+37,B2-bf-Snap-291.czi,4616.404,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,B2-VWA-25,VWA-25,VWA,25,sym
+38,B2-fl-Snap-290.czi,3817.669,1721,65535,Symbiont Area,82.698,Tentacle,VWA-25,,82.69789646,B2-VWA-25,VWA-25,VWA,25,sym
+39,B2-bf-Snap-291.czi,5039.556,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,B2-VWA-25,VWA-25,VWA,25,sym
+40,B2-fl-Snap-290.czi,4305.688,1405,65535,Symbiont Area,85.438,Tentacle,VWA-25,,85.43784413,B2-VWA-25,VWA-25,VWA,25,sym
+41,B2-bf-Snap-291.czi,1604.606,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,B2-VWA-25,VWA-25,VWA,25,sym
+42,B2-fl-Snap-290.czi,1144.695,1018,65535,Symbiont Area,71.338,Tentacle,VWA-25,,71.33807302,B2-VWA-25,VWA-25,VWA,25,sym
+43,B2-bf-Snap-291.czi,2654.162,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,B2-VWA-25,VWA-25,VWA,25,sym
+44,B2-fl-Snap-290.czi,2310.58,1291,65535,Symbiont Area,87.055,Tentacle,VWA-25,,87.05497253,B2-VWA-25,VWA-25,VWA,25,sym
+47,B3-bf-Snap-293.czi,4841.926,0,65535,Tentacle Area,48.675,Tentacle,VWA-25,,n/a,B3-VWA-25,VWA-25,VWA,25,sym
+48,B3-fl-Snap-292.czi,2508.426,944,65535,Symbiont Area,51.806,Tentacle,VWA-25,,51.80636796,B3-VWA-25,VWA-25,VWA,25,sym
+49,B3-bf-Snap-293.czi,5426.599,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,B3-VWA-25,VWA-25,VWA,25,sym
+50,B3-fl-Snap-292.czi,2700.65,1765,65535,Symbiont Area,49.767,Tentacle,VWA-25,,49.7668982,B3-VWA-25,VWA-25,VWA,25,sym
+51,B3-bf-Snap-293.czi,929.767,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,B3-VWA-25,VWA-25,VWA,25,sym
+52,B3-fl-Snap-292.czi,523.697,1254,65535,Symbiont Area,56.326,Tentacle,VWA-25,,56.32561706,B3-VWA-25,VWA-25,VWA,25,sym
+53,B3-bf-Snap-293.czi,11741.882,0,65535,Tentacle Area,0,Body Column ,VWA-25,,n/a,B3-VWA-25,VWA-25,VWA,25,sym
+54,B3-fl-Snap-292.czi,3617.66,836,65535,Symbiont Area,30.81,Body Column ,VWA-25,,30.8098821,B3-VWA-25,VWA-25,VWA,25,sym
+55,B4-bf-Snap-295.czi,1736.287,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,B4-VWA-25,VWA-25,VWA,25,sym
+56,B4-fl-Snap-294.czi,905.767,1213,65535,Symbiont Area,52.167,Tentacle,VWA-25,,52.16689407,B4-VWA-25,VWA-25,VWA,25,sym
+57,B4-bf-Snap-295.czi,5436.978,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,B4-VWA-25,VWA-25,VWA,25,sym
+58,B4-fl-Snap-294.czi,3881.671,1573,65535,Symbiont Area,71.394,Tentacle,VWA-25,,71.39390669,B4-VWA-25,VWA-25,VWA,25,sym
+59,B4-bf-Snap-295.czi,3340.892,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,B4-VWA-25,VWA-25,VWA,25,sym
+60,B4-fl-Snap-294.czi,2481.182,1258,65535,Symbiont Area,74.267,Tentacle,VWA-25,,74.26705203,B4-VWA-25,VWA-25,VWA,25,sym
+61,B4-bf-Snap-295.czi,3857.454,0,65535,Tentacle Area,74.267,Tentacle,VWA-25,,n/a,B4-VWA-25,VWA-25,VWA,25,sym
+62,B4-fl-Snap-294.czi,2612.863,1296,65535,Symbiont Area,67.735,Tentacle,VWA-25,,67.7354286,B4-VWA-25,VWA-25,VWA,25,sym
+63,B4-bf-Snap-295.czi,4700.948,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,B4-VWA-25,VWA-25,VWA,25,sym
+64,B4-fl-Snap-294.czi,3390.192,1649,65535,Symbiont Area,72.117,Tentacle,VWA-25,,72.11719849,B4-VWA-25,VWA-25,VWA,25,sym
+65,B5-bf-Snap-297.czi,4252.065,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,B5-VWA-25,VWA-25,VWA,25,sym
+66,B5-fl-Snap-296.czi,2187.116,1030,65535,Symbiont Area,51.437,Tentacle,VWA-25,,51.43656082,B5-VWA-25,VWA-25,VWA,25,sym
+67,B5-bf-Snap-297.czi,7356.191,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,B5-VWA-25,VWA-25,VWA,25,sym
+68,B5-fl-Snap-296.czi,4680.623,1102,65535,Symbiont Area,63.628,Tentacle,VWA-25,,63.6283506,B5-VWA-25,VWA-25,VWA,25,sym
+69,B5-bf-Snap-297.czi,3856.157,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,B5-VWA-25,VWA-25,VWA,25,sym
+70,B5-fl-Snap-296.czi,2067.76,1392,65535,Symbiont Area,53.622,Tentacle,VWA-25,,53.62229805,B5-VWA-25,VWA-25,VWA,25,sym
+71,B5-bf-Snap-297.czi,12627.108,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,B5-VWA-25,VWA-25,VWA,25,sym
+72,B5-fl-Snap-296.czi,3743.503,725,65535,Symbiont Area,29.647,Tentacle,VWA-25,,29.64655882,B5-VWA-25,VWA-25,VWA,25,sym
+73,B6-bf-Snap-299.czi,2649.189,0,65535,Tentacle Area,29.647,Tentacle,VWA-25,,n/a,B6-VWA-25,VWA-25,VWA,25,sym
+74,B6-fl-Snap-298.czi,1780.829,1411,65535,Symbiont Area,67.222,Tentacle,VWA-25,,67.22166671,B6-VWA-25,VWA-25,VWA,25,sym
+75,B6-bf-Snap-299.czi,2799.249,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,B6-VWA-25,VWA-25,VWA,25,sym
+76,B6-fl-Snap-298.czi,2362.691,1580,65535,Symbiont Area,84.404,Tentacle,VWA-25,,84.40445991,B6-VWA-25,VWA-25,VWA,25,sym
+77,B6-bf-Snap-299.czi,2451.127,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,B6-VWA-25,VWA-25,VWA,25,sym
+78,B6-fl-Snap-298.czi,1635.742,1519,65535,Symbiont Area,66.734,Tentacle,VWA-25,,66.73428182,B6-VWA-25,VWA-25,VWA,25,sym
+79,B6-bf-Snap-299.czi,3088.342,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,B6-VWA-25,VWA-25,VWA,25,sym
+80,B6-fl-Snap-298.czi,2415.017,1734,65535,Symbiont Area,78.198,Tentacle,VWA-25,,78.19784855,B6-VWA-25,VWA-25,VWA,25,sym
+81,B6-bf-Snap-299.czi,1605.471,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,B6-VWA-25,VWA-25,VWA,25,sym
+82,B6-fl-Snap-298.czi,1217.995,1473,65535,Symbiont Area,75.865,Tentacle,VWA-25,,75.86527567,B6-VWA-25,VWA-25,VWA,25,sym
+83,B7-bf-Snap-301.czi,1303.837,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,B7-VWA-25,VWA-25,VWA,25,sym
+84,B7-fl-Snap-300.czi,762.193,1112,65535,Symbiont Area,58.458,Tentacle,VWA-25,,58.45769065,B7-VWA-25,VWA-25,VWA,25,sym
+85,B7-bf-Snap-301.czi,3873.455,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,B7-VWA-25,VWA-25,VWA,25,sym
+86,B7-fl-Snap-300.czi,2048.732,1143,65535,Symbiont Area,52.892,Tentacle,VWA-25,,52.89159162,B7-VWA-25,VWA-25,VWA,25,sym
+87,B7-bf-Snap-301.czi,1217.347,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,B7-VWA-25,VWA-25,VWA,25,sym
+88,B7-fl-Snap-300.czi,739.489,1297,65535,Symbiont Area,60.746,Tentacle,VWA-25,,60.74595,B7-VWA-25,VWA-25,VWA,25,sym
+89,B7-bf-Snap-301.czi,2633.62,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,B7-VWA-25,VWA-25,VWA,25,sym
+90,B7-fl-Snap-300.czi,1456.492,710,65535,Symbiont Area,55.304,Tentacle,VWA-25,,55.30380237,B7-VWA-25,VWA-25,VWA,25,sym
+91,B8-bf-Snap-303.czi,1619.741,0,65535,Tentacle Area,55.304,Tentacle,VWA-25,,n/a,B8-VWA-25,VWA-25,VWA,25,sym
+92,B8-fl-Snap-302.czi,742.517,996,65535,Symbiont Area,45.842,Tentacle,VWA-25,,45.84171173,B8-VWA-25,VWA-25,VWA,25,sym
+93,B8-bf-Snap-303.czi,3158.399,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,B8-VWA-25,VWA-25,VWA,25,sym
+94,B8-fl-Snap-302.czi,2158.574,1590,65535,Symbiont Area,68.344,Tentacle,VWA-25,,68.34392995,B8-VWA-25,VWA-25,VWA,25,sym
+95,B8-bf-Snap-303.czi,1137.56,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,B8-VWA-25,VWA-25,VWA,25,sym
+96,B8-fl-Snap-302.czi,608.025,1352,65535,Symbiont Area,53.45,Tentacle,VWA-25,,53.44992792,B8-VWA-25,VWA-25,VWA,25,sym
+97,B8-bf-Snap-303.czi,965.228,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,B8-VWA-25,VWA-25,VWA,25,sym
+98,B8-fl-Snap-302.czi,424.666,949,65535,Symbiont Area,43.996,Tentacle,VWA-25,,43.99644436,B8-VWA-25,VWA-25,VWA,25,sym
+99,B8-bf-Snap-303.czi,2025.596,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,B8-VWA-25,VWA-25,VWA,25,sym
+100,B8-fl-Snap-302.czi,968.039,1329,65535,Symbiont Area,47.79,Tentacle,VWA-25,,47.79032936,B8-VWA-25,VWA-25,VWA,25,sym
+101,C1-bf-Snap-305.czi,1895.212,0,65535,Tentacle Area,47.79,Tentacle,VWA-25,,n/a,C1-VWA-25,VWA-25,VWA,25,sym
+102,C1-fl-Snap-304.czi,959.39,1459,65535,Symbiont Area,50.622,Tentacle,VWA-25,,50.62177741,C1-VWA-25,VWA-25,VWA,25,sym
+103,C1-bf-Snap-305.czi,1845.264,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,C1-VWA-25,VWA-25,VWA,25,sym
+104,C1-fl-Snap-304.czi,891.712,1267,65535,Symbiont Area,48.324,Tentacle,VWA-25,,48.32435901,C1-VWA-25,VWA-25,VWA,25,sym
+105,C1-bf-Snap-305.czi,1650.445,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,C1-VWA-25,VWA-25,VWA,25,sym
+106,C1-fl-Snap-304.czi,915.713,1432,65535,Symbiont Area,55.483,Tentacle,VWA-25,,55.48279403,C1-VWA-25,VWA-25,VWA,25,sym
+107,C1-bf-Snap-305.czi,1768.72,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,C1-VWA-25,VWA-25,VWA,25,sym
+108,C1-fl-Snap-304.czi,992.905,854,65535,Symbiont Area,56.137,Tentacle,VWA-25,,56.13692388,C1-VWA-25,VWA-25,VWA,25,sym
+109,C1-bf-Snap-305.czi,8271.687,0,65535,Tentacle Area,0,Body column,VWA-25,,n/a,C1-VWA-25,VWA-25,VWA,25,sym
+110,C1-fl-Snap-304.czi,4105.032,895,65535,Symbiont Area,49.627,Body column,VWA-25,,49.62750646,C1-VWA-25,VWA-25,VWA,25,sym
+111,C2-bf-Snap-307.czi,948.147,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,C2-VWA-25,VWA-25,VWA,25,sym
+112,C2-fl-Snap-306.czi,535.157,1499,65535,Symbiont Area,56.442,Tentacle,VWA-25,,56.44240819,C2-VWA-25,VWA-25,VWA,25,sym
+113,C2-bf-Snap-307.czi,1936.727,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,C2-VWA-25,VWA-25,VWA,25,sym
+114,C2-fl-Snap-306.czi,968.688,1338,65535,Symbiont Area,50.017,Tentacle,VWA-25,,50.01675507,C2-VWA-25,VWA-25,VWA,25,sym
+115,C2-bf-Snap-307.czi,2689.407,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,C2-VWA-25,VWA-25,VWA,25,sym
+116,C2-fl-Snap-306.czi,1135.614,985,65535,Symbiont Area,42.225,Tentacle,VWA-25,,42.22544226,C2-VWA-25,VWA-25,VWA,25,sym
+117,C2-bf-Snap-307.czi,1767.856,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,C2-VWA-25,VWA-25,VWA,25,sym
+118,C2-fl-Snap-306.czi,1082.639,1308,65535,Symbiont Area,61.24,Tentacle,VWA-25,,61.24022545,C2-VWA-25,VWA-25,VWA,25,sym
+119,C2-bf-Snap-307.czi,5796.127,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,C2-VWA-25,VWA-25,VWA,25,sym
+120,C2-fl-Snap-306.czi,2213.712,852,65535,Symbiont Area,38.193,Tentacle,VWA-25,,38.19295195,C2-VWA-25,VWA-25,VWA,25,sym
+121,C2-bf-Snap-307.czi,1580.605,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,C2-VWA-25,VWA-25,VWA,25,sym
+122,C2-fl-Snap-306.czi,1042.853,1220,65535,Symbiont Area,65.978,Tentacle,VWA-25,,65.97809067,C2-VWA-25,VWA-25,VWA,25,sym
+123,C3-bf-Snap-309.czi,1799.857,0,65535,Tentacle Area,0,Tentacle,VWA-25,"Very blurry image, very few tentacles visibly clear ",n/a,C3-VWA-25,VWA-25,VWA,25,sym
+124,C3-fl-Snap-308.czi,854.305,1175,65535,Symbiont Area,47.465,Tentacle,VWA-25,,47.46515973,C3-VWA-25,VWA-25,VWA,25,sym
+125,C3-bf-Snap-309.czi,457.316,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,C3-VWA-25,VWA-25,VWA,25,sym
+126,C3-fl-Snap-308.czi,209.306,1031,65535,Symbiont Area,45.768,Tentacle,VWA-25,,45.76835274,C3-VWA-25,VWA-25,VWA,25,sym
+127,C4-bf-Snap-311.czi,793.113,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,C4-VWA-25,VWA-25,VWA,25,sym
+128,C4-fl-Snap-310.czi,403.476,1695,65535,Symbiont Area,50.872,Tentacle,VWA-25,,50.87244819,C4-VWA-25,VWA-25,VWA,25,sym
+129,C4-bf-Snap-311.czi,1118.964,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,C4-VWA-25,VWA-25,VWA,25,sym
+130,C4-fl-Snap-310.czi,620.998,877,65535,Symbiont Area,55.498,Tentacle,VWA-25,,55.49758527,C4-VWA-25,VWA-25,VWA,25,sym
+131,C4-bf-Snap-311.czi,487.587,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,C4-VWA-25,VWA-25,VWA,25,sym
+132,C4-fl-Snap-310.czi,116.329,1228,65535,Symbiont Area,23.858,Tentacle,VWA-25,,23.85810122,C4-VWA-25,VWA-25,VWA,25,sym
+133,C4-bf-Snap-311.czi,906.848,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,C4-VWA-25,VWA-25,VWA,25,sym
+134,C4-fl-Snap-310.czi,435.045,1096,65535,Symbiont Area,47.973,Tentacle,VWA-25,,47.97330975,C4-VWA-25,VWA-25,VWA,25,sym
+135,C5-bf-Snap-313.czi,1702.988,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,C5-VWA-25,VWA-25,VWA,25,sym
+136,C5-fl-Snap-312.czi,782.951,1287,65535,Symbiont Area,45.975,Tentacle,VWA-25,,45.97513312,C5-VWA-25,VWA-25,VWA,25,sym
+137,C5-bf-Snap-313.czi,499.48,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,C5-VWA-25,VWA-25,VWA,25,sym
+138,C5-fl-Snap-312.czi,199.792,1099,65535,Symbiont Area,40,Tentacle,VWA-25,,40,C5-VWA-25,VWA-25,VWA,25,sym
+139,C5-bf-Snap-313.czi,2048.948,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,C5-VWA-25,VWA-25,VWA,25,sym
+140,C5-fl-Snap-312.czi,758.95,1287,65535,Symbiont Area,37.041,Tentacle,VWA-25,,37.04095956,C5-VWA-25,VWA-25,VWA,25,sym
+141,C5-bf-Snap-313.czi,1604.389,0,65535,Tentacle Area,37.041,Tentacle,VWA-25,,n/a,C5-VWA-25,VWA-25,VWA,25,sym
+142,C5-fl-Snap-312.czi,740.354,1334,65535,Symbiont Area,46.146,Tentacle,VWA-25,,46.14554201,C5-VWA-25,VWA-25,VWA,25,sym
+143,C5-bf-Snap-313.czi,374.718,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,C5-VWA-25,VWA-25,VWA,25,sym
+144,C5-fl-Snap-312.czi,222.496,1428,65535,Symbiont Area,59.377,Tentacle,VWA-25,,59.37691811,C5-VWA-25,VWA-25,VWA,25,sym
+145,C7-bf-Snap-315.czi,1176.48,0,65535,Tentacle Area,0,Tentacle,VWA-25,"Very blurry image, only a few tentacles clearly visible",n/a,C7-VWA-25,VWA-25,VWA,25,sym
+146,C7-fl-Snap-314.czi,498.831,943,65535,Symbiont Area,42.4,Tentacle,VWA-25,,42.4002958,C7-VWA-25,VWA-25,VWA,25,sym
+147,C7-bf-Snap-315.czi,1223.833,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,C7-VWA-25,VWA-25,VWA,25,sym
+148,C7-fl-Snap-314.czi,513.967,751,65535,Symbiont Area,41.996,Tentacle,VWA-25,,41.99649789,C7-VWA-25,VWA-25,VWA,25,sym
+149,C8-bf-Snap-317.czi,1101.883,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,C8-VWA-25,VWA-25,VWA,25,sym
+150,C8-fl-Snap-316.czi,706.191,1229,65535,Symbiont Area,64.089,Tentacle,VWA-25,,64.08947229,C8-VWA-25,VWA-25,VWA,25,sym
+151,C8-bf-Snap-317.czi,1188.589,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,C8-VWA-25,VWA-25,VWA,25,sym
+152,C8-fl-Snap-316.czi,851.062,1484,65535,Symbiont Area,71.603,Tentacle,VWA-25,,71.60271549,C8-VWA-25,VWA-25,VWA,25,sym
+153,C8-fl-Snap-316.czi,226728.346,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,C8-VWA-25,VWA-25,VWA,25,sym
+154,C8-fl-Snap-316.czi,264.227,1484,65535,Symbiont Area,0.117,Tentacle,VWA-25,,0.1165390233,C8-VWA-25,VWA-25,VWA,25,sym
+155,C8-bf-Snap-317.czi,6804.168,0,65535,Tentacle Area,0,Body column,VWA-25,,n/a,C8-VWA-25,VWA-25,VWA,25,sym
+156,C8-fl-Snap-316.czi,3159.263,706,65535,Symbiont Area,46.431,Body column,VWA-25,,46.43129035,C8-VWA-25,VWA-25,VWA,25,sym
+67,D1-bf-Snap-319.czi,2103.437,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,D1-VWA-25,VWA-25,VWA,25,sym
+68,D1-fl-Snap-318.czi,1064.692,1209,65535,Symbiont Area,50.617,Tentacle,VWA-25,,50.61677626,D1-VWA-25,VWA-25,VWA,25,sym
+69,D1-bf-Snap-319.czi,4279.525,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,D1-VWA-25,VWA-25,VWA,25,sym
+70,D1-fl-Snap-318.czi,2735.246,1195,65535,Symbiont Area,63.915,Tentacle,VWA-25,,63.91471016,D1-VWA-25,VWA-25,VWA,25,sym
+71,D1-bf-Snap-319.czi,2085.923,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,D1-VWA-25,VWA-25,VWA,25,sym
+72,D1-fl-Snap-318.czi,988.148,962,65535,Symbiont Area,47.372,Tentacle,VWA-25,,47.37221844,D1-VWA-25,VWA-25,VWA,25,sym
+73,D1-bf-Snap-319.czi,14964.067,0,65535,Tentacle Area,0,Body column,VWA-25,,n/a,D1-VWA-25,VWA-25,VWA,25,sym
+74,D1-fl-Snap-318.czi,6025.326,769,65535,Symbiont Area,40.265,Body column,VWA-25,,40.26529686,D1-VWA-25,VWA-25,VWA,25,sym
+75,D2-bf-Snap-321.czi,893.009,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,D2-VWA-25,VWA-25,VWA,25,sym
+76,D2-fl-Snap-320.czi,631.161,848,65535,Symbiont Area,70.678,Tentacle,VWA-25,,70.67801108,D2-VWA-25,VWA-25,VWA,25,sym
+77,D2-bf-Snap-321.czi,1305.783,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,D2-VWA-25,VWA-25,VWA,25,sym
+78,D2-fl-Snap-320.czi,958.958,1325,65535,Symbiont Area,73.439,Tentacle,VWA-25,,73.43930806,D2-VWA-25,VWA-25,VWA,25,sym
+79,D2-bf-Snap-321.czi,1063.178,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,D2-VWA-25,VWA-25,VWA,25,sym
+80,D2-fl-Snap-320.czi,628.782,1849,65535,Symbiont Area,59.142,Tentacle,VWA-25,,59.14174296,D2-VWA-25,VWA-25,VWA,25,sym
+81,D2-bf-Snap-321.czi,1199.4,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,D2-VWA-25,VWA-25,VWA,25,sym
+82,D2-fl-Snap-320.czi,923.929,1495,65535,Symbiont Area,77.033,Tentacle,VWA-25,,77.03259963,D2-VWA-25,VWA-25,VWA,25,sym
+157,D3-bf-Snap-323.czi,1126.965,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,D3-VWA-25,VWA-25,VWA,25,sym
+158,D3-fl-Snap-322.czi,724.57,1680,65535,Symbiont Area,64.294,Tentacle,VWA-25,,64.29392217,D3-VWA-25,VWA-25,VWA,25,sym
+159,D3-bf-Snap-323.czi,5417.085,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,D3-VWA-25,VWA-25,VWA,25,sym
+160,D3-fl-Snap-322.czi,3067.584,898,65535,Symbiont Area,56.628,Tentacle,VWA-25,,56.62794658,D3-VWA-25,VWA-25,VWA,25,sym
+161,D3-bf-Snap-323.czi,1422.977,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,D3-VWA-25,VWA-25,VWA,25,sym
+162,D3-fl-Snap-322.czi,757.22,1057,65535,Symbiont Area,53.214,Tentacle,VWA-25,,53.21379053,D3-VWA-25,VWA-25,VWA,25,sym
+163,D4-bf-Snap-327.czi,1728.286,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,D4-VWA-25,VWA-25,VWA,25,sym
+164,D4-fl-Snap-326.czi,850.845,1299,65535,Symbiont Area,49.231,Tentacle,VWA-25,,49.23056716,D4-VWA-25,VWA-25,VWA,25,sym
+165,D4-bf-Snap-327.czi,4677.595,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,D4-VWA-25,VWA-25,VWA,25,sym
+166,D4-fl-Snap-326.czi,2542.806,586,65535,Symbiont Area,54.361,Tentacle,VWA-25,,54.36139726,D4-VWA-25,VWA-25,VWA,25,sym
+167,D4-bf-Snap-327.czi,2657.838,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,D4-VWA-25,VWA-25,VWA,25,sym
+168,D4-fl-Snap-326.czi,1112.045,862,65535,Symbiont Area,41.84,Tentacle,VWA-25,,41.84020998,D4-VWA-25,VWA-25,VWA,25,sym
+169,D4-bf-Snap-327.czi,8933.336,0,65535,Tentacle Area,0,Body column,VWA-25,,n/a,D4-VWA-25,VWA-25,VWA,25,sym
+170,D4-fl-Snap-326.czi,2435.775,405,65535,Symbiont Area,27.266,Body column,VWA-25,,27.26612992,D4-VWA-25,VWA-25,VWA,25,sym
+171,D5-bf-Snap-329.czi,1073.125,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,D5-VWA-25,VWA-25,VWA,25,sym
+172,D5-fl-Snap-328.czi,690.839,1325,65535,Symbiont Area,64.376,Tentacle,VWA-25,,64.3763774,D5-VWA-25,VWA-25,VWA,25,sym
+173,D5-bf-Snap-329.czi,484.128,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,D5-VWA-25,VWA-25,VWA,25,sym
+174,D5-fl-Snap-328.czi,283.255,1123,65535,Symbiont Area,58.508,Tentacle,VWA-25,,58.50828706,D5-VWA-25,VWA-25,VWA,25,sym
+175,D5-bf-Snap-329.czi,561.536,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,D5-VWA-25,VWA-25,VWA,25,sym
+176,D5-fl-Snap-328.czi,304.877,2152,65535,Symbiont Area,54.293,Tentacle,VWA-25,,54.29340238,D5-VWA-25,VWA-25,VWA,25,sym
+177,D5-bf-Snap-329.czi,755.274,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,D5-VWA-25,VWA-25,VWA,25,sym
+178,D5-fl-Snap-328.czi,596.781,1918,65535,Symbiont Area,79.015,Tentacle,VWA-25,,79.01516536,D5-VWA-25,VWA-25,VWA,25,sym
+179,D5-fl-Snap-328.czi,226728.346,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,D5-VWA-25,VWA-25,VWA,25,sym
+180,D5-fl-Snap-328.czi,669,1965,65535,Symbiont Area,0.295,Tentacle,VWA-25,,0.2950667668,D5-VWA-25,VWA-25,VWA,25,sym
+181,D6-bf-Snap-331.czi,1197.022,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,D6-VWA-25,VWA-25,VWA,25,sym
+182,D6-fl-Snap-330.czi,771.058,1223,65535,Symbiont Area,64.415,Tentacle,VWA-25,,64.41468912,D6-VWA-25,VWA-25,VWA,25,sym
+183,D6-bf-Snap-331.czi,2984.77,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,D6-VWA-25,VWA-25,VWA,25,sym
+184,D6-fl-Snap-330.czi,2095.22,1238,65535,Symbiont Area,70.197,Tentacle,VWA-25,,70.19703361,D6-VWA-25,VWA-25,VWA,25,sym
+185,D6-bf-Snap-331.czi,2551.455,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,D6-VWA-25,VWA-25,VWA,25,sym
+186,D6-fl-Snap-330.czi,1525.035,999,65535,Symbiont Area,59.771,Tentacle,VWA-25,,59.77118938,D6-VWA-25,VWA-25,VWA,25,sym
+187,D6-bf-Snap-331.czi,314.607,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,D6-VWA-25,VWA-25,VWA,25,sym
+188,D6-fl-Snap-330.czi,157.412,1074,65535,Symbiont Area,50.034,Tentacle,VWA-25,,50.03448747,D6-VWA-25,VWA-25,VWA,25,sym
+189,D6-bf-Snap-331.czi,21129.507,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,D6-VWA-25,VWA-25,VWA,25,sym
+190,D6-fl-Snap-330.czi,7040.718,626,65535,Symbiont Area,33.322,Tentacle,VWA-25,,33.32173344,D6-VWA-25,VWA-25,VWA,25,sym
+191,D7-bf-Snap-333.czi,1201.346,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,D7-VWA-25,VWA-25,VWA,25,sym
+192,D7-fl-Snap-332.czi,870.738,1583,65535,Symbiont Area,72.48,Tentacle,VWA-25,,72.48020137,D7-VWA-25,VWA-25,VWA,25,sym
+193,D7-bf-Snap-333.czi,2656.757,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,D7-VWA-25,VWA-25,VWA,25,sym
+194,D7-fl-Snap-332.czi,1686.555,1261,65535,Symbiont Area,63.482,Tentacle,VWA-25,,63.4817185,D7-VWA-25,VWA-25,VWA,25,sym
+195,D7-bf-Snap-333.czi,4366.88,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,D7-VWA-25,VWA-25,VWA,25,sym
+196,D7-fl-Snap-332.czi,2539.346,1091,65535,Symbiont Area,58.15,Tentacle,VWA-25,,58.15012091,D7-VWA-25,VWA-25,VWA,25,sym
+197,D7-bf-Snap-333.czi,3111.262,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,D7-VWA-25,VWA-25,VWA,25,sym
+198,D7-fl-Snap-332.czi,1957.485,815,65535,Symbiont Area,62.916,Tentacle,VWA-25,,62.91610928,D7-VWA-25,VWA-25,VWA,25,sym
+199,D7-bf-Snap-333.czi,20301.581,0,65535,Tentacle Area,0,Body column,VWA-25,,n/a,D7-VWA-25,VWA-25,VWA,25,sym
+200,D7-fl-Snap-332.czi,6761.788,646,65535,Symbiont Area,33.307,Body column,VWA-25,,33.30670651,D7-VWA-25,VWA-25,VWA,25,sym
+201,D8-bf-Snap-335.czi,943.606,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,D8-VWA-25,VWA-25,VWA,25,sym
+202,D8-fl-Snap-334.czi,459.694,934,65535,Symbiont Area,48.717,Tentacle,VWA-25,,48.71673135,D8-VWA-25,VWA-25,VWA,25,sym
+203,D8-bf-Snap-335.czi,2709.299,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,D8-VWA-25,VWA-25,VWA,25,sym
+204,D8-fl-Snap-334.czi,1839.21,1277,65535,Symbiont Area,67.885,Tentacle,VWA-25,,67.88508762,D8-VWA-25,VWA-25,VWA,25,sym
+205,D8-bf-Snap-335.czi,2315.337,0,65535,0,0,0,VWA-25,,REMOVED,D8-VWA-25,VWA-25,VWA,25,sym
+206,D8-bf-Snap-335.czi,3195.373,0,65535,Tentacle Area,0,Body column,VWA-25,,n/a,D8-VWA-25,VWA-25,VWA,25,sym
+207,D8-fl-Snap-334.czi,1420.598,671,65535,Symbiont Area,44.458,Body column,VWA-25,,44.45797095,D8-VWA-25,VWA-25,VWA,25,sym
+83,E1-bf-Snap-337.czi,809.33,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,E1-VWA-25,VWA-25,VWA,25,sym
+84,E1-fl-Snap-336.czi,494.723,1760,65535,Symbiont Area,61.127,Tentacle,VWA-25,,61.12747581,E1-VWA-25,VWA-25,VWA,25,sym
+85,E1-bf-Snap-337.czi,944.255,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,E1-VWA-25,VWA-25,VWA,25,sym
+86,E1-fl-Snap-336.czi,426.396,1056,65535,Symbiont Area,45.157,Tentacle,VWA-25,,45.1568697,E1-VWA-25,VWA-25,VWA,25,sym
+87,E1-bf-Snap-337.czi,1000.473,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,E1-VWA-25,VWA-25,VWA,25,sym
+88,E1-fl-Snap-336.czi,560.888,1305,65535,Symbiont Area,56.062,Tentacle,VWA-25,,56.06228254,E1-VWA-25,VWA-25,VWA,25,sym
+89,E2-bf-Snap-339.czi,824.682,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,E2-VWA-25,VWA-25,VWA,25,sym
+90,E2-fl-Snap-338.czi,345.744,1157,65535,Symbiont Area,41.924,Tentacle,VWA-25,,41.92452363,E2-VWA-25,VWA-25,VWA,25,sym
+91,E2-bf-Snap-339.czi,1964.188,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,E2-VWA-25,VWA-25,VWA,25,sym
+92,E2-fl-Snap-338.czi,633.107,1480,65535,Symbiont Area,32.232,Tentacle,VWA-25,,32.23250524,E2-VWA-25,VWA-25,VWA,25,sym
+93,E2-bf-Snap-339.czi,2713.191,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,E2-VWA-25,VWA-25,VWA,25,sym
+94,E2-fl-Snap-338.czi,1571.523,1170,65535,Symbiont Area,57.922,Tentacle,VWA-25,,57.92157648,E2-VWA-25,VWA-25,VWA,25,sym
+95,E2-bf-Snap-339.czi,1644.391,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,E2-VWA-25,VWA-25,VWA,25,sym
+96,E2-fl-Snap-338.czi,984.04,995,65535,Symbiont Area,59.842,Tentacle,VWA-25,,59.84221514,E2-VWA-25,VWA-25,VWA,25,sym
+97,E2-bf-Snap-339.czi,26186.794,0,65535,Tentacle Area,0,Body column,VWA-25,,n/a,E2-VWA-25,VWA-25,VWA,25,sym
+98,E2-fl-Snap-338.czi,9669.366,780,65535,Symbiont Area,36.925,Body column,VWA-25,,36.92458878,E2-VWA-25,VWA-25,VWA,25,sym
+210,E3-bf-Snap-341.czi,226728.346,0,65535,0,0,0,VWA-25,,REMOVED,E3-VWA-25,VWA-25,VWA,25,sym
+211,E3-bf-Snap-341.czi,5180.751,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,E3-VWA-25,VWA-25,VWA,25,sym
+212,E3-fl-Snap-340.czi,2938.714,983,65535,Symbiont Area,56.724,Tentacle,VWA-25,,56.72370666,E3-VWA-25,VWA-25,VWA,25,sym
+213,E3-bf-Snap-341.czi,9096.586,0,65535,Tentacle Area,0,Body column,VWA-25,,n/a,E3-VWA-25,VWA-25,VWA,25,sym
+214,E3-fl-Snap-340.czi,3272.782,550,65535,Symbiont Area,35.978,Body column,VWA-25,,35.97813509,E3-VWA-25,VWA-25,VWA,25,sym
+215,E3-bf-Snap-341.czi,254.713,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,E3-VWA-25,VWA-25,VWA,25,sym
+216,E3-fl-Snap-340.czi,80.436,1135,65535,Symbiont Area,31.579,Tentacle,VWA-25,,31.57907135,E3-VWA-25,VWA-25,VWA,25,sym
+217,E4-bf-Snap-343.czi,396.773,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,E4-VWA-25,VWA-25,VWA,25,sym
+218,E4-fl-Snap-342.czi,267.903,1354,65535,Symbiont Area,67.52,Tentacle,VWA-25,,67.5204714,E4-VWA-25,VWA-25,VWA,25,sym
+219,E4-bf-Snap-343.czi,487.804,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,E4-VWA-25,VWA-25,VWA,25,sym
+220,E4-fl-Snap-342.czi,361.744,1431,65535,Symbiont Area,74.158,Tentacle,VWA-25,,74.15765348,E4-VWA-25,VWA-25,VWA,25,sym
+221,E4-bf-Snap-343.czi,2311.878,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,E4-VWA-25,VWA-25,VWA,25,sym
+222,E4-fl-Snap-342.czi,1289.566,1739,65535,Symbiont Area,55.78,Tentacle,VWA-25,,55.78001953,E4-VWA-25,VWA-25,VWA,25,sym
+223,E4-bf-Snap-343.czi,4197.36,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,E4-VWA-25,VWA-25,VWA,25,sym
+224,E4-fl-Snap-342.czi,2111.437,1739,65535,Symbiont Area,50.304,Tentacle,VWA-25,,50.30392914,E4-VWA-25,VWA-25,VWA,25,sym
+225,E4-bf-Snap-343.czi,1731.314,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,E4-VWA-25,VWA-25,VWA,25,sym
+226,E4-fl-Snap-342.czi,1012.798,1893,65535,Symbiont Area,58.499,Tentacle,VWA-25,,58.49880495,E4-VWA-25,VWA-25,VWA,25,sym
+227,E4-bf-Snap-343.czi,8410.071,0,65535,Tentacle Area,0,Body column,VWA-25,,n/a,E4-VWA-25,VWA-25,VWA,25,sym
+228,E4-fl-Snap-342.czi,3216.347,954,65535,Symbiont Area,38.244,Body column,VWA-25,,38.24399342,E4-VWA-25,VWA-25,VWA,25,sym
+239,E5-bf-Snap-345.czi,26559.133,0,65535,Tentacle Area,0,Body column,VWA-25,"No tentacles visible, only body column ",n/a,E5-VWA-25,VWA-25,VWA,25,sym
+240,E5-fl-Snap-344.czi,8629.756,519,65535,Symbiont Area,32.493,Body column,VWA-25,,32.49261186,E5-VWA-25,VWA-25,VWA,25,sym
+241,E6-bf-Snap-347.czi,2366.15,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,E6-VWA-25,VWA-25,VWA,25,sym
+242,E6-fl-Snap-346.czi,1302.972,1152,65535,Symbiont Area,55.067,Tentacle,VWA-25,,55.06717664,E6-VWA-25,VWA-25,VWA,25,sym
+243,E6-bf-Snap-347.czi,4691.65,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,E6-VWA-25,VWA-25,VWA,25,sym
+244,E6-fl-Snap-346.czi,2948.444,1140,65535,Symbiont Area,62.845,Tentacle,VWA-25,,62.84450034,E6-VWA-25,VWA-25,VWA,25,sym
+245,E6-bf-Snap-347.czi,1915.97,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,E6-VWA-25,VWA-25,VWA,25,sym
+246,E6-fl-Snap-346.czi,906.848,999,65535,Symbiont Area,47.331,Tentacle,VWA-25,,47.33101249,E6-VWA-25,VWA-25,VWA,25,sym
+247,E6-bf-Snap-347.czi,1455.41,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,E6-VWA-25,VWA-25,VWA,25,sym
+248,E6-fl-Snap-346.czi,685.649,1152,65535,Symbiont Area,47.11,Tentacle,VWA-25,,47.11036753,E6-VWA-25,VWA-25,VWA,25,sym
+249,E7-bf-Snap-349.czi,2348.636,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,E7-VWA-25,VWA-25,VWA,25,sym
+250,E7-fl-Snap-348.czi,1720.286,1147,65535,Symbiont Area,73.246,Tentacle,VWA-25,,73.24617352,E7-VWA-25,VWA-25,VWA,25,sym
+251,E7-bf-Snap-349.czi,831.601,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,E7-VWA-25,VWA-25,VWA,25,sym
+252,E7-fl-Snap-348.czi,520.67,1074,65535,Symbiont Area,62.611,Tentacle,VWA-25,,62.61055482,E7-VWA-25,VWA-25,VWA,25,sym
+253,E7-bf-Snap-349.czi,1457.356,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,E7-VWA-25,VWA-25,VWA,25,sym
+254,E7-fl-Snap-348.czi,1036.799,1412,65535,Symbiont Area,71.142,Tentacle,VWA-25,,71.14246622,E7-VWA-25,VWA-25,VWA,25,sym
+255,E7-bf-Snap-349.czi,1135.83,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,E7-VWA-25,VWA-25,VWA,25,sym
+256,E7-fl-Snap-348.czi,731.922,1059,65535,Symbiont Area,64.439,Tentacle,VWA-25,,64.43939674,E7-VWA-25,VWA-25,VWA,25,sym
+257,E7-bf-Snap-349.czi,1155.074,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,E7-VWA-25,VWA-25,VWA,25,sym
+258,E7-fl-Snap-348.czi,944.471,1662,65535,Symbiont Area,81.767,Tentacle,VWA-25,,81.76714219,E7-VWA-25,VWA-25,VWA,25,sym
+229,E8-bf-Snap-351.czi,537.968,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,E8-VWA-25,VWA-25,VWA,25,sym
+230,E8-fl-Snap-350.czi,303.364,1722,65535,Symbiont Area,56.391,Tentacle,VWA-25,,56.39071469,E8-VWA-25,VWA-25,VWA,25,sym
+231,E8-bf-Snap-351.czi,777.978,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,E8-VWA-25,VWA-25,VWA,25,sym
+232,E8-fl-Snap-350.czi,493.642,1299,65535,Symbiont Area,63.452,Tentacle,VWA-25,,63.45192281,E8-VWA-25,VWA-25,VWA,25,sym
+233,E8-bf-Snap-351.czi,3556.901,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,E8-VWA-25,VWA-25,VWA,25,sym
+234,E8-fl-Snap-350.czi,2274.687,1690,65535,Symbiont Area,63.951,Tentacle,VWA-25,,63.95137228,E8-VWA-25,VWA-25,VWA,25,sym
+235,E8-bf-Snap-351.czi,3751.72,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,E8-VWA-25,VWA-25,VWA,25,sym
+236,E8-fl-Snap-350.czi,2453.505,1158,65535,Symbiont Area,65.397,Tentacle,VWA-25,,65.39680467,E8-VWA-25,VWA-25,VWA,25,sym
+237,E8-bf-Snap-351.czi,2774.599,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,E8-VWA-25,VWA-25,VWA,25,sym
+238,E8-fl-Snap-350.czi,1329.784,908,65535,Symbiont Area,47.927,Tentacle,VWA-25,,47.92706982,E8-VWA-25,VWA-25,VWA,25,sym
+100,F1-fl-Snap-590.czi,2722.705,1562,65535,Symbiont Area,64.288,Tentacle,VWA-25,,n/a,F1-VWA-25,VWA-25,VWA,25,sym
+101,F1-bf-Snap-591.czi,723.056,0,65535,Tentacle Area,0,Tentacle,VWA-25,,26.5565311,F1-VWA-25,VWA-25,VWA,25,sym
+102,F1-fl-Snap-590.czi,645.432,1683,65535,Symbiont Area,89.264,Tentacle,VWA-25,,n/a,F1-VWA-25,VWA-25,VWA,25,sym
+103,F1-bf-Snap-591.czi,8642.729,0,65535,Tentacle Area,0,Body column,VWA-25,,n/a,F1-VWA-25,VWA-25,VWA,25,sym
+104,F1-fl-Snap-590.czi,3931.619,940,65535,Symbiont Area,45.49,Body column,VWA-25,,45.49048107,F1-VWA-25,VWA-25,VWA,25,sym
+105,F2-bf-Snap-559.czi,1286.971,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,F2-VWA-25,VWA-25,VWA,25,sym
+106,F2-fl-Snap-558.czi,699.704,1594,65535,Symbiont Area,54.368,Tentacle,VWA-25,,54.36828025,F2-VWA-25,VWA-25,VWA,25,sym
+107,F2-bf-Snap-559.czi,5207.779,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,F2-VWA-25,VWA-25,VWA,25,sym
+108,F2-fl-Snap-558.czi,2832.331,935,65535,Symbiont Area,54.387,Tentacle,VWA-25,,54.38654367,F2-VWA-25,VWA-25,VWA,25,sym
+109,F2-bf-Snap-559.czi,5921.97,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,F2-VWA-25,VWA-25,VWA,25,sym
+110,F2-fl-Snap-558.czi,3206.833,996,65535,Symbiont Area,54.151,Tentacle,VWA-25,,54.15145636,F2-VWA-25,VWA-25,VWA,25,sym
+111,F2-bf-Snap-559.czi,1817.804,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,F2-VWA-25,VWA-25,VWA,25,sym
+112,F2-fl-Snap-558.czi,952.904,981,65535,Symbiont Area,52.421,Tentacle,VWA-25,,52.420613,F2-VWA-25,VWA-25,VWA,25,sym
+261,F3-bf-Snap-357.czi,1189.021,0,65535,Tentacle Area,0,Tentacle,VWA-25,"Very blurry, only a few tentacles visible",n/a,F3-VWA-25,VWA-25,VWA,25,sym
+262,F3-fl-Snap-356.czi,720.678,1369,65535,Symbiont Area,60.611,Tentacle,VWA-25,,60.61104051,F3-VWA-25,VWA-25,VWA,25,sym
+263,F4-bf-Snap-359.czi,2861.305,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,F4-VWA-25,VWA-25,VWA,25,sym
+264,F4-fl-Snap-358.czi,1197.67,1285,65535,Symbiont Area,41.857,Tentacle,VWA-25,,41.85747412,F4-VWA-25,VWA-25,VWA,25,sym
+265,F4-bf-Snap-359.czi,1679.636,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,F4-VWA-25,VWA-25,VWA,25,sym
+266,F4-fl-Snap-358.czi,1074.638,1855,65535,Symbiont Area,63.98,Tentacle,VWA-25,,63.98041004,F4-VWA-25,VWA-25,VWA,25,sym
+267,F4-bf-Snap-359.czi,6862.333,0,65535,Tentacle Area,0,Body column,VWA-25,,n/a,F4-VWA-25,VWA-25,VWA,25,sym
+268,F4-fl-Snap-358.czi,2449.613,623,65535,Symbiont Area,35.697,Body column,VWA-25,,35.69650438,F4-VWA-25,VWA-25,VWA,25,sym
+269,F5-bf-Snap-361.czi,1255.835,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,F5-VWA-25,VWA-25,VWA,25,sym
+270,F5-fl-Snap-360.czi,677.433,1120,65535,Symbiont Area,53.943,Tentacle,VWA-25,,53.94283485,F5-VWA-25,VWA-25,VWA,25,sym
+271,F5-bf-Snap-361.czi,2855.684,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,F5-VWA-25,VWA-25,VWA,25,sym
+272,F5-fl-Snap-360.czi,2124.843,1934,65535,Symbiont Area,74.408,Tentacle,VWA-25,,74.40749747,F5-VWA-25,VWA-25,VWA,25,sym
+273,F5-bf-Snap-361.czi,3181.535,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,F5-VWA-25,VWA-25,VWA,25,sym
+274,F5-fl-Snap-360.czi,2603.349,1295,65535,Symbiont Area,81.827,Tentacle,VWA-25,,81.82682259,F5-VWA-25,VWA-25,VWA,25,sym
+275,F5-bf-Snap-361.czi,7271.431,0,65535,Tentacle Area,0,Body column,VWA-25,,n/a,F5-VWA-25,VWA-25,VWA,25,sym
+276,F5-fl-Snap-360.czi,1734.557,785,65535,Symbiont Area,23.854,Body column,VWA-25,,23.8544105,F5-VWA-25,VWA-25,VWA,25,sym
+277,F6-bf-Snap-363.czi,1571.091,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,F6-VWA-25,VWA-25,VWA,25,sym
+278,F6-fl-Snap-362.czi,1222.969,2012,65535,Symbiont Area,77.842,Tentacle,VWA-25,,77.84202188,F6-VWA-25,VWA-25,VWA,25,sym
+279,F6-bf-Snap-363.czi,4094.004,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,F6-VWA-25,VWA-25,VWA,25,sym
+280,F6-fl-Snap-362.czi,2593.835,1566,65535,Symbiont Area,63.357,Tentacle,VWA-25,,63.35692393,F6-VWA-25,VWA-25,VWA,25,sym
+281,F6-bf-Snap-363.czi,1568.712,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,F6-VWA-25,VWA-25,VWA,25,sym
+282,F6-fl-Snap-362.czi,738.192,998,65535,Symbiont Area,47.057,Tentacle,VWA-25,,47.05720362,F6-VWA-25,VWA-25,VWA,25,sym
+283,F6-bf-Snap-363.czi,9850.346,0,65535,Tentacle Area,0,Body column,VWA-25,,n/a,F6-VWA-25,VWA-25,VWA,25,sym
+284,F6-fl-Snap-362.czi,3322.513,660,65535,Symbiont Area,33.73,Body column,VWA-25,,33.72991162,F6-VWA-25,VWA-25,VWA,25,sym
+285,F7-bf-Snap-365.czi,3032.556,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,F7-VWA-25,VWA-25,VWA,25,sym
+286,F7-fl-Snap-364.czi,1195.94,1326,65535,Symbiont Area,39.437,Tentacle,VWA-25,,39.4366996,F7-VWA-25,VWA-25,VWA,25,sym
+287,F7-bf-Snap-365.czi,3408.138,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,F7-VWA-25,VWA-25,VWA,25,sym
+288,F7-fl-Snap-364.czi,2588.646,1399,65535,Symbiont Area,75.955,Tentacle,VWA-25,,75.9548469,F7-VWA-25,VWA-25,VWA,25,sym
+289,F7-bf-Snap-365.czi,6782.978,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,F7-VWA-25,VWA-25,VWA,25,sym
+290,F7-fl-Snap-364.czi,4694.677,1836,65535,Symbiont Area,69.213,Tentacle,VWA-25,,69.21262313,F7-VWA-25,VWA-25,VWA,25,sym
+291,F7-bf-Snap-365.czi,1487.196,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,F7-VWA-25,VWA-25,VWA,25,sym
+292,F7-fl-Snap-364.czi,1232.482,1443,65535,Symbiont Area,82.873,Tentacle,VWA-25,,82.87286948,F7-VWA-25,VWA-25,VWA,25,sym
+293,F7-bf-Snap-365.czi,813.871,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,F7-VWA-25,VWA-25,VWA,25,sym
+294,F7-fl-Snap-364.czi,618.187,1326,65535,Symbiont Area,75.956,Tentacle,VWA-25,,75.95638621,F7-VWA-25,VWA-25,VWA,25,sym
+295,F7-bf-Snap-365.czi,23171.752,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,F7-VWA-25,VWA-25,VWA,25,sym
+296,F7-fl-Snap-364.czi,10598.268,568,65535,Symbiont Area,45.738,Tentacle,VWA-25,,45.73787947,F7-VWA-25,VWA-25,VWA,25,sym
+297,F8-bf-Snap-367.czi,2283.552,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,F8-VWA-25,VWA-25,VWA,25,sym
+298,F8-fl-Snap-366.czi,1455.41,1991,65535,Symbiont Area,63.734,Tentacle,VWA-25,,63.73448032,F8-VWA-25,VWA-25,VWA,25,sym
+299,F8-bf-Snap-367.czi,758.517,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,F8-VWA-25,VWA-25,VWA,25,sym
+300,F8-fl-Snap-366.czi,539.049,1593,65535,Symbiont Area,71.066,Tentacle,VWA-25,,71.06617254,F8-VWA-25,VWA-25,VWA,25,sym
+301,F8-bf-Snap-367.czi,3810.533,0,65535,Tentacle Area,0,Tentacle,VWA-25,,n/a,F8-VWA-25,VWA-25,VWA,25,sym
+302,F8-fl-Snap-366.czi,2157.277,1479,65535,Symbiont Area,56.614,Tentacle,VWA-25,,56.61352362,F8-VWA-25,VWA-25,VWA,25,sym
+303,F8-bf-Snap-367.czi,11978.433,0,65535,Tentacle Area,0,Body column,VWA-25,,n/a,F8-VWA-25,VWA-25,VWA,25,sym
+304,F8-fl-Snap-366.czi,5259.241,939,65535,Symbiont Area,43.906,Body column,VWA-25,,43.90591824,F8-VWA-25,VWA-25,VWA,25,sym
+113,A1-bf-Snap-168.czi,3955.188,0,65535,Tentacle Area,0,Tentacle,VWA-32,Fluorescent image is blurry ,n/a,A1-VWA-32,VWA-32,VWA,32,sym
+114,A1-fl-Snap-167.czi,165.845,45,65535,Symbiont Area,4.193,Tentacle,VWA-32,,4.193100303,A1-VWA-32,VWA-32,VWA,32,sym
+115,A1-bf-Snap-168.czi,3612.255,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,A1-VWA-32,VWA-32,VWA,32,sym
+116,A1-fl-Snap-167.czi,145.736,45,65535,Symbiont Area,4.034,Tentacle,VWA-32,,4.034488152,A1-VWA-32,VWA-32,VWA,32,sym
+117,A1-bf-Snap-168.czi,1929.592,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,A1-VWA-32,VWA-32,VWA,32,sym
+118,A1-fl-Snap-167.czi,105.95,45,65535,Symbiont Area,5.491,Tentacle,VWA-32,,5.490798055,A1-VWA-32,VWA-32,VWA,32,sym
+119,A1-bf-Snap-168.czi,678.082,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,A1-VWA-32,VWA-32,VWA,32,sym
+120,A1-fl-Snap-167.czi,55.137,45,65535,Symbiont Area,8.131,Tentacle,VWA-32,,8.131317451,A1-VWA-32,VWA-32,VWA,32,sym
+121,A2-bf-Snap-170.czi,2604.43,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,A2-VWA-32,VWA-32,VWA,32,sym
+122,A2-fl-Snap-169.czi,60.759,919,65535,Symbiont Area,2.333,Tentacle,VWA-32,,2.332909696,A2-VWA-32,VWA-32,VWA,32,sym
+123,A2-bf-Snap-170.czi,548.563,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,A2-VWA-32,VWA-32,VWA,32,sym
+124,A2-fl-Snap-169.czi,88.652,1183,65535,Symbiont Area,16.161,Tentacle,VWA-32,,16.16076914,A2-VWA-32,VWA-32,VWA,32,sym
+125,A2-bf-Snap-170.czi,1798.776,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,A2-VWA-32,VWA-32,VWA,32,sym
+126,A2-fl-Snap-169.czi,104.869,716,65535,Symbiont Area,5.83,Tentacle,VWA-32,,5.830019969,A2-VWA-32,VWA-32,VWA,32,sym
+127,A2-bf-Snap-170.czi,1130.208,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,A2-VWA-32,VWA-32,VWA,32,sym
+128,A2-fl-Snap-169.czi,131.681,1370,65535,Symbiont Area,11.651,Tentacle,VWA-32,,11.65104122,A2-VWA-32,VWA-32,VWA,32,sym
+305,A3-bf-Snap-172.czi,7096.937,0,65535,Tentacle Area,0,Tentacle,VWA-32,"Flourescence dots are visible but the animal is not, animal is on side",n/a,A3-VWA-32,VWA-32,VWA,32,sym
+306,A3-fl-Snap-171.czi,77.192,1156,65535,Symbiont Area,1.088,Tentacle,VWA-32,,1.087680502,A3-VWA-32,VWA-32,VWA,32,sym
+307,A3-bf-Snap-172.czi,4687.326,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,A3-VWA-32,VWA-32,VWA,32,sym
+308,A3-fl-Snap-171.czi,28.325,1552,65535,Symbiont Area,0.604,Tentacle,VWA-32,,0.6042890979,A3-VWA-32,VWA-32,VWA,32,sym
+309,A3-bf-Snap-172.czi,7818.912,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,A3-VWA-32,VWA-32,VWA,32,sym
+310,A3-fl-Snap-171.czi,1684.393,41,65535,Symbiont Area,21.543,Tentacle,VWA-32,,21.54254965,A3-VWA-32,VWA-32,VWA,32,sym
+311,A3-bf-Snap-172.czi,4368.61,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,A3-VWA-32,VWA-32,VWA,32,sym
+312,A3-fl-Snap-171.czi,460.775,55,65535,Symbiont Area,10.547,Tentacle,VWA-32,,10.54740524,A3-VWA-32,VWA-32,VWA,32,sym
+313,A4-bf-Snap-174.czi,2720.975,0,65535,Tentacle Area,10.547,Tentacle,VWA-32,,n/a,A4-VWA-32,VWA-32,VWA,32,sym
+314,A4-fl-Snap-173.czi,382.286,877,65535,Symbiont Area,14.05,Tentacle,VWA-32,,14.04959619,A4-VWA-32,VWA-32,VWA,32,sym
+315,A4-bf-Snap-174.czi,6328.257,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,A4-VWA-32,VWA-32,VWA,32,sym
+316,A4-fl-Snap-173.czi,883.063,1049,65535,Symbiont Area,13.954,Tentacle,VWA-32,,13.95428473,A4-VWA-32,VWA-32,VWA,32,sym
+317,A4-bf-Snap-174.czi,3213.103,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,A4-VWA-32,VWA-32,VWA,32,sym
+318,A4-fl-Snap-173.czi,90.166,924,65535,Symbiont Area,2.806,Tentacle,VWA-32,,2.806197,A4-VWA-32,VWA-32,VWA,32,sym
+319,A4-bf-Snap-174.czi,1849.589,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,A4-VWA-32,VWA-32,VWA,32,sym
+320,A4-fl-Snap-173.czi,108.329,627,65535,Symbiont Area,5.857,Tentacle,VWA-32,,5.856922808,A4-VWA-32,VWA-32,VWA,32,sym
+321,A5-bf-Snap-176.czi,2363.123,0,65535,Tentacle Area,0,Tentacle,VWA-32,"Image very blurry, tentacles not visibile in floroscent image, only 1 tentacle clear ",n/a,A5-VWA-32,VWA-32,VWA,32,sym
+322,A5-fl-Snap-175.czi,123.248,1239,65535,Symbiont Area,5.215,Tentacle,VWA-32,,5.215471222,A5-VWA-32,VWA-32,VWA,32,sym
+323,A6-bf-Snap-178.czi,1844.832,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,A6-VWA-32,VWA-32,VWA,32,sym
+324,A6-fl-Snap-177.czi,44.326,1609,65535,Symbiont Area,2.403,Tentacle,VWA-32,,2.402712008,A6-VWA-32,VWA-32,VWA,32,sym
+325,A6-bf-Snap-178.czi,1552.279,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,A6-VWA-32,VWA-32,VWA,32,sym
+326,A6-fl-Snap-177.czi,27.893,1609,65535,Symbiont Area,1.797,Tentacle,VWA-32,,1.796906355,A6-VWA-32,VWA-32,VWA,32,sym
+327,A7-bf-Snap-180.czi,1920.943,0,65535,Tentacle Area,0,Tentacle,VWA-32,only 1 clear tentacle in flourescent image ,n/a,A7-VWA-32,VWA-32,VWA,32,sym
+328,A7-fl-Snap-179.czi,37.407,1564,65535,Symbiont Area,1.947,Tentacle,VWA-32,,1.94732483,A7-VWA-32,VWA-32,VWA,32,sym
+329,A8-bf-Snap-182.czi,2997.743,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,A8-VWA-32,VWA-32,VWA,32,sym
+330,A8-fl-Snap-181.czi,79.138,1230,65535,Symbiont Area,2.64,Tentacle,VWA-32,,2.639919433,A8-VWA-32,VWA-32,VWA,32,sym
+331,A8-bf-Snap-182.czi,1693.907,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,A8-VWA-32,VWA-32,VWA,32,sym
+332,A8-fl-Snap-181.czi,32.65,1404,65535,Symbiont Area,1.927,Tentacle,VWA-32,,1.92749661,A8-VWA-32,VWA-32,VWA,32,sym
+333,A8-bf-Snap-182.czi,2509.507,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,A8-VWA-32,VWA-32,VWA,32,sym
+334,A8-fl-Snap-181.czi,46.488,1471,65535,Symbiont Area,1.852,Tentacle,VWA-32,,1.852475407,A8-VWA-32,VWA-32,VWA,32,sym
+129,B1-bf-Snap-184.czi,1463.627,0,65535,Tentacle Area,11.651,Tentacle,VWA-32,"Very blurry image, fluorescent image is very bright, almost looks like brightfield ",n/a,B1-VWA-32,VWA-32,VWA,32,sym
+130,B1-fl-Snap-183.czi,34.38,1205,65535,Symbiont Area,2.349,Tentacle,VWA-32,,2.348959127,B1-VWA-32,VWA-32,VWA,32,sym
+131,B1-bf-Snap-184.czi,2134.573,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,B1-VWA-32,VWA-32,VWA,32,sym
+132,B1-fl-Snap-183.czi,76.327,1257,65535,Symbiont Area,3.576,Tentacle,VWA-32,,3.575750279,B1-VWA-32,VWA-32,VWA,32,sym
+133,B2-bf-Snap-186.czi,1817.804,0,65535,Tentacle Area,3.576,Tentacle,VWA-32,,n/a,B2-VWA-32,VWA-32,VWA,32,sym
+134,B2-fl-Snap-185.czi,124.546,581,65535,Symbiont Area,6.851,Tentacle,VWA-32,,6.851453732,B2-VWA-32,VWA-32,VWA,32,sym
+135,B2-bf-Snap-186.czi,1522.656,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,B2-VWA-32,VWA-32,VWA,32,sym
+136,B2-fl-Snap-185.czi,66.597,1303,65535,Symbiont Area,4.374,Tentacle,VWA-32,,4.373739045,B2-VWA-32,VWA-32,VWA,32,sym
+137,B2-bf-Snap-186.czi,1916.618,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,B2-VWA-32,VWA-32,VWA,32,sym
+138,B2-fl-Snap-185.czi,76.76,1381,65535,Symbiont Area,4.005,Tentacle,VWA-32,,4.004971257,B2-VWA-32,VWA-32,VWA,32,sym
+139,B2-bf-Snap-186.czi,1696.501,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,B2-VWA-32,VWA-32,VWA,32,sym
+140,B2-fl-Snap-185.czi,9.514,1475,65535,Symbiont Area,0.561,Tentacle,VWA-32,,0.5608013199,B2-VWA-32,VWA-32,VWA,32,sym
+141,B2-bf-Snap-186.czi,1929.376,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,B2-VWA-32,VWA-32,VWA,32,sym
+142,B2-fl-Snap-185.czi,64.651,1491,65535,Symbiont Area,3.351,Tentacle,VWA-32,,3.350876138,B2-VWA-32,VWA-32,VWA,32,sym
+335,B3-bf-Snap-188.czi,13349.515,0,65535,Tentacle Area,0,Body column,VWA-32,"The animal has no flourescence in image, other ""stuff"" surrounding animal, no tentacles",n/a,B3-VWA-32,VWA-32,VWA,32,sym
+336,B3-fl-Snap-187.czi,269.2,282,65535,Symbiont Area,2.017,Body column ,VWA-32,,2.016552661,B3-VWA-32,VWA-32,VWA,32,sym
+337,B4-bfl-Snap-190.czi,2475.344,0,65535,Tentacle Area,0,Tentacle,VWA-32,"Flourescence image very blurry, tentacles not clearly visibile ",n/a,B4-VWA-32,VWA-32,VWA,32,sym
+338,B4-fl-Snap-189.czi,156.547,1111,65535,Symbiont Area,6.324,Tentacle,VWA-32,,6.324252306,B4-VWA-32,VWA-32,VWA,32,sym
+339,B4-bfl-Snap-190.czi,2081.382,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,B4-VWA-32,VWA-32,VWA,32,sym
+340,B4-fl-Snap-189.czi,15.568,1150,65535,Symbiont Area,0.748,Tentacle,VWA-32,,0.7479645735,B4-VWA-32,VWA-32,VWA,32,sym
+341,B4-bfl-Snap-190.czi,1098.423,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,B4-VWA-32,VWA-32,VWA,32,sym
+342,B4-fl-Snap-189.czi,16.217,980,65535,Symbiont Area,1.476,Tentacle,VWA-32,,1.476389333,B4-VWA-32,VWA-32,VWA,32,sym
+REMOVED,B5-fl/bl-Snap-191/192.czi,REMOVED,REMOVED,REMOVED,REMOVED,REMOVED,REMOVED,VWA-32,"Flourescence image very blurry, white is blurry as well tentacles cannot be imaged ",REMOVED,B5-VWA-32,VWA-32,VWA,32,sym
+343,B6-bf-Snap-194.czi,8751.491,0,65535,Tentacle Area,0,Body column ,VWA-32,"White debris surrounding organism, no tentacles visibile in flourescence image, only body imaged ",n/a,B6-VWA-32,VWA-32,VWA,32,sym
+344,B6-fl-Snap-193.czi,846.953,641,65535,Symbiont Area,9.678,Body column ,VWA-32,,9.677813758,B6-VWA-32,VWA-32,VWA,32,sym
+REMOVED,B7-bf/fl-Snap-195/196.czi,REMOVED,REMOVED,REMOVED,REMOVED,REMOVED,REMOVED,VWA-32,"Debris surrounding animal, animal not visibile at all in fluorescent image, cannot measure ",REMOVED,B7-VWA-32,VWA-32,VWA,32,sym
+REMOVED,B8-bf/fl-Snap-197/198.czi,REMOVED,REMOVED,REMOVED,REMOVED,REMOVED,REMOVED,VWA-32,"Debris surrounding animal, animal not visibile at all in fluorescent image, cannot measure ",REMOVED,B8-VWA-32,VWA-32,VWA,32,sym
+345,C1-bf-Snap-205.czi,1460.384,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,C1-VWA-32,VWA-32,VWA,32,sym
+346,C1-fl-Snap-204.czi,42.38,1162,65535,Symbiont Area,2.902,Tentacle,VWA-32,,2.901976466,C1-VWA-32,VWA-32,VWA,32,sym
+347,C1-bf-Snap-205.czi,1552.495,0,65535,0,0,0,VWA-32,,REMOVED,C1-VWA-32,VWA-32,VWA,32,sym
+348,C1-bf-Snap-205.czi,1461.249,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,C1-VWA-32,VWA-32,VWA,32,sym
+349,C1-fl-Snap-204.czi,24.001,878,65535,Symbiont Area,1.642,Tentacle,VWA-32,,1.642498985,C1-VWA-32,VWA-32,VWA,32,sym
+REMOVED,C2-fl/bf-Snap-206/207.czi,REMOVED,REMOVED,REMOVED,REMOVED,REMOVED,REMOVED,VWA-32,"Debris surrounding animal, animal not visibile at all in fluorescent image, cannot measure ",REMOVED,C2-VWA-32,VWA-32,VWA,32,sym
+350,C3-bl-Snap-209.czi,1663.635,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,C3-VWA-32,VWA-32,VWA,32,sym
+351,C3-fl-Snap-208.czi,74.165,1704,65535,Symbiont Area,4.458,Tentacle,VWA-32,,4.458009119,C3-VWA-32,VWA-32,VWA,32,sym
+352,C3-bl-Snap-209.czi,1155.723,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,C3-VWA-32,VWA-32,VWA,32,sym
+353,C3-fl-Snap-208.czi,86.058,991,65535,Symbiont Area,7.446,Tentacle,VWA-32,,7.446247933,C3-VWA-32,VWA-32,VWA,32,sym
+354,C4-bf-Snap-211.czi,4766.464,0,65535,Tentacle Area,0,Tentacle,VWA-32,No flourescence visibile ,n/a,C4-VWA-32,VWA-32,VWA,32,sym
+355,C4-fl-Snap-210.czi,2486.155,50,65535,Symbiont Area,52.159,Tentacle,VWA-32,,52.15931558,C4-VWA-32,VWA-32,VWA,32,sym
+356,C5-bf-Snap-215.czi,1213.671,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,C5-VWA-32,VWA-32,VWA,32,sym
+357,C5-fl-Snap-214.czi,38.488,772,65535,Symbiont Area,3.171,Tentacle,VWA-32,,3.171205376,C5-VWA-32,VWA-32,VWA,32,sym
+358,C5-bf-Snap-215.czi,1397.03,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,C5-VWA-32,VWA-32,VWA,32,sym
+359,C5-fl-Snap-214.czi,240.658,1024,65535,Symbiont Area,17.226,Tentacle,VWA-32,,17.22640172,C5-VWA-32,VWA-32,VWA,32,sym
+360,C6-bf-Snap-217.czi,3216.131,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,C6-VWA-32,VWA-32,VWA,32,sym
+361,C6-fl-Snap-216.czi,234.82,1449,65535,Symbiont Area,7.301,Tentacle,VWA-32,,7.301319505,C6-VWA-32,VWA-32,VWA,32,sym
+362,C6-bf-Snap-217.czi,4026.758,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,C6-VWA-32,VWA-32,VWA,32,sym
+363,C6-fl-Snap-216.czi,204.333,786,65535,Symbiont Area,5.074,Tentacle,VWA-32,,5.074379935,C6-VWA-32,VWA-32,VWA,32,sym
+364,C7-bf-Snap-219.czi,2306.472,0,65535,Tentacle Area,0,Tentacle,VWA-32,"Animal barely visibile in both images, only one tentacle a little clear ",n/a,C7-VWA-32,VWA-32,VWA,32,sym
+365,C7-fl-Snap-218.czi,98.599,1013,65535,Symbiont Area,4.275,Tentacle,VWA-32,,4.274883892,C7-VWA-32,VWA-32,VWA,32,sym
+366,C8-bf-Snap-221.czi,1236.591,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,C8-VWA-32,VWA-32,VWA,32,sym
+367,C8-fl-Snap-220.czi,71.138,1841,65535,Symbiont Area,5.753,Tentacle,VWA-32,,5.75275091,C8-VWA-32,VWA-32,VWA,32,sym
+368,C8-bf-Snap-221.czi,3343.92,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,C8-VWA-32,VWA-32,VWA,32,sym
+369,C8-fl-Snap-220.czi,76.327,1439,65535,Symbiont Area,2.283,Tentacle,VWA-32,,2.282560588,C8-VWA-32,VWA-32,VWA,32,sym
+370,C8-bf-Snap-221.czi,1839.642,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,C8-VWA-32,VWA-32,VWA,32,sym
+371,C8-fl-Snap-220.czi,19.46,897,65535,Symbiont Area,1.058,Tentacle,VWA-32,,1.05781451,C8-VWA-32,VWA-32,VWA,32,sym
+155,D1-bf-Snap-223.czi,2592.322,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,D1-VWA-32,VWA-32,VWA,32,sym
+156,D1-fl-Snap-222.czi,79.138,63,65535,Symbiont Area,3.053,Tentacle,VWA-32,,3.052784338,D1-VWA-32,VWA-32,VWA,32,sym
+157,D1-bf-Snap-223.czi,2701.515,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,D1-VWA-32,VWA-32,VWA,32,sym
+158,D1-fl-Snap-222.czi,17.082,910,65535,Symbiont Area,0.632,Tentacle,VWA-32,,0.6323118695,D1-VWA-32,VWA-32,VWA,32,sym
+159,D1-bf-Snap-223.czi,3719.719,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,D1-VWA-32,VWA-32,VWA,32,sym
+160,D1-fl-Snap-222.czi,16.001,1099,65535,Symbiont Area,0.43,Tentacle,VWA-32,,0.4301669024,D1-VWA-32,VWA-32,VWA,32,sym
+161,D1-bf-Snap-223.czi,5887.591,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,D1-VWA-32,VWA-32,VWA,32,sym
+162,D1-fl-Snap-222.czi,208.873,63,65535,Symbiont Area,3.548,Tentacle,VWA-32,,3.547681896,D1-VWA-32,VWA-32,VWA,32,sym
+163,D1-bf-Snap-223.czi,1772.18,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,D1-VWA-32,VWA-32,VWA,32,sym
+164,D1-fl-Snap-222.czi,31.569,487,65535,Symbiont Area,1.781,Tentacle,VWA-32,,1.781365324,D1-VWA-32,VWA-32,VWA,32,sym
+165,D2-bfSnap-225.czi,2105.383,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,D2-VWA-32,VWA-32,VWA,32,sym
+166,D2-fl-Snap-224.czi,826.412,72,65535,Symbiont Area,39.252,Tentacle,VWA-32,,39.25233556,D2-VWA-32,VWA-32,VWA,32,sym
+167,D2-bfSnap-225.czi,2479.02,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,D2-VWA-32,VWA-32,VWA,32,sym
+168,D2-fl-Snap-224.czi,1338,58,65535,Symbiont Area,53.973,Tentacle,VWA-32,,53.97294092,D2-VWA-32,VWA-32,VWA,32,sym
+169,D2-bfSnap-225.czi,5544.009,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,D2-VWA-32,VWA-32,VWA,32,sym
+170,D2-fl-Snap-224.czi,39.137,1369,65535,Symbiont Area,0.706,Tentacle,VWA-32,,0.7059331974,D2-VWA-32,VWA-32,VWA,32,sym
+171,D2-bfSnap-225.czi,5975.162,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,D2-VWA-32,VWA-32,VWA,32,sym
+172,D2-fl-Snap-224.czi,67.03,1484,65535,Symbiont Area,1.122,Tentacle,VWA-32,,1.121810589,D2-VWA-32,VWA-32,VWA,32,sym
+173,D2-bfSnap-225.czi,1147.074,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,D2-VWA-32,VWA-32,VWA,32,sym
+174,D2-fl-Snap-224.czi,438.288,86,65535,Symbiont Area,38.209,Tentacle,VWA-32,,38.20921754,D2-VWA-32,VWA-32,VWA,32,sym
+372,D3-bf-Snap-227.czi,1879.644,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,D3-VWA-32,VWA-32,VWA,32,sym
+373,D3-fl-Snap-226.czi,99.68,1510,65535,Symbiont Area,5.303,Tentacle,VWA-32,,5.30313187,D3-VWA-32,VWA-32,VWA,32,sym
+374,D3-bf-Snap-227.czi,2781.086,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,D3-VWA-32,VWA-32,VWA,32,sym
+375,D3-fl-Snap-226.czi,76.111,1383,65535,Symbiont Area,2.737,Tentacle,VWA-32,,2.736736656,D3-VWA-32,VWA-32,VWA,32,sym
+REMOVED,D4-fl/bf-Snap-227/228czi,REMOVED,REMOVED,REMOVED,REMOVED,REMOVED,REMOVED,VWA-32,"Animal is not visible in flourescent image, cannot measure ",REMOVED,D4-VWA-32,VWA-32,VWA,32,sym
+376,D5-bf-Snap-231.czi,2192.738,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,D5-VWA-32,VWA-32,VWA,32,sym
+377,D5-fl-Snap-230.czi,147.682,1120,65535,Symbiont Area,6.735,Tentacle,VWA-32,,6.735049969,D5-VWA-32,VWA-32,VWA,32,sym
+378,D5-bf-Snap-231.czi,1505.358,0,65535,Tentacle Area,6.735,Tentacle,VWA-32,,n/a,D5-VWA-32,VWA-32,VWA,32,sym
+379,D5-fl-Snap-230.czi,144.006,964,65535,Symbiont Area,9.566,Tentacle,VWA-32,,9.566229428,D5-VWA-32,VWA-32,VWA,32,sym
+380,D5-bf-Snap-231.czi,3413.544,0,65535,Tentacle Area,0,Body column,VWA-32,,n/a,D5-VWA-32,VWA-32,VWA,32,sym
+381,D5-fl-Snap-230.czi,33.299,1400,65535,Symbiont Area,0.975,Body column,VWA-32,,0.9754964342,D5-VWA-32,VWA-32,VWA,32,sym
+REMOVED,D6-fl/bf-Snap-232/233.czi,REMOVED,REMOVED,REMOVED,REMOVED,REMOVED,REMOVED,VWA-32,"Animal is not visibile, cannot measure ",REMOVED,D6-VWA-32,VWA-32,VWA,32,sym
+REMOVED,D7-fl/bf-Snap-234/235.czi,REMOVED,REMOVED,REMOVED,REMOVED,REMOVED,REMOVED,VWA-32,"Animal is not visibile, cannot measure ",REMOVED,D7-VWA-32,VWA-32,VWA,32,sym
+382,D8-bf-Snap-237.czi,6840.062,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,D8-VWA-32,VWA-32,VWA,32,sym
+383,D8-fl-Snap-236.czi,232.226,982,65535,Symbiont Area,3.395,Tentacle,VWA-32,,3.395086185,D8-VWA-32,VWA-32,VWA,32,sym
+384,D8-bf-Snap-237.czi,5227.023,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,D8-VWA-32,VWA-32,VWA,32,sym
+385,D8-fl-Snap-236.czi,212.982,1122,65535,Symbiont Area,4.075,Tentacle,VWA-32,,4.074632922,D8-VWA-32,VWA-32,VWA,32,sym
+386,D8-fl-Snap-236.czi,226728.346,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,D8-VWA-32,VWA-32,VWA,32,sym
+387,D8-fl-Snap-236.czi,182.494,47,65535,Symbiont Area,0.08,Tentacle,VWA-32,,0.08049015627,D8-VWA-32,VWA-32,VWA,32,sym
+388,D8-bf-Snap-237.czi,2222.144,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,D8-VWA-32,VWA-32,VWA,32,sym
+389,D8-fl-Snap-236.czi,37.839,1044,65535,Symbiont Area,1.703,Tentacle,VWA-32,,1.702814939,D8-VWA-32,VWA-32,VWA,32,sym
+390,D8-bf-Snap-237.czi,4989.824,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,D8-VWA-32,VWA-32,VWA,32,sym
+391,D8-fl-Snap-236.czi,370.826,764,65535,Symbiont Area,7.432,Tentacle,VWA-32,,7.431644884,D8-VWA-32,VWA-32,VWA,32,sym
+392,D8-bf-Snap-237.czi,3823.507,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,D8-VWA-32,VWA-32,VWA,32,sym
+393,D8-fl-Snap-236.czi,310.283,732,65535,Symbiont Area,8.115,Tentacle,VWA-32,,8.115141413,D8-VWA-32,VWA-32,VWA,32,sym
+175,E1-bf-Snap-239.czi,2887.685,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,E1-VWA-32,VWA-32,VWA,32,sym
+176,E1-fl-Snap-238.czi,534.724,882,65535,Symbiont Area,18.517,Tentacle,VWA-32,,18.51739369,E1-VWA-32,VWA-32,VWA,32,sym
+177,E1-bf-Snap-239.czi,7210.239,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,E1-VWA-32,VWA-32,VWA,32,sym
+178,E1-fl-Snap-238.czi,1941.268,1299,65535,Symbiont Area,26.924,Tentacle,VWA-32,,26.92376771,E1-VWA-32,VWA-32,VWA,32,sym
+179,E1-bf-Snap-239.czi,955.931,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,E1-VWA-32,VWA-32,VWA,32,sym
+180,E1-fl-Snap-238.czi,348.987,1222,65535,Symbiont Area,36.508,Tentacle,VWA-32,,36.50755128,E1-VWA-32,VWA-32,VWA,32,sym
+181,E2-bf-Snap-241.czi,2023.65,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,E2-VWA-32,VWA-32,VWA,32,sym
+182,E2-fl-Snap-240.czi,372.988,1546,65535,Symbiont Area,18.431,Tentacle,VWA-32,,18.43144813,E2-VWA-32,VWA-32,VWA,32,sym
+183,E2-bf-Snap-241.czi,989.878,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,E2-VWA-32,VWA-32,VWA,32,sym
+184,E2-fl-Snap-240.czi,93.193,1076,65535,Symbiont Area,9.415,Tentacle,VWA-32,,9.414594526,E2-VWA-32,VWA-32,VWA,32,sym
+185,E2-bf-Snap-241.czi,6137.33,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,E2-VWA-32,VWA-32,VWA,32,sym
+186,E2-fl-Snap-240.czi,277.417,773,65535,Symbiont Area,4.52,Tentacle,VWA-32,,4.520157788,E2-VWA-32,VWA-32,VWA,32,sym
+394,E3-bf-Snap-243.czi,1229.023,0,65535,Tentacle Area,8.115,Tentacle,VWA-32,,n/a,E3-VWA-32,VWA-32,VWA,32,sym
+395,E3-bf-Snap-242.czi,104.653,1676,65535,Symbiont Area,8.515,Tentacle,VWA-32,,8.515137634,E3-VWA-32,VWA-32,VWA,32,sym
+396,E3-bf-Snap-243.czi,513.967,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,E3-VWA-32,VWA-32,VWA,32,sym
+397,E3-bf-Snap-242.czi,6.703,953,65535,Symbiont Area,1.304,Tentacle,VWA-32,,1.304169334,E3-VWA-32,VWA-32,VWA,32,sym
+398,E3-bf-Snap-243.czi,1344.271,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,E3-VWA-32,VWA-32,VWA,32,sym
+399,E3-bf-Snap-242.czi,12.973,1599,65535,Symbiont Area,0.965,Tentacle,VWA-32,,0.9650583848,E3-VWA-32,VWA-32,VWA,32,sym
+400,E4-bf-Snap-245.czi,1149.885,0,65535,Tentacle Area,0.965,Tentacle,VWA-32,,n/a,E4-VWA-32,VWA-32,VWA,32,sym
+401,E4-fl-Snap-244.czi,68.543,1336,65535,Symbiont Area,5.961,Tentacle,VWA-32,,5.960856955,E4-VWA-32,VWA-32,VWA,32,sym
+402,E4-bf-Snap-245.czi,3566.631,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,E4-VWA-32,VWA-32,VWA,32,sym
+403,E4-fl-Snap-244.czi,77.192,1126,65535,Symbiont Area,2.164,Tentacle,VWA-32,,2.164283325,E4-VWA-32,VWA-32,VWA,32,sym
+404,E5-bf-Snap-247.czi,1585.145,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,E5-VWA-32,VWA-32,VWA,32,sym
+405,E5-fl-Snap-246.czi,16.866,1601,65535,Symbiont Area,1.064,Tentacle,VWA-32,,1.064003609,E5-VWA-32,VWA-32,VWA,32,sym
+406,E5-bf-Snap-247.czi,2532.643,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,E5-VWA-32,VWA-32,VWA,32,sym
+407,E5-fl-Snap-246.czi,699.272,43,65535,Symbiont Area,27.61,Tentacle,VWA-32,,27.61036593,E5-VWA-32,VWA-32,VWA,32,sym
+408,E5-bf-Snap-247.czi,1241.996,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,E5-VWA-32,VWA-32,VWA,32,sym
+409,E5-fl-Snap-246.czi,87.139,851,65535,Symbiont Area,7.016,Tentacle,VWA-32,,7.01604514,E5-VWA-32,VWA-32,VWA,32,sym
+410,E6-bf-Snap-251.czi,4487.317,0,65535,Tentacle Area,7.016,Tentacle,VWA-32,,n/a,E6-VWA-32,VWA-32,VWA,32,sym
+411,E6-fl-Snap-249.czi,409.098,1298,65535,Symbiont Area,9.117,Tentacle,VWA-32,,9.116761753,E6-VWA-32,VWA-32,VWA,32,sym
+412,E6-bf-Snap-251.czi,1827.101,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,E6-VWA-32,VWA-32,VWA,32,sym
+413,E6-fl-Snap-249.czi,549.86,1190,65535,Symbiont Area,30.095,Tentacle,VWA-32,,30.0946691,E6-VWA-32,VWA-32,VWA,32,sym
+414,E6-bf-Snap-251.czi,4713.705,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,E6-VWA-32,VWA-32,VWA,32,sym
+415,E6-fl-Snap-249.czi,208.657,804,65535,Symbiont Area,4.427,Tentacle,VWA-32,,4.426602853,E6-VWA-32,VWA-32,VWA,32,sym
+416,E7-bf-Snap-253.czi,1732.178,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,E7-VWA-32,VWA-32,VWA,32,sym
+417,E7-fl-Snap-252.czi,58.597,1185,65535,Symbiont Area,3.383,Tentacle,VWA-32,,3.382850954,E7-VWA-32,VWA-32,VWA,32,sym
+418,E7-bf-Snap-253.czi,1206.752,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,E7-VWA-32,VWA-32,VWA,32,sym
+419,E7-fl-Snap-252.czi,60.111,826,65535,Symbiont Area,4.981,Tentacle,VWA-32,,4.981222322,E7-VWA-32,VWA-32,VWA,32,sym
+420,E7-bf-Snap-253.czi,1923.754,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,E7-VWA-32,VWA-32,VWA,32,sym
+421,E7-fl-Snap-252.czi,107.031,779,65535,Symbiont Area,5.564,Tentacle,VWA-32,,5.563653149,E7-VWA-32,VWA-32,VWA,32,sym
+422,E7-bf-Snap-253.czi,1205.238,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,E7-VWA-32,VWA-32,VWA,32,sym
+423,E7-fl-Snap-252.czi,43.461,530,65535,Symbiont Area,3.606,Tentacle,VWA-32,,3.606009767,E7-VWA-32,VWA-32,VWA,32,sym
+424,E8-bf-Snap-255.czi,1946.241,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,E8-VWA-32,VWA-32,VWA,32,sym
+425,E8-fl-Snap-254.czi,550.941,1318,65535,Symbiont Area,28.308,Tentacle,VWA-32,,28.30795364,E8-VWA-32,VWA-32,VWA,32,sym
+426,E8-bf-Snap-255.czi,1859.319,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,E8-VWA-32,VWA-32,VWA,32,sym
+427,E8-fl-Snap-254.czi,455.586,874,65535,Symbiont Area,24.503,Tentacle,VWA-32,,24.50284217,E8-VWA-32,VWA-32,VWA,32,sym
+428,E8-bf-Snap-255.czi,3310.405,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,E8-VWA-32,VWA-32,VWA,32,sym
+429,E8-fl-Snap-254.czi,1238.104,828,65535,Symbiont Area,37.4,Tentacle,VWA-32,,37.4003785,E8-VWA-32,VWA-32,VWA,32,sym
+430,E8-bf-Snap-255.czi,851.278,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,E8-VWA-32,VWA-32,VWA,32,sym
+431,E8-fl-Snap-254.czi,410.395,1456,65535,Symbiont Area,48.209,Tentacle,VWA-32,,48.20928063,E8-VWA-32,VWA-32,VWA,32,sym
+432,E8-bf-Snap-255.czi,2193.386,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,E8-VWA-32,VWA-32,VWA,32,sym
+433,E8-fl-Snap-254.czi,604.998,1287,65535,Symbiont Area,27.583,Tentacle,VWA-32,,27.58283312,E8-VWA-32,VWA-32,VWA,32,sym
+434,F1-bf-Snap-257.czi,2845.953,0,65535,Tentacle Area,0,Tentacle,VWA-32,Only 1 clear tentacle ,n/a,F1-VWA-32,VWA-32,VWA,32,sym
+435,F1-fl-Snap-256.czi,131.032,745,65535,Symbiont Area,4.604,Tentacle,VWA-32,,4.604151931,F1-VWA-32,VWA-32,VWA,32,sym
+436,F2-bf-Snap-259.czi,2022.569,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,F2-VWA-32,VWA-32,VWA,32,sym
+437,F2-fl-Snap-258.czi,50.38,1585,65535,Symbiont Area,2.491,Tentacle,VWA-32,,2.490891534,F2-VWA-32,VWA-32,VWA,32,sym
+438,F2-bf-Snap-259.czi,1265.349,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,F2-VWA-32,VWA-32,VWA,32,sym
+439,F2-fl-Snap-258.czi,41.515,1301,65535,Symbiont Area,3.281,Tentacle,VWA-32,,3.280913013,F2-VWA-32,VWA-32,VWA,32,sym
+440,F3-bf-Snap-261.czi,3818.75,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,F3-VWA-32,VWA-32,VWA,32,sym
+441,F3-fl-Snap-260.czi,262.281,1563,65535,Symbiont Area,6.868,Tentacle,VWA-32,,6.868242226,F3-VWA-32,VWA-32,VWA,32,sym
+442,F3-bf-Snap-261.czi,2462.587,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,F3-VWA-32,VWA-32,VWA,32,sym
+443,F3-fl-Snap-260.czi,79.355,1130,65535,Symbiont Area,3.222,Tentacle,VWA-32,,3.222424223,F3-VWA-32,VWA-32,VWA,32,sym
+444,F4-bf-Snap-265.czi,4066.976,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,F4-VWA-32,VWA-32,VWA,32,sym
+445,F4-fl-Snap-264.czi,736.679,1123,65535,Symbiont Area,18.114,Tentacle,VWA-32,,18.11367955,F4-VWA-32,VWA-32,VWA,32,sym
+446,F4-bf-Snap-265.czi,2808.33,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,F4-VWA-32,VWA-32,VWA,32,sym
+447,F4-fl-Snap-264.czi,350.068,517,65535,Symbiont Area,12.465,Tentacle,VWA-32,,12.46534417,F4-VWA-32,VWA-32,VWA,32,sym
+448,F5-bf-Snap-267.czi,1730.449,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,F5-VWA-32,VWA-32,VWA,32,sym
+449,F5-fl-Snap-266.czi,191.575,1186,65535,Symbiont Area,11.071,Tentacle,VWA-32,,11.07082613,F5-VWA-32,VWA-32,VWA,32,sym
+450,F5-bf-Snap-267.czi,1718.124,0,65535,Tentacle Area,11.071,Tentacle,VWA-32,,n/a,F5-VWA-32,VWA-32,VWA,32,sym
+451,F5-fl-Snap-266.czi,62.273,1499,65535,Symbiont Area,3.624,Tentacle,VWA-32,,3.624476464,F5-VWA-32,VWA-32,VWA,32,sym
+452,F5-bf-Snap-267.czi,3995.189,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,F5-VWA-32,VWA-32,VWA,32,sym
+453,F5-fl-Snap-266.czi,478.938,781,65535,Symbiont Area,11.988,Tentacle,VWA-32,,11.98786841,F5-VWA-32,VWA-32,VWA,32,sym
+454,F6-bf-Snap-269.czi,6714.219,0,65535,Tentacle Area,0,Body column,VWA-32,,n/a,F6-VWA-32,VWA-32,VWA,32,sym
+455,F6-fl-Snap-268.czi,1444.167,219,65535,Symbiont Area,21.509,Body column,VWA-32,,21.50908393,F6-VWA-32,VWA-32,VWA,32,sym
+456,F7-bF-Snap-271.czi,2797.951,0,65535,Tentacle Area,0,Tentacle,VWA-32,"Animal not very clear, flourescence clear ",n/a,F7-VWA-32,VWA-32,VWA,32,sym
+457,F7-fl-Snap-270.czi,91.031,1339,65535,Symbiont Area,3.253,Tentacle,VWA-32,,3.253487999,F7-VWA-32,VWA-32,VWA,32,sym
+458,F8-bf-Snap-273.czi,3719.502,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,F8-VWA-32,VWA-32,VWA,32,sym
+459,F8-fl-Snap-272.czi,634.404,942,65535,Symbiont Area,17.056,Tentacle,VWA-32,,17.05615429,F8-VWA-32,VWA-32,VWA,32,sym
+460,F8-bf-Snap-273.czi,4671.974,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,F8-VWA-32,VWA-32,VWA,32,sym
+461,F8-fl-Snap-272.czi,991.392,1052,65535,Symbiont Area,21.22,Tentacle,VWA-32,,21.2199811,F8-VWA-32,VWA-32,VWA,32,sym
+462,F8-bf-Snap-273.czi,0,0,65535,Tentacle Area,0,Tentacle,VWA-32,,REMOVED,F8-VWA-32,VWA-32,VWA,32,sym
+463,F8-fl-Snap-272.czi,379.691,1382,65535,Symbiont Area,0,Tentacle,VWA-32,,REMOVED,F8-VWA-32,VWA-32,VWA,32,sym
+464,F8-bf-Snap-273.czi,1197.454,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,F8-VWA-32,VWA-32,VWA,32,sym
+465,F8-fl-Snap-272.czi,549.86,1492,65535,Symbiont Area,45.919,Tentacle,VWA-32,,45.91909167,F8-VWA-32,VWA-32,VWA,32,sym
+466,F8-bf-Snap-273.czi,3775.072,0,65535,Tentacle Area,0,Tentacle,VWA-32,,n/a,F8-VWA-32,VWA-32,VWA,32,sym
+467,F8-fl-Snap-272.czi,1411.733,1146,65535,Symbiont Area,37.396,Tentacle,VWA-32,,37.39618741,F8-VWA-32,VWA-32,VWA,32,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,n/a,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
+,,,,,,,,,,#DIV/0!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,sym
