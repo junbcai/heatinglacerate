@@ -1191,6 +1191,7 @@ p_diameter <- if (show_letters) p_diameter_letters else p_diameter_base
 # ---------------------------------------------------------
 
 weeks_to_plot_area <- c("W2", "W4", "W6", "W8", "W10")
+#weeks_to_plot_area <- c("W1", "W2", "W3", "W4", "W5", "W6", "W7", "W8", "W9", "W10")
 
 p_area_base <- parent_summary %>%
   filter(week %in% weeks_to_plot_area) %>%
@@ -1205,6 +1206,7 @@ p_area_base <- parent_summary %>%
     linewidth = 0.6,
     na.rm = TRUE
   ) +
+  coord_cartesian(ylim = c(25, 80)) +   # <- this controls visible y range
   scale_color_manual(values = parent_colors) +
   scale_y_continuous(expand = expansion(mult = c(0.05, 0.25))) +
   labs(
@@ -1224,9 +1226,11 @@ p_area_letters <- p_area_base +
     show.legend = FALSE,
     na.rm = TRUE
   )
-
+  
 p_area <- if (show_letters) p_area_letters else p_area_base
 
+p_area_base
+p_area_letters
 
 # ---------------------------------------------------------
 # 4.7 Fv/Fm plot
@@ -1284,6 +1288,19 @@ parent_combined_plot <- if (show_letters) {
   parent_combined_plot_letters
 } else {
   parent_combined_plot_no_letters
+}
+
+
+parent_combined_plot_no_letters_sizeonly <- p_area_base / p_diameter_base +
+  plot_annotation(tag_levels = "A")
+
+parent_combined_plot_letters_sizeonly <- p_area_letters / p_diameter_letters +
+  plot_annotation(tag_levels = "A")
+
+parent_combined_plot_sizeonly <- if (show_letters) {
+  parent_combined_plot_letters_sizeonly
+} else {
+  parent_combined_plot_no_letters_sizeonly
 }
 
 
@@ -1438,5 +1455,22 @@ p_symbiont_calc
 p_area
 p_diameter
 p_fvfm
+parent_combined_plot_sizeonly
 parent_combined_plot
 p_fvfm
+
+p_lacerates_tub
+ggsave(
+  filename = "p_lacerates_tub_fix.png",
+  plot = p_lacerates_tub,
+  path = "figs",
+  device = "png",
+  width = 7,
+  height = 5,
+  units = "in",
+  dpi = 600,
+  #  compression = "lzw",
+  bg = "white"
+)
+  
+)
