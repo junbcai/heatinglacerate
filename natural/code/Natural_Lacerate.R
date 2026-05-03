@@ -40,8 +40,7 @@ rm(list = ls())
 graphics.off()
 
 getwd()
-# Optional:
-# setwd("~/Downloads/...")
+setwd("/Users/junbc/Documents/GitHub/heatinglacerate/natural")
 
 # =========================================================
 # 2. COMMON PLOT SETTINGS
@@ -1459,18 +1458,21 @@ parent_combined_plot_sizeonly
 parent_combined_plot
 p_fvfm
 
-p_lacerates_tub
+p_area_no_legend <- p_area + theme(legend.position = "none")
+p_fvfm_no_legend <- p_fvfm + theme(legend.position = "none")
+
+
+p_area_no_legend
+p_fvfm_no_legend
+
+
 ggsave(
-  filename = "p_lacerates_tub_fix.png",
-  plot = p_lacerates_tub,
-  path = "figs",
-  device = "png",
-  width = 7,
-  height = 5,
+  filename = "p_area_no_legend.png",
+  plot = p_area_no_legend,
+  path = "~/Documents/GitHub/heatinglacerate/natural/figs",
+  width = 6.1,
+  height = 3.6,
   units = "in",
   dpi = 600,
-  #  compression = "lzw",
   bg = "white"
-)
-  
 )
