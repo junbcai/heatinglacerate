@@ -528,7 +528,6 @@ library(car)
 library(emmeans)
 library(ggh4x)
 
-rm(list = ls())
 graphics.off()
 
 setwd("~/Documents/GitHub/heatinglacerate")
@@ -1023,8 +1022,11 @@ ggsave(
   bg = "white"
 )
 
+### =========================
+### INOC+SYM+APO 2024 FIGURE
+### =========================
 
-p_sym_state_temp <- ggplot(
+p_sym_state_color_shape_2024 <- ggplot(
   data = data_means %>%
     filter(treatment %in% c(
       "H2-Apo-25", "H2-Ino-25", "H2-Sym-25",
@@ -1038,76 +1040,162 @@ p_sym_state_temp <- ggplot(
         grepl("Sym", treatment) ~ "Sym"
       )
     ),
-  aes(x = day, y = mean,
-      group = treatment,
-      color = temp,
-      shape = state)
+  aes(
+    x = day,
+    y = mean,
+    group = treatment,
+    color = temp,
+    shape = state
+  )
 ) +
   my_theme +
-  
-  geom_line(linewidth = 0.9) +
-  
+  geom_line(linewidth = 1.1) +
   geom_errorbar(
     aes(ymin = mean - se, ymax = mean + se),
     width = 0.2,
-    linewidth = 0.6
+    linewidth = 0.6,
+    alpha = 0.8
   ) +
-  
   geom_point(size = 4) +
-  
-  annotate("text", x = 7,  y = 10.2, label = "***", size = 6) +
-  annotate("text", x = 10, y = 12.0, label = "***", size = 6) +
-  annotate("text", x = 11, y = 12.0, label = "**",  size = 6) +
-  
   ylab("Mean tentacle number") +
   xlab("Days post laceration (dpl)") +
-  
   scale_y_continuous(breaks = seq(0, 13, 2), limits = c(0, 13)) +
   scale_x_continuous(breaks = seq(min(data_means$day), max(data_means$day), 1)) +
-  
-  # Color = temperature
   scale_color_manual(
     values = c(
       "25°C" = "#3B6FB6",
       "32°C" = "#D55E00"
     )
   ) +
-  
-  # Shape = symbiotic state
   scale_shape_manual(
     values = c(
-      "Apo" = 16,   # ●
-      "Inoc" = 17,  # ▲
-      "Sym" = 15    # ■
+      "Apo" = 16,
+      "Inoc" = 17,
+      "Sym" = 15
     )
   ) +
-  
   labs(color = "Temperature", shape = "Symbiotic state") +
-  
   theme(
-    legend.position = c(0.75, 0.35),
-    legend.justification = c("center", "center")
+    legend.position = c(0.60, 0.01),
+    legend.justification = c("left", "bottom"),
+    legend.background = element_blank()
   )
 
-p_sym_state_temp
-
+p_sym_state_color_shape_2024
 
 ggsave(
-  filename = "URSA2024_ApoInocSym_heat_Figure.png",
-  plot = p_sym_state_temp,
+  filename = "URSA2024_ApoInocSym_heat_Figure_shapes.png",
+  plot = p_sym_state_color_shape_2024,
   path = "figs",
   device = "png",
   width = 7,
   height = 5,
   units = "in",
   dpi = 600,
-  #  compression = "lzw",
   bg = "white"
 )
 
 ggsave(
-  filename = "URSA2024_ApoInocSym_heat_Figure.pdf",
-  plot = p_sym_state_temp,
+  filename = "URSA2024_ApoInocSym_heat_Figure_shapes.pdf",
+  plot = p_sym_state_color_shape_2024,
+  path = "figs",
+  device = pdf,
+  width = 7,
+  height = 5,
+  units = "in",
+  bg = "white"
+)
+
+p_sym_state_color_linetype_2024 <- ggplot(
+  data = data_means %>%
+    filter(treatment %in% c(
+      "H2-Apo-25", "H2-Ino-25", "H2-Sym-25",
+      "H2-Apo-32", "H2-Ino-32", "H2-Sym-32"
+    )) %>%
+    mutate(
+      treatment_label = case_when(
+        treatment == "H2-Apo-25" ~ "Apo, 25°C",
+        treatment == "H2-Ino-25" ~ "Inoc, 25°C",
+        treatment == "H2-Sym-25" ~ "Sym, 25°C",
+        treatment == "H2-Apo-32" ~ "Apo, 32°C",
+        treatment == "H2-Ino-32" ~ "Inoc, 32°C",
+        treatment == "H2-Sym-32" ~ "Sym, 32°C"
+      ),
+      treatment_label = factor(
+        treatment_label,
+        levels = c(
+          "Apo, 25°C", "Inoc, 25°C", "Sym, 25°C",
+          "Apo, 32°C", "Inoc, 32°C", "Sym, 32°C"
+        )
+      )
+    ),
+  aes(
+    x = day,
+    y = mean,
+    color = treatment_label,
+    linetype = treatment_label,
+    group = treatment_label
+  )
+) +
+  my_theme +
+  geom_line(linewidth = 1.1) +
+  geom_errorbar(
+    aes(ymin = mean - se, ymax = mean + se),
+    width = 0.2,
+    linewidth = 0.6,
+    alpha = 0.8,
+    linetype = "solid"
+  ) +
+  geom_point(size = 4) +
+  ylab("Mean tentacle number") +
+  xlab("Days post laceration (dpl)") +
+  scale_y_continuous(breaks = seq(0, 13, 2), limits = c(0, 13)) +
+  scale_x_continuous(breaks = seq(min(data_means$day), max(data_means$day), 1)) +
+  scale_color_manual(
+    values = c(
+      "Apo, 25°C"  = "#6FA3D9",
+      "Inoc, 25°C" = "#6A51A3",
+      "Sym, 25°C"  = "#3B6FB6",
+      "Apo, 32°C"  = "#F39B7F",
+      "Inoc, 32°C" = "#B35806",
+      "Sym, 32°C"  = "#E64B35"
+    )
+  ) +
+  scale_linetype_manual(
+    values = c(
+      "Apo, 25°C"  = "dashed",
+      "Inoc, 25°C" = "dotdash",
+      "Sym, 25°C"  = "solid",
+      "Apo, 32°C"  = "dashed",
+      "Inoc, 32°C" = "dotdash",
+      "Sym, 32°C"  = "solid"
+    )
+  ) +
+  labs(color = "Treatment", linetype = "Treatment") +
+  theme(
+    legend.position = c(0.60, 0.12),
+    legend.justification = c("left", "bottom"),
+    legend.key.width = unit(2.8, "cm"),
+    legend.background = element_blank()
+  )
+
+p_sym_state_color_linetype_2024
+
+ggsave(
+  filename = "URSA2024_ApoInocSym_heat_Figure_linetype.png",
+  plot = p_sym_state_color_linetype_2024,
+  path = "figs",
+  device = "png",
+  width = 7,
+  height = 5,
+  units = "in",
+  dpi = 600,
+  bg = "white"
+)
+
+ggsave(
+  filename = "URSA2024_ApoInocSym_heat_Figure_linetype.pdf",
+  plot = p_sym_state_color_linetype_2024,
   path = "figs",
   device = pdf,
   width = 7,
@@ -1118,13 +1206,137 @@ ggsave(
 
 
 
-### =========================
-### 4B. INOC ONLY FIGURE
-### =========================
 
-# -------------------------
-# Inoc-only summary data
-# -------------------------
+p_sym_state_full_encoding_2024 <- ggplot(
+  data = data_means %>%
+    filter(treatment %in% c(
+      "H2-Apo-25", "H2-Ino-25", "H2-Sym-25",
+      "H2-Apo-32", "H2-Ino-32", "H2-Sym-32"
+    )) %>%
+    mutate(
+      treatment_label = case_when(
+        treatment == "H2-Apo-25" ~ "Apo, 25°C",
+        treatment == "H2-Ino-25" ~ "Inoc, 25°C",
+        treatment == "H2-Sym-25" ~ "Sym, 25°C",
+        treatment == "H2-Apo-32" ~ "Apo, 32°C",
+        treatment == "H2-Ino-32" ~ "Inoc, 32°C",
+        treatment == "H2-Sym-32" ~ "Sym, 32°C"
+      ),
+      treatment_label = factor(
+        treatment_label,
+        levels = c(
+          "Apo, 25°C", "Inoc, 25°C", "Sym, 25°C",
+          "Apo, 32°C", "Inoc, 32°C", "Sym, 32°C"
+        )
+      )
+    ),
+  aes(
+    x = day,
+    y = mean,
+    group = treatment_label,
+    color = treatment_label,
+    linetype = treatment_label,
+    shape = treatment_label
+  )
+) +
+  my_theme +
+  geom_line(linewidth = 1.1) +
+  geom_errorbar(
+    aes(ymin = mean - se, ymax = mean + se),
+    width = 0.2,
+    linewidth = 0.6,
+    alpha = 0.8,
+    linetype = "solid"
+  ) +
+  geom_point(size = 4) +
+  ylab("Mean tentacle number") +
+  xlab("Days post laceration (dpl)") +
+  scale_y_continuous(
+    breaks = seq(0, 13, 2),
+    limits = c(0, 13)
+  ) +
+  scale_x_continuous(
+    breaks = seq(min(data_means$day), max(data_means$day), 1)
+  ) +
+  scale_color_manual(
+    values = c(
+      "Apo, 25°C"  = "#6FA3D9",
+      "Inoc, 25°C" = "#6A51A3",
+      "Sym, 25°C"  = "#3B6FB6",
+      "Apo, 32°C"  = "#F39B7F",
+      "Inoc, 32°C" = "#B35806",
+      "Sym, 32°C"  = "#E64B35"
+    )
+  ) +
+  scale_linetype_manual(
+    values = c(
+      "Apo, 25°C"  = "dashed",
+      "Inoc, 25°C" = "dotdash",
+      "Sym, 25°C"  = "solid",
+      "Apo, 32°C"  = "dashed",
+      "Inoc, 32°C" = "dotdash",
+      "Sym, 32°C"  = "solid"
+    )
+  ) +
+  scale_shape_manual(
+    values = c(
+      "Apo, 25°C"  = 16,
+      "Inoc, 25°C" = 17,
+      "Sym, 25°C"  = 15,
+      "Apo, 32°C"  = 16,
+      "Inoc, 32°C" = 17,
+      "Sym, 32°C"  = 15
+    )
+  ) +
+  labs(
+    color = "Treatment",
+    linetype = "Treatment",
+    shape = "Treatment"
+  ) +
+  guides(
+    color = guide_legend(
+      override.aes = list(
+        linewidth = 1.2,
+        size = 4
+      )
+    )
+  ) +
+  theme(
+    legend.position = c(0.60, 0.12),
+    legend.justification = c("left", "bottom"),
+    legend.background = element_blank(),
+    legend.key.width = unit(2.4, "cm")
+  )
+
+p_sym_state_full_encoding_2024
+
+ggsave(
+  filename = "URSA2024_ApoInocSym_heat_Figure_line_shape_color.png",
+  plot = p_sym_state_full_encoding_2024,
+  path = "figs",
+  device = "png",
+  width = 7,
+  height = 5,
+  units = "in",
+  dpi = 600,
+  bg = "white"
+)
+
+ggsave(
+  filename = "URSA2024_ApoInocSym_heat_Figure_line_shape_color.pdf",
+  plot = p_sym_state_full_encoding_2024,
+  path = "figs",
+  device = pdf,
+  width = 7,
+  height = 5,
+  units = "in",
+  bg = "white"
+)
+
+
+### =========================
+### 4B. INOC ONLY 2024 FIGURE
+### =========================
 
 data_means_inoc <- data_means %>%
   filter(treatment %in% c("H2-Ino-25", "H2-Ino-32")) %>%
@@ -1138,11 +1350,6 @@ data_means_inoc <- data_means %>%
       levels = c("Inoc, 25°C", "Inoc, 32°C")
     )
   )
-
-# -------------------------
-# Inoc-only plot
-# styled like previous URSA Inoc plot
-# -------------------------
 
 p_inoc_only <- ggplot(
   data_means_inoc,
@@ -1160,26 +1367,24 @@ p_inoc_only <- ggplot(
     aes(ymin = mean - se, ymax = mean + se),
     width = 0.2,
     linewidth = 0.6,
-    alpha = 0.8
+    alpha = 0.8,
+    linetype = "solid"
   ) +
   geom_point(size = 4) +
   
-  # manual significance labels from previous URSA inoc plot
-  annotate("text", x = 4, y = 3.0, label = "**", size = 6) +
-  annotate("text", x = 5, y = 7.6, label = "***", size = 6) +
+  annotate("text", x = 4, y = 3.5, label = "**", size = 6) +
+  annotate("text", x = 5, y = 8.1, label = "***", size = 6) +
   annotate("text", x = 7, y = 10.8, label = "*", size = 6) +
   
   ylab("Mean tentacle number") +
   xlab("Days post laceration (dpl)") +
-  ggtitle("") +
   
   scale_y_continuous(
     breaks = seq(0, 12, 2),
     limits = c(0, 12)
   ) +
   scale_x_continuous(
-    breaks = seq(0, 21, 1),
-    limits = c(0, 21)
+    breaks = seq(min(data_means_inoc$day), max(data_means_inoc$day), 1)
   ) +
   scale_color_manual(
     values = c(
@@ -1190,7 +1395,7 @@ p_inoc_only <- ggplot(
   scale_linetype_manual(
     values = c(
       "Inoc, 25°C" = "dotdash",
-      "Inoc, 32°C" = "dotdash"
+      "Inoc, 32°C" = "twodash"
     )
   ) +
   labs(
@@ -1198,7 +1403,7 @@ p_inoc_only <- ggplot(
     linetype = "Treatment"
   ) +
   theme(
-    legend.position = c(0.73, 0.52),
+    legend.position = c(0.73, 0.45),
     legend.justification = c("center", "center"),
     legend.key.width = unit(2.8, "cm")
   )
@@ -1221,14 +1426,26 @@ ggsave(
   filename = "URSA2024_InocOnly_Figure.pdf",
   plot = p_inoc_only,
   path = "figs",
-  device = pdf,
+  device = "pdf",
   width = 7,
   height = 5,
   units = "in",
   bg = "white"
 )
 
+library(patchwork)
+fig1_fuller_12 <- fig1_fuller +
+  scale_y_continuous(
+    breaks = seq(0, 12, 2),
+    limits = c(0, 12)
+  )
 
+fig1_fuller_12
+combined_panel <- fig1_fuller_12 + p_inoc_only +
+  plot_layout(ncol = 2) +
+  plot_annotation(tag_levels = "A")
+
+combined_panel
 
 ### =========================
 ### 5. p_sym_state STATS
@@ -1304,7 +1521,6 @@ library(janitor)
 library(here)
 library(ggh4x)
 
-rm(list = ls())
 graphics.off()
 
 setwd("~/Documents/GitHub/heatinglacerate")

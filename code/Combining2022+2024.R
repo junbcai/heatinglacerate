@@ -484,13 +484,10 @@ fig_summer2025_all_treatments
 
 ## 2022 + 2025
 
-
-
 library(tidyverse)
 library(janitor)
 library(plotrix)
 
-rm(list = ls())
 graphics.off()
 
 select <- dplyr::select
@@ -855,3 +852,96 @@ P_inoc <- data_means_all6 %>%
   ggtitle("Inoculated")
 
 P_inoc
+
+
+
+library(dplyr)
+library(ggplot2)
+library(plotrix)
+
+# =========================================================
+# 1. SUBSET 2024 INOC DATA
+# =========================================================
+
+inoc_2024 <- ursa2024_clean %>%
+  filter(
+    line == "H2",
+    treatment %in% c("H2-Ino-25", "H2-Ino-32"),
+    day %in% c(0, 4, 5, 7, 10, 11, 14, 21)
+  )
+
+# =========================================================
+# 2. OPTIONAL: REMOVE NON-DEVELOPERS
+# =========================================================
+
+inoc_2024_filtered <- inoc_2024 %>%
+  group_by(id) %>%
+  mutate(
+    zero_day4 = any(day == 4 & tent_count == 0, na.rm = TRUE),
+    develops_5_21 = any(day >= 5 & day <= 21 & tent_count > 0, na.rm = TRUE)
+  ) %>%
+  ungroup() %>%
+  filter(!(zero_day4 & !develops_5_21))
+
+# =========================================================
+# 3. SUMMARIZE
+# =========================================================
+
+inoc_means <- inoc_2024_filtered %>%
+  group_by(treatment, day) %>%
+  summarise(
+    mean = mean(tent_count, na.rm = TRUE),
+    se = plotrix::std.error(tent_count, na.rm = TRUE),
+    n = sum(!is.na(tent_count)),
+    .groups = "drop"
+  ) %>%
+  mutate(
+    temp = ifelse(grepl("25", treatment), "25°C", "32°C")
+  )
+
+# =========================================================
+# 4. PLOT
+# =========================================================
+
+my_theme <- theme_classic(base_size = 14)
+
+p_inoc_2024 <- ggplot(
+  inoc_means,
+  aes(
+    x = day,
+    y = mean,
+    group = temp,
+    color = temp
+  )
+) +
+  my_theme +
+  geom_line(linewidth = 1) +
+  geom_errorbar(
+    aes(ymin = mean - se, ymax = mean + se),
+    width = 0.2,
+    linewidth = 0.7
+  ) +
+  geom_point(size = 4) +
+  ylab("Mean tentacle number") +
+  xlab("Days post laceration (dpl)") +
+  scale_y_continuous(
+    breaks = seq(0, 13, 2),
+    limits = c(0, 13)
+  ) +
+  scale_x_continuous(
+    breaks = c(0, 4, 5, 7, 10, 11, 14, 21)
+  ) +
+  scale_color_manual(
+    values = c(
+      "25°C" = "#33a02c",
+      "32°C" = "#b15928"
+    )
+  ) +
+  labs(color = "Temperature") +
+  ggtitle("Inoculated (2024 only)")
+
+p_inoc_2024
+
+
+
+
