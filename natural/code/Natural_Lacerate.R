@@ -1519,7 +1519,6 @@ p_diameter
 p_fvfm
 
 
-
 # =========================================================
 # H2-ONLY RECREATED PLOTS
 # H2_25 vs H2_32 only
@@ -1531,6 +1530,11 @@ h2_colors <- c(
   "H2-25" = "#3B6FB6",
   "H2-32" = "#D62728"
 )
+
+h2_nudge_tub <- 0.5
+h2_nudge_rate <- 0.4
+h2_nudge_rate_nozeros <- 0.4
+h2_nudge_symbiont <- 0.03
 
 # ---------------------------------------------------------
 # H2-only lacerates per tub
@@ -1556,7 +1560,7 @@ positions_tub_h2 <- lacerates_per_tub %>%
   filter(treatment %in% c("H2_25", "H2_32")) %>%
   group_by(cohort, treatment) %>%
   summarise(
-    y_pos = max(n_lacerates, na.rm = TRUE) + 0.8,
+    y_pos = max(n_lacerates, na.rm = TRUE) + 1,
     .groups = "drop"
   )
 
@@ -1583,12 +1587,14 @@ p_lacerates_tub_h2 <- ggplot(
   geom_text(
     data = letters_tub_h2,
     aes(x = treatment, y = y_pos, label = .group),
+    nudge_y = h2_nudge_tub,
     inherit.aes = FALSE,
     size = 5,
     fontface = "bold",
     color = "black"
   ) +
-  facet_wrap(~ cohort, ncol = 3, scales = "free_y") +
+  facet_wrap(~ cohort, ncol = 3, scales = "fixed") +
+  coord_cartesian(ylim = c(0, 75)) +
   scale_color_manual(
     values = h2_colors,
     labels = c("H2_25" = "H2 25°C", "H2_32" = "H2 32°C")
@@ -1643,12 +1649,13 @@ p_final_rate_h2 <- ggplot(
   geom_text(
     data = cld_rate_h2,
     aes(x = treatment, y = y, label = .group),
+    nudge_y = h2_nudge_rate,
     color = "black",
     size = 5,
     inherit.aes = FALSE
   ) +
   facet_wrap(~ cohort, scales = "free_y") +
-  coord_cartesian(ylim = c(0, 8)) +
+  coord_cartesian(ylim = c(0, 8.5)) +
   scale_color_manual(
     values = h2_colors,
     labels = c("H2_25" = "H2 25°C", "H2_32" = "H2 32°C")
@@ -1703,12 +1710,13 @@ p_final_rate_nozeros_h2 <- ggplot(
   geom_text(
     data = cld_rate_no0_h2,
     aes(x = treatment, y = y, label = .group),
+    nudge_y = h2_nudge_rate_nozeros,
     color = "black",
     size = 5,
     inherit.aes = FALSE
   ) +
   facet_wrap(~ cohort, scales = "free_y") +
-  coord_cartesian(ylim = c(0, 8)) +
+  coord_cartesian(ylim = c(0, 8.5)) +
   scale_color_manual(
     values = h2_colors,
     labels = c("H2_25" = "H2 25°C", "H2_32" = "H2 32°C")
@@ -1770,6 +1778,7 @@ p_symbiont_calc_h2 <- ggplot(
   geom_text(
     data = cld_sym_calc_h2_df,
     aes(x = treatment, y = y, label = .group),
+    nudge_y = h2_nudge_symbiont,
     color = "black",
     size = 5,
     inherit.aes = FALSE
@@ -1853,7 +1862,7 @@ letters_fvfm_h2 <- make_tukey_letters(
 # H2-only helper for parent line plots
 # ---------------------------------------------------------
 
-make_parent_line_plot_h2 <- function(summary_data, weeks_keep, y_var, se_var, y_label, letters_data = NULL, y_limits = NULL, keep_full_x_axis = FALSE) {
+make_parent_line_plot_h2 <- function(summary_data, weeks_keep, y_var, se_var, y_label, letters_data = NULL, y_limits = NULL, keep_full_x_axis = FALSE, nudge_letters = 0) {
   
   y_sym <- rlang::sym(y_var)
   se_sym <- rlang::sym(se_var)
@@ -1895,6 +1904,7 @@ make_parent_line_plot_h2 <- function(summary_data, weeks_keep, y_var, se_var, y_
         data = letters_data,
         aes(x = week, y = y, label = .group, color = treatment, group = treatment),
         position = position_dodge(width = 0.45),
+        nudge_y = nudge_letters,
         size = 4,
         fontface = "bold",
         show.legend = FALSE,
@@ -1919,7 +1929,8 @@ p_area_even_weeks_h2 <- make_parent_line_plot_h2(
   se_var = "se_area",
   y_label = expression(paste("Pedal disc area (mm"^2, ")")),
   letters_data = letters_area_even_weeks_h2,
-  y_limits = c(0, 85)
+  y_limits = c(0, 85),
+  nudge_letters = 2
 )
 
 p_area_all_weeks_minus7_h2 <- make_parent_line_plot_h2(
@@ -1930,7 +1941,8 @@ p_area_all_weeks_minus7_h2 <- make_parent_line_plot_h2(
   y_label = expression(paste("Pedal disc area (mm"^2, ")")),
   letters_data = letters_area_all_weeks_minus7_h2,
   y_limits = c(0, 85),
-  keep_full_x_axis = TRUE
+  keep_full_x_axis = TRUE,
+  nudge_letters = 2
 )
 
 p_diameter_h2 <- make_parent_line_plot_h2(
@@ -1939,7 +1951,8 @@ p_diameter_h2 <- make_parent_line_plot_h2(
   y_var = "mean_size",
   se_var = "se_size",
   y_label = "Pedal disc diameter (mm)",
-  letters_data = letters_diameter_h2
+  letters_data = letters_diameter_h2,
+  nudge_letters = 0.2
 )
 
 p_fvfm_h2 <- make_parent_line_plot_h2(
@@ -1948,7 +1961,8 @@ p_fvfm_h2 <- make_parent_line_plot_h2(
   y_var = "mean_fvfm",
   se_var = "se_fvfm",
   y_label = "Fv/Fm",
-  letters_data = letters_fvfm_h2
+  letters_data = letters_fvfm_h2,
+  nudge_letters = 0.02
 )
 
 
@@ -1960,9 +1974,7 @@ p_lacerates_tub_h2
 p_final_rate_h2
 p_final_rate_nozeros_h2
 p_symbiont_calc_h2
-
 p_area_even_weeks_h2
 p_area_all_weeks_minus7_h2
 p_diameter_h2
 p_fvfm_h2
-p_area_all_weeks_minus7

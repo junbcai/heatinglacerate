@@ -557,3 +557,264 @@ print(edu_tukey_table)
 
 
 
+# ============================================================
+# Symbiotic state comparison plots
+# Compares Apo vs Inoc vs Sym within each timepoint and heat treatment
+# Panels: EdU and Caspase
+# ============================================================
+
+library(emmeans)
+library(multcomp)
+library(multcompView)
+
+# ----------------------------
+# Function: state comparison within time x heat
+# ----------------------------
+make_state_comparison_panel <- function(data_sub, panel_title, ylab = NULL, y_limit = NULL) {
+  
+  fit <- lm(percentage ~ state * heat * time, data = data_sub)
+  
+  # Tukey letters compare symbiotic states within each heat treatment and timepoint
+  emm <- emmeans(fit, ~ state | heat * time)
+  
+  letters_df <- cld(
+    emm,
+    adjust = "tukey",
+    Letters = letters
+  ) %>%
+    as.data.frame() %>%
+    mutate(.group = str_trim(.group))
+  
+  y_pos <- data_sub %>%
+    group_by(heat, time, state) %>%
+    summarise(y = max(percentage, na.rm = TRUE), .groups = "drop")
+  
+  letters_df <- letters_df %>%
+    left_join(y_pos, by = c("heat", "time", "state")) %>%
+    mutate(y = y + 5)
+  
+  if (is.null(y_limit)) {
+    y_max <- max(c(data_sub$percentage, letters_df$y), na.rm = TRUE) + 2
+  } else {
+    y_max <- y_limit
+  }
+  
+  ggplot(data_sub, aes(x = time, y = percentage, color = state)) +
+    geom_jitter(
+      position = position_jitterdodge(jitter.width = 0.12, dodge.width = 0.75),
+      size = 2.2,
+      alpha = 0.9
+    ) +
+    geom_boxplot(
+      aes(group = interaction(time, state)),
+      outlier.shape = NA,
+      width = 0.6,
+      fill = NA,
+      linewidth = 0.8,
+      position = position_dodge(width = 0.75)
+    ) +
+    geom_text(
+      data = letters_df,
+      aes(x = time, y = y, label = .group, group = state),
+      position = position_dodge(width = 0.75),
+      inherit.aes = FALSE,
+      fontface = "bold",
+      size = 4,
+      color = "black"
+    ) +
+    facet_wrap(~ heat) +
+    scale_color_manual(values = c(
+      "Apo" = "#3B6FB6",
+      "Inoc" = "#6A3D9A",
+      "Sym" = "#8C564B"
+    )) +
+    coord_cartesian(ylim = c(0, y_max), clip = "off") +
+    labs(
+      title = panel_title,
+      x = NULL,
+      y = ylab,
+      color = NULL
+    ) +
+    theme_classic(base_size = 14) +
+    theme(
+      plot.title = element_text(face = "bold", hjust = 0.5),
+      strip.text = element_text(face = "bold"),
+      legend.position = "top"
+    )
+}
+
+# ----------------------------
+# EdU state comparison
+# ----------------------------
+edu_state_data <- confocal_data %>%
+  filter(marker == "EdU") %>%
+  droplevels()
+
+fit_edu_state <- lm(
+  percentage ~ state * heat * time,
+  data = edu_state_data
+)
+
+anova_edu_state <- car::Anova(fit_edu_state, type = 2)
+
+emm_edu_state <- emmeans(
+  fit_edu_state,
+  ~ state | heat * time
+)
+
+tukey_edu_state <- pairs(
+  emm_edu_state,
+  adjust = "tukey"
+) %>%
+  as.data.frame() %>%
+  mutate(marker = "EdU")
+
+letters_edu_state <- cld(
+  emm_edu_state,
+  adjust = "tukey",
+  Letters = letters
+) %>%
+  as.data.frame() %>%
+  mutate(
+    marker = "EdU",
+    .group = str_trim(.group)
+  )
+
+p_edu_state <- make_state_comparison_panel(
+  edu_state_data,
+  "EdU: symbiotic state comparisons",
+  "EdU-positive area (%)",
+  y_limit = ymax_edu + 8
+)
+
+# ----------------------------
+# Caspase state comparison
+# ----------------------------
+cas_state_data <- confocal_data %>%
+  filter(marker == "Caspase") %>%
+  droplevels()
+
+fit_cas_state <- lm(
+  percentage ~ state * heat * time,
+  data = cas_state_data
+)
+
+anova_cas_state <- car::Anova(fit_cas_state, type = 2)
+
+emm_cas_state <- emmeans(
+  fit_cas_state,
+  ~ state | heat * time
+)
+
+tukey_cas_state <- pairs(
+  emm_cas_state,
+  adjust = "tukey"
+) %>%
+  as.data.frame() %>%
+  mutate(marker = "Caspase")
+
+letters_cas_state <- cld(
+  emm_cas_state,
+  adjust = "tukey",
+  Letters = letters
+) %>%
+  as.data.frame() %>%
+  mutate(
+    marker = "Caspase",
+    .group = str_trim(.group)
+  )
+
+p_cas_state <- make_state_comparison_panel(
+  cas_state_data,
+  "Caspase: symbiotic state comparisons",
+  "Caspase-positive area (%)",
+  y_limit = ymax_cas + 8
+)
+
+# ----------------------------
+# Combine plots
+# ----------------------------
+p_state_compare <- p_edu_state / p_cas_state +
+  plot_layout(guides = "collect") &
+  theme(legend.position = "top")
+
+print(p_state_compare)
+
+# ----------------------------
+# Save state comparison figure
+# ----------------------------
+ggsave(
+  filename = "EdU_Caspase_state_comparisons.png",
+  plot = p_state_compare,
+  path = "figs",
+  device = "png",
+  width = 11,
+  height = 9,
+  units = "in",
+  dpi = 600,
+  bg = "white"
+)
+
+ggsave(
+  filename = "EdU_Caspase_state_comparisons.pdf",
+  plot = p_state_compare,
+  path = "figs",
+  device = pdf,
+  width = 11,
+  height = 9,
+  units = "in",
+  bg = "white"
+)
+
+# ----------------------------
+# Save state comparison stats tables
+# ----------------------------
+anova_state_table <- bind_rows(
+  as.data.frame(anova_edu_state) %>%
+    rownames_to_column("term") %>%
+    mutate(marker = "EdU"),
+  as.data.frame(anova_cas_state) %>%
+    rownames_to_column("term") %>%
+    mutate(marker = "Caspase")
+) %>%
+  select(marker, term, everything())
+
+state_tukey_table <- bind_rows(
+  tukey_edu_state,
+  tukey_cas_state
+) %>%
+  select(marker, heat, time, contrast, estimate, SE, df, t.ratio, p.value) %>%
+  mutate(
+    estimate = round(estimate, 2),
+    SE = round(SE, 2),
+    t.ratio = round(t.ratio, 2),
+    p.value = signif(p.value, 3)
+  ) %>%
+  arrange(marker, heat, time)
+
+state_letters_table <- bind_rows(
+  letters_edu_state,
+  letters_cas_state
+) %>%
+  select(marker, heat, time, state, emmean, SE, df, lower.CL, upper.CL, .group) %>%
+  arrange(marker, heat, time, state)
+
+write_csv(
+  anova_state_table,
+  "~/Documents/GitHub/heatinglacerate/tables/state_comparison_anova_results.csv"
+)
+
+write_csv(
+  state_tukey_table,
+  "~/Documents/GitHub/heatinglacerate/tables/state_comparison_tukey_table.csv"
+)
+
+write_csv(
+  state_letters_table,
+  "~/Documents/GitHub/heatinglacerate/tables/state_comparison_tukey_letters.csv"
+)
+
+
+
+
+
