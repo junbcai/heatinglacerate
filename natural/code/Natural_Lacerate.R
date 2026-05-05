@@ -66,7 +66,7 @@ my_theme <- theme_classic(base_size = 18) +
 my_colors <- c(
   "H2_25"  = "#3B6FB6",
   "H2_32"  = "#D62728",
-  "VWA_25" = "#4DAF4A",
+  "VWA_25" = "#7B6FD0",
   "VWA_32" = "#8C564B"
 )
 
@@ -858,7 +858,7 @@ cld_sym_calc_df <- cld_sym_calc_df %>%
 sym_density_colors <- c(
   "H2-25" = "#3B6FB6",
   "H2-32" = "#D62728",
-  "VWA-25" = "#4DAF4A",
+  "VWA-25" = "#7B6FD0",
   "VWA-32" = "#8C564B"
 )
 
@@ -1006,7 +1006,7 @@ print(parent_summary)
 parent_colors <- c(
   "H2_25" = "#3B6FB6",
   "H2_32" = "#E41A1C",
-  "VWA_25" = "#4DAF4A",
+  "VWA_25" = "#7B6FD0",
   "VWA_32" = "#8C564B"
 )
 
@@ -1205,7 +1205,7 @@ p_area_base <- parent_summary %>%
     linewidth = 0.6,
     na.rm = TRUE
   ) +
-  coord_cartesian(ylim = c(25, 80)) +   # <- this controls visible y range
+  coord_cartesian(ylim = c(25, 85)) +   # <- this controls visible y range
   scale_color_manual(values = parent_colors) +
   scale_y_continuous(expand = expansion(mult = c(0.05, 0.25))) +
   labs(
@@ -1227,7 +1227,7 @@ p_area_letters <- p_area_base +
   )
   
 p_area <- if (show_letters) p_area_letters else p_area_base
-
+p_area
 p_area_base
 p_area_letters
 
@@ -1450,6 +1450,9 @@ p_final_rate_nozeros
 p_final_tentacles_nonzero
 
 p_symbiont_calc
+p_symbiont_calc + p_symbiont_calc
+
+
 
 p_area
 p_diameter
@@ -1467,12 +1470,12 @@ p_fvfm_no_legend
 
 
 ggsave(
-  filename = "p_area_no_legend.png",
-  plot = p_area_no_legend,
+  filename = "p_area_legend.png",
+  plot = p_area,
   path = "~/Documents/GitHub/heatinglacerate/natural/figs",
   width = 6.1,
   height = 3.6,
   units = "in",
-  dpi = 600,
+  dpi = 1200,
   bg = "white"
 )

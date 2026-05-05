@@ -597,43 +597,6 @@ table(df_mortality$day_cat)
 table(df_mortality$treatment)
 table(df_mortality$Mortality)
 
-p_mortality <- ggplot(df_mortality, aes(x = treatment, fill = Mortality)) +
-  geom_bar(position = "fill", color = "white", linewidth = 0.2) +
-  labs(
-    x = "Treatment Group",
-    y = "Percent",
-    fill = "Mortality"
-  ) +
-  facet_wrap(
-    ~ day_cat,
-    ncol = 2,
-    labeller = as_labeller(c("day_14" = "14 dpl", "day_21" = "21 dpl"))
-  ) +
-  scale_x_discrete(
-    labels = c(
-      "H2-Apo-25" = "Apo (25°C)",
-      "H2-Apo-32" = "Apo (32°C)",
-      "H2-Sym-25" = "Sym (25°C)",
-      "H2-Sym-32" = "Sym (32°C)"
-    )
-  ) +
-  scale_fill_manual(values = c("Alive" = "green", "Dead" = "black")) +
-  scale_y_continuous(labels = percent, expand = c(0, 0)) +
-  theme_minimal() +
-  theme(
-    text = element_text(family = "sans"),
-    axis.title.x = element_text(size = 12),
-    axis.title.y = element_text(size = 12),
-    axis.text.x = element_text(angle = 45, hjust = 1, vjust = 1, size = 10),
-    axis.text.y = element_text(size = 10),
-    legend.title = element_text(size = 11),
-    legend.text = element_text(size = 10),
-    strip.text = element_text(size = 11)
-  )
-
-p_mortality
-
-
 # =========================
 # Flipping the Survival Plot with nested facets
 # generate both versions with shared data and shared theme
@@ -858,7 +821,7 @@ ggsave(
 )
 
 ### =========================
-### 3. MORTALITY STATS; S3 table
+### 3A. MORTALITY STATS; S3 table
 ### =========================
 
 mortality_glm <- glm(
@@ -874,6 +837,35 @@ emm_mort_temp <- emmeans(mortality_glm, ~ temp | symbiosis)
 emm_mort_sym <- emmeans(mortality_glm, ~ symbiosis | temp)
 emm_mort_temp
 emm_mort_sym
+
+### =========================
+### 3B. SURVIVAL STATS; S3 table
+### =========================
+
+# Create survival variable (1 = alive, 0 = dead)
+df_mortality <- df_mortality %>%
+  mutate(
+    alive = 1 - dead
+  )
+
+# Binomial GLM on survival
+survival_glm <- glm(
+  alive ~ temp * symbiosis,
+  data = df_mortality,
+  family = binomial
+)
+
+# Model summary and Type III ANOVA
+summary(survival_glm)
+car::Anova(survival_glm, type = 3)
+
+# Estimated marginal means
+emm_surv_temp <- emmeans(survival_glm, ~ temp | symbiosis)
+emm_surv_sym  <- emmeans(survival_glm, ~ symbiosis | temp)
+
+emm_surv_temp
+emm_surv_sym
+
 
 ### =========================
 ### 4. p_sym_state FIGURE
@@ -1123,6 +1115,120 @@ ggsave(
   units = "in",
   bg = "white"
 )
+
+
+
+### =========================
+### 4B. INOC ONLY FIGURE
+### =========================
+
+# -------------------------
+# Inoc-only summary data
+# -------------------------
+
+data_means_inoc <- data_means %>%
+  filter(treatment %in% c("H2-Ino-25", "H2-Ino-32")) %>%
+  mutate(
+    treatment_label = case_when(
+      treatment == "H2-Ino-25" ~ "Inoc, 25°C",
+      treatment == "H2-Ino-32" ~ "Inoc, 32°C"
+    ),
+    treatment_label = factor(
+      treatment_label,
+      levels = c("Inoc, 25°C", "Inoc, 32°C")
+    )
+  )
+
+# -------------------------
+# Inoc-only plot
+# styled like previous URSA Inoc plot
+# -------------------------
+
+p_inoc_only <- ggplot(
+  data_means_inoc,
+  aes(
+    x = day,
+    y = mean,
+    color = treatment_label,
+    linetype = treatment_label,
+    group = treatment_label
+  )
+) +
+  my_theme +
+  geom_line(linewidth = 1.2) +
+  geom_errorbar(
+    aes(ymin = mean - se, ymax = mean + se),
+    width = 0.2,
+    linewidth = 0.6,
+    alpha = 0.8
+  ) +
+  geom_point(size = 4) +
+  
+  # manual significance labels from previous URSA inoc plot
+  annotate("text", x = 4, y = 3.0, label = "**", size = 6) +
+  annotate("text", x = 5, y = 7.6, label = "***", size = 6) +
+  annotate("text", x = 7, y = 10.8, label = "*", size = 6) +
+  
+  ylab("Mean tentacle number") +
+  xlab("Days post laceration (dpl)") +
+  ggtitle("") +
+  
+  scale_y_continuous(
+    breaks = seq(0, 12, 2),
+    limits = c(0, 12)
+  ) +
+  scale_x_continuous(
+    breaks = seq(0, 21, 1),
+    limits = c(0, 21)
+  ) +
+  scale_color_manual(
+    values = c(
+      "Inoc, 25°C" = "#3B6FB6",
+      "Inoc, 32°C" = "#E64B35"
+    )
+  ) +
+  scale_linetype_manual(
+    values = c(
+      "Inoc, 25°C" = "dotdash",
+      "Inoc, 32°C" = "dotdash"
+    )
+  ) +
+  labs(
+    color = "Treatment",
+    linetype = "Treatment"
+  ) +
+  theme(
+    legend.position = c(0.73, 0.52),
+    legend.justification = c("center", "center"),
+    legend.key.width = unit(2.8, "cm")
+  )
+
+p_inoc_only
+
+ggsave(
+  filename = "URSA2024_InocOnly_Figure.png",
+  plot = p_inoc_only,
+  path = "figs",
+  device = "png",
+  width = 7,
+  height = 5,
+  units = "in",
+  dpi = 600,
+  bg = "white"
+)
+
+ggsave(
+  filename = "URSA2024_InocOnly_Figure.pdf",
+  plot = p_inoc_only,
+  path = "figs",
+  device = pdf,
+  width = 7,
+  height = 5,
+  units = "in",
+  bg = "white"
+)
+
+
 
 ### =========================
 ### 5. p_sym_state STATS
