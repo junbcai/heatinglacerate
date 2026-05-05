@@ -1515,6 +1515,7 @@ p_final_rate_nozeros
 p_symbiont_calc
 p_area_even_weeks
 p_area_all_weeks_minus7
+p_area_all_weeks
 p_diameter
 p_fvfm
 
@@ -1977,4 +1978,6 @@ p_symbiont_calc_h2
 p_area_even_weeks_h2
 p_area_all_weeks_minus7_h2
 p_diameter_h2
+p_fvfm_h2
+
 p_fvfm_h2
