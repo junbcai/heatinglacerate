@@ -88,7 +88,6 @@ my_colors <- c(
 #   - total lacerates across all 10 weeks
 # =========================================================
 
-
 # ---------------------------------------------------------
 # 1.1 Read lacerate metadata
 # ---------------------------------------------------------
@@ -227,11 +226,12 @@ p_lacerates_tub <- ggplot(
     color = "black"
   ) +
   facet_wrap(~ cohort, ncol = 3, scales = "free_y") +
-  scale_color_manual(name = "treatment", values = my_colors) +
+  scale_color_manual(name = "Treatment", values = my_colors) +
   #  coord_cartesian(ylim = c(0, 70)) +
   labs(
     x = "Treatment",
-    y = "Number of lacerates per tub"
+    y = "Number of lacerates per tub",
+    color = "Treatment"
   ) +
   my_theme +
   theme(
@@ -318,7 +318,8 @@ p_lacerates_parent <- ggplot(
   scale_color_manual(name = "Treatment", values = my_colors) +
   labs(
     x = "Treatment",
-    y = "Number of lacerates per parent"
+    y = "Number of lacerates per parent",
+    color = "Treatment"
   ) +
   my_theme
 
@@ -471,14 +472,14 @@ p_final_rate <- ggplot(
   scale_color_manual(values = my_colors) +
   labs(
     x = "Treatment",
-    y = "Final tentacle growth rate per day"
+    y = "Final tentacle growth rate per day",
+    color = "Treatment"
   ) +
   my_theme +
   theme(
     axis.text.x = element_text(angle = 0, hjust = 0.5, vjust = 0.5)
   )
 
-p_final_rate
 
 final_rate_dat_no0 <- final_rate_dat %>%
   filter(!is.na(rate2), rate2 != 0)
@@ -525,7 +526,8 @@ p_final_rate_nozeros <- ggplot(
   scale_color_manual(values = my_colors) +
   labs(
     x = "Treatment",
-    y = "Final tentacle growth rate per day"
+    y = "Final tentacle growth rate per day",
+    color = "Treatment"
   ) +
   my_theme +
   theme(
@@ -591,7 +593,8 @@ p_final_tentacles <- ggplot(
   scale_color_manual(values = my_colors) +
   labs(
     x = "Treatment",
-    y = "Final tentacle count"
+    y = "Final tentacle count",
+    color = "Treatment"
   ) +
   my_theme
 
@@ -644,7 +647,8 @@ p_final_tentacles_nonzero <- ggplot(
   scale_color_manual(values = my_colors) +
   labs(
     x = "Treatment",
-    y = "Final tentacle count (non-zero only)"
+    y = "Final tentacle count (non-zero only)",
+    color = "Treatment"
   ) +
   my_theme +
   theme(
@@ -858,7 +862,8 @@ p_symbiont_calc <- ggplot(
   scale_color_manual(values = sym_density_colors) +
   labs(
     x = "Treatment",
-    y = "Mean symbiont area"
+    y = "Mean symbiont area",
+    color = "Treatment"
   ) +
   my_theme +
   theme(
@@ -2131,4 +2136,45 @@ p_area_all_weeks_minus7_h2
 p_diameter_h2
 p_fvfm_h2
 
-p_fvfm_h2
+# =========================================================
+# REPRINT ALL PLOT OBJECTS
+# =========================================================
+
+all_plot_objects <- list(
+  p_lacerates_tub,
+  p_lacerates_parent,
+  p_final_rate,
+  p_final_rate_nozeros,
+  p_final_tentacles,
+  p_final_tentacles_nonzero,
+  p_symbiont_calc,
+  p_area_even_weeks,
+  p_area_all_weeks,
+  p_area_all_11,
+  p_area_all_weeks_minus7,
+  p_area_all_11_minus7_gap,
+  p_diameter,
+  p_diameter_all_11,
+  p_fvfm,
+  p_fvfm_all_11,
+  parent_combined_plot_even_weeks,
+  parent_combined_plot_all_weeks,
+  parent_combined_plot_all_11,
+  parent_combined_plot_all_weeks_minus7,
+  parent_combined_plot_all_11_minus7_gap,
+  parent_combined_plot_sizeonly_even_weeks,
+  parent_combined_plot_sizeonly_all_weeks,
+  parent_combined_plot_sizeonly_all_11,
+  parent_combined_plot_sizeonly_all_weeks_minus7,
+  parent_combined_plot_sizeonly_all_11_minus7_gap,
+  p_lacerates_tub_h2,
+  p_final_rate_h2,
+  p_final_rate_nozeros_h2,
+  p_symbiont_calc_h2,
+  p_area_even_weeks_h2,
+  p_area_all_weeks_minus7_h2,
+  p_diameter_h2,
+  p_fvfm_h2
+)
+
+lapply(all_plot_objects, print)
