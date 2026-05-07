@@ -712,7 +712,7 @@ print(max_tentacles_wide)
 # ---------------------------------------------------------
 
 lacerate_sym_density <- read_csv(
-  "~/Documents/GitHub/heatinglacerate/natural/data/natural_lacerate_sym_density  - W7-8.csv",
+  "~/Documents/GitHub/heatinglacerate/natural/data/natural_lacerate_sym_density  - combine.csv",
   show_col_types = FALSE
 ) %>%
   clean_names() %>%
@@ -724,6 +724,7 @@ lacerate_sym_density <- read_csv(
     calculation = as.character(calculation),
     well = str_trim(as.character(well)),
     type = str_trim(as.character(type)),
+    cohort = str_trim(as.character(cohort)),
     symbiotic_state = str_trim(as.character(symbiotic_state)),
     
     area = parse_number(as.character(area)),
@@ -738,34 +739,20 @@ lacerate_sym_density <- read_csv(
   filter(
     treatment != "#VALUE!",
     genotype != "#VALUE!",
-    temperature != "#VALUE!"
+    temperature != "#VALUE!",
+    cohort %in% c("W7-8", "W9-10")
+  ) %>%
+  filter(
+    is.na(notes)  #removes notes
   ) %>%
   mutate(
     treatment = factor(treatment),
     genotype = factor(genotype),
-    temperature = factor(temperature)
+    temperature = factor(temperature),
+    cohort = factor(cohort, levels = c("W7-8", "W9-10"))
   )
 
 print(lacerate_sym_density)
-
-# Optional checks
-lacerate_sym_density %>%
-  count(treatment, sort = TRUE)
-
-lacerate_sym_density %>%
-  count(genotype, sort = TRUE)
-
-lacerate_sym_density %>%
-  count(temperature, sort = TRUE)
-
-lacerate_sym_density %>%
-  summarise(
-    missing_area = sum(is.na(area)),
-    missing_percent_raw = sum(is.na(percent_raw)),
-    missing_well = sum(is.na(well) | well == "")
-  )
-
-str(lacerate_sym_density)
 
 
 # ---------------------------------------------------------
@@ -780,23 +767,13 @@ symbiont_area_only <- lacerate_sym_density %>%
 
 print(symbiont_area_only)
 
-# Optional checks
-symbiont_area_only %>%
-  count(treatment, sort = TRUE)
-
-symbiont_area_only %>%
-  summarise(
-    missing_calculation = sum(is.na(calculation_num)),
-    missing_well = sum(is.na(well) | well == "")
-  )
-
 
 # ---------------------------------------------------------
 # 3.3 Average calculation within each well
 # ---------------------------------------------------------
 
 symbiont_area_well_avg <- symbiont_area_only %>%
-  group_by(treatment, genotype, temperature, well) %>%
+  group_by(cohort, treatment, genotype, temperature, well) %>%
   summarise(
     mean_calculation = mean(calculation_num, na.rm = TRUE),
     n_images = n(),
@@ -805,54 +782,42 @@ symbiont_area_well_avg <- symbiont_area_only %>%
 
 print(symbiont_area_well_avg)
 
-# Optional checks
-symbiont_area_well_avg %>%
-  count(treatment, sort = TRUE)
-
-symbiont_area_well_avg %>%
-  summarise(
-    min_mean = min(mean_calculation, na.rm = TRUE),
-    max_mean = max(mean_calculation, na.rm = TRUE),
-    mean_overall = mean(mean_calculation, na.rm = TRUE)
-  )
-
 
 # ---------------------------------------------------------
-# 3.4 Tukey letters for treatment plot
+# 3.4 Tukey letters within each cohort
 # ---------------------------------------------------------
 
-mod_sym_calc <- lm(mean_calculation ~ treatment, data = symbiont_area_well_avg)
-
-print(Anova(mod_sym_calc, type = 2))
-
-emm_sym_calc <- emmeans(mod_sym_calc, ~ treatment)
-print(emm_sym_calc)
-print(pairs(emm_sym_calc, adjust = "tukey"))
-
-cld_sym_calc <- multcomp::cld(
-  emm_sym_calc,
-  Letters = letters,
-  adjust = "tukey"
-)
-
-cld_sym_calc_df <- as.data.frame(cld_sym_calc) %>%
-  mutate(
-    .group = stringr::str_trim(.group)
-  )
+cld_sym_calc_df <- symbiont_area_well_avg %>%
+  group_by(cohort) %>%
+  group_modify(~ {
+    mod <- lm(mean_calculation ~ treatment, data = .x)
+    
+    emm <- emmeans(mod, ~ treatment)
+    
+    cld <- multcomp::cld(
+      emm,
+      Letters = letters,
+      adjust = "tukey"
+    )
+    
+    as.data.frame(cld) %>%
+      mutate(.group = stringr::str_trim(.group))
+  }) %>%
+  ungroup()
 
 sym_calc_ypos <- symbiont_area_well_avg %>%
-  group_by(treatment) %>%
+  group_by(cohort, treatment) %>%
   summarise(
     y = max(mean_calculation, na.rm = TRUE) * 1.08,
     .groups = "drop"
   )
 
 cld_sym_calc_df <- cld_sym_calc_df %>%
-  left_join(sym_calc_ypos, by = "treatment")
+  left_join(sym_calc_ypos, by = c("cohort", "treatment"))
 
 
 # ---------------------------------------------------------
-# 3.5 Colors for symbiont area plot
+# 3.5 Colors
 # ---------------------------------------------------------
 
 sym_density_colors <- c(
@@ -864,7 +829,7 @@ sym_density_colors <- c(
 
 
 # ---------------------------------------------------------
-# 3.6 Plot average calculation by treatment
+# 3.6 Plot average calculation by treatment and cohort
 # ---------------------------------------------------------
 
 p_symbiont_calc <- ggplot(
@@ -889,6 +854,7 @@ p_symbiont_calc <- ggplot(
     size = 5,
     inherit.aes = FALSE
   ) +
+  facet_wrap(~ cohort, nrow = 1) +
   scale_color_manual(values = sym_density_colors) +
   labs(
     x = "Treatment",
@@ -897,13 +863,11 @@ p_symbiont_calc <- ggplot(
   my_theme +
   theme(
     axis.text.x = element_text(angle = 0, hjust = 0.5),
-    legend.position = "none"
+    legend.position = "none",
+    strip.text = element_text(size = 14, face = "bold")
   )
 
 p_symbiont_calc
-
-
-p_symbiont_calc + p_symbiont_calc
 
 # =========================================================
 # =========================================================
@@ -934,7 +898,7 @@ parent_weekly <- read_csv(
   clean_names() %>%
   mutate(
     date = ymd(date),
-    week = factor(week, levels = paste0("W", 1:10)),
+    week = factor(week, levels = paste0("W", 1:11)),
     genotype = str_trim(as.character(genotype)),
     temp = str_trim(as.character(temp)),
     temp = case_when(
@@ -1017,8 +981,19 @@ parent_theme <- theme_classic(base_size = 14) +
   )
 
 weeks_all <- paste0("W", 1:10)
+weeks_all_11 <- paste0("W", 1:11)
+
 weeks_even <- c("W2", "W4", "W6", "W8", "W10")
-weeks_all_minus7 <- c("W1", "W2", "W3", "W4", "W5", "W6", "W8", "W9", "W10")
+
+weeks_all_minus7 <- c(
+  "W1", "W2", "W3", "W4", "W5", "W6",
+  "W8", "W9", "W10"
+)
+
+weeks_all_11_minus7 <- c(
+  "W1", "W2", "W3", "W4", "W5", "W6",
+  "W8", "W9", "W10", "W11"
+)
 
 
 # ---------------------------------------------------------
@@ -1069,16 +1044,26 @@ make_tukey_letters <- function(data, response, weeks_keep, summary_data, mean_co
   letters_out %>%
     mutate(
       treatment_rank = as.numeric(treatment),
-      week = factor(week, levels = weeks_all)
+      week = factor(week, levels = weeks_all_11)
     ) %>%
     left_join(letter_pos, by = "week") %>%
     mutate(y = week_top + offset * treatment_rank)
 }
 
+
 letters_diameter <- make_tukey_letters(
   data = parent_weekly,
   response = "pedal_disc_diameter_mm",
   weeks_keep = weeks_all,
+  summary_data = parent_summary,
+  mean_col = "mean_size",
+  se_col = "se_size"
+)
+
+letters_diameter_all_11 <- make_tukey_letters(
+  data = parent_weekly,
+  response = "pedal_disc_diameter_mm",
+  weeks_keep = weeks_all_11,
   summary_data = parent_summary,
   mean_col = "mean_size",
   se_col = "se_size"
@@ -1102,10 +1087,28 @@ letters_area_all_weeks <- make_tukey_letters(
   se_col = "se_area"
 )
 
+letters_area_all_11 <- make_tukey_letters(
+  data = parent_weekly,
+  response = "pedal_disc_area_mm2",
+  weeks_keep = weeks_all_11,
+  summary_data = parent_summary,
+  mean_col = "mean_area",
+  se_col = "se_area"
+)
+
 letters_area_all_weeks_minus7 <- make_tukey_letters(
   data = parent_weekly,
   response = "pedal_disc_area_mm2",
   weeks_keep = weeks_all_minus7,
+  summary_data = parent_summary,
+  mean_col = "mean_area",
+  se_col = "se_area"
+)
+
+letters_area_all_11_minus7 <- make_tukey_letters(
+  data = parent_weekly,
+  response = "pedal_disc_area_mm2",
+  weeks_keep = weeks_all_11_minus7,
   summary_data = parent_summary,
   mean_col = "mean_area",
   se_col = "se_area"
@@ -1120,19 +1123,30 @@ letters_fvfm <- make_tukey_letters(
   se_col = "se_fvfm"
 )
 
+letters_fvfm_all_11 <- make_tukey_letters(
+  data = parent_weekly,
+  response = "fv_fm",
+  weeks_keep = weeks_all_11,
+  summary_data = parent_summary,
+  mean_col = "mean_fvfm",
+  se_col = "se_fvfm"
+)
+
 
 # ---------------------------------------------------------
 # 4.5 Helper function for parent line plots
 # ---------------------------------------------------------
 
-make_parent_line_plot <- function(summary_data, weeks_keep, y_var, se_var, y_label, letters_data = NULL, y_limits = NULL, keep_full_x_axis = FALSE) {
+make_parent_line_plot <- function(summary_data, weeks_keep, y_var, se_var, y_label,
+                                  letters_data = NULL, y_limits = NULL,
+                                  keep_full_x_axis = FALSE) {
   
   y_sym <- rlang::sym(y_var)
   se_sym <- rlang::sym(se_var)
   
   p_base <- summary_data %>%
     filter(week %in% weeks_keep) %>%
-    mutate(week = factor(week, levels = weeks_all)) %>%
+    mutate(week = factor(week, levels = weeks_all_11)) %>%
     ggplot(
       aes(x = week, y = !!y_sym, color = treatment, group = treatment)
     ) +
@@ -1197,6 +1211,16 @@ diameter_plots <- make_parent_line_plot(
   letters_data = letters_diameter
 )
 
+diameter_all_11_plots <- make_parent_line_plot(
+  summary_data = parent_summary,
+  weeks_keep = weeks_all_11,
+  y_var = "mean_size",
+  se_var = "se_size",
+  y_label = "Pedal disc diameter (mm)",
+  letters_data = letters_diameter_all_11,
+  keep_full_x_axis = TRUE
+)
+
 area_even_week_plots <- make_parent_line_plot(
   summary_data = parent_summary,
   weeks_keep = weeks_even,
@@ -1217,6 +1241,17 @@ area_all_week_plots <- make_parent_line_plot(
   y_limits = c(0, 85)
 )
 
+area_all_11_plots <- make_parent_line_plot(
+  summary_data = parent_summary,
+  weeks_keep = weeks_all_11,
+  y_var = "mean_area",
+  se_var = "se_area",
+  y_label = expression(paste("Pedal disc area (mm"^2, ")")),
+  letters_data = letters_area_all_11,
+  y_limits = c(0, 85),
+  keep_full_x_axis = TRUE
+)
+
 area_all_week_minus7_plots <- make_parent_line_plot(
   summary_data = parent_summary,
   weeks_keep = weeks_all_minus7,
@@ -1224,6 +1259,17 @@ area_all_week_minus7_plots <- make_parent_line_plot(
   se_var = "se_area",
   y_label = expression(paste("Pedal disc area (mm"^2, ")")),
   letters_data = letters_area_all_weeks_minus7,
+  y_limits = c(0, 85),
+  keep_full_x_axis = TRUE
+)
+
+area_all_11_minus7_gap_plots <- make_parent_line_plot(
+  summary_data = parent_summary,
+  weeks_keep = weeks_all_11_minus7,
+  y_var = "mean_area",
+  se_var = "se_area",
+  y_label = expression(paste("Pedal disc area (mm"^2, ")")),
+  letters_data = letters_area_all_11_minus7,
   y_limits = c(0, 85),
   keep_full_x_axis = TRUE
 )
@@ -1237,6 +1283,16 @@ fvfm_plots <- make_parent_line_plot(
   letters_data = letters_fvfm
 )
 
+fvfm_all_11_plots <- make_parent_line_plot(
+  summary_data = parent_summary,
+  weeks_keep = weeks_all_11,
+  y_var = "mean_fvfm",
+  se_var = "se_fvfm",
+  y_label = "Fv/Fm",
+  letters_data = letters_fvfm_all_11,
+  keep_full_x_axis = TRUE
+)
+
 
 # ---------------------------------------------------------
 # 4.7 Assign named plot objects
@@ -1246,6 +1302,10 @@ p_diameter_base <- diameter_plots$base
 p_diameter_letters <- diameter_plots$letters
 p_diameter <- diameter_plots$final
 
+p_diameter_base_all_11 <- diameter_all_11_plots$base
+p_diameter_letters_all_11 <- diameter_all_11_plots$letters
+p_diameter_all_11 <- diameter_all_11_plots$final
+
 p_area_base_even_weeks <- area_even_week_plots$base
 p_area_letters_even_weeks <- area_even_week_plots$letters
 p_area_even_weeks <- area_even_week_plots$final
@@ -1254,13 +1314,25 @@ p_area_base_all_weeks <- area_all_week_plots$base
 p_area_letters_all_weeks <- area_all_week_plots$letters
 p_area_all_weeks <- area_all_week_plots$final
 
+p_area_base_all_11 <- area_all_11_plots$base
+p_area_letters_all_11 <- area_all_11_plots$letters
+p_area_all_11 <- area_all_11_plots$final
+
 p_area_base_all_weeks_minus7 <- area_all_week_minus7_plots$base
 p_area_letters_all_weeks_minus7 <- area_all_week_minus7_plots$letters
 p_area_all_weeks_minus7 <- area_all_week_minus7_plots$final
 
+p_area_base_all_11_minus7_gap <- area_all_11_minus7_gap_plots$base
+p_area_letters_all_11_minus7_gap <- area_all_11_minus7_gap_plots$letters
+p_area_all_11_minus7_gap <- area_all_11_minus7_gap_plots$final
+
 p_fvfm_base <- fvfm_plots$base
 p_fvfm_letters <- fvfm_plots$letters
 p_fvfm <- fvfm_plots$final
+
+p_fvfm_base_all_11 <- fvfm_all_11_plots$base
+p_fvfm_letters_all_11 <- fvfm_all_11_plots$letters
+p_fvfm_all_11 <- fvfm_all_11_plots$final
 
 
 # ---------------------------------------------------------
@@ -1293,6 +1365,19 @@ parent_combined_plot_all_weeks <- if (show_letters) {
 }
 
 
+parent_combined_plot_no_letters_all_11 <- p_area_base_all_11 / p_diameter_base_all_11 / p_fvfm_base_all_11 +
+  plot_annotation(tag_levels = "A")
+
+parent_combined_plot_letters_all_11 <- p_area_letters_all_11 / p_diameter_letters_all_11 / p_fvfm_letters_all_11 +
+  plot_annotation(tag_levels = "A")
+
+parent_combined_plot_all_11 <- if (show_letters) {
+  parent_combined_plot_letters_all_11
+} else {
+  parent_combined_plot_no_letters_all_11
+}
+
+
 parent_combined_plot_no_letters_all_weeks_minus7 <- p_area_base_all_weeks_minus7 / p_diameter_base / p_fvfm_base +
   plot_annotation(tag_levels = "A")
 
@@ -1303,6 +1388,19 @@ parent_combined_plot_all_weeks_minus7 <- if (show_letters) {
   parent_combined_plot_letters_all_weeks_minus7
 } else {
   parent_combined_plot_no_letters_all_weeks_minus7
+}
+
+
+parent_combined_plot_no_letters_all_11_minus7_gap <- p_area_base_all_11_minus7_gap / p_diameter_base_all_11 / p_fvfm_base_all_11 +
+  plot_annotation(tag_levels = "A")
+
+parent_combined_plot_letters_all_11_minus7_gap <- p_area_letters_all_11_minus7_gap / p_diameter_letters_all_11 / p_fvfm_letters_all_11 +
+  plot_annotation(tag_levels = "A")
+
+parent_combined_plot_all_11_minus7_gap <- if (show_letters) {
+  parent_combined_plot_letters_all_11_minus7_gap
+} else {
+  parent_combined_plot_no_letters_all_11_minus7_gap
 }
 
 
@@ -1318,10 +1416,22 @@ parent_combined_plot_sizeonly_all_weeks <- if (show_letters) {
   p_area_base_all_weeks / p_diameter_base + plot_annotation(tag_levels = "A")
 }
 
+parent_combined_plot_sizeonly_all_11 <- if (show_letters) {
+  p_area_letters_all_11 / p_diameter_letters_all_11 + plot_annotation(tag_levels = "A")
+} else {
+  p_area_base_all_11 / p_diameter_base_all_11 + plot_annotation(tag_levels = "A")
+}
+
 parent_combined_plot_sizeonly_all_weeks_minus7 <- if (show_letters) {
   p_area_letters_all_weeks_minus7 / p_diameter_letters + plot_annotation(tag_levels = "A")
 } else {
   p_area_base_all_weeks_minus7 / p_diameter_base + plot_annotation(tag_levels = "A")
+}
+
+parent_combined_plot_sizeonly_all_11_minus7_gap <- if (show_letters) {
+  p_area_letters_all_11_minus7_gap / p_diameter_letters_all_11 + plot_annotation(tag_levels = "A")
+} else {
+  p_area_base_all_11_minus7_gap / p_diameter_base_all_11 + plot_annotation(tag_levels = "A")
 }
 
 
@@ -1340,7 +1450,7 @@ print(parent_combined_plot_even_weeks)
 
 
 cat("\n\n==============================\n")
-cat("PARENT PHYSIOLOGY: ALL WEEKS AREA\n")
+cat("PARENT PHYSIOLOGY: ALL WEEKS 1-10\n")
 cat("==============================\n")
 
 print(p_area_all_weeks)
@@ -1348,11 +1458,52 @@ print(parent_combined_plot_all_weeks)
 
 
 cat("\n\n==============================\n")
-cat("PARENT PHYSIOLOGY: ALL WEEKS AREA MINUS W7\n")
+cat("PARENT PHYSIOLOGY: ALL WEEKS 1-11\n")
+cat("==============================\n")
+
+print(p_area_all_11)
+print(p_diameter_all_11)
+print(p_fvfm_all_11)
+print(parent_combined_plot_all_11)
+print(parent_combined_plot_sizeonly_all_11)
+
+
+cat("\n\n==============================\n")
+cat("PARENT PHYSIOLOGY: ALL WEEKS 1-10 MINUS W7\n")
 cat("==============================\n")
 
 print(p_area_all_weeks_minus7)
 print(parent_combined_plot_all_weeks_minus7)
+
+
+cat("\n\n==============================\n")
+cat("PARENT PHYSIOLOGY: ALL WEEKS 1-11 MINUS W7, GAP SHOWN FOR AREA\n")
+cat("==============================\n")
+
+print(p_area_all_11_minus7_gap)
+print(parent_combined_plot_all_11_minus7_gap)
+print(parent_combined_plot_sizeonly_all_11_minus7_gap)
+
+
+cat("\n\n==============================\n")
+cat("ALL AREA VARIATIONS\n")
+cat("==============================\n")
+
+cat("\nAREA: EVEN WEEKS\n")
+print(p_area_even_weeks)
+
+cat("\nAREA: ALL WEEKS 1-10\n")
+print(p_area_all_weeks)
+
+cat("\nAREA: ALL WEEKS 1-11\n")
+print(p_area_all_11)
+
+cat("\nAREA: ALL WEEKS 1-10 MINUS W7, GAP SHOWN\n")
+print(p_area_all_weeks_minus7)
+
+cat("\nAREA: ALL WEEKS 1-11 MINUS W7, GAP SHOWN\n")
+print(p_area_all_11_minus7_gap)
+
 
 # =========================================================
 # SECTION 5. TOTAL TENTACLES COUNTED (UNIQUE vs ALL COUNTS)
