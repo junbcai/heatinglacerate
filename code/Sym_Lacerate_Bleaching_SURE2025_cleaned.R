@@ -51,7 +51,8 @@ symdensity_wellmeans <- symdensity_filtered %>%
     .groups = "drop"
   ) %>%
   mutate(
-    day = factor(day, levels = c(0, 1, 5, 7, 14))
+    day = factor(day, levels = c(0, 1, 5, 7, 9, 11, 13, 14)),
+    treatment = factor(treatment, levels = c("Sym-Control", "Sym-HS"))
   )
 
 # Count wells per day x treatment and find plotting height for n labels
@@ -87,12 +88,12 @@ p_symdensity_v1 <- ggplot(
     size = 3.5
   ) +
   scale_fill_manual(
-    values = c("Sym-Control" = "blue", "Sym-HS" = "red"),
+    values = c("Sym-Control" = "#3B6FB6", "Sym-HS" = "#E64B35"),
     labels = c("Sym-Control", "Sym-HS")
   ) +
   scale_x_discrete(
     name = "Days post laceration",
-    limits = c("0", "1", "5", "7", "14")
+    limits = c("0", "1", "5", "7", "9", "11", "13", "14")
   ) +
   labs(
     x = NULL,
@@ -131,7 +132,7 @@ p_symdensity_v2 <- ggplot(symdensity_wellmeans,
     linewidth = 1
   ) +
   
-  scale_color_manual(values = c("Sym-Control" = "blue", "Sym-HS" = "red")) +
+  scale_color_manual(values = c("Sym-Control" = "#3B6FB6", "Sym-HS" = "#E64B35")) +
   
   labs(
     x = "Days post laceration",
@@ -161,7 +162,7 @@ library(rstatix)
 ## =================================
 symdensity_stats <- symdensity_wellmeans %>%
   mutate(
-    day = factor(day, levels = c(0, 1, 5, 7, 14)),
+    day = factor(day, levels = c(0, 1, 5, 7, 9, 11, 13, 14)),
     treatment = factor(treatment, levels = c("Sym-Control", "Sym-HS"))
   )
 
@@ -289,7 +290,7 @@ letter_df_long
 letter_positions <- symdensity_stats %>%
   group_by(day, treatment) %>%
   summarise(
-    y_pos = max(calculation, na.rm = TRUE) + 2,
+    y_pos = max(calculation, na.rm = TRUE) + 2.9,
     .groups = "drop"
   ) %>%
   left_join(letter_df_long, by = c("day", "treatment"))
@@ -328,7 +329,7 @@ p_symdensity_final <- ggplot(
     fontface = "bold",
     family = "sans"
   ) +
-  scale_color_manual(values = c("Sym-Control" = "blue", "Sym-HS" = "red")) +
+  scale_color_manual(values = c("Sym-Control" = "#3B6FB6", "Sym-HS" = "#E64B35")) +
   labs(
     x = "Days post laceration",
     y = "Symbiont density"
@@ -353,7 +354,7 @@ p_symdensity_final
 ggsave(
   filename = "SymDensity_Figure.png",
   plot = p_symdensity_final,
-  path = "figs",
+  path = "~/Documents/GitHub/heatinglacerate/figs/",
   device = "png",
   width = 7,
   height = 5,
@@ -366,7 +367,7 @@ ggsave(
 ggsave(
   filename = "SymDensity_Figure.pdf",
   plot = p_symdensity_final,
-  path = "figs",
+  path = "~/Documents/GitHub/heatinglacerate/figs/",
   device = pdf,
   width = 7,
   height = 5,
@@ -538,7 +539,7 @@ final_fig
 ggsave(
   filename = "SymDensity_Combined_Figure.png",
   plot = final_fig,
-  path = "figs",
+  path = "~/Documents/GitHub/heatinglacerate/figs/",
   device = "png",
 #  width = 7.2,
 #  height = 4.2,
@@ -550,12 +551,10 @@ ggsave(
   bg = "white"
 )
 
-graphics.off()
-
 ggsave(
   filename = "SymDensity_Combined_Figure.pdf",
   plot = final_fig,
-  path = "figs",
+  path = "~/Documents/GitHub/heatinglacerate/figs/",
   device = pdf,
 #  width = 7.2,
 #  height = 4.2,
@@ -711,7 +710,7 @@ letter_df_long <- letter_df %>%
 letter_positions <- inoc_wellmeans %>%
   group_by(day, treatment) %>%
   summarise(
-    y_pos = max(calculation, na.rm = TRUE) * 1.08,
+    y_pos = max(calculation, na.rm = TRUE) * 1.12,
     .groups = "drop"
   ) %>%
   left_join(letter_df_long, by = c("day", "treatment"))
@@ -742,7 +741,7 @@ p_inoc_symdensity <- ggplot(
     fontface = "bold"
   ) +
   scale_color_manual(
-    values = c("inoc-25C" = "#4DAF4A", "inoc-32C" = "#E41A1C"),
+    values = c("inoc-25C" = "#3B88C3", "inoc-32C" = "#D95F02"),
     labels = c("Inoc-25C", "Inoc-32C")
   ) +
   labs(
@@ -834,8 +833,8 @@ p_all_symdensity <- ggplot(
     values = c(
       "Sym-Control" = "#1F4AE5",
       "Sym-HS" = "#FF3B1F",
-      "inoc-25C" = "#4DAF4A",
-      "inoc-32C" = "#E41A1C"
+      "inoc-25C" = "#3B88C3",
+      "inoc-32C" = "#D95F02"
     ),
     labels = c(
       "Sym-Control",
@@ -931,10 +930,188 @@ final_fig_inoc_sym <- image_panel +
 # show
 final_fig_inoc_sym
 
+
+# =========================================================
+# LEFT SIDE = STACKED PLOTS
+# RIGHT SIDE = IMAGE PANEL
+# =========================================================
+
+left_panels <- p_symdensity_final / p_inoc_symdensity +
+  plot_layout(heights = c(1, 1))
+
+# =========================================================
+# FINAL FIGURE
+# =========================================================
+final_fig_inoc_sym <- wrap_plots(
+  left_panels,
+  image_panel,
+  ncol = 2,
+  widths = c(1.7, 1.1)
+) +
+  plot_annotation(
+    tag_levels = "A",
+    theme = theme(
+      text = element_text(family = "sans"),
+      plot.tag = element_text(size = 16, face = "bold"),
+      plot.tag.position = c(0.01, 0.99)
+    )
+  )
+
+# show
+final_fig_inoc_sym
+
+
+
+# =========================================================
+# PANEL C WITH LARGE IMAGES AND FIXED LABEL SPACING
+# Run this whole chunk at once
+# =========================================================
+
+library(tidyverse)
+library(tibble)
+library(ggplot2)
+library(magick)
+library(grid)
+library(patchwork)
+
+img_meta_c8 <- tribble(
+  ~row_lab,      ~col_lab, ~file,
+  
+  "Inoc\n25°C", "BF", "~/Documents/GitHub/heatinglacerate/data/panel_inoc/I25_dpl14_bf.png",
+  "Inoc\n25°C", "FL", "~/Documents/GitHub/heatinglacerate/data/panel_inoc/I25_dpl14_fl.png",
+  
+  "Inoc\n32°C", "BF", "~/Documents/GitHub/heatinglacerate/data/panel_inoc/I32_dpl14_bf_Snap-995_crop.png",
+  "Inoc\n32°C", "FL", "~/Documents/GitHub/heatinglacerate/data/panel_inoc/I32_dpl14_fl_Snap-994_crop.png",
+  
+  "Sym\n25°C",  "BF", "~/Documents/GitHub/heatinglacerate/data/panel_inoc/S25_dpl14_bf.png",
+  "Sym\n25°C",  "FL", "~/Documents/GitHub/heatinglacerate/data/panel_inoc/S25_dpl14_fl.png",
+  
+  "Sym\n32°C",  "BF", "~/Documents/GitHub/heatinglacerate/data/panel_inoc/S32_dpl14_bf.png",
+  "Sym\n32°C",  "FL", "~/Documents/GitHub/heatinglacerate/data/panel_inoc/S32_dpl14_fl.png"
+)
+
+img_meta_c8
+
+make_image_panel_c8 <- function(img_meta_c8) {
+  
+  row_levels <- unique(img_meta_c8$row_lab)
+  col_levels <- unique(img_meta_c8$col_lab)
+  
+  img_meta_c8 <- img_meta_c8 %>%
+    mutate(
+      row_lab = factor(row_lab, levels = rev(row_levels)),
+      col_lab = factor(col_lab, levels = col_levels),
+      row_num = as.numeric(row_lab),
+      col_num = as.numeric(col_lab)
+    )
+  
+  image_size <- 0.98
+  col_gap <- 1.04
+  row_gap <- 1.12
+  
+  img_meta_c8 <- img_meta_c8 %>%
+    mutate(
+      x_center = col_num * col_gap + 0.22,
+      y_center = row_num * row_gap
+    )
+  
+  p <- ggplot() +
+    xlim(0.55, 2.88) +
+    ylim(0.35, max(img_meta_c8$y_center) + 0.65) +
+    theme_void(base_family = "sans")
+  
+  for (i in seq_len(nrow(img_meta_c8))) {
+    if (file.exists(img_meta_c8$file[i])) {
+      img <- image_read(img_meta_c8$file[i])
+      grob <- rasterGrob(as.raster(img), interpolate = TRUE)
+      
+      p <- p + annotation_custom(
+        grob,
+        xmin = img_meta_c8$x_center[i] - image_size / 2,
+        xmax = img_meta_c8$x_center[i] + image_size / 2,
+        ymin = img_meta_c8$y_center[i] - image_size / 2,
+        ymax = img_meta_c8$y_center[i] + image_size / 2
+      )
+    }
+  }
+  
+  row_df <- img_meta_c8 %>%
+    distinct(row_lab, y_center) %>%
+    mutate(lab = as.character(row_lab))
+  
+  p +
+    geom_text(
+      data = row_df,
+      aes(x = 0.80, y = y_center, label = lab),
+      hjust = 1,
+      size = 3.8,
+      fontface = "bold",
+      family = "sans"
+    ) +
+    annotate(
+      "text",
+      x = 1.24,
+      y = 0.35,
+      label = "BF",
+      size = 3.8,
+      fontface = "bold",
+      family = "sans"
+    ) +
+    annotate(
+      "text",
+      x = 2.28,
+      y = 0.35,
+      label = "FL",
+      size = 3.8,
+      fontface = "bold",
+      family = "sans"
+    )
+}
+
+image_panel_c8 <- make_image_panel_c8(img_meta_c8)
+
+matched_legend_theme <- theme(
+  legend.position = c(0.03, 0.97),
+  legend.justification = c(0, 1),
+  legend.background = element_blank(),
+  legend.key = element_blank(),
+  legend.title = element_blank(),
+  legend.text = element_text(size = 11),
+  legend.margin = margin(0, 0, 0, 0),
+  legend.box.margin = margin(0, 0, 0, 0)
+)
+
+p_symdensity_final_legendmatched <- p_symdensity_final +
+  matched_legend_theme
+
+p_inoc_symdensity_legendmatched <- p_inoc_symdensity +
+  matched_legend_theme
+
+left_panels <- p_symdensity_final_legendmatched / p_inoc_symdensity_legendmatched +
+  plot_layout(heights = c(1, 1))
+
+final_fig_inoc_sym_image_panel_c8 <- wrap_plots(
+  left_panels,
+  image_panel_c8,
+  ncol = 2,
+  widths = c(1.60, 1.00)
+) +
+  plot_annotation(
+    tag_levels = "A",
+    theme = theme(
+      text = element_text(family = "sans"),
+      plot.tag = element_text(size = 16, face = "bold"),
+      plot.tag.position = c(0.01, 0.99)
+    )
+  )
+
+final_fig_inoc_sym_image_panel_c8
+
+
 ggsave(
-  filename = "SymDensity_Combined_Figure_INOC.png",
-  plot = final_fig_inoc_sym,
-  path = "figs",
+  filename = "SymDensity_Combined_Figure_INOC_FINAL.png",
+  plot = final_fig_inoc_sym_image_panel_c8,
+  path = "~/Documents/GitHub/heatinglacerate/figs/",
   device = "png",
   #  width = 7.2,
   #  height = 4.2,
@@ -946,12 +1123,10 @@ ggsave(
   bg = "white"
 )
 
-graphics.off()
-
 ggsave(
-  filename = "SymDensity_Combined_Figure_INOC.pdf",
-  plot = final_fig_inoc_sym,
-  path = "figs",
+  filename = "SymDensity_Combined_Figure_INOC_FINAL.pdf",
+  plot = final_fig_inoc_sym_image_panel_c8,
+  path = "~/Documents/GitHub/heatinglacerate/figs/",
   device = pdf,
   #  width = 7.2,
   #  height = 4.2,
