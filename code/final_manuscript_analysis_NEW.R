@@ -13,7 +13,6 @@ library(janitor)
 library(gt)
 library(ggh4x)
 
-
 rm(list = ls())
 graphics.off()
 
@@ -1388,8 +1387,8 @@ p_inoc_only <- ggplot(
   ) +
   scale_color_manual(
     values = c(
-      "Inoc, 25°C" = "#3B6FB6",
-      "Inoc, 32°C" = "#E64B35"
+      "Inoc, 25°C" = "#3B88C3",
+      "Inoc, 32°C" = "#D95F02"
     )
   ) +
   scale_linetype_manual(
@@ -1979,4 +1978,15 @@ ggsave(
   height = 5,
   units = "in",
   bg = "white"
+)
+
+
+#This is just for BioRender matching
+treatment_cols <- c(
+  "apo_25"  = "#6FA3D9",
+  "inoc_25" = "#3B88C3",
+  "sym_25"  = "#3B6FB6",
+  "apo_32"  = "#F39B7F",
+  "inoc_32" = "#D95F02",
+  "sym_32"  = "#E64B35"
 )
