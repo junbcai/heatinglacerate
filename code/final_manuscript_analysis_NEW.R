@@ -29,7 +29,8 @@ lag <- dplyr::lag
 #Results of Experiment 2022
 
 ##Reading data table
-long <- read.csv("data/Exp 2 Lacerate Development in Heat Data Sheet - Long Data.csv")
+long <- read.csv("~/Documents/GitHub/heating_lacerates_final/data/Exp 2 Lacerate Development in Heat Data Sheet - Long Data.csv")
+
 str(long)
 
 ##Converting elements in table
@@ -513,6 +514,50 @@ p_survival_2022_flipped_colorbar
 
 
 ### =========================
+### 2022 MORTALITY STATS; S3 table
+### =========================
+
+# -------------------------
+# Prepare stats dataset
+# -------------------------
+survival_stats_2022 <- df_mortality_2022 %>%
+  mutate(
+    sym_state = case_when(
+      grepl("APO", treatment) ~ "Aposymbiotic",
+      grepl("SYM", treatment) ~ "Symbiotic"
+    ),
+    temp_label = case_when(
+      grepl("25", treatment) ~ "25°C",
+      grepl("32", treatment) ~ "32°C"
+    )
+  ) %>%
+  filter(
+    !is.na(sym_state),
+    !is.na(temp_label)
+  ) %>%
+  mutate(
+    sym_state = factor(
+      sym_state,
+      levels = c("Aposymbiotic", "Symbiotic")
+    ),
+    temp_label = factor(
+      temp_label,
+      levels = c("25°C", "32°C")
+    )
+  )
+
+mortality_glm_2022 <- glm(
+  dead ~ temp_label * sym_state,
+  data = survival_stats_2022,
+  family = binomial
+)
+
+summary(mortality_glm_2022)
+
+emm_mort_temp_2022 <- emmeans(mortality_glm_2022, ~ temp_label | sym_state)
+emm_mort_sym_2022 <- emmeans(mortality_glm_2022, ~ sym_state | temp_label)
+
+### =========================
 ### 2024 DATA
 ### =========================
 
@@ -766,32 +811,6 @@ p_survival_flipped_colorbar <- p_survival_base +
 # Draw both
 # -------------------------
 p_survival_flipped_outline
-
-ggsave(
-  filename = "Manuscript_survival_flipped_outline.png",
-  plot = p_survival_flipped_outline,
-  path = "figs",
-  device = "png",
-  width = 7,
-  height = 5,
-  units = "in",
-  dpi = 600,
-  #  compression = "lzw",
-  bg = "white"
-)
-
-ggsave(
-  filename = "Manuscript_survival_flipped_outline.pdf",
-  plot = p_survival_flipped_outline,
-  path = "figs",
-  device = pdf,
-  width = 7,
-  height = 5,
-  units = "in",
-  bg = "white"
-)
-
-
 p_survival_flipped_colorbar
 
 ggsave(
